@@ -1,0 +1,67 @@
+{
+  "clips": [
+    {
+      "file": "01_Gear.wav",
+      "name": "Gear",
+      "duration": 0.44,
+      "description": "A short mechanical gear turn / cog ratchet with a metallic, machine-like grind.",
+      "use_for": "opening hook, machine-start cue, mechanical emphasis"
+    },
+    {
+      "file": "02_Metallic_Riser.wav",
+      "name": "Metallic Riser",
+      "duration": 1.69,
+      "description": "A rising metallic sweep that builds in pitch and intensity toward a peak.",
+      "use_for": "tension build, reveal ramp, \"wait for it\" lead-in"
+    },
+    {
+      "file": "03_Click_Mouse.wav",
+      "name": "Click Mouse",
+      "duration": 0.12,
+      "description": "A single crisp mouse-button click, dry and snappy.",
+      "use_for": "UI tap, app demo, cursor click, cut-point accent"
+    },
+    {
+      "file": "04_Keyboard_Typing.wav",
+      "name": "Keyboard Typing",
+      "duration": 1.0,
+      "description": "A quick burst of mechanical keyboard keystrokes.",
+      "use_for": "building-in-public montage, coding shot, productivity vibe"
+    },
+    {
+      "file": "05_Wind_Woosh.wav",
+      "name": "Wind Woosh",
+      "duration": 1.09,
+      "description": "An airy wind whoosh that sweeps past, soft attack with a fast decay.",
+      "use_for": "fast motion transition, swipe cut, scene change"
+    },
+    {
+      "file": "06_Pop.wav",
+      "name": "Pop",
+      "duration": 0.08,
+      "description": "A tiny, bright pop / bubble burst, very short.",
+      "use_for": "micro punchline, sticker/emoji pop, tiny reveal"
+    },
+    {
+      "file": "07_Snap_Sound.wav",
+      "name": "Snap Sound",
+      "duration": 1.02,
+      "description": "A sharp snap hit with a short resonant tail.",
+      "use_for": "hard emphasis, reaction beat, clean transition hit"
+    },
+    {
+      "file": "08_Metallic_Woosh.wav",
+      "name": "Metallic Woosh",
+      "duration": 1.17,
+      "description": "A slick metallic whoosh sweeping by, futuristic and polished.",
+      "use_for": "premium product reveal, futuristic sweep, slick motion graphics"
+    },
+    {
+      "file": "09_Camera_Flash.wav",
+      "name": "Camera Flash",
+      "duration": 1.48,
+      "description": "A camera-flash charge-and-pop with a bright shutter snap.",
+      "use_for": "before/after reveal, thumbnail moment, freeze-frame ending"
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, height=1920">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body {
+        margin: 0;
+        width: 1080px;
+        height: 1920px;
+        overflow: hidden;
+        background: #000;
+        font-family: "Outfit", system-ui, sans-serif;
+      }
+
+      /* ---------- base video wrapper (animated for punch-in / whip) ---------- */
+      #stage {
+        position: absolute;
+        inset: 0;
+        overflow: hidden;
+        z-index: 0;
+        transform-origin: 50% 42%;
+        will-change: transform, filter;
+      }
+
+      /* ---------- full-frame FX / grade overlays ---------- */
+      .fx { position: absolute; inset: 0; pointer-events: none; }
+      #grade {
+        z-index: 5;
+        background: radial-gradient(120% 110% at 50% 40%, rgba(30,120,220,0.0) 0%, rgba(18,70,150,0.9) 100%);
+        mix-blend-mode: color;
+        opacity: 0;
+      }
+      #grain {
+        z-index: 6;
+        opacity: 0;
+        mix-blend-mode: overlay;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        background-size: 320px 320px;
+      }
+      #flash-crimson { z-index: 10; background: #ff1744; opacity: 0; }
+      #flash-white   { z-index: 11; background: #ffffff; opacity: 0; }
+
+      /* ---------- Boris sticker (popped on top of pointing finger) ---------- */
+      #boris-img {
+        position: absolute;
+        top: 200px;
+        right: 100px;
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid #ffd23f;
+        box-shadow: 0 0 0 4px rgba(255,210,63,0.35), 0 18px 60px rgba(0,0,0,0.7);
+        z-index: 36;
+        opacity: 0;
+        visibility: visible;
+        will-change: transform, opacity;
+      }
+
+      /* caption legibility scrim (decorative, always on) */
+      #cap-scrim {
+        position: absolute;
+        left: 0; right: 0; top: 1080px; height: 520px;
+        z-index: 28; pointer-events: none;
+        background: radial-gradient(110% 80% at 50% 100%, rgba(0,0,0,0.62) 0%, rgba(0,0,0,0.0) 70%);
+      }
+
+      /* ---------- captions (Weight Shift style) ---------- */
+      #cap-layer {
+        position: absolute;
+        left: 0; right: 0;
+        top: 1140px; height: 320px;       /* 2 lines @ 78px + gap, within safe zone */
+        z-index: 30; pointer-events: none;
+      }
+      .cg {
+        position: absolute;
+        left: 60px; right: 60px;          /* full-width, no translateX trick */
+        top: 0; height: 100%;
+        text-align: center;
+        opacity: 0; visibility: visible;
+        font-family: "Outfit", system-ui, sans-serif;
+        font-size: 78px;
+        line-height: 1.04;
+        color: #ffffff;
+        letter-spacing: -0.5px;
+        text-shadow: 0 4px 22px rgba(0,0,0,0.55), 0 1px 2px rgba(0,0,0,0.7);
+        overflow: visible;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        will-change: transform, opacity;
+      }
+      .cg .cl {
+        display: block;
+        font-weight: 800;                /* overridden by GSAP tween */
+        will-change: font-weight;
+      }
+      .cg b { color: #ffd23f; font-weight: 900; }     /* brand: Claude Code, scripts, prompts */
+      .cg .w { display: inline-block; }
+
+      /* ---------- keyword hero spikes ---------- */
+      #spike-layer {
+        position: absolute;
+        left: 0; right: 0;
+        top: 640px; height: 420px;        /* center band, safe */
+        z-index: 40; pointer-events: none;
+      }
+      .spike {
+        position: absolute;
+        left: 0; right: 0; top: 60px;
+        text-align: center;
+        opacity: 0; visibility: visible;
+        font-weight: 900;
+        letter-spacing: -2px;
+        line-height: 0.92;
+      }
+      .spike .kicker {
+        display: block;
+        font-size: 40px; font-weight: 800; letter-spacing: 6px;
+        margin-bottom: 14px; opacity: 0.95;
+        text-shadow: 0 3px 16px rgba(0,0,0,0.7);
+      }
+      /* chromatic-aberration stacked word */
+      .chroma-wrap { position: relative; display: inline-block; }
+      .chroma { position: absolute; inset: 0; display: block; }
+      .chroma.r { color: #ff1d4d; }
+      .chroma.b { color: #15e0ff; }
+      .chroma.main { position: relative; color: #ffffff; }
+
+      #spk-errada .chroma-wrap { font-size: 230px; }
+      #spk-errada { text-shadow: 0 6px 40px rgba(255,23,68,0.45); }
+
+      #spk-plan { font-size: 150px; color: #6fe9ff; }
+      #spk-plan .box {
+        display: inline-block; padding: 28px 56px; border-radius: 26px;
+        border: 4px solid rgba(96,230,255,0.9);
+        box-shadow: 0 0 60px rgba(40,180,255,0.55), inset 0 0 40px rgba(40,180,255,0.25);
+        background: rgba(8,30,55,0.35);
+        text-shadow: 0 0 28px rgba(96,230,255,0.9);
+      }
+
+      #spk-caoticos .chroma-wrap { font-size: 168px; }
+      #spk-caoticos { text-shadow: 0 6px 36px rgba(255,40,40,0.4); }
+
+      #spk-cofundador { font-size: 120px; color: #fff; }
+      #spk-cofundador .big {
+        display: block; font-size: 168px; color: #ffd23f;
+        text-shadow: 0 0 44px rgba(255,210,63,0.55);
+      }
+
+      #spk-criador { font-size: 90px; color: #fff; }
+      #spk-criador .big {
+        display: block; font-size: 220px; color: #2ee06a; letter-spacing: -4px;
+        text-shadow: 0 0 50px rgba(46,224,106,0.6);
+      }
+
+      /* ---------- 3-step process list ---------- */
+      #steps {
+        position: absolute;
+        left: 90px; right: 90px;
+        top: 720px; height: 470px;        /* safe band */
+        z-index: 35; pointer-events: none;
+        display: flex; flex-direction: column; gap: 30px; justify-content: center;
+      }
+      .step {
+        display: flex; align-items: center; gap: 32px;
+        opacity: 0; visibility: visible;
+        background: rgba(8,11,20,0.82);
+        border-left: 8px solid #6fe9ff;
+        border-radius: 18px;
+        padding: 26px 34px;
+        backdrop-filter: blur(6px);
+      }
+      .step .num {
+        font-size: 64px; font-weight: 900; color: #6fe9ff;
+        min-width: 96px; text-align: center;
+        font-variant-numeric: tabular-nums;
+      }
+      .step .lbl {
+        font-size: 78px; font-weight: 900; color: #fff; letter-spacing: -1px;
+      }
+      .step .lbl small { display: block; font-size: 30px; font-weight: 600; color: #9fb6c9; letter-spacing: 1px; }
+
+      /* ---------- code window ---------- */
+      #codewin {
+        position: absolute;
+        left: 90px; right: 90px;
+        top: 770px; height: 400px;        /* safe band, above captions */
+        z-index: 25; pointer-events: none;
+        opacity: 0; visibility: visible;
+        background: rgba(10,13,20,0.82);
+        border: 1px solid rgba(120,140,170,0.35);
+        border-radius: 22px;
+        box-shadow: 0 30px 80px rgba(0,0,0,0.5);
+        overflow: hidden;
+        font-family: "JetBrains Mono", ui-monospace, monospace;
+      }
+      #codewin .bar {
+        display: flex; align-items: center; gap: 12px;
+        padding: 18px 24px; background: rgba(255,255,255,0.05);
+        border-bottom: 1px solid rgba(120,140,170,0.25);
+      }
+      #codewin .dot { width: 16px; height: 16px; border-radius: 50%; }
+      #codewin .dot.r { background: #ff5f57; }
+      #codewin .dot.y { background: #febc2e; }
+      #codewin .dot.g { background: #28c840; }
+      #codewin .title { margin-left: 14px; color: #9fb6c9; font-size: 28px; font-weight: 700; }
+      #codewin pre { padding: 26px 30px; margin: 0; color: #d6e2ee; font-size: 30px; line-height: 1.5; }
+      #codewin .ln { display: block; opacity: 0; }
+      #codewin .k { color: #6fe9ff; }
+      #codewin .s { color: #ffd23f; }
+      #codewin .c { color: #93a6bd; }
+      #codewin .g { color: #2ee06a; }
+
+      /* ---------- outro IG / CTA block ---------- */
+      #ig {
+        position: absolute;
+        left: 110px; right: 110px;
+        top: 1190px; height: 250px;       /* below face, safe */
+        z-index: 45; pointer-events: none;
+        opacity: 0; visibility: visible;
+        display: flex; align-items: center; gap: 30px;
+        background: rgba(12,14,22,0.78);
+        border-radius: 28px;
+        padding: 28px 34px;
+        box-shadow: 0 24px 70px rgba(0,0,0,0.5);
+        border: 1px solid rgba(255,255,255,0.08);
+      }
+      #ig .glyph {
+        width: 120px; height: 120px; border-radius: 30px; flex: none;
+        background: linear-gradient(45deg, #f9ce34 0%, #ee2a7b 50%, #6228d7 100%);
+        display: flex; align-items: center; justify-content: center;
+      }
+      #ig .glyph svg { width: 70px; height: 70px; }
+      #ig .txt { flex: 1; }
+      #ig .txt .l1 { font-size: 38px; font-weight: 800; color: #fff; }
+      #ig .txt .l1 b { color: #2ee06a; }
+      #ig .txt .l2 { font-size: 30px; font-weight: 600; color: #aebccb; margin-top: 4px; }
+      #ig .pill {
+        flex: none;
+        background: #2ee06a; color: #06210f;
+        font-weight: 900; font-size: 36px;
+        padding: 20px 34px; border-radius: 999px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30.87" data-width="1080" data-height="1920">
+      
+      <!-- base video: muted, in a non-timed wrapper so we can punch/whip the wrapper -->
+      <div id="stage">
+        <video id="a-roll" class="clip" src="0601.mov" muted playsinline data-start="0" data-duration="30.87" data-track-index="0" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background-image:linear-gradient(135deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.04) 100%)"></video>
+      </div>
+
+      <!-- full-frame overlays -->
+      <div id="grade" class="fx"></div>
+      <div id="grain" class="fx"></div>
+      <div id="flash-crimson" class="fx"></div>
+      <div id="flash-white" class="fx"></div>
+      <div id="cap-scrim"></div>
+
+      <!-- original audio (separate from muted video) -->
+      <audio id="a-roll-audio" class="clip" src="0601.mov" data-start="0" data-duration="30.87" data-track-index="2" data-volume="1"></audio>
+
+      <!-- ===== SFX accent track (ducked under voice) ===== -->
+      <audio id="sfx-gear" class="clip" src="assets/sfx/01_Gear.wav" data-start="0.00" data-duration="0.44" data-track-index="10" data-volume="0.45"></audio>
+      <audio id="sfx-snap1" class="clip" src="assets/sfx/07_Snap_Sound.wav" data-start="2.18" data-duration="1.02" data-track-index="11" data-volume="0.5"></audio>
+      <audio id="sfx-type1" class="clip" src="assets/sfx/04_Keyboard_Typing.wav" data-start="2.80" data-duration="1.00" data-track-index="12" data-volume="0.4"></audio>
+      <audio id="sfx-woosh" class="clip" src="assets/sfx/08_Metallic_Woosh.wav" data-start="6.20" data-duration="1.17" data-track-index="13" data-volume="0.5"></audio>
+      <audio id="sfx-pop-boris" class="clip" src="assets/sfx/06_Pop.wav" data-start="6.40" data-duration="0.08" data-track-index="25" data-volume="0.55"></audio>
+      <audio id="sfx-pop1" class="clip" src="assets/sfx/06_Pop.wav" data-start="9.92" data-duration="0.08" data-track-index="14" data-volume="0.5"></audio>
+      <audio id="sfx-click1" class="clip" src="assets/sfx/03_Click_Mouse.wav" data-start="11.66" data-duration="0.12" data-track-index="15" data-volume="0.5"></audio>
+      <audio id="sfx-click2" class="clip" src="assets/sfx/03_Click_Mouse.wav" data-start="12.56" data-duration="0.12" data-track-index="16" data-volume="0.5"></audio>
+      <audio id="sfx-click3"   class="clip" src="assets/sfx/03_Click_Mouse.wav"     data-start="13.44" data-duration="0.12" data-track-index="17" data-volume="0.5"></audio>
+      <audio id="sfx-snap2" class="clip" src="assets/sfx/07_Snap_Sound.wav" data-start="17.00" data-duration="1.02" data-track-index="18" data-volume="0.5"></audio>
+      <audio id="sfx-riser1" class="clip" src="assets/sfx/02_Metallic_Riser.wav" data-start="17.92" data-duration="1.05" data-track-index="1" data-volume="0.38" data-media-start="0.64"></audio>
+      <audio id="sfx-type2" class="clip" src="assets/sfx/04_Keyboard_Typing.wav" data-start="21.20" data-duration="1.00" data-track-index="20" data-volume="0.4"></audio>
+      <audio id="sfx-riser2" class="clip" src="assets/sfx/11-riser2.wav" data-start="20.58" data-duration="2.06" data-track-index="3" data-volume="0.4" data-media-start="0"></audio>
+      <audio id="sfx-snap3" class="clip" src="assets/sfx/07_Snap_Sound.wav" data-start="26.90" data-duration="1.02" data-track-index="22" data-volume="0.5"></audio>
+      <audio id="sfx-flash" class="clip" src="assets/sfx/09_Camera_Flash.wav" data-start="27.30" data-duration="1.48" data-track-index="23" data-volume="0.5"></audio>
+      <audio id="sfx-pop2" class="clip" src="assets/sfx/06_Pop.wav" data-start="28.30" data-duration="0.08" data-track-index="24" data-volume="0.45"></audio>
+
+      <!-- caption track (built by JS) -->
+      <div id="cap-layer"></div>
+
+      <!-- Boris sticker (popped on top of pointing finger during "Claude Code" mention) -->
+      <img data-hf-studio-original-inline-translate="none" data-hf-studio-original-translate="" data-hf-studio-path-offset="true" style="--hf-studio-offset-x:-695px;--hf-studio-offset-y:412px;translate:var(--hf-studio-offset-x, 0px) var(--hf-studio-offset-y, 0px)" id="boris-img" src="assets/sfx/boris_claude_code.jpg" alt="Boris Cherny" data-layout-ignore="">
+
+      <!-- keyword hero spikes -->
+      <div id="spike-layer">
+        <div class="spike" id="spk-errada">
+          <span class="chroma-wrap">
+            <span class="chroma r">ERRADA</span>
+            <span class="chroma b">ERRADA</span>
+            <span class="chroma main">ERRADA</span>
+          </span>
+        </div>
+        <div class="spike" id="spk-plan">
+          <span class="kicker">O SEGREDO</span>
+          <span class="box">PLAN MODE</span>
+        </div>
+        <div class="spike" id="spk-caoticos">
+          <span class="kicker">O RESULTADO</span>
+          <span class="chroma-wrap">
+            <span class="chroma r">CAÓTICOS</span>
+            <span class="chroma b">CAÓTICOS</span>
+            <span class="chroma main">CAÓTICOS</span>
+          </span>
+        </div>
+        <div data-hf-studio-original-inline-translate="none" data-hf-studio-original-translate="" data-hf-studio-path-offset="true" style="--hf-studio-offset-x:-16px;--hf-studio-offset-y:239px;translate:var(--hf-studio-offset-x, 0px) var(--hf-studio-offset-y, 0px)" class="spike" id="spk-cofundador">
+          um verdadeiro
+          &lt;span class="big" data-hf-text-key="child:1:span" style="transform: translate(0px, 0px)"&gt;SISTEMA&lt;/span&gt;</div>
+        <div class="spike" id="spk-criador">
+          comenta
+          <span data-hf-studio-original-inline-translate="" data-hf-studio-original-translate="" data-hf-studio-path-offset="true" style="--hf-studio-offset-x:17px;--hf-studio-offset-y:-321px;translate:var(--hf-studio-offset-x, 0px) var(--hf-studio-offset-y, 0px)" class="big">CRIADOR</span>
+        </div>
+      </div>
+
+      <!-- 3-step process list -->
+      <div id="steps" data-start="11.66" data-duration="2.77">
+        <div class="step" id="step-1"><span class="num">01</span><span class="lbl">PLANEIAS<small>desenhas o plano</small></span></div>
+        <div class="step" id="step-2"><span class="num">02</span><span class="lbl">AVALIAS<small>verificas o plano</small></span></div>
+        <div class="step" id="step-3"><span class="num">03</span><span class="lbl">EXECUTAS<small>só depois, código</small></span></div>
+      </div>
+
+      <!-- code window -->
+      <div id="codewin">
+        <div class="bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="title">CLAUDE.md</span></div>
+        <pre><span class="ln"><span class="c"># configuração de ações esperadas</span></span><span class="ln"><span class="k">mode</span>: <span class="s">"plan-first"</span></span><span class="ln"><span class="k">on_script_error</span>: <span class="s">"catch + retry"</span></span><span class="ln"><span class="k">guardrails</span>: <span class="g">[expected_actions, safe_scripts]</span></span><span class="ln"><span class="k">role</span>: <span class="s">"co-fundador de sistema"</span></span></pre>
+      </div>
+
+      <!-- outro IG / CTA -->
+      <div id="ig">
+        <div class="glyph">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" />
+            <circle cx="12" cy="12" r="4.5" />
+            <circle cx="17.5" cy="6.5" r="1.3" fill="#fff" stroke="none" />
+          </svg>
+        </div>
+        <div class="txt">
+          <div class="l1">Comenta <b>CRIADOR</b></div>
+          <div class="l2">e recebes o guia completo</div>
+        </div>
+        <div class="pill">SEGUE</div>
+      </div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      const DUR = 30.87;
+
+      /* =========================================================
+         CAPTIONS — Weight Shift style
+         - PT-PT text (hand-curated corrections over whisper output)
+         - 1 or 2 lines per group; 2-line groups get a font-weight
+           crossfade (line 1 bold→light, line 2 light→bold) at shiftAt
+         - scale-pop entrance + hard-kill exit, one group at a time
+         - 4 "lazy workflow" groups keep word-by-word stagger reveal
+         ========================================================= */
+      // {t0, t1, lines, shiftAt?, stagger?}
+      //   lines:  array of 1 or 2 HTML strings (may contain <b> brand marks)
+      //   shiftAt: time (s) when bold migrates from line 1 to line 2
+      //   stagger: true → word-by-word reveal for that group
+      const CAPS = [
+        { t0: 0.00,  t1: 1.04,  lines: ["A maior parte", "das pessoas"],                 shiftAt: 0.40 },
+        { t0: 1.04,  t1: 1.94,  lines: ["usa o <b>Claude Code</b>"] },
+        { t0: 1.94,  t1: 2.74,  lines: ["de forma…"] },
+        { t0: 2.80,  t1: 3.64,  lines: ["Abre o terminal,"],  stagger: true },
+        { t0: 3.64,  t1: 4.42,  lines: ["escreve o que quer"], stagger: true },
+        { t0: 4.42,  t1: 5.10,  lines: ["e reza para"],        stagger: true },
+        { t0: 5.12,  t1: 5.62,  lines: ["que corra bem"],      stagger: true },
+        { t0: 5.64,  t1: 6.18,  lines: ["Mas o gajo", "que criou"],                       shiftAt: 5.95 },
+        { t0: 6.44,  t1: 7.14,  lines: ["o <b>Claude Code</b>"] },
+        { t0: 7.16,  t1: 8.30,  lines: ["explicou o oposto"] },
+        { t0: 8.36,  t1: 9.30,  lines: ["Ele diz", "que a maioria"],                      shiftAt: 8.60 },
+        { t0: 9.32,  t1: 9.86,  lines: ["das sessões começa"] },
+        { t0: 10.58, t1: 11.36, lines: ["não em", "build mode"],                           shiftAt: 10.85 },
+        { t0: 14.08, t1: 14.78, lines: ["Só essa mudança"] },
+        { t0: 14.80, t1: 15.54, lines: ["explica porquê"] },
+        { t0: 15.58, t1: 17.00, lines: ["a maioria", "recebe resultados…"],               shiftAt: 16.20 },
+        { t0: 17.92, t1: 18.66, lines: ["e não fica", "por aí"],                          shiftAt: 18.25 },
+        { t0: 19.04, t1: 19.86, lines: ["Criei um ficheiro"] },
+        { t0: 19.90, t1: 20.70, lines: ["de configuração simples"] },
+        { t0: 20.74, t1: 21.60, lines: ["de ações esperadas"] },
+        { t0: 21.66, t1: 22.38, lines: ["para problemas", "de <b>scripts</b>"],           shiftAt: 22.00 },
+        { t0: 22.42, t1: 23.38, lines: ["Portanto,", "não estás só"],                     shiftAt: 22.85 },
+        { t0: 23.42, t1: 24.56, lines: ["a fazer", "melhores <b>prompts</b>"],             shiftAt: 23.95 },
+        { t0: 24.60, t1: 25.38, lines: ["estão a usar", "o"],                              shiftAt: 25.05 },
+        { t0: 25.42, t1: 25.98, lines: ["<b>Claude Code</b>", "como um"],                  shiftAt: 25.65 },
+      ];
+
+      const capLayer = document.getElementById("cap-layer");
+      const FONT_W_BOLD = 800;
+      const FONT_W_LIGHT = 300;
+      const WEIGHT_SHIFT_DUR = 0.22;
+
+      CAPS.forEach(function (g, i) {
+        var el = document.createElement("div");
+        el.className = "cg";
+        el.id = "cg-" + i;
+        var lineEls = [];
+
+        if (g.stagger) {
+          el.innerHTML = g.lines[0]
+            .split(" ")
+            .map(function (w) { return '<span class="w">' + w + "</span>"; })
+            .join(" ");
+        } else {
+          g.lines.forEach(function (lineHtml, lineIdx) {
+            var lineEl = document.createElement("div");
+            lineEl.className = "cl";
+            lineEl.id = "cg-" + i + "-l" + lineIdx;
+            lineEl.innerHTML = lineHtml;
+            lineEl.style.fontWeight = (g.lines.length === 2 && lineIdx === 1)
+              ? FONT_W_LIGHT
+              : FONT_W_BOLD;
+            el.appendChild(lineEl);
+            lineEls.push(lineEl);
+          });
+        }
+        capLayer.appendChild(el);
+
+        if (g.stagger) {
+          tl.set(el, { opacity: 1 }, g.t0);
+          tl.from(el.querySelectorAll(".w"), {
+            opacity: 0, y: 22, x: -26, duration: 0.26, ease: "power2.out", stagger: 0.07,
+          }, g.t0);
+        } else {
+          tl.fromTo(el,
+            { opacity: 0, scale: 0.72, y: 26 },
+            { opacity: 1, scale: 1, y: 0, duration: 0.22, ease: "back.out(1.8)" },
+            g.t0
+          );
+          if (g.lines.length === 2 && typeof g.shiftAt === "number") {
+            tl.to(lineEls[0],
+              { fontWeight: FONT_W_LIGHT, duration: WEIGHT_SHIFT_DUR, ease: "power2.out" },
+              g.shiftAt);
+            tl.to(lineEls[1],
+              { fontWeight: FONT_W_BOLD, duration: WEIGHT_SHIFT_DUR, ease: "power2.out" },
+              g.shiftAt);
+          }
+        }
+        tl.to(el, { opacity: 0, scale: 0.94, duration: 0.12, ease: "power2.in" }, g.t1 - 0.12);
+        tl.set(el, { opacity: 0, visibility: "hidden" }, g.t1);
+      });
+
+      /* =========================================================
+         KEYWORD HERO SPIKES
+         ========================================================= */
+      // helper: chromatic jitter (deterministic, fixed offsets)
+      function chromaPulse(sel, t0, t1) {
+        tl.fromTo(sel + " .chroma.r", { x: 0 }, { x: -14, duration: 0.06, ease: "none", yoyo: true, repeat: 5 }, t0 + 0.05);
+        tl.fromTo(sel + " .chroma.b", { x: 0 }, { x: 14, duration: 0.06, ease: "none", yoyo: true, repeat: 5 }, t0 + 0.05);
+        tl.set(sel + " .chroma.r", { x: 0 }, t1);
+        tl.set(sel + " .chroma.b", { x: 0 }, t1);
+      }
+      function spikeIn(sel, t0, fromVars) {
+        tl.fromTo(sel, Object.assign({ opacity: 0 }, fromVars),
+          { opacity: 1, scale: 1, y: 0, rotation: 0, duration: 0.24, ease: "back.out(1.9)" }, t0);
+      }
+      function spikeOut(sel, t1) {
+        tl.to(sel, { opacity: 0, scale: 0.9, duration: 0.14, ease: "power2.in" }, t1 - 0.14);
+        tl.set(sel, { opacity: 0, visibility: "hidden" }, t1);
+      }
+
+      // ERRADA  (1.94 - 2.80)  crimson flash + chromatic + punch-in
+      spikeIn("#spk-errada", 1.94, { scale: 0.6, y: 10 });
+      chromaPulse("#spk-errada", 1.94, 2.80);
+      tl.to("#flash-crimson", { opacity: 0.55, duration: 0.08, ease: "power2.out" }, 2.18);
+      tl.to("#flash-crimson", { opacity: 0, duration: 0.35, ease: "power2.in" }, 2.30);
+      tl.to("#stage", { scale: 1.07, duration: 0.18, ease: "power2.out" }, 2.18);
+      tl.to("#stage", { scale: 1.0, duration: 0.5, ease: "power2.inOut" }, 2.5);
+      spikeOut("#spk-errada", 2.80);
+
+      // Claude Code authority pivot (6.20 - 7.16) whip-pan + white flash
+      tl.to("#stage", { x: -52, filter: "blur(7px)", duration: 0.12, ease: "power2.in" }, 6.20);
+      tl.to("#stage", { x: 0, filter: "blur(0px)", duration: 0.26, ease: "power3.out" }, 6.34);
+      tl.to("#flash-white", { opacity: 0.5, duration: 0.07, ease: "power2.out" }, 6.26);
+      tl.to("#flash-white", { opacity: 0, duration: 0.3, ease: "power2.in" }, 6.34);
+
+      // BORIS sticker pop (6.40 - 7.22) on top of the pointing finger
+      tl.fromTo("#boris-img",
+        { opacity: 0, scale: 0, rotation: -12 },
+        { opacity: 1, scale: 1, rotation: 0, duration: 0.34, ease: "back.out(2.2)" },
+        6.40);
+      // brief "settle" pulse after the pop
+      tl.fromTo("#boris-img",
+        { scale: 1 },
+        { scale: 1.08, duration: 0.10, ease: "power2.out", yoyo: true, repeat: 1 },
+        6.78);
+      tl.to("#boris-img",
+        { opacity: 0, scale: 0.2, rotation: 16, duration: 0.18, ease: "power2.in" },
+        7.04);
+      tl.set("#boris-img", { opacity: 0, visibility: "hidden" }, 7.22);
+
+      // PLAN MODE reveal (9.92 - 10.58) glow box
+      spikeIn("#spk-plan", 9.92, { scale: 0.78, y: 18 });
+      tl.fromTo("#spk-plan .box",
+        { boxShadow: "0 0 0px rgba(40,180,255,0.0), inset 0 0 0px rgba(40,180,255,0.0)" },
+        { boxShadow: "0 0 70px rgba(40,180,255,0.7), inset 0 0 44px rgba(40,180,255,0.3)", duration: 0.5, ease: "power2.out" },
+        10.0);
+      spikeOut("#spk-plan", 10.56);
+
+      // CAÓTICOS (17.06 - 17.92) glitch + horizontal shake
+      spikeIn("#spk-caoticos", 17.04, { scale: 0.7, y: 8 });
+      chromaPulse("#spk-caoticos", 17.04, 17.92);
+      // deterministic shake via fixed keyframe offsets
+      [0, 9, -7, 6, -4, 3, 0].forEach(function (dx, k) {
+        tl.set("#spk-caoticos", { x: dx }, 17.10 + k * 0.05);
+      });
+      tl.to("#flash-white", { opacity: 0.28, duration: 0.05 }, 17.10);
+      tl.to("#flash-white", { opacity: 0, duration: 0.2 }, 17.16);
+      spikeOut("#spk-caoticos", 17.92);
+
+      // CO-FUNDADOR climax (26.00 - 27.20) max scale
+      spikeIn("#spk-cofundador", 26.00, { scale: 0.55, y: 0 });
+      tl.fromTo("#spk-cofundador .big", { scale: 0.7 }, { scale: 1, duration: 0.5, ease: "expo.out" }, 26.0);
+      spikeOut("#spk-cofundador", 27.20);
+
+      // CRIADOR outro (27.30 - end) green
+      spikeIn("#spk-criador", 27.30, { scale: 0.6, y: 6 });
+      tl.fromTo("#spk-criador .big", { scale: 0.7, rotation: -3 }, { scale: 1, rotation: 0, duration: 0.45, ease: "back.out(2)" }, 27.30);
+      // gentle final fade of the spike text only (final scene allows exit)
+      tl.to("#spk-criador", { opacity: 0, duration: 0.4, ease: "power2.in" }, DUR - 0.5);
+
+      /* =========================================================
+         3-STEP PROCESS LIST (11.42 - 14.05)
+         ========================================================= */
+      tl.fromTo("#step-1", { opacity: 0, x: -70 }, { opacity: 1, x: 0, duration: 0.34, ease: "power3.out" }, 11.66);
+      tl.fromTo("#step-2", { opacity: 0, x: -70 }, { opacity: 1, x: 0, duration: 0.34, ease: "back.out(1.6)" }, 12.56);
+      tl.fromTo("#step-3", { opacity: 0, x: -70 }, { opacity: 1, x: 0, duration: 0.34, ease: "expo.out" }, 13.44);
+      tl.to("#steps .step", { opacity: 0, y: -24, duration: 0.22, ease: "power2.in", stagger: 0.04 }, 14.0);
+      tl.set("#steps .step", { opacity: 0, visibility: "hidden" }, 14.3);
+
+      /* =========================================================
+         CODE WINDOW (21.20 - 24.10)
+         ========================================================= */
+      tl.fromTo("#codewin", { opacity: 0, y: 90, scale: 0.96 }, { opacity: 1, y: 0, scale: 1, duration: 0.4, ease: "power3.out" }, 21.20);
+      tl.to("#codewin .ln", { opacity: 1, duration: 0.18, ease: "power1.out", stagger: 0.14 }, 21.45);
+      tl.to("#codewin", { opacity: 0, y: 50, duration: 0.3, ease: "power2.in" }, 23.9);
+      tl.set("#codewin", { opacity: 0, visibility: "hidden" }, 24.2);
+
+      /* =========================================================
+         COLOR GRADE + GRAIN (value pivot 18.6 -> end)
+         ========================================================= */
+      tl.to("#grade", { opacity: 0.32, duration: 1.0, ease: "power2.out" }, 18.6);
+      tl.to("#grain", { opacity: 0.10, duration: 1.0, ease: "power2.out" }, 18.6);
+
+      /* =========================================================
+         OUTRO IG / CTA BLOCK (27.5 - end)
+         ========================================================= */
+      tl.fromTo("#ig", { opacity: 0, y: 70, scale: 0.94 }, { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: "back.out(1.5)" }, 27.55);
+      tl.fromTo("#ig .pill", { scale: 0.7 }, { scale: 1, duration: 0.4, ease: "back.out(2)" }, 27.9);
+
+      /* =========================================================
+         SELF-LINT: verify every caption is gone after its end
+         (runs before timeline registration)
+         ========================================================= */
+      CAPS.forEach(function (g, i) {
+        var el = document.getElementById("cg-" + i);
+        if (!el) return;
+        tl.seek(g.t1 + 0.02);
+        var c = window.getComputedStyle(el);
+        if (c.opacity !== "0" && c.visibility !== "hidden") {
+          console.warn("[caption-lint] group " + i + " still visible at t=" + (g.t1 + 0.02).toFixed(2) + "s");
+        }
+      });
+      tl.seek(0);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>
