@@ -4,7 +4,7 @@ Gemini must not be the primary stopwatch for Exemplar analysis. Before a
 semantic Gemini pass, the Source Video Analyst workflow should generate a
 deterministic signal pack for the Exemplar: media metadata, word-level
 transcript, audio/onset/loudness features, prosody summaries, visual cut/diff
-events, OCR caption states, and a merged candidate beat grid.
+events, keyframes, and a merged candidate beat grid.
 
 The signal pack is the timing source of truth. Gemini receives it as prompt
 context and labels what the moments mean for the Viral Pattern: hook logic,
@@ -22,8 +22,8 @@ rendering need frame-indexed artifacts that can be audited and reused.
 
 WhisperX/faster-whisper is a better source for word timings, librosa and
 openSMILE are better sources for repeatable audio/prosody signals, and
-PySceneDetect/OpenCV/Tesseract are better sources for cuts and caption-state
-changes. Gemini is strongest when it interprets those signals semantically.
+PySceneDetect/OpenCV are better sources for cuts, frame-diff events, and
+keyframes. Gemini is strongest when it interprets those signals semantically.
 
 ## Consequences
 
@@ -34,7 +34,7 @@ changes. Gemini is strongest when it interprets those signals semantically.
 - Beat Sheet rows produced by Gemini should cite signal IDs.
 - Raw Gemini-only analysis can still be useful for quick exploration, but it is
   not the canonical timing source for production.
-- OCR, ASR, and acoustic features can be wrong. The improvement is that errors
+- ASR and acoustic features can be wrong. The improvement is that errors
   become explicit signal artifacts that can be reviewed instead of hidden model
   guesses.
 - openSMILE is acceptable for local/private analysis. Its license should be

@@ -6,8 +6,6 @@
 #     "numpy>=1.26",
 #     "opencv-python-headless>=4.9",
 #     "opensmile>=2.5.1",
-#     "pillow>=10.0",
-#     "pytesseract>=0.3.10",
 #     "scenedetect[opencv]>=0.6.4",
 #     "soundfile>=0.12.1",
 #     "whisperx>=3.3.0",
@@ -520,26 +518,6 @@ def save_frame(video_path: Path, frame_number: int, output_path: Path) -> bool:
         cap.release()
 
 
-def normalize_ocr(text: str) -> str:
-    text = re.sub(r"\s+", " ", text).strip()
-    text = re.sub(r"[^A-Za-z0-9 ]+", "", text)
-    return re.sub(r"\s+", " ", text).strip().lower()
-
-
-def ocr_frame(frame: Any, args: argparse.Namespace) -> str:
-    import cv2
-    import pytesseract
-    from PIL import Image
-
-    height, width = frame.shape[:2]
-    crop = frame[int(height * 0.08) : int(height * 0.9), int(width * 0.04) : int(width * 0.96)]
-    gray = cv2.cvtColor(crop, cv2.COLOR_BGR2GRAY)
-    gray = cv2.resize(gray, None, fx=1.5, fy=1.5, interpolation=cv2.INTER_CUBIC)
-    _, binary = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
-    image = Image.fromarray(binary)
-    return pytesseract.image_to_string(image, lang=args.ocr_lang, config="--psm 6")
-
-
 def detect_visual_events(
     video_path: Path,
     media: dict[str, Any],
@@ -618,53 +596,13 @@ def detect_visual_events(
                 }
             )
 
-    ocr_states = []
-    if not args.skip_ocr:
-        cap = cv2.VideoCapture(str(video_path))
-        current: dict[str, Any] | None = None
-        current_norm = ""
-        sample_count = max(1, int(math.ceil(duration / args.ocr_interval))) + 1
-        try:
-            for sample_index in range(sample_count):
-                time_value = min(sample_index * args.ocr_interval, duration)
-                frame_number = min(frame_for_time(time_value, fps), int(media["frame_count"]) - 1)
-                cap.set(cv2.CAP_PROP_POS_FRAMES, max(0, frame_number))
-                ok, frame = cap.read()
-                if not ok:
-                    continue
-                text = re.sub(r"\s+", " ", ocr_frame(frame, args)).strip()
-                norm = normalize_ocr(text)
-                if norm == current_norm:
-                    continue
-                if current is not None:
-                    current["end"] = round(time_value, 4)
-                    current["end_frame"] = frame_number
-                    if current.get("text"):
-                        ocr_states.append(current)
-                current_norm = norm
-                current = {
-                    "signal_id": f"ocr_state_{len(ocr_states) + 1:04d}",
-                    "start": round(time_value, 4),
-                    "end": round(duration, 4),
-                    "start_frame": frame_number,
-                    "end_frame": frame_for_time(duration, fps),
-                    "text": text,
-                    "normalized_text": norm,
-                }
-            if current is not None and current.get("text"):
-                ocr_states.append(current)
-        finally:
-            cap.release()
-
     return {
         "tooling": {
             "scene_detector": "pyscenedetect.ContentDetector",
             "frame_diff": "opencv mean grayscale absdiff",
-            "ocr": "pytesseract" if not args.skip_ocr else "skipped",
         },
         "scene_cuts": scene_cuts,
         "frame_diff_events": frame_diff_events,
-        "ocr_states": ocr_states,
         "keyframes": keyframes,
     }
 
@@ -683,14 +621,6 @@ def word_window(words: list[dict[str, Any]], time_value: float) -> list[dict[str
                 }
             )
     return nearby[:12]
-
-
-def ocr_at_time(ocr_states: list[dict[str, Any]], time_value: float) -> str | None:
-    for state in ocr_states:
-        if float(state["start"]) <= time_value <= float(state["end"]):
-            text = state.get("text")
-            return str(text) if text else None
-    return None
 
 
 def build_candidate_beats(
@@ -715,13 +645,6 @@ def build_candidate_beats(
         add(item.get("time"), item["signal_id"], "visual_scene_cut", 1.4)
     for item in visual_events.get("frame_diff_events", []):
         add(item.get("time"), item["signal_id"], "visual_frame_diff", 1.0)
-    for item in visual_events.get("ocr_states", []):
-        text = str(item.get("normalized_text") or item.get("text") or "").strip()
-        if len(text) < 8:
-            continue
-        if float(item.get("end", 0.0)) - float(item.get("start", 0.0)) < 0.2:
-            continue
-        add(item.get("start"), item["signal_id"], "ocr_caption_change", 1.3)
 
     events = audio_features.get("events", {})
     strong_onsets = sorted(
@@ -781,14 +704,12 @@ def build_candidate_beats(
             )
 
     words = transcript.get("words", [])
-    ocr_states = visual_events.get("ocr_states", [])
     for beat in grouped:
         time_value = float(beat["time"])
         source_types = sorted({source["kind"] for source in beat["sources"]})
         beat["source_types"] = source_types
         beat["source_signal_ids"] = [source["signal_id"] for source in beat["sources"]]
         beat["near_words"] = word_window(words, time_value)
-        beat["ocr_text"] = ocr_at_time(ocr_states, time_value)
 
     by_kind: dict[str, int] = defaultdict(int)
     for beat in grouped:
@@ -922,23 +843,6 @@ def render_signals_markdown(
             f"| {item['signal_id']} | frame_diff | {fmt_time(float(item['time']))} | {item['frame']} | score {item.get('score')} |"
         )
     lines.append("")
-    if visual_events.get("ocr_states"):
-        lines.append("## OCR Caption States")
-        lines.append("")
-        lines.append("| signal_id | time | frames | detected text |")
-        lines.append("|---|---:|---:|---|")
-        durable_ocr = [
-            item
-            for item in visual_events["ocr_states"]
-            if len(str(item.get("normalized_text") or item.get("text") or "")) >= 8
-            and float(item.get("end", 0.0)) - float(item.get("start", 0.0)) >= 0.2
-        ]
-        for item in durable_ocr[:35]:
-            lines.append(
-                f"| {item['signal_id']} | {fmt_time(float(item['start']))}-{fmt_time(float(item['end']))} | "
-                f"{item['start_frame']}-{item['end_frame']} | {md_cell(item['text'])} |"
-            )
-        lines.append("")
 
     lines.append("## Candidate Beats")
     lines.append("")
@@ -981,9 +885,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--skip-transcript", action="store_true")
     parser.add_argument("--skip-prosody", action="store_true")
-    parser.add_argument("--skip-ocr", action="store_true")
-    parser.add_argument("--ocr-lang", default="eng")
-    parser.add_argument("--ocr-interval", type=float, default=0.25)
     parser.add_argument("--scene-threshold", type=float, default=30.0)
     parser.add_argument("--diff-percentile", type=float, default=98.5)
     parser.add_argument("--min-diff-score", type=float, default=0.06)

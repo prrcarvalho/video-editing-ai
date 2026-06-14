@@ -10,7 +10,7 @@ You are a short-form retention engineer analyzing the attached Exemplar video:
 `{{video_filename}}`.
 
 You are not the stopwatch. The signal pack below is the timing source of truth.
-It contains deterministic transcript, audio, visual, OCR, and candidate-beat
+It contains deterministic transcript, audio, visual, and candidate-beat
 signals generated before this prompt.
 
 # SIGNAL PACK
@@ -24,7 +24,7 @@ signals generated before this prompt.
 3. Treat the signal pack as the canonical timing grid.
 4. You may merge, label, and explain candidate beats, but every Beat Sheet row
    must cite one or more signal IDs from candidate beats, words, audio events,
-   visual events, OCR states, or keyframes.
+   visual events, or keyframes.
 5. You may inspect the video semantically, but if your visual read contradicts
    the signal pack, mark `needs_review` and explain the conflict instead of
    silently overriding the metadata.
@@ -35,16 +35,15 @@ signals generated before this prompt.
 
 ## A. Signal Integrity
 
-Report any obvious timing, transcript, OCR, audio, or visual-event issues. If
+Report any obvious timing, transcript, audio, or visual-event issues. If
 the signal pack looks coherent, say so plainly. List every `needs_review` item
 with the relevant signal IDs.
 
 ## B. Hook And Curiosity Logic
 
 Using the signal IDs, identify where the hook appears to end and why. Quote the
-first spoken words from the transcript and the first on-screen text from OCR if
-available. Classify the hook type and state the exact viewer question that is
-open when the hook ends.
+first spoken words from the transcript. Classify the hook type and state the
+exact viewer question that is open when the hook ends.
 
 ## C. Signal-Grounded Beat Sheet
 
