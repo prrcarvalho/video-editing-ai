@@ -1,0 +1,1193 @@
+{
+  "compute_type": "int8",
+  "device": "cpu",
+  "language": "en",
+  "model": "small.en",
+  "segments": [
+    {
+      "end": 1.813,
+      "end_frame": 109,
+      "signal_id": "seg_0001",
+      "start": 0.051,
+      "start_frame": 3,
+      "text": "Most people use Claude Code the wrong way."
+    },
+    {
+      "end": 3.895,
+      "end_frame": 234,
+      "signal_id": "seg_0002",
+      "start": 1.853,
+      "start_frame": 111,
+      "text": "They open it, type what they want, and hope for the best."
+    },
+    {
+      "end": 6.218,
+      "end_frame": 373,
+      "signal_id": "seg_0003",
+      "start": 3.995,
+      "start_frame": 240,
+      "text": "But the guy who created Claude Code does the opposite."
+    },
+    {
+      "end": 9.241,
+      "end_frame": 554,
+      "signal_id": "seg_0004",
+      "start": 6.298,
+      "start_frame": 378,
+      "text": "He says most of his sessions start in plan mode, not build mode."
+    },
+    {
+      "end": 11.964,
+      "end_frame": 718,
+      "signal_id": "seg_0005",
+      "start": 9.261,
+      "start_frame": 556,
+      "text": "Slows down first, gets the plan right, then lets Claude execute."
+    },
+    {
+      "end": 14.547,
+      "end_frame": 873,
+      "signal_id": "seg_0006",
+      "start": 12.024,
+      "start_frame": 721,
+      "text": "That one shift alone explains why most people get messy results."
+    },
+    {
+      "end": 15.207,
+      "end_frame": 912,
+      "signal_id": "seg_0007",
+      "start": 14.687,
+      "start_frame": 881,
+      "text": "And that's not all."
+    },
+    {
+      "end": 19.712,
+      "end_frame": 1183,
+      "signal_id": "seg_0008",
+      "start": 15.288,
+      "start_frame": 917,
+      "text": "He keeps his Claude file simple, makes Claude check its own work, and runs separate sessions for separate problems."
+    },
+    {
+      "end": 22.636,
+      "end_frame": 1358,
+      "signal_id": "seg_0009",
+      "start": 19.792,
+      "start_frame": 1188,
+      "text": "So he's not just prompting better, he's using Claude Code like a system."
+    },
+    {
+      "end": 24.898,
+      "end_frame": 1494,
+      "signal_id": "seg_0010",
+      "start": 22.676,
+      "start_frame": 1361,
+      "text": "Comment creator, and I'll send over the free guide."
+    }
+  ],
+  "skipped_words": [],
+  "tool": "whisperx",
+  "word_count": 110,
+  "words": [
+    {
+      "end": 0.191,
+      "end_frame": 11,
+      "score": 0.872,
+      "segment_index": 0,
+      "signal_id": "word_0001",
+      "start": 0.051,
+      "start_frame": 3,
+      "word": "Most"
+    },
+    {
+      "end": 0.451,
+      "end_frame": 27,
+      "score": 0.774,
+      "segment_index": 0,
+      "signal_id": "word_0002",
+      "start": 0.211,
+      "start_frame": 13,
+      "word": "people"
+    },
+    {
+      "end": 0.652,
+      "end_frame": 39,
+      "score": 0.726,
+      "segment_index": 0,
+      "signal_id": "word_0003",
+      "start": 0.532,
+      "start_frame": 32,
+      "word": "use"
+    },
+    {
+      "end": 0.952,
+      "end_frame": 57,
+      "score": 0.82,
+      "segment_index": 0,
+      "signal_id": "word_0004",
+      "start": 0.692,
+      "start_frame": 42,
+      "word": "Claude"
+    },
+    {
+      "end": 1.292,
+      "end_frame": 78,
+      "score": 0.838,
+      "segment_index": 0,
+      "signal_id": "word_0005",
+      "start": 0.992,
+      "start_frame": 60,
+      "word": "Code"
+    },
+    {
+      "end": 1.412,
+      "end_frame": 85,
+      "score": 0.832,
+      "segment_index": 0,
+      "signal_id": "word_0006",
+      "start": 1.332,
+      "start_frame": 80,
+      "word": "the"
+    },
+    {
+      "end": 1.633,
+      "end_frame": 98,
+      "score": 0.809,
+      "segment_index": 0,
+      "signal_id": "word_0007",
+      "start": 1.453,
+      "start_frame": 87,
+      "word": "wrong"
+    },
+    {
+      "end": 1.813,
+      "end_frame": 109,
+      "score": 0.906,
+      "segment_index": 0,
+      "signal_id": "word_0008",
+      "start": 1.673,
+      "start_frame": 100,
+      "word": "way."
+    },
+    {
+      "end": 1.973,
+      "end_frame": 118,
+      "score": 0.892,
+      "segment_index": 1,
+      "signal_id": "word_0009",
+      "start": 1.853,
+      "start_frame": 111,
+      "word": "They"
+    },
+    {
+      "end": 2.213,
+      "end_frame": 133,
+      "score": 0.762,
+      "segment_index": 1,
+      "signal_id": "word_0010",
+      "start": 2.033,
+      "start_frame": 122,
+      "word": "open"
+    },
+    {
+      "end": 2.333,
+      "end_frame": 140,
+      "score": 0.838,
+      "segment_index": 1,
+      "signal_id": "word_0011",
+      "start": 2.253,
+      "start_frame": 135,
+      "word": "it,"
+    },
+    {
+      "end": 2.574,
+      "end_frame": 154,
+      "score": 0.728,
+      "segment_index": 1,
+      "signal_id": "word_0012",
+      "start": 2.414,
+      "start_frame": 145,
+      "word": "type"
+    },
+    {
+      "end": 2.714,
+      "end_frame": 163,
+      "score": 0.742,
+      "segment_index": 1,
+      "signal_id": "word_0013",
+      "start": 2.594,
+      "start_frame": 156,
+      "word": "what"
+    },
+    {
+      "end": 2.854,
+      "end_frame": 171,
+      "score": 0.789,
+      "segment_index": 1,
+      "signal_id": "word_0014",
+      "start": 2.734,
+      "start_frame": 164,
+      "word": "they"
+    },
+    {
+      "end": 3.134,
+      "end_frame": 188,
+      "score": 0.907,
+      "segment_index": 1,
+      "signal_id": "word_0015",
+      "start": 2.914,
+      "start_frame": 175,
+      "word": "want,"
+    },
+    {
+      "end": 3.275,
+      "end_frame": 196,
+      "score": 0.838,
+      "segment_index": 1,
+      "signal_id": "word_0016",
+      "start": 3.194,
+      "start_frame": 192,
+      "word": "and"
+    },
+    {
+      "end": 3.415,
+      "end_frame": 205,
+      "score": 0.535,
+      "segment_index": 1,
+      "signal_id": "word_0017",
+      "start": 3.295,
+      "start_frame": 198,
+      "word": "hope"
+    },
+    {
+      "end": 3.535,
+      "end_frame": 212,
+      "score": 0.829,
+      "segment_index": 1,
+      "signal_id": "word_0018",
+      "start": 3.435,
+      "start_frame": 206,
+      "word": "for"
+    },
+    {
+      "end": 3.615,
+      "end_frame": 217,
+      "score": 0.991,
+      "segment_index": 1,
+      "signal_id": "word_0019",
+      "start": 3.555,
+      "start_frame": 213,
+      "word": "the"
+    },
+    {
+      "end": 3.895,
+      "end_frame": 234,
+      "score": 0.898,
+      "segment_index": 1,
+      "signal_id": "word_0020",
+      "start": 3.655,
+      "start_frame": 219,
+      "word": "best."
+    },
+    {
+      "end": 4.095,
+      "end_frame": 246,
+      "score": 0.832,
+      "segment_index": 2,
+      "signal_id": "word_0021",
+      "start": 3.995,
+      "start_frame": 240,
+      "word": "But"
+    },
+    {
+      "end": 4.216,
+      "end_frame": 253,
+      "score": 0.804,
+      "segment_index": 2,
+      "signal_id": "word_0022",
+      "start": 4.115,
+      "start_frame": 247,
+      "word": "the"
+    },
+    {
+      "end": 4.456,
+      "end_frame": 267,
+      "score": 0.955,
+      "segment_index": 2,
+      "signal_id": "word_0023",
+      "start": 4.256,
+      "start_frame": 255,
+      "word": "guy"
+    },
+    {
+      "end": 4.596,
+      "end_frame": 276,
+      "score": 0.972,
+      "segment_index": 2,
+      "signal_id": "word_0024",
+      "start": 4.496,
+      "start_frame": 270,
+      "word": "who"
+    },
+    {
+      "end": 4.916,
+      "end_frame": 295,
+      "score": 0.834,
+      "segment_index": 2,
+      "signal_id": "word_0025",
+      "start": 4.636,
+      "start_frame": 278,
+      "word": "created"
+    },
+    {
+      "end": 5.177,
+      "end_frame": 311,
+      "score": 0.736,
+      "segment_index": 2,
+      "signal_id": "word_0026",
+      "start": 4.956,
+      "start_frame": 297,
+      "word": "Claude"
+    },
+    {
+      "end": 5.517,
+      "end_frame": 331,
+      "score": 0.845,
+      "segment_index": 2,
+      "signal_id": "word_0027",
+      "start": 5.217,
+      "start_frame": 313,
+      "word": "Code"
+    },
+    {
+      "end": 5.737,
+      "end_frame": 344,
+      "score": 0.674,
+      "segment_index": 2,
+      "signal_id": "word_0028",
+      "start": 5.577,
+      "start_frame": 335,
+      "word": "does"
+    },
+    {
+      "end": 5.837,
+      "end_frame": 350,
+      "score": 0.835,
+      "segment_index": 2,
+      "signal_id": "word_0029",
+      "start": 5.757,
+      "start_frame": 345,
+      "word": "the"
+    },
+    {
+      "end": 6.218,
+      "end_frame": 373,
+      "score": 0.97,
+      "segment_index": 2,
+      "signal_id": "word_0030",
+      "start": 5.897,
+      "start_frame": 354,
+      "word": "opposite."
+    },
+    {
+      "end": 6.378,
+      "end_frame": 383,
+      "score": 0.883,
+      "segment_index": 3,
+      "signal_id": "word_0031",
+      "start": 6.298,
+      "start_frame": 378,
+      "word": "He"
+    },
+    {
+      "end": 6.598,
+      "end_frame": 396,
+      "score": 0.71,
+      "segment_index": 3,
+      "signal_id": "word_0032",
+      "start": 6.418,
+      "start_frame": 385,
+      "word": "says"
+    },
+    {
+      "end": 6.838,
+      "end_frame": 410,
+      "score": 0.676,
+      "segment_index": 3,
+      "signal_id": "word_0033",
+      "start": 6.658,
+      "start_frame": 399,
+      "word": "most"
+    },
+    {
+      "end": 6.918,
+      "end_frame": 415,
+      "score": 0.75,
+      "segment_index": 3,
+      "signal_id": "word_0034",
+      "start": 6.858,
+      "start_frame": 411,
+      "word": "of"
+    },
+    {
+      "end": 7.039,
+      "end_frame": 422,
+      "score": 0.841,
+      "segment_index": 3,
+      "signal_id": "word_0035",
+      "start": 6.959,
+      "start_frame": 418,
+      "word": "his"
+    },
+    {
+      "end": 7.439,
+      "end_frame": 446,
+      "score": 0.82,
+      "segment_index": 3,
+      "signal_id": "word_0036",
+      "start": 7.059,
+      "start_frame": 424,
+      "word": "sessions"
+    },
+    {
+      "end": 7.759,
+      "end_frame": 466,
+      "score": 0.842,
+      "segment_index": 3,
+      "signal_id": "word_0037",
+      "start": 7.519,
+      "start_frame": 451,
+      "word": "start"
+    },
+    {
+      "end": 7.88,
+      "end_frame": 473,
+      "score": 0.841,
+      "segment_index": 3,
+      "signal_id": "word_0038",
+      "start": 7.799,
+      "start_frame": 468,
+      "word": "in"
+    },
+    {
+      "end": 8.18,
+      "end_frame": 491,
+      "score": 0.913,
+      "segment_index": 3,
+      "signal_id": "word_0039",
+      "start": 7.92,
+      "start_frame": 475,
+      "word": "plan"
+    },
+    {
+      "end": 8.42,
+      "end_frame": 505,
+      "score": 0.976,
+      "segment_index": 3,
+      "signal_id": "word_0040",
+      "start": 8.2,
+      "start_frame": 492,
+      "word": "mode,"
+    },
+    {
+      "end": 8.62,
+      "end_frame": 517,
+      "score": 0.75,
+      "segment_index": 3,
+      "signal_id": "word_0041",
+      "start": 8.48,
+      "start_frame": 509,
+      "word": "not"
+    },
+    {
+      "end": 8.961,
+      "end_frame": 538,
+      "score": 0.742,
+      "segment_index": 3,
+      "signal_id": "word_0042",
+      "start": 8.72,
+      "start_frame": 523,
+      "word": "build"
+    },
+    {
+      "end": 9.241,
+      "end_frame": 554,
+      "score": 0.818,
+      "segment_index": 3,
+      "signal_id": "word_0043",
+      "start": 9.001,
+      "start_frame": 540,
+      "word": "mode."
+    },
+    {
+      "end": 9.481,
+      "end_frame": 569,
+      "score": 0.763,
+      "segment_index": 4,
+      "signal_id": "word_0044",
+      "start": 9.261,
+      "start_frame": 556,
+      "word": "Slows"
+    },
+    {
+      "end": 9.681,
+      "end_frame": 581,
+      "score": 0.936,
+      "segment_index": 4,
+      "signal_id": "word_0045",
+      "start": 9.521,
+      "start_frame": 571,
+      "word": "down"
+    },
+    {
+      "end": 10.002,
+      "end_frame": 600,
+      "score": 0.805,
+      "segment_index": 4,
+      "signal_id": "word_0046",
+      "start": 9.722,
+      "start_frame": 583,
+      "word": "first,"
+    },
+    {
+      "end": 10.262,
+      "end_frame": 616,
+      "score": 0.862,
+      "segment_index": 4,
+      "signal_id": "word_0047",
+      "start": 10.122,
+      "start_frame": 607,
+      "word": "gets"
+    },
+    {
+      "end": 10.382,
+      "end_frame": 623,
+      "score": 0.824,
+      "segment_index": 4,
+      "signal_id": "word_0048",
+      "start": 10.302,
+      "start_frame": 618,
+      "word": "the"
+    },
+    {
+      "end": 10.622,
+      "end_frame": 637,
+      "score": 0.757,
+      "segment_index": 4,
+      "signal_id": "word_0049",
+      "start": 10.402,
+      "start_frame": 624,
+      "word": "plan"
+    },
+    {
+      "end": 10.903,
+      "end_frame": 654,
+      "score": 0.893,
+      "segment_index": 4,
+      "signal_id": "word_0050",
+      "start": 10.683,
+      "start_frame": 641,
+      "word": "right,"
+    },
+    {
+      "end": 11.063,
+      "end_frame": 664,
+      "score": 0.921,
+      "segment_index": 4,
+      "signal_id": "word_0051",
+      "start": 10.943,
+      "start_frame": 657,
+      "word": "then"
+    },
+    {
+      "end": 11.263,
+      "end_frame": 676,
+      "score": 0.623,
+      "segment_index": 4,
+      "signal_id": "word_0052",
+      "start": 11.083,
+      "start_frame": 665,
+      "word": "lets"
+    },
+    {
+      "end": 11.523,
+      "end_frame": 691,
+      "score": 0.747,
+      "segment_index": 4,
+      "signal_id": "word_0053",
+      "start": 11.303,
+      "start_frame": 678,
+      "word": "Claude"
+    },
+    {
+      "end": 11.964,
+      "end_frame": 718,
+      "score": 0.9,
+      "segment_index": 4,
+      "signal_id": "word_0054",
+      "start": 11.564,
+      "start_frame": 694,
+      "word": "execute."
+    },
+    {
+      "end": 12.164,
+      "end_frame": 730,
+      "score": 0.776,
+      "segment_index": 5,
+      "signal_id": "word_0055",
+      "start": 12.024,
+      "start_frame": 721,
+      "word": "That"
+    },
+    {
+      "end": 12.344,
+      "end_frame": 741,
+      "score": 0.855,
+      "segment_index": 5,
+      "signal_id": "word_0056",
+      "start": 12.244,
+      "start_frame": 735,
+      "word": "one"
+    },
+    {
+      "end": 12.585,
+      "end_frame": 755,
+      "score": 0.773,
+      "segment_index": 5,
+      "signal_id": "word_0057",
+      "start": 12.364,
+      "start_frame": 742,
+      "word": "shift"
+    },
+    {
+      "end": 12.905,
+      "end_frame": 774,
+      "score": 0.796,
+      "segment_index": 5,
+      "signal_id": "word_0058",
+      "start": 12.625,
+      "start_frame": 758,
+      "word": "alone"
+    },
+    {
+      "end": 13.245,
+      "end_frame": 795,
+      "score": 0.812,
+      "segment_index": 5,
+      "signal_id": "word_0059",
+      "start": 12.945,
+      "start_frame": 777,
+      "word": "explains"
+    },
+    {
+      "end": 13.385,
+      "end_frame": 803,
+      "score": 0.963,
+      "segment_index": 5,
+      "signal_id": "word_0060",
+      "start": 13.285,
+      "start_frame": 797,
+      "word": "why"
+    },
+    {
+      "end": 13.586,
+      "end_frame": 815,
+      "score": 0.8,
+      "segment_index": 5,
+      "signal_id": "word_0061",
+      "start": 13.446,
+      "start_frame": 807,
+      "word": "most"
+    },
+    {
+      "end": 13.806,
+      "end_frame": 828,
+      "score": 0.762,
+      "segment_index": 5,
+      "signal_id": "word_0062",
+      "start": 13.606,
+      "start_frame": 816,
+      "word": "people"
+    },
+    {
+      "end": 13.926,
+      "end_frame": 836,
+      "score": 0.864,
+      "segment_index": 5,
+      "signal_id": "word_0063",
+      "start": 13.826,
+      "start_frame": 830,
+      "word": "get"
+    },
+    {
+      "end": 14.186,
+      "end_frame": 851,
+      "score": 0.948,
+      "segment_index": 5,
+      "signal_id": "word_0064",
+      "start": 13.966,
+      "start_frame": 838,
+      "word": "messy"
+    },
+    {
+      "end": 14.547,
+      "end_frame": 873,
+      "score": 0.853,
+      "segment_index": 5,
+      "signal_id": "word_0065",
+      "start": 14.206,
+      "start_frame": 852,
+      "word": "results."
+    },
+    {
+      "end": 14.747,
+      "end_frame": 885,
+      "score": 0.996,
+      "segment_index": 6,
+      "signal_id": "word_0066",
+      "start": 14.687,
+      "start_frame": 881,
+      "word": "And"
+    },
+    {
+      "end": 14.927,
+      "end_frame": 896,
+      "score": 0.915,
+      "segment_index": 6,
+      "signal_id": "word_0067",
+      "start": 14.787,
+      "start_frame": 887,
+      "word": "that's"
+    },
+    {
+      "end": 15.047,
+      "end_frame": 903,
+      "score": 0.82,
+      "segment_index": 6,
+      "signal_id": "word_0068",
+      "start": 14.947,
+      "start_frame": 897,
+      "word": "not"
+    },
+    {
+      "end": 15.207,
+      "end_frame": 912,
+      "score": 0.877,
+      "segment_index": 6,
+      "signal_id": "word_0069",
+      "start": 15.087,
+      "start_frame": 905,
+      "word": "all."
+    },
+    {
+      "end": 15.368,
+      "end_frame": 922,
+      "score": 0.837,
+      "segment_index": 7,
+      "signal_id": "word_0070",
+      "start": 15.288,
+      "start_frame": 917,
+      "word": "He"
+    },
+    {
+      "end": 15.548,
+      "end_frame": 933,
+      "score": 0.928,
+      "segment_index": 7,
+      "signal_id": "word_0071",
+      "start": 15.388,
+      "start_frame": 923,
+      "word": "keeps"
+    },
+    {
+      "end": 15.668,
+      "end_frame": 940,
+      "score": 0.837,
+      "segment_index": 7,
+      "signal_id": "word_0072",
+      "start": 15.588,
+      "start_frame": 935,
+      "word": "his"
+    },
+    {
+      "end": 15.928,
+      "end_frame": 956,
+      "score": 0.756,
+      "segment_index": 7,
+      "signal_id": "word_0073",
+      "start": 15.708,
+      "start_frame": 942,
+      "word": "Claude"
+    },
+    {
+      "end": 16.168,
+      "end_frame": 970,
+      "score": 0.885,
+      "segment_index": 7,
+      "signal_id": "word_0074",
+      "start": 15.948,
+      "start_frame": 957,
+      "word": "file"
+    },
+    {
+      "end": 16.489,
+      "end_frame": 989,
+      "score": 0.908,
+      "segment_index": 7,
+      "signal_id": "word_0075",
+      "start": 16.189,
+      "start_frame": 971,
+      "word": "simple,"
+    },
+    {
+      "end": 16.729,
+      "end_frame": 1004,
+      "score": 0.804,
+      "segment_index": 7,
+      "signal_id": "word_0076",
+      "start": 16.569,
+      "start_frame": 994,
+      "word": "makes"
+    },
+    {
+      "end": 17.009,
+      "end_frame": 1021,
+      "score": 0.743,
+      "segment_index": 7,
+      "signal_id": "word_0077",
+      "start": 16.769,
+      "start_frame": 1006,
+      "word": "Claude"
+    },
+    {
+      "end": 17.25,
+      "end_frame": 1035,
+      "score": 0.881,
+      "segment_index": 7,
+      "signal_id": "word_0078",
+      "start": 17.049,
+      "start_frame": 1023,
+      "word": "check"
+    },
+    {
+      "end": 17.37,
+      "end_frame": 1042,
+      "score": 0.977,
+      "segment_index": 7,
+      "signal_id": "word_0079",
+      "start": 17.29,
+      "start_frame": 1037,
+      "word": "its"
+    },
+    {
+      "end": 17.53,
+      "end_frame": 1052,
+      "score": 0.653,
+      "segment_index": 7,
+      "signal_id": "word_0080",
+      "start": 17.41,
+      "start_frame": 1045,
+      "word": "own"
+    },
+    {
+      "end": 17.75,
+      "end_frame": 1065,
+      "score": 0.93,
+      "segment_index": 7,
+      "signal_id": "word_0081",
+      "start": 17.57,
+      "start_frame": 1054,
+      "word": "work,"
+    },
+    {
+      "end": 17.87,
+      "end_frame": 1072,
+      "score": 0.687,
+      "segment_index": 7,
+      "signal_id": "word_0082",
+      "start": 17.77,
+      "start_frame": 1066,
+      "word": "and"
+    },
+    {
+      "end": 18.091,
+      "end_frame": 1085,
+      "score": 0.818,
+      "segment_index": 7,
+      "signal_id": "word_0083",
+      "start": 17.91,
+      "start_frame": 1075,
+      "word": "runs"
+    },
+    {
+      "end": 18.411,
+      "end_frame": 1105,
+      "score": 0.898,
+      "segment_index": 7,
+      "signal_id": "word_0084",
+      "start": 18.151,
+      "start_frame": 1089,
+      "word": "separate"
+    },
+    {
+      "end": 18.791,
+      "end_frame": 1127,
+      "score": 0.893,
+      "segment_index": 7,
+      "signal_id": "word_0085",
+      "start": 18.451,
+      "start_frame": 1107,
+      "word": "sessions"
+    },
+    {
+      "end": 18.972,
+      "end_frame": 1138,
+      "score": 0.84,
+      "segment_index": 7,
+      "signal_id": "word_0086",
+      "start": 18.851,
+      "start_frame": 1131,
+      "word": "for"
+    },
+    {
+      "end": 19.292,
+      "end_frame": 1158,
+      "score": 0.851,
+      "segment_index": 7,
+      "signal_id": "word_0087",
+      "start": 19.012,
+      "start_frame": 1141,
+      "word": "separate"
+    },
+    {
+      "end": 19.712,
+      "end_frame": 1183,
+      "score": 0.839,
+      "segment_index": 7,
+      "signal_id": "word_0088",
+      "start": 19.312,
+      "start_frame": 1159,
+      "word": "problems."
+    },
+    {
+      "end": 19.893,
+      "end_frame": 1194,
+      "score": 0.84,
+      "segment_index": 8,
+      "signal_id": "word_0089",
+      "start": 19.792,
+      "start_frame": 1188,
+      "word": "So"
+    },
+    {
+      "end": 20.053,
+      "end_frame": 1203,
+      "score": 0.723,
+      "segment_index": 8,
+      "signal_id": "word_0090",
+      "start": 19.913,
+      "start_frame": 1195,
+      "word": "he's"
+    },
+    {
+      "end": 20.213,
+      "end_frame": 1213,
+      "score": 0.786,
+      "segment_index": 8,
+      "signal_id": "word_0091",
+      "start": 20.093,
+      "start_frame": 1206,
+      "word": "not"
+    },
+    {
+      "end": 20.353,
+      "end_frame": 1221,
+      "score": 0.798,
+      "segment_index": 8,
+      "signal_id": "word_0092",
+      "start": 20.233,
+      "start_frame": 1214,
+      "word": "just"
+    },
+    {
+      "end": 20.713,
+      "end_frame": 1243,
+      "score": 0.808,
+      "segment_index": 8,
+      "signal_id": "word_0093",
+      "start": 20.393,
+      "start_frame": 1224,
+      "word": "prompting"
+    },
+    {
+      "end": 20.994,
+      "end_frame": 1260,
+      "score": 0.938,
+      "segment_index": 8,
+      "signal_id": "word_0094",
+      "start": 20.753,
+      "start_frame": 1245,
+      "word": "better,"
+    },
+    {
+      "end": 21.214,
+      "end_frame": 1273,
+      "score": 0.805,
+      "segment_index": 8,
+      "signal_id": "word_0095",
+      "start": 21.094,
+      "start_frame": 1266,
+      "word": "he's"
+    },
+    {
+      "end": 21.454,
+      "end_frame": 1287,
+      "score": 0.908,
+      "segment_index": 8,
+      "signal_id": "word_0096",
+      "start": 21.274,
+      "start_frame": 1276,
+      "word": "using"
+    },
+    {
+      "end": 21.715,
+      "end_frame": 1303,
+      "score": 0.746,
+      "segment_index": 8,
+      "signal_id": "word_0097",
+      "start": 21.474,
+      "start_frame": 1288,
+      "word": "Claude"
+    },
+    {
+      "end": 21.995,
+      "end_frame": 1320,
+      "score": 0.976,
+      "segment_index": 8,
+      "signal_id": "word_0098",
+      "start": 21.755,
+      "start_frame": 1305,
+      "word": "Code"
+    },
+    {
+      "end": 22.155,
+      "end_frame": 1329,
+      "score": 0.829,
+      "segment_index": 8,
+      "signal_id": "word_0099",
+      "start": 22.035,
+      "start_frame": 1322,
+      "word": "like"
+    },
+    {
+      "end": 22.235,
+      "end_frame": 1334,
+      "score": 0.502,
+      "segment_index": 8,
+      "signal_id": "word_0100",
+      "start": 22.195,
+      "start_frame": 1332,
+      "word": "a"
+    },
+    {
+      "end": 22.636,
+      "end_frame": 1358,
+      "score": 0.877,
+      "segment_index": 8,
+      "signal_id": "word_0101",
+      "start": 22.295,
+      "start_frame": 1338,
+      "word": "system."
+    },
+    {
+      "end": 22.936,
+      "end_frame": 1376,
+      "score": 0.932,
+      "segment_index": 9,
+      "signal_id": "word_0102",
+      "start": 22.676,
+      "start_frame": 1361,
+      "word": "Comment"
+    },
+    {
+      "end": 23.476,
+      "end_frame": 1409,
+      "score": 0.84,
+      "segment_index": 9,
+      "signal_id": "word_0103",
+      "start": 23.056,
+      "start_frame": 1383,
+      "word": "creator,"
+    },
+    {
+      "end": 23.677,
+      "end_frame": 1421,
+      "score": 0.9,
+      "segment_index": 9,
+      "signal_id": "word_0104",
+      "start": 23.597,
+      "start_frame": 1416,
+      "word": "and"
+    },
+    {
+      "end": 23.857,
+      "end_frame": 1431,
+      "score": 0.816,
+      "segment_index": 9,
+      "signal_id": "word_0105",
+      "start": 23.717,
+      "start_frame": 1423,
+      "word": "I'll"
+    },
+    {
+      "end": 24.077,
+      "end_frame": 1445,
+      "score": 0.684,
+      "segment_index": 9,
+      "signal_id": "word_0106",
+      "start": 23.877,
+      "start_frame": 1433,
+      "word": "send"
+    },
+    {
+      "end": 24.297,
+      "end_frame": 1458,
+      "score": 0.847,
+      "segment_index": 9,
+      "signal_id": "word_0107",
+      "start": 24.137,
+      "start_frame": 1448,
+      "word": "over"
+    },
+    {
+      "end": 24.397,
+      "end_frame": 1464,
+      "score": 0.99,
+      "segment_index": 9,
+      "signal_id": "word_0108",
+      "start": 24.337,
+      "start_frame": 1460,
+      "word": "the"
+    },
+    {
+      "end": 24.658,
+      "end_frame": 1479,
+      "score": 0.707,
+      "segment_index": 9,
+      "signal_id": "word_0109",
+      "start": 24.457,
+      "start_frame": 1467,
+      "word": "free"
+    },
+    {
+      "end": 24.898,
+      "end_frame": 1494,
+      "score": 0.527,
+      "segment_index": 9,
+      "signal_id": "word_0110",
+      "start": 24.678,
+      "start_frame": 1481,
+      "word": "guide."
+    }
+  ]
+}

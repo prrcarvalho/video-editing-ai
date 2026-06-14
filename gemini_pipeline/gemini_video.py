@@ -45,6 +45,9 @@ COOKIE_ENV_PATH = Path(
 ).expanduser()
 DEFAULT_COOKIE_CACHE_DIR = Path.home() / ".cache" / "gemini_webapi"
 
+VIDEO_FILENAME_PLACEHOLDER = "{{video_filename}}"
+ANALYSIS_CONTEXT_PLACEHOLDER = "{{analysis_context}}"
+
 FRONTMATTER_RE = re.compile(r"\A---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 COOKIE_ENV_LINE_RE = re.compile(
     r"^\s*(?:export\s+)?(GEMINI_1PSID|GEMINI_1PSIDTS)=(.*?)\s*$"
@@ -64,6 +67,43 @@ def load_template(path: Path) -> tuple[dict, str]:
     if not body:
         sys.exit(f"error: prompt template {path} has an empty body")
     return config, body
+
+
+def render_prompt(
+    prompt_body: str,
+    video_name: str,
+    context_path_arg: str | None,
+    context_required: bool = False,
+) -> tuple[str, Path | None]:
+    """Apply supported prompt-template substitutions."""
+    prompt = prompt_body.replace(VIDEO_FILENAME_PLACEHOLDER, video_name)
+    needs_context = ANALYSIS_CONTEXT_PLACEHOLDER in prompt
+
+    if context_required and not context_path_arg:
+        sys.exit(
+            f"error: prompt template requires {ANALYSIS_CONTEXT_PLACEHOLDER}; "
+            "pass --context PATH"
+        )
+    if context_path_arg and not needs_context:
+        sys.exit(
+            f"error: --context was supplied, but the prompt has no "
+            f"{ANALYSIS_CONTEXT_PLACEHOLDER} placeholder"
+        )
+    if needs_context and not context_path_arg:
+        sys.exit(
+            f"error: prompt template contains {ANALYSIS_CONTEXT_PLACEHOLDER}; "
+            "pass --context PATH"
+        )
+    if not context_path_arg:
+        return prompt, None
+
+    context_path = Path(context_path_arg).expanduser().resolve()
+    if not context_path.is_file():
+        sys.exit(f"error: analysis context file not found: {context_path}")
+    context = context_path.read_text(encoding="utf-8").strip()
+    if not context:
+        sys.exit(f"error: analysis context file is empty: {context_path}")
+    return prompt.replace(ANALYSIS_CONTEXT_PLACEHOLDER, context), context_path
 
 
 def parse_cookie_env(path: Path) -> dict[str, str]:
@@ -241,7 +281,12 @@ async def cmd_analyze(args: argparse.Namespace) -> None:
 
     model = args.model or config.get("model", "gemini-3-flash-thinking")
     timeout = float(args.timeout or config.get("timeout", 900))
-    prompt = prompt_body.replace("{{video_filename}}", video.name)
+    prompt, context_path = render_prompt(
+        prompt_body,
+        video.name,
+        args.context,
+        context_required=bool(config.get("context_required")),
+    )
 
     out_dir = Path(args.out).expanduser()
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -271,9 +316,10 @@ async def cmd_analyze(args: argparse.Namespace) -> None:
         f"model: {model}",
         f"prompt_template: {prompt_path}",
         f"generated_at: {stamp}",
-        "---",
-        "",
     ]
+    if context_path:
+        parts.append(f"analysis_context: {context_path}")
+    parts += ["---", ""]
     if response.thoughts and args.thoughts:
         parts += [
             "<details>",
@@ -320,6 +366,13 @@ def main() -> None:
     p_analyze.add_argument("video", help="path to the mp4 file")
     p_analyze.add_argument(
         "--prompt", default=str(DEFAULT_PROMPT), help="markdown prompt template (default: prompts/default.md)"
+    )
+    p_analyze.add_argument(
+        "--context",
+        help=(
+            "markdown analysis context used to replace "
+            f"{ANALYSIS_CONTEXT_PLACEHOLDER} in the prompt"
+        ),
     )
     p_analyze.add_argument("--model", help="override model from the template frontmatter")
     p_analyze.add_argument("--out", default=str(HERE / "outputs"), help="output directory")

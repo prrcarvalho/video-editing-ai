@@ -1,0 +1,6196 @@
+{
+  "beat_count": 95,
+  "beats": [
+    {
+      "frame": 0,
+      "near_words": [
+        {
+          "end": 0.191,
+          "signal_id": "word_0001",
+          "start": 0.051,
+          "word": "Most"
+        },
+        {
+          "end": 0.451,
+          "signal_id": "word_0002",
+          "start": 0.211,
+          "word": "people"
+        },
+        {
+          "end": 0.652,
+          "signal_id": "word_0003",
+          "start": 0.532,
+          "word": "use"
+        },
+        {
+          "end": 0.952,
+          "signal_id": "word_0004",
+          "start": 0.692,
+          "word": "Claude"
+        }
+      ],
+      "ocr_text": "nd me at 10:23 am to check on my pro... v ind me at 10:23 am to check on my projact. Calc baueue atuither mesnaye 7 Ask hielo eelity ri t | - Most people a t i \u00aba \u2019",
+      "signal_id": "beat_0001",
+      "source_signal_ids": [
+        "media_start",
+        "ocr_state_0001",
+        "aud_onset_0001",
+        "seg_0001",
+        "word_0001",
+        "aud_onset_0002",
+        "aud_peak_0001"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "boundary",
+        "first_word",
+        "ocr_caption_change",
+        "transcript_segment_start"
+      ],
+      "sources": [
+        {
+          "frame": 0,
+          "kind": "boundary",
+          "signal_id": "media_start",
+          "time": 0.0,
+          "weight": 2.0
+        },
+        {
+          "frame": 0,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0001",
+          "time": 0.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 3,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0001",
+          "time": 0.05,
+          "weight": 0.8
+        },
+        {
+          "frame": 3,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0001",
+          "time": 0.051,
+          "weight": 1.1
+        },
+        {
+          "frame": 3,
+          "kind": "first_word",
+          "signal_id": "word_0001",
+          "time": 0.051,
+          "weight": 1.0
+        },
+        {
+          "frame": 5,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0002",
+          "time": 0.0833,
+          "weight": 0.8
+        },
+        {
+          "frame": 6,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0001",
+          "time": 0.1,
+          "weight": 0.7
+        }
+      ],
+      "time": 0.0
+    },
+    {
+      "frame": 15,
+      "near_words": [
+        {
+          "end": 0.191,
+          "signal_id": "word_0001",
+          "start": 0.051,
+          "word": "Most"
+        },
+        {
+          "end": 0.451,
+          "signal_id": "word_0002",
+          "start": 0.211,
+          "word": "people"
+        },
+        {
+          "end": 0.652,
+          "signal_id": "word_0003",
+          "start": 0.532,
+          "word": "use"
+        },
+        {
+          "end": 0.952,
+          "signal_id": "word_0004",
+          "start": 0.692,
+          "word": "Claude"
+        },
+        {
+          "end": 1.292,
+          "signal_id": "word_0005",
+          "start": 0.992,
+          "word": "Code"
+        }
+      ],
+      "ocr_text": "nd me at 10:23 am to check on my pro... v ind me at 10:23 am to check on my projact. Calc baueue atuither mesnaye 7 Ask hielo eelity ri t | - Most people a t i \u00aba \u2019",
+      "signal_id": "beat_0002",
+      "source_signal_ids": [
+        "ocr_state_0002",
+        "aud_peak_0002"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 15,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0002",
+          "time": 0.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 24,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0002",
+          "time": 0.4,
+          "weight": 0.7
+        }
+      ],
+      "time": 0.25
+    },
+    {
+      "frame": 30,
+      "near_words": [
+        {
+          "end": 0.451,
+          "signal_id": "word_0002",
+          "start": 0.211,
+          "word": "people"
+        },
+        {
+          "end": 0.652,
+          "signal_id": "word_0003",
+          "start": 0.532,
+          "word": "use"
+        },
+        {
+          "end": 0.952,
+          "signal_id": "word_0004",
+          "start": 0.692,
+          "word": "Claude"
+        },
+        {
+          "end": 1.292,
+          "signal_id": "word_0005",
+          "start": 0.992,
+          "word": "Code"
+        }
+      ],
+      "ocr_text": "Thanking Today is March 7, 2026. Setting a one-shot reminder for 10:23 AM. CronCreate (cae c u \u201ccron\u2122: \"23 10 7 3 *\", \u201cprompt\u201d: \u201cRemind Nate: Check on your project.\u201d, Scheduled one-shot task 402d@71b (23 18 7 3 *). Session-only (not written to disk, dies whe Reminder set for 10:23 AM today. I'll ping you to check on your project. Just keep this session open -- tt only works while Claude is running. ctrl esc to focus or unfocus Claude / Ask before edits g Tag 4 =~. + : : a >",
+      "signal_id": "beat_0003",
+      "source_signal_ids": [
+        "ocr_state_0003"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 30,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0003",
+          "time": 0.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 0.5
+    },
+    {
+      "frame": 45,
+      "near_words": [
+        {
+          "end": 0.652,
+          "signal_id": "word_0003",
+          "start": 0.532,
+          "word": "use"
+        },
+        {
+          "end": 0.952,
+          "signal_id": "word_0004",
+          "start": 0.692,
+          "word": "Claude"
+        },
+        {
+          "end": 1.292,
+          "signal_id": "word_0005",
+          "start": 0.992,
+          "word": "Code"
+        },
+        {
+          "end": 1.412,
+          "signal_id": "word_0006",
+          "start": 1.332,
+          "word": "the"
+        },
+        {
+          "end": 1.633,
+          "signal_id": "word_0007",
+          "start": 1.453,
+          "word": "wrong"
+        }
+      ],
+      "ocr_text": "SMSC UULOEY VEST OH Lao HULU AY Lf 40 OF PG @ Reminder set for 10:23 AM today. I'll ping you to check on only works while Claude is running. @ Hey Nate -- this is your reminder to check on your project. ktrl esc to focus or unfocus Claude 7 Ask before edits -turing* Od ice Claude code , a>.",
+      "signal_id": "beat_0004",
+      "source_signal_ids": [
+        "ocr_state_0004",
+        "aud_peak_0003"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 45,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0004",
+          "time": 0.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 49,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0003",
+          "time": 0.8167,
+          "weight": 0.7
+        }
+      ],
+      "time": 0.75
+    },
+    {
+      "frame": 60,
+      "near_words": [
+        {
+          "end": 0.952,
+          "signal_id": "word_0004",
+          "start": 0.692,
+          "word": "Claude"
+        },
+        {
+          "end": 1.292,
+          "signal_id": "word_0005",
+          "start": 0.992,
+          "word": "Code"
+        },
+        {
+          "end": 1.412,
+          "signal_id": "word_0006",
+          "start": 1.332,
+          "word": "the"
+        },
+        {
+          "end": 1.633,
+          "signal_id": "word_0007",
+          "start": 1.453,
+          "word": "wrong"
+        },
+        {
+          "end": 1.813,
+          "signal_id": "word_0008",
+          "start": 1.673,
+          "word": "way."
+        }
+      ],
+      "ocr_text": "ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Syn. \u00a7 ug s Claude Code Queue another message... @ # sk before edits e \u2018ee USC Claude COdE paca -2@- + ee",
+      "signal_id": "beat_0005",
+      "source_signal_ids": [
+        "ocr_state_0005"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 60,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0005",
+          "time": 1.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 1.0
+    },
+    {
+      "frame": 75,
+      "near_words": [
+        {
+          "end": 1.292,
+          "signal_id": "word_0005",
+          "start": 0.992,
+          "word": "Code"
+        },
+        {
+          "end": 1.412,
+          "signal_id": "word_0006",
+          "start": 1.332,
+          "word": "the"
+        },
+        {
+          "end": 1.633,
+          "signal_id": "word_0007",
+          "start": 1.453,
+          "word": "wrong"
+        },
+        {
+          "end": 1.813,
+          "signal_id": "word_0008",
+          "start": 1.673,
+          "word": "way."
+        },
+        {
+          "end": 1.973,
+          "signal_id": "word_0009",
+          "start": 1.853,
+          "word": "They"
+        },
+        {
+          "end": 2.213,
+          "signal_id": "word_0010",
+          "start": 2.033,
+          "word": "open"
+        }
+      ],
+      "ocr_text": "ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Making loop skill _ \u00ab Cooking... Queue another message... @ 7 Ask before edits g \u2018wae USC Claude COdC pamcme a ; - o Py =a",
+      "signal_id": "beat_0006",
+      "source_signal_ids": [
+        "ocr_state_0006",
+        "aud_peak_0004"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 75,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0006",
+          "time": 1.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 80,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0004",
+          "time": 1.3333,
+          "weight": 0.7
+        }
+      ],
+      "time": 1.25
+    },
+    {
+      "frame": 90,
+      "near_words": [
+        {
+          "end": 1.412,
+          "signal_id": "word_0006",
+          "start": 1.332,
+          "word": "the"
+        },
+        {
+          "end": 1.633,
+          "signal_id": "word_0007",
+          "start": 1.453,
+          "word": "wrong"
+        },
+        {
+          "end": 1.813,
+          "signal_id": "word_0008",
+          "start": 1.673,
+          "word": "way."
+        },
+        {
+          "end": 1.973,
+          "signal_id": "word_0009",
+          "start": 1.853,
+          "word": "They"
+        },
+        {
+          "end": 2.213,
+          "signal_id": "word_0010",
+          "start": 2.033,
+          "word": "open"
+        },
+        {
+          "end": 2.333,
+          "signal_id": "word_0011",
+          "start": 2.253,
+          "word": "it,"
+        }
+      ],
+      "ocr_text": "Fhoarikuag 7 loop skill CronCreate { soa \u201ccron\u201c: \u201c*/18 % * * \u201cprompt\u201d: \u201cCheck Cli ject Greengrass. Look for new Scheduled recurring jo ( laude ( ode nly (not written to disk, die Scheduled. Here's the summary: Crafting... Queue another message... @ 7 Ask before edits 6 ng @ Woo @ Screen Reader Opt | \u2014 | _ *. i eo \u00ab",
+      "signal_id": "beat_0007",
+      "source_signal_ids": [
+        "ocr_state_0007"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 90,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0007",
+          "time": 1.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 1.5
+    },
+    {
+      "frame": 105,
+      "near_words": [
+        {
+          "end": 1.633,
+          "signal_id": "word_0007",
+          "start": 1.453,
+          "word": "wrong"
+        },
+        {
+          "end": 1.813,
+          "signal_id": "word_0008",
+          "start": 1.673,
+          "word": "way."
+        },
+        {
+          "end": 1.973,
+          "signal_id": "word_0009",
+          "start": 1.853,
+          "word": "They"
+        },
+        {
+          "end": 2.213,
+          "signal_id": "word_0010",
+          "start": 2.033,
+          "word": "open"
+        },
+        {
+          "end": 2.333,
+          "signal_id": "word_0011",
+          "start": 2.253,
+          "word": "it,"
+        },
+        {
+          "end": 2.574,
+          "signal_id": "word_0012",
+          "start": 2.414,
+          "word": "type"
+        }
+      ],
+      "ocr_text": "ae int a \u201cprompt\u201d: \u201cCheck ClickUp for any new developments on the project Greengrass. Look for new Scheduled recurring job 3a196c23 (Every 16 minutes). Session-only (not written to disk, die Scheduled. Here's the summa ug a \u00ab What: Checking ClickUp ss \u00a9 Cadence: Every 10 minute \u00a9 Job ID: 30196\u00a223 \u00a9 Auto-expires after 3 days ( laude ( ode \u00a9 Session-only -- stops whe To cancel early, | can run CronDelete with job ID 3a196c23 . I'll surface any new tasks, status changes, \u00ab updates as they come in. ctrl esc to focus or unfocus Claude @ J Ask betore edits g ng @ Woo @ Screen Reader Opt \\ \u2014 | ' o .",
+      "signal_id": "beat_0008",
+      "source_signal_ids": [
+        "ocr_state_0008",
+        "vis_diff_0001",
+        "vis_scene_0001",
+        "seg_0002",
+        "aud_onset_0014"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 105,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0008",
+          "time": 1.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 111,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0001",
+          "time": 1.85,
+          "weight": 1.0
+        },
+        {
+          "frame": 111,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0001",
+          "time": 1.85,
+          "weight": 1.4
+        },
+        {
+          "frame": 111,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0002",
+          "time": 1.853,
+          "weight": 1.1
+        },
+        {
+          "frame": 113,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0014",
+          "time": 1.8833,
+          "weight": 0.8
+        }
+      ],
+      "time": 1.75
+    },
+    {
+      "frame": 116,
+      "near_words": [
+        {
+          "end": 1.813,
+          "signal_id": "word_0008",
+          "start": 1.673,
+          "word": "way."
+        },
+        {
+          "end": 1.973,
+          "signal_id": "word_0009",
+          "start": 1.853,
+          "word": "They"
+        },
+        {
+          "end": 2.213,
+          "signal_id": "word_0010",
+          "start": 2.033,
+          "word": "open"
+        },
+        {
+          "end": 2.333,
+          "signal_id": "word_0011",
+          "start": 2.253,
+          "word": "it,"
+        },
+        {
+          "end": 2.574,
+          "signal_id": "word_0012",
+          "start": 2.414,
+          "word": "type"
+        },
+        {
+          "end": 2.714,
+          "signal_id": "word_0013",
+          "start": 2.594,
+          "word": "what"
+        }
+      ],
+      "ocr_text": "fdatadccraep loop skill CronCreate @ { a a \u201ccron\u2122: \"*/18 * = \u00a9 \u201cprompt\u201c: \u201cCheck Cli ject Greengrass. Look for new Scheduled recurring jo Claude Code nly (not written to disk, die Scheduled. Here's the summary: \u00a9 What: Checking ClickUp for new developments on project Greengrass * Cadence: Every 10 minutes {*/18 * * * *%) ctrl esc to focus or unfocus Claude 7 Ask before edits e nq @ Mofo @ Screen Reader Opt isp ie \\ \u2019 \u2014 | { } \\ a . a \u2018e 77 *",
+      "signal_id": "beat_0009",
+      "source_signal_ids": [
+        "aud_peak_0005",
+        "ocr_state_0009"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 116,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0005",
+          "time": 1.9333,
+          "weight": 0.7
+        },
+        {
+          "frame": 120,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0009",
+          "time": 2.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 1.9333
+    },
+    {
+      "frame": 134,
+      "near_words": [
+        {
+          "end": 2.213,
+          "signal_id": "word_0010",
+          "start": 2.033,
+          "word": "open"
+        },
+        {
+          "end": 2.333,
+          "signal_id": "word_0011",
+          "start": 2.253,
+          "word": "it,"
+        },
+        {
+          "end": 2.574,
+          "signal_id": "word_0012",
+          "start": 2.414,
+          "word": "type"
+        },
+        {
+          "end": 2.714,
+          "signal_id": "word_0013",
+          "start": 2.594,
+          "word": "what"
+        },
+        {
+          "end": 2.854,
+          "signal_id": "word_0014",
+          "start": 2.734,
+          "word": "they"
+        },
+        {
+          "end": 3.134,
+          "signal_id": "word_0015",
+          "start": 2.914,
+          "word": "want,"
+        }
+      ],
+      "ocr_text": "Allfode AM Images Videos News = Shopping Forums More - : \u00a9 Claude.com https://claude.com \u00bb Product \u00bb Claude Code: Clavie Code by Anthropic | Al Coding Agent, Terminal, IDE Anthropic's agentic coding tool for developers. Claude Code understands your code runs commands, and helps you ship faster. @ Claude https://claude.ai : Claude Claude is Anthrepic's Al butt fer srabtem setvers Tackle complex challenges, analyze \u00a2 a cranecnon They open it @ claude.com hitps://code.claude.com \u00bb docs \u00bb quickstart: Quickstart - Claude Code Docs Quickstart - . Before you begin - . Step 1: Install Claude Code - . Step 2: Lag in to your 3: Start your first session - . Step 4: Ask ... Read more",
+      "signal_id": "beat_0010",
+      "source_signal_ids": [
+        "aud_peak_0006",
+        "ocr_state_0010",
+        "aud_onset_0019"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 134,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0006",
+          "time": 2.2333,
+          "weight": 0.7
+        },
+        {
+          "frame": 135,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0010",
+          "time": 2.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 144,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0019",
+          "time": 2.4,
+          "weight": 0.8
+        }
+      ],
+      "time": 2.2333
+    },
+    {
+      "frame": 150,
+      "near_words": [
+        {
+          "end": 2.333,
+          "signal_id": "word_0011",
+          "start": 2.253,
+          "word": "it,"
+        },
+        {
+          "end": 2.574,
+          "signal_id": "word_0012",
+          "start": 2.414,
+          "word": "type"
+        },
+        {
+          "end": 2.714,
+          "signal_id": "word_0013",
+          "start": 2.594,
+          "word": "what"
+        },
+        {
+          "end": 2.854,
+          "signal_id": "word_0014",
+          "start": 2.734,
+          "word": "they"
+        },
+        {
+          "end": 3.134,
+          "signal_id": "word_0015",
+          "start": 2.914,
+          "word": "want,"
+        },
+        {
+          "end": 3.275,
+          "signal_id": "word_0016",
+          "start": 3.194,
+          "word": "and"
+        },
+        {
+          "end": 3.415,
+          "signal_id": "word_0017",
+          "start": 3.295,
+          "word": "hope"
+        }
+      ],
+      "ocr_text": "AlMode Al Images Videos News Shopping Forums More - . @ Claude.com https://claude.com > Product > Claude Code: Clause Code by Anthropic | Al Coding Agent, Terminal, IDE Anthropic's agentic coding tool for developers. Claude Code understands your code runs commands, and helps you ship faster. @ Claude hitps//claude.ai : Claude Claude is Anthrenic's Al built for arnblem solvers Tackle complex challenges, analyze \u00a2 @ claude.com hitps://code.claude.com > docs \u00bb quickstart : Quickstart - Claude Code Docs Quickstart . . Before you begin - . Step 1: Install Claude Code - . Step 2: Log in to your 3: Start your first session - . Step 4: Ask ... Read more",
+      "signal_id": "beat_0011",
+      "source_signal_ids": [
+        "aud_peak_0007",
+        "ocr_state_0011"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 150,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0007",
+          "time": 2.5,
+          "weight": 0.7
+        },
+        {
+          "frame": 150,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0011",
+          "time": 2.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 2.5
+    },
+    {
+      "frame": 164,
+      "near_words": [
+        {
+          "end": 2.574,
+          "signal_id": "word_0012",
+          "start": 2.414,
+          "word": "type"
+        },
+        {
+          "end": 2.714,
+          "signal_id": "word_0013",
+          "start": 2.594,
+          "word": "what"
+        },
+        {
+          "end": 2.854,
+          "signal_id": "word_0014",
+          "start": 2.734,
+          "word": "they"
+        },
+        {
+          "end": 3.134,
+          "signal_id": "word_0015",
+          "start": 2.914,
+          "word": "want,"
+        },
+        {
+          "end": 3.275,
+          "signal_id": "word_0016",
+          "start": 3.194,
+          "word": "and"
+        },
+        {
+          "end": 3.415,
+          "signal_id": "word_0017",
+          "start": 3.295,
+          "word": "hope"
+        },
+        {
+          "end": 3.535,
+          "signal_id": "word_0018",
+          "start": 3.435,
+          "word": "for"
+        }
+      ],
+      "ocr_text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Switch bac< n Settings. X Scrape 2( + CD) untitled-1 </> Edit automatically a",
+      "signal_id": "beat_0012",
+      "source_signal_ids": [
+        "aud_onset_0023",
+        "ocr_state_0012",
+        "aud_peak_0008"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 164,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0023",
+          "time": 2.7333,
+          "weight": 0.8
+        },
+        {
+          "frame": 165,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0012",
+          "time": 2.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 166,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0008",
+          "time": 2.7667,
+          "weight": 0.7
+        }
+      ],
+      "time": 2.7333
+    },
+    {
+      "frame": 180,
+      "near_words": [
+        {
+          "end": 2.854,
+          "signal_id": "word_0014",
+          "start": 2.734,
+          "word": "they"
+        },
+        {
+          "end": 3.134,
+          "signal_id": "word_0015",
+          "start": 2.914,
+          "word": "want,"
+        },
+        {
+          "end": 3.275,
+          "signal_id": "word_0016",
+          "start": 3.194,
+          "word": "and"
+        },
+        {
+          "end": 3.415,
+          "signal_id": "word_0017",
+          "start": 3.295,
+          "word": "hope"
+        },
+        {
+          "end": 3.535,
+          "signal_id": "word_0018",
+          "start": 3.435,
+          "word": "for"
+        },
+        {
+          "end": 3.615,
+          "signal_id": "word_0019",
+          "start": 3.555,
+          "word": "the"
+        },
+        {
+          "end": 3.895,
+          "signal_id": "word_0020",
+          "start": 3.655,
+          "word": "best."
+        }
+      ],
+      "ocr_text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Switch bac< n Settings. X Scrape 200 leads and ther: + CD) untitled-1 </> Edit automatically a",
+      "signal_id": "beat_0013",
+      "source_signal_ids": [
+        "ocr_state_0013",
+        "vis_diff_0002",
+        "vis_scene_0002"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 180,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0013",
+          "time": 3.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 189,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0002",
+          "time": 3.15,
+          "weight": 1.0
+        },
+        {
+          "frame": 189,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0002",
+          "time": 3.15,
+          "weight": 1.4
+        }
+      ],
+      "time": 3.0
+    },
+    {
+      "frame": 195,
+      "near_words": [
+        {
+          "end": 3.134,
+          "signal_id": "word_0015",
+          "start": 2.914,
+          "word": "want,"
+        },
+        {
+          "end": 3.275,
+          "signal_id": "word_0016",
+          "start": 3.194,
+          "word": "and"
+        },
+        {
+          "end": 3.415,
+          "signal_id": "word_0017",
+          "start": 3.295,
+          "word": "hope"
+        },
+        {
+          "end": 3.535,
+          "signal_id": "word_0018",
+          "start": 3.435,
+          "word": "for"
+        },
+        {
+          "end": 3.615,
+          "signal_id": "word_0019",
+          "start": 3.555,
+          "word": "the"
+        },
+        {
+          "end": 3.895,
+          "signal_id": "word_0020",
+          "start": 3.655,
+          "word": "best."
+        },
+        {
+          "end": 4.095,
+          "signal_id": "word_0021",
+          "start": 3.995,
+          "word": "But"
+        }
+      ],
+      "ocr_text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Seiich bac< n Serv ngs. X Scrape 200 leads and there personal inforan + CD) untitled-1 </> Edit automatically ,",
+      "signal_id": "beat_0014",
+      "source_signal_ids": [
+        "ocr_state_0014"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 195,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0014",
+          "time": 3.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 3.25
+    },
+    {
+      "frame": 210,
+      "near_words": [
+        {
+          "end": 3.275,
+          "signal_id": "word_0016",
+          "start": 3.194,
+          "word": "and"
+        },
+        {
+          "end": 3.415,
+          "signal_id": "word_0017",
+          "start": 3.295,
+          "word": "hope"
+        },
+        {
+          "end": 3.535,
+          "signal_id": "word_0018",
+          "start": 3.435,
+          "word": "for"
+        },
+        {
+          "end": 3.615,
+          "signal_id": "word_0019",
+          "start": 3.555,
+          "word": "the"
+        },
+        {
+          "end": 3.895,
+          "signal_id": "word_0020",
+          "start": 3.655,
+          "word": "best."
+        },
+        {
+          "end": 4.095,
+          "signal_id": "word_0021",
+          "start": 3.995,
+          "word": "But"
+        },
+        {
+          "end": 4.216,
+          "signal_id": "word_0022",
+          "start": 4.115,
+          "word": "the"
+        },
+        {
+          "end": 4.456,
+          "signal_id": "word_0023",
+          "start": 4.256,
+          "word": "guy"
+        }
+      ],
+      "ocr_text": "2 and hope ) - | wae",
+      "signal_id": "beat_0015",
+      "source_signal_ids": [
+        "ocr_state_0015"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 210,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0015",
+          "time": 3.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 3.5
+    },
+    {
+      "frame": 225,
+      "near_words": [
+        {
+          "end": 3.535,
+          "signal_id": "word_0018",
+          "start": 3.435,
+          "word": "for"
+        },
+        {
+          "end": 3.615,
+          "signal_id": "word_0019",
+          "start": 3.555,
+          "word": "the"
+        },
+        {
+          "end": 3.895,
+          "signal_id": "word_0020",
+          "start": 3.655,
+          "word": "best."
+        },
+        {
+          "end": 4.095,
+          "signal_id": "word_0021",
+          "start": 3.995,
+          "word": "But"
+        },
+        {
+          "end": 4.216,
+          "signal_id": "word_0022",
+          "start": 4.115,
+          "word": "the"
+        },
+        {
+          "end": 4.456,
+          "signal_id": "word_0023",
+          "start": 4.256,
+          "word": "guy"
+        },
+        {
+          "end": 4.596,
+          "signal_id": "word_0024",
+          "start": 4.496,
+          "word": "who"
+        }
+      ],
+      "ocr_text": "\u00a2 The project is empty. Let me set up a new Remotion project and create the animation. Basn Allow Claude to Run npm create video@latest -- --template=blank --yes? Create a new Remotion project npm create video@latest -- --template nk --yes Deny Esc Al for project (local) Ctrl Enter Reply... for the best | P i - t",
+      "signal_id": "beat_0016",
+      "source_signal_ids": [
+        "ocr_state_0016"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 225,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0016",
+          "time": 3.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 3.75
+    },
+    {
+      "frame": 238,
+      "near_words": [
+        {
+          "end": 3.895,
+          "signal_id": "word_0020",
+          "start": 3.655,
+          "word": "best."
+        },
+        {
+          "end": 4.095,
+          "signal_id": "word_0021",
+          "start": 3.995,
+          "word": "But"
+        },
+        {
+          "end": 4.216,
+          "signal_id": "word_0022",
+          "start": 4.115,
+          "word": "the"
+        },
+        {
+          "end": 4.456,
+          "signal_id": "word_0023",
+          "start": 4.256,
+          "word": "guy"
+        },
+        {
+          "end": 4.596,
+          "signal_id": "word_0024",
+          "start": 4.496,
+          "word": "who"
+        },
+        {
+          "end": 4.916,
+          "signal_id": "word_0025",
+          "start": 4.636,
+          "word": "created"
+        }
+      ],
+      "ocr_text": "> Found 2 patterns \u00bb The project Is empty. Let me set up a new Remotion project and create the animation. > Ran 2 commands i Incubating... k Reply... for the best | sai _ \u00b0 \u2018a,",
+      "signal_id": "beat_0017",
+      "source_signal_ids": [
+        "vis_diff_0003",
+        "vis_scene_0003",
+        "seg_0003",
+        "aud_onset_0034",
+        "ocr_state_0017",
+        "aud_onset_0035"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 238,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0003",
+          "time": 3.9667,
+          "weight": 1.0
+        },
+        {
+          "frame": 238,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0003",
+          "time": 3.9667,
+          "weight": 1.4
+        },
+        {
+          "frame": 240,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0003",
+          "time": 3.995,
+          "weight": 1.1
+        },
+        {
+          "frame": 240,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0034",
+          "time": 4.0,
+          "weight": 0.8
+        },
+        {
+          "frame": 240,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0017",
+          "time": 4.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 247,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0035",
+          "time": 4.1167,
+          "weight": 0.8
+        }
+      ],
+      "time": 3.9667
+    },
+    {
+      "frame": 255,
+      "near_words": [
+        {
+          "end": 4.095,
+          "signal_id": "word_0021",
+          "start": 3.995,
+          "word": "But"
+        },
+        {
+          "end": 4.216,
+          "signal_id": "word_0022",
+          "start": 4.115,
+          "word": "the"
+        },
+        {
+          "end": 4.456,
+          "signal_id": "word_0023",
+          "start": 4.256,
+          "word": "guy"
+        },
+        {
+          "end": 4.596,
+          "signal_id": "word_0024",
+          "start": 4.496,
+          "word": "who"
+        },
+        {
+          "end": 4.916,
+          "signal_id": "word_0025",
+          "start": 4.636,
+          "word": "created"
+        },
+        {
+          "end": 5.177,
+          "signal_id": "word_0026",
+          "start": 4.956,
+          "word": "Claude"
+        }
+      ],
+      "ocr_text": "- &>~ a ~ _ | e | oN But the guy who } ;",
+      "signal_id": "beat_0018",
+      "source_signal_ids": [
+        "ocr_state_0018",
+        "aud_onset_0036",
+        "aud_peak_0009"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 255,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0018",
+          "time": 4.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 256,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0036",
+          "time": 4.2667,
+          "weight": 0.8
+        },
+        {
+          "frame": 263,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0009",
+          "time": 4.3833,
+          "weight": 0.7
+        }
+      ],
+      "time": 4.25
+    },
+    {
+      "frame": 270,
+      "near_words": [
+        {
+          "end": 4.456,
+          "signal_id": "word_0023",
+          "start": 4.256,
+          "word": "guy"
+        },
+        {
+          "end": 4.596,
+          "signal_id": "word_0024",
+          "start": 4.496,
+          "word": "who"
+        },
+        {
+          "end": 4.916,
+          "signal_id": "word_0025",
+          "start": 4.636,
+          "word": "created"
+        },
+        {
+          "end": 5.177,
+          "signal_id": "word_0026",
+          "start": 4.956,
+          "word": "Claude"
+        },
+        {
+          "end": 5.517,
+          "signal_id": "word_0027",
+          "start": 5.217,
+          "word": "Code"
+        }
+      ],
+      "ocr_text": "p ~ , e _\u2014 , But the guy who 8",
+      "signal_id": "beat_0019",
+      "source_signal_ids": [
+        "ocr_state_0019",
+        "aud_onset_0038"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 270,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0019",
+          "time": 4.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 277,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0038",
+          "time": 4.6167,
+          "weight": 0.8
+        }
+      ],
+      "time": 4.5
+    },
+    {
+      "frame": 285,
+      "near_words": [
+        {
+          "end": 4.596,
+          "signal_id": "word_0024",
+          "start": 4.496,
+          "word": "who"
+        },
+        {
+          "end": 4.916,
+          "signal_id": "word_0025",
+          "start": 4.636,
+          "word": "created"
+        },
+        {
+          "end": 5.177,
+          "signal_id": "word_0026",
+          "start": 4.956,
+          "word": "Claude"
+        },
+        {
+          "end": 5.517,
+          "signal_id": "word_0027",
+          "start": 5.217,
+          "word": "Code"
+        }
+      ],
+      "ocr_text": "~\u00bb ~ , _ But the guy who 6",
+      "signal_id": "beat_0020",
+      "source_signal_ids": [
+        "ocr_state_0020"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 285,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0020",
+          "time": 4.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 4.75
+    },
+    {
+      "frame": 300,
+      "near_words": [
+        {
+          "end": 5.177,
+          "signal_id": "word_0026",
+          "start": 4.956,
+          "word": "Claude"
+        },
+        {
+          "end": 5.517,
+          "signal_id": "word_0027",
+          "start": 5.217,
+          "word": "Code"
+        },
+        {
+          "end": 5.737,
+          "signal_id": "word_0028",
+          "start": 5.577,
+          "word": "does"
+        },
+        {
+          "end": 5.837,
+          "signal_id": "word_0029",
+          "start": 5.757,
+          "word": "the"
+        }
+      ],
+      "ocr_text": "\u00bb _ , \u00bb ; created cloud 0 : \u2018 . i",
+      "signal_id": "beat_0021",
+      "source_signal_ids": [
+        "ocr_state_0021"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 300,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0021",
+          "time": 5.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 5.0
+    },
+    {
+      "frame": 313,
+      "near_words": [
+        {
+          "end": 5.177,
+          "signal_id": "word_0026",
+          "start": 4.956,
+          "word": "Claude"
+        },
+        {
+          "end": 5.517,
+          "signal_id": "word_0027",
+          "start": 5.217,
+          "word": "Code"
+        },
+        {
+          "end": 5.737,
+          "signal_id": "word_0028",
+          "start": 5.577,
+          "word": "does"
+        },
+        {
+          "end": 5.837,
+          "signal_id": "word_0029",
+          "start": 5.757,
+          "word": "the"
+        },
+        {
+          "end": 6.218,
+          "signal_id": "word_0030",
+          "start": 5.897,
+          "word": "opposite."
+        }
+      ],
+      "ocr_text": "~ _ ; e Claude code , |",
+      "signal_id": "beat_0022",
+      "source_signal_ids": [
+        "aud_onset_0043",
+        "ocr_state_0022",
+        "aud_peak_0010"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 313,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0043",
+          "time": 5.2167,
+          "weight": 0.8
+        },
+        {
+          "frame": 315,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0022",
+          "time": 5.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 320,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0010",
+          "time": 5.3333,
+          "weight": 0.7
+        }
+      ],
+      "time": 5.2167
+    },
+    {
+      "frame": 330,
+      "near_words": [
+        {
+          "end": 5.517,
+          "signal_id": "word_0027",
+          "start": 5.217,
+          "word": "Code"
+        },
+        {
+          "end": 5.737,
+          "signal_id": "word_0028",
+          "start": 5.577,
+          "word": "does"
+        },
+        {
+          "end": 5.837,
+          "signal_id": "word_0029",
+          "start": 5.757,
+          "word": "the"
+        },
+        {
+          "end": 6.218,
+          "signal_id": "word_0030",
+          "start": 5.897,
+          "word": "opposite."
+        },
+        {
+          "end": 6.378,
+          "signal_id": "word_0031",
+          "start": 6.298,
+          "word": "He"
+        }
+      ],
+      "ocr_text": "o | , a\u2122 pe _ | \u00bb | Claude code",
+      "signal_id": "beat_0023",
+      "source_signal_ids": [
+        "ocr_state_0023",
+        "vis_diff_0004",
+        "vis_scene_0004"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 330,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0023",
+          "time": 5.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 333,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0004",
+          "time": 5.55,
+          "weight": 1.0
+        },
+        {
+          "frame": 333,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0004",
+          "time": 5.55,
+          "weight": 1.4
+        }
+      ],
+      "time": 5.5
+    },
+    {
+      "frame": 345,
+      "near_words": [
+        {
+          "end": 5.737,
+          "signal_id": "word_0028",
+          "start": 5.577,
+          "word": "does"
+        },
+        {
+          "end": 5.837,
+          "signal_id": "word_0029",
+          "start": 5.757,
+          "word": "the"
+        },
+        {
+          "end": 6.218,
+          "signal_id": "word_0030",
+          "start": 5.897,
+          "word": "opposite."
+        },
+        {
+          "end": 6.378,
+          "signal_id": "word_0031",
+          "start": 6.298,
+          "word": "He"
+        },
+        {
+          "end": 6.598,
+          "signal_id": "word_0032",
+          "start": 6.418,
+          "word": "says"
+        }
+      ],
+      "ocr_text": "a : , y= pr _ | \\ e -\u2014 Claude code",
+      "signal_id": "beat_0024",
+      "source_signal_ids": [
+        "ocr_state_0024"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 345,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0024",
+          "time": 5.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 5.75
+    },
+    {
+      "frame": 360,
+      "near_words": [
+        {
+          "end": 5.837,
+          "signal_id": "word_0029",
+          "start": 5.757,
+          "word": "the"
+        },
+        {
+          "end": 6.218,
+          "signal_id": "word_0030",
+          "start": 5.897,
+          "word": "opposite."
+        },
+        {
+          "end": 6.378,
+          "signal_id": "word_0031",
+          "start": 6.298,
+          "word": "He"
+        },
+        {
+          "end": 6.598,
+          "signal_id": "word_0032",
+          "start": 6.418,
+          "word": "says"
+        },
+        {
+          "end": 6.838,
+          "signal_id": "word_0033",
+          "start": 6.658,
+          "word": "most"
+        }
+      ],
+      "ocr_text": "does the opposite",
+      "signal_id": "beat_0025",
+      "source_signal_ids": [
+        "aud_onset_0051",
+        "ocr_state_0025"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 360,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0051",
+          "time": 6.0,
+          "weight": 0.8
+        },
+        {
+          "frame": 360,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0025",
+          "time": 6.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 6.0
+    },
+    {
+      "frame": 374,
+      "near_words": [
+        {
+          "end": 6.218,
+          "signal_id": "word_0030",
+          "start": 5.897,
+          "word": "opposite."
+        },
+        {
+          "end": 6.378,
+          "signal_id": "word_0031",
+          "start": 6.298,
+          "word": "He"
+        },
+        {
+          "end": 6.598,
+          "signal_id": "word_0032",
+          "start": 6.418,
+          "word": "says"
+        },
+        {
+          "end": 6.838,
+          "signal_id": "word_0033",
+          "start": 6.658,
+          "word": "most"
+        },
+        {
+          "end": 6.918,
+          "signal_id": "word_0034",
+          "start": 6.858,
+          "word": "of"
+        },
+        {
+          "end": 7.039,
+          "signal_id": "word_0035",
+          "start": 6.959,
+          "word": "his"
+        }
+      ],
+      "ocr_text": "does the opposite py",
+      "signal_id": "beat_0026",
+      "source_signal_ids": [
+        "aud_onset_0054",
+        "ocr_state_0026",
+        "vis_diff_0005",
+        "vis_scene_0005",
+        "seg_0004",
+        "aud_onset_0055"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 374,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0054",
+          "time": 6.2333,
+          "weight": 0.8
+        },
+        {
+          "frame": 375,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0026",
+          "time": 6.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 376,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0005",
+          "time": 6.2667,
+          "weight": 1.0
+        },
+        {
+          "frame": 376,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0005",
+          "time": 6.2667,
+          "weight": 1.4
+        },
+        {
+          "frame": 378,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0004",
+          "time": 6.298,
+          "weight": 1.1
+        },
+        {
+          "frame": 378,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0055",
+          "time": 6.3,
+          "weight": 0.8
+        }
+      ],
+      "time": 6.2333
+    },
+    {
+      "frame": 390,
+      "near_words": [
+        {
+          "end": 6.378,
+          "signal_id": "word_0031",
+          "start": 6.298,
+          "word": "He"
+        },
+        {
+          "end": 6.598,
+          "signal_id": "word_0032",
+          "start": 6.418,
+          "word": "says"
+        },
+        {
+          "end": 6.838,
+          "signal_id": "word_0033",
+          "start": 6.658,
+          "word": "most"
+        },
+        {
+          "end": 6.918,
+          "signal_id": "word_0034",
+          "start": 6.858,
+          "word": "of"
+        },
+        {
+          "end": 7.039,
+          "signal_id": "word_0035",
+          "start": 6.959,
+          "word": "his"
+        },
+        {
+          "end": 7.439,
+          "signal_id": "word_0036",
+          "start": 7.059,
+          "word": "sessions"
+        }
+      ],
+      "ocr_text": "does the oppogfte",
+      "signal_id": "beat_0027",
+      "source_signal_ids": [
+        "aud_peak_0011",
+        "ocr_state_0027"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 390,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0011",
+          "time": 6.5,
+          "weight": 0.7
+        },
+        {
+          "frame": 390,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0027",
+          "time": 6.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 6.5
+    },
+    {
+      "frame": 402,
+      "near_words": [
+        {
+          "end": 6.598,
+          "signal_id": "word_0032",
+          "start": 6.418,
+          "word": "says"
+        },
+        {
+          "end": 6.838,
+          "signal_id": "word_0033",
+          "start": 6.658,
+          "word": "most"
+        },
+        {
+          "end": 6.918,
+          "signal_id": "word_0034",
+          "start": 6.858,
+          "word": "of"
+        },
+        {
+          "end": 7.039,
+          "signal_id": "word_0035",
+          "start": 6.959,
+          "word": "his"
+        },
+        {
+          "end": 7.439,
+          "signal_id": "word_0036",
+          "start": 7.059,
+          "word": "sessions"
+        }
+      ],
+      "ocr_text": "Tanke this progect 03 0n an old verwon of node and I want your heip ir (es ory ) \u00ab> Code .- . package-lock}son \u00ab= packagejion = yyerndoch fis project is on an old versions of pode ard I art \u2014\u2014\u2014\u2014\u2014\u2014 yout belp in upgradeg this a the luseet U6 version of tee rary \u2018Nodes 0 think ts v22) sad then comple Ruslan yer, toot sede jutteser ns tha la, EA dev to verty the version beep marked and theookk rege jrveqartts bear, everyting complet corecty? 1? ve \u201cwaetirae s \u201cTLD aD, \u2018You may need to vse bash to ieezadl yerrt Gest, ipod \"Otabieindcsee typecast, \" a treattt \u2018Intest\u2122, wots Teeaer NTO, ; moog reqiteaatys TUT Oe @ Update Node js to the tates? LTS version (v27). rote in Wek tom Gapersercient: Use mon to ental and weech to lode ps v22. a Mw Tostcerefsier\u2122: \u201cMM Der, at a sates gs TOO, \u00a9 Update the engines hed im package, jton to refiect noo stariwinden role the new Mode 73 vervon o YY ) mat terqimes ts @ esa ym : ra snode\": \"16.20.2\u00b0 ms | ats (lbw eo ook ) Jn 1 Tete nitalea el icas: Croat . eae Teerabents TM Ge, \u00a9 Compe the project roe Teetolved 2 hi tphi (eegtatry fenys crgiearst ie uM \u201d Tere geg tyr Tepaeyd- arGap cer yes sr kCat eta few wR thtceasets CULTS Sate . ' e the changes. woos aeretcecciet ff wae yao \"@Qucebenigihigny Me u \u201c Teopirancs aa 1 Saget tee Teta ha aml bee et man ret Cre ted Oy pn a ' a ) \u2018 Me ). tty trode monilesimeticore\u2019: (",
+      "signal_id": "beat_0028",
+      "source_signal_ids": [
+        "aud_peak_0012",
+        "ocr_state_0028"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 402,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0012",
+          "time": 6.7,
+          "weight": 0.7
+        },
+        {
+          "frame": 405,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0028",
+          "time": 6.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 6.7
+    },
+    {
+      "frame": 420,
+      "near_words": [
+        {
+          "end": 6.838,
+          "signal_id": "word_0033",
+          "start": 6.658,
+          "word": "most"
+        },
+        {
+          "end": 6.918,
+          "signal_id": "word_0034",
+          "start": 6.858,
+          "word": "of"
+        },
+        {
+          "end": 7.039,
+          "signal_id": "word_0035",
+          "start": 6.959,
+          "word": "his"
+        },
+        {
+          "end": 7.439,
+          "signal_id": "word_0036",
+          "start": 7.059,
+          "word": "sessions"
+        },
+        {
+          "end": 7.759,
+          "signal_id": "word_0037",
+          "start": 7.519,
+          "word": "start"
+        },
+        {
+          "end": 7.88,
+          "signal_id": "word_0038",
+          "start": 7.799,
+          "word": "in"
+        }
+      ],
+      "ocr_text": "Sane atthe decid diate catia alienate eatin deters ciel, went eh atietniall & . peckage-lock}son \u00ab= packagejion = yarn och Shia preyect is on an old version: of node aed I nent oo your help In upgrade this to the lisest LIS version of vee eres te eee es \u2018Noida js 0 think ts \u00a522) sad then compte R sing yen, moo nye fostoowants ott 6.22, yarn dev to vendy the version beve noried and Moon teede fader gen EGO \u2018everyting complies correctly? Mow \u2018orgatiede: TEE OE, \u2018You may need to vee bash to esta yernt find te rt TAHAb wads she tye ey SOL, wm 48 Teset's \u2018latest\u2019, ete \u2018regetD TOD, i te eesitisarty TEP Oo @ Updase Node js to the Latest LS version (\u00a527), : note 7m te ty Tse Gagecserctuats \u00a2 Ute yn to mitall and recch to Hode jt v22. woods \u201coetecrefsran s TW Dey at a tater s TO, \u00bb Update the engines head in package, jten torenect > M tropbedetsaa fae the new fode js verucn mn a } at veaaineg rf @ wuuatyan : Ph *node\": \"16.20.2\u00b0 a | werg 2D @ tested project dependencies : Moot i fe . frete MEE AE OL Crome y | . ra ? \u201cwersiecatr oT tt Gt, @ Compie the project. a ns resolved s \u201chttpasseregistry roays crgimoet'c w oo TEMLeQed ys sDahd 2: prGap celery s salt brs tan Sudvent the ct . Bowe Lacessets \u201cUIT, e the YY \u201c \u201cnererdercies 2 ade 4 \" \u2018aureebmignhight 2 TTP gk ot \u201c ve tsaginantt { a Tassett ten 98 Tork heed be eee ef mate Cree Uy ps \u2018 foo ) a ve h woe Tanat moculesiemabicore\u2019s ( \u00a5 /-_ , 4 aa a",
+      "signal_id": "beat_0029",
+      "source_signal_ids": [
+        "ocr_state_0029"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 420,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0029",
+          "time": 7.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 7.0
+    },
+    {
+      "frame": 435,
+      "near_words": [
+        {
+          "end": 7.039,
+          "signal_id": "word_0035",
+          "start": 6.959,
+          "word": "his"
+        },
+        {
+          "end": 7.439,
+          "signal_id": "word_0036",
+          "start": 7.059,
+          "word": "sessions"
+        },
+        {
+          "end": 7.759,
+          "signal_id": "word_0037",
+          "start": 7.519,
+          "word": "start"
+        },
+        {
+          "end": 7.88,
+          "signal_id": "word_0038",
+          "start": 7.799,
+          "word": "in"
+        },
+        {
+          "end": 8.18,
+          "signal_id": "word_0039",
+          "start": 7.92,
+          "word": "plan"
+        }
+      ],
+      "ocr_text": "REE EE ct intel ~~ . package-lock}son \u00ab= packagefion = yarnJoch {ois srcpect is on an old version of code and I nent __ your bait ia upgrading this ta the lisest LTS version of wee wee ne eee es Node) O thick ts v77) and then comple R uslag yen, tt tb \"WetesJasleometn of e202, AEN dev lo very the version bee worted and Me te tomgesfefecort th NG, \u2018everyting complies contectly? bhooy tergetiede : DDE, You may need to vee bash to instal yerrt frat te ry \u201cMtabbwanscasetyteneoy s Ok a, we Hd Teset '? \u2018latest\u2019, ie te Teeast; ONT OD, ut ie vestige TAT 87 @ > Updase Node js to the iatest LTS version (27). : ote h . ow tseuGagerserciuats \u00a2 \u2018Usa neato entat and sacch to Hode pt \u00a522. woke Costccrefiver 2 TW Dery at at osateis ss TS I, \u00bb Update the engines hed in package, jion torefiect n xe \u201ctatlwinesaat 35 o the new Node js vervon. a a } vas Tenqoeg @ mulym. ot *aode\": \"16.20.29\" nm | arty TH Oe Check if yarn atready missed aaa ; ) MM a . \u00a9 Hook metas yam godoty wing ren mG fete notables Ral ices tromatt | see weestents Ta, testa project dependencies oe Tresolved f MERA c\u00e9regtstey toms erg ince) \u00a2 Ad 4 vv TEntegeaty shashd: pray ce Gergen rh ACabara fay he wm \u201cPeceasesr CULT, @ Compile the project. . woos \u2018serercercies 3 { ret \u2018@emebinigiisgny sie ot moot Hr uM teagirenct { Moot inne p ten G8 Tek wend bee fea re Creat Uy yes * t As ) hh tate monlesieemeaticare\u2019s a a | ~ >",
+      "signal_id": "beat_0030",
+      "source_signal_ids": [
+        "ocr_state_0030",
+        "vis_scene_0006"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 435,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0030",
+          "time": 7.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 445,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0006",
+          "time": 7.4167,
+          "weight": 1.4
+        }
+      ],
+      "time": 7.25
+    },
+    {
+      "frame": 450,
+      "near_words": [
+        {
+          "end": 7.759,
+          "signal_id": "word_0037",
+          "start": 7.519,
+          "word": "start"
+        },
+        {
+          "end": 7.88,
+          "signal_id": "word_0038",
+          "start": 7.799,
+          "word": "in"
+        },
+        {
+          "end": 8.18,
+          "signal_id": "word_0039",
+          "start": 7.92,
+          "word": "plan"
+        },
+        {
+          "end": 8.42,
+          "signal_id": "word_0040",
+          "start": 8.2,
+          "word": "mode,"
+        }
+      ],
+      "ocr_text": "i, \u2014 nn \u201d pachage-lock}ion \u00ab= packagefion = yarnJach hile project Is on an old version of rode aed I want \u2014_\u2014\u2014_ Node) G Uith its. v27) sed then comple R usieg yen, mous Orde Jaflooen nr OR 6.82, OA dev to verdy the version buwe worted and tots fomtesfaseeaitts CLG2I, everyting complies conectiy? tyo4 \u201cestlede tL, \u2018You may need to vee bash to asta yern Orit, we rt \u201cMOL WAGs tal tyccue oy sd OLA, wth Comets \u2018Latest\u2019, le te tressttr ITO, pear vepitesonts TUT OD @ Update Node js to the 1a1e42 \u00a375 version (773, . ote in ty tae Orpenzerciuats Use nym to mitad and natch to liode pt \u00a522, aoooke Costecrefixer ss TRY Ter, nm at Tpesstessts CM 0, \u00a9 Update the engines hed in package. Jicn torefect oP te wtathajetens : an ro the new Mode 13 vernon. a nn ) oat engines\u2019 \u00a2 @ esutym i *node\": \u201c16\u00a2.20.2\u00b0 pad | ata Te Check yarn ateaty misses oe ) ) \u00a9 not insext yarn gobaty using rpm a a Teote mitabea st telicane Croett tebe tearsigats CT MG, testal prosect dependencies : oe \u201cferolecd f Mitpeisfeegtstry tome crgiqecal ie e uy u Stace ge sty tt shasbe- CorGagce QC yes rth bra ten By Ln \u201cYeceavens OMIT, Pun yarn install to ugdate denencercat YY \u201c \u201cseoerceccios 3 f moots Teebeaigilsght pee ot hoe Hy oooM teagirants { woo) Tange tee ae Task 9 hace eed be ee feat ray py > fobs ) % we ). tay teat eemlesiopmeabicare\u2019: | a a , ~ o -.",
+      "signal_id": "beat_0031",
+      "source_signal_ids": [
+        "ocr_state_0031",
+        "aud_peak_0013"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 450,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0031",
+          "time": 7.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 459,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0013",
+          "time": 7.65,
+          "weight": 0.7
+        }
+      ],
+      "time": 7.5
+    },
+    {
+      "frame": 465,
+      "near_words": [
+        {
+          "end": 7.759,
+          "signal_id": "word_0037",
+          "start": 7.519,
+          "word": "start"
+        },
+        {
+          "end": 7.88,
+          "signal_id": "word_0038",
+          "start": 7.799,
+          "word": "in"
+        },
+        {
+          "end": 8.18,
+          "signal_id": "word_0039",
+          "start": 7.92,
+          "word": "plan"
+        },
+        {
+          "end": 8.42,
+          "signal_id": "word_0040",
+          "start": 8.2,
+          "word": "mode,"
+        },
+        {
+          "end": 8.62,
+          "signal_id": "word_0041",
+          "start": 8.48,
+          "word": "not"
+        }
+      ],
+      "ocr_text": "| Plan Mode e",
+      "signal_id": "beat_0032",
+      "source_signal_ids": [
+        "ocr_state_0032"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 465,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0032",
+          "time": 7.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 7.75
+    },
+    {
+      "frame": 476,
+      "near_words": [
+        {
+          "end": 7.88,
+          "signal_id": "word_0038",
+          "start": 7.799,
+          "word": "in"
+        },
+        {
+          "end": 8.18,
+          "signal_id": "word_0039",
+          "start": 7.92,
+          "word": "plan"
+        },
+        {
+          "end": 8.42,
+          "signal_id": "word_0040",
+          "start": 8.2,
+          "word": "mode,"
+        },
+        {
+          "end": 8.62,
+          "signal_id": "word_0041",
+          "start": 8.48,
+          "word": "not"
+        },
+        {
+          "end": 8.961,
+          "signal_id": "word_0042",
+          "start": 8.72,
+          "word": "build"
+        }
+      ],
+      "ocr_text": "Section? Plan Mode A Nee start in :",
+      "signal_id": "beat_0033",
+      "source_signal_ids": [
+        "aud_onset_0068",
+        "ocr_state_0033"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 476,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0068",
+          "time": 7.9333,
+          "weight": 0.8
+        },
+        {
+          "frame": 480,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0033",
+          "time": 8.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 7.9333
+    },
+    {
+      "frame": 495,
+      "near_words": [
+        {
+          "end": 8.18,
+          "signal_id": "word_0039",
+          "start": 7.92,
+          "word": "plan"
+        },
+        {
+          "end": 8.42,
+          "signal_id": "word_0040",
+          "start": 8.2,
+          "word": "mode,"
+        },
+        {
+          "end": 8.62,
+          "signal_id": "word_0041",
+          "start": 8.48,
+          "word": "not"
+        },
+        {
+          "end": 8.961,
+          "signal_id": "word_0042",
+          "start": 8.72,
+          "word": "build"
+        },
+        {
+          "end": 9.241,
+          "signal_id": "word_0043",
+          "start": 9.001,
+          "word": "mode."
+        }
+      ],
+      "ocr_text": "Section) Plan Mode A col",
+      "signal_id": "beat_0034",
+      "source_signal_ids": [
+        "ocr_state_0034",
+        "vis_diff_0006",
+        "vis_scene_0007"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 495,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0034",
+          "time": 8.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 505,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0006",
+          "time": 8.4167,
+          "weight": 1.0
+        },
+        {
+          "frame": 505,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0007",
+          "time": 8.4167,
+          "weight": 1.4
+        }
+      ],
+      "time": 8.25
+    },
+    {
+      "frame": 508,
+      "near_words": [
+        {
+          "end": 8.42,
+          "signal_id": "word_0040",
+          "start": 8.2,
+          "word": "mode,"
+        },
+        {
+          "end": 8.62,
+          "signal_id": "word_0041",
+          "start": 8.48,
+          "word": "not"
+        },
+        {
+          "end": 8.961,
+          "signal_id": "word_0042",
+          "start": 8.72,
+          "word": "build"
+        },
+        {
+          "end": 9.241,
+          "signal_id": "word_0043",
+          "start": 9.001,
+          "word": "mode."
+        },
+        {
+          "end": 9.481,
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "word": "Slows"
+        }
+      ],
+      "ocr_text": "Section) Plan Mode A gee Plan mode :",
+      "signal_id": "beat_0035",
+      "source_signal_ids": [
+        "aud_onset_0072",
+        "ocr_state_0035"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 508,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0072",
+          "time": 8.4667,
+          "weight": 0.8
+        },
+        {
+          "frame": 510,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0035",
+          "time": 8.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 8.4667
+    },
+    {
+      "frame": 525,
+      "near_words": [
+        {
+          "end": 8.62,
+          "signal_id": "word_0041",
+          "start": 8.48,
+          "word": "not"
+        },
+        {
+          "end": 8.961,
+          "signal_id": "word_0042",
+          "start": 8.72,
+          "word": "build"
+        },
+        {
+          "end": 9.241,
+          "signal_id": "word_0043",
+          "start": 9.001,
+          "word": "mode."
+        },
+        {
+          "end": 9.481,
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "word": "Slows"
+        },
+        {
+          "end": 9.681,
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "word": "down"
+        }
+      ],
+      "ocr_text": "f a ) \\ . build mode",
+      "signal_id": "beat_0036",
+      "source_signal_ids": [
+        "ocr_state_0036",
+        "aud_peak_0014"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 525,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0036",
+          "time": 8.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 527,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0014",
+          "time": 8.7833,
+          "weight": 0.7
+        }
+      ],
+      "time": 8.75
+    },
+    {
+      "frame": 540,
+      "near_words": [
+        {
+          "end": 8.961,
+          "signal_id": "word_0042",
+          "start": 8.72,
+          "word": "build"
+        },
+        {
+          "end": 9.241,
+          "signal_id": "word_0043",
+          "start": 9.001,
+          "word": "mode."
+        },
+        {
+          "end": 9.481,
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "word": "Slows"
+        },
+        {
+          "end": 9.681,
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "word": "down"
+        },
+        {
+          "end": 10.002,
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "word": "first,"
+        }
+      ],
+      "ocr_text": "build mode dd",
+      "signal_id": "beat_0037",
+      "source_signal_ids": [
+        "ocr_state_0037"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 540,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0037",
+          "time": 9.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 9.0
+    },
+    {
+      "frame": 552,
+      "near_words": [
+        {
+          "end": 9.241,
+          "signal_id": "word_0043",
+          "start": 9.001,
+          "word": "mode."
+        },
+        {
+          "end": 9.481,
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "word": "Slows"
+        },
+        {
+          "end": 9.681,
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "word": "down"
+        },
+        {
+          "end": 10.002,
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "word": "first,"
+        }
+      ],
+      "ocr_text": "build m\u00e9ae",
+      "signal_id": "beat_0038",
+      "source_signal_ids": [
+        "vis_diff_0007",
+        "vis_scene_0008",
+        "aud_onset_0076",
+        "ocr_state_0038",
+        "seg_0005",
+        "aud_peak_0015"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 552,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0007",
+          "time": 9.2,
+          "weight": 1.0
+        },
+        {
+          "frame": 552,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0008",
+          "time": 9.2,
+          "weight": 1.4
+        },
+        {
+          "frame": 553,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0076",
+          "time": 9.2167,
+          "weight": 0.8
+        },
+        {
+          "frame": 555,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0038",
+          "time": 9.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 556,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0005",
+          "time": 9.261,
+          "weight": 1.1
+        },
+        {
+          "frame": 562,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0015",
+          "time": 9.3667,
+          "weight": 0.7
+        }
+      ],
+      "time": 9.2
+    },
+    {
+      "frame": 570,
+      "near_words": [
+        {
+          "end": 9.481,
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "word": "Slows"
+        },
+        {
+          "end": 9.681,
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "word": "down"
+        },
+        {
+          "end": 10.002,
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "word": "first,"
+        },
+        {
+          "end": 10.262,
+          "signal_id": "word_0047",
+          "start": 10.122,
+          "word": "gets"
+        }
+      ],
+      "ocr_text": "=z Slows down 3",
+      "signal_id": "beat_0039",
+      "source_signal_ids": [
+        "ocr_state_0039",
+        "aud_peak_0016"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 570,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0039",
+          "time": 9.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 573,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0016",
+          "time": 9.55,
+          "weight": 0.7
+        }
+      ],
+      "time": 9.5
+    },
+    {
+      "frame": 585,
+      "near_words": [
+        {
+          "end": 9.681,
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "word": "down"
+        },
+        {
+          "end": 10.002,
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "word": "first,"
+        },
+        {
+          "end": 10.262,
+          "signal_id": "word_0047",
+          "start": 10.122,
+          "word": "gets"
+        },
+        {
+          "end": 10.382,
+          "signal_id": "word_0048",
+          "start": 10.302,
+          "word": "the"
+        },
+        {
+          "end": 10.622,
+          "signal_id": "word_0049",
+          "start": 10.402,
+          "word": "plan"
+        }
+      ],
+      "ocr_text": "= Slows down %",
+      "signal_id": "beat_0040",
+      "source_signal_ids": [
+        "ocr_state_0040"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 585,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0040",
+          "time": 9.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 9.75
+    },
+    {
+      "frame": 600,
+      "near_words": [
+        {
+          "end": 10.002,
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "word": "first,"
+        },
+        {
+          "end": 10.262,
+          "signal_id": "word_0047",
+          "start": 10.122,
+          "word": "gets"
+        },
+        {
+          "end": 10.382,
+          "signal_id": "word_0048",
+          "start": 10.302,
+          "word": "the"
+        },
+        {
+          "end": 10.622,
+          "signal_id": "word_0049",
+          "start": 10.402,
+          "word": "plan"
+        },
+        {
+          "end": 10.903,
+          "signal_id": "word_0050",
+          "start": 10.683,
+          "word": "right,"
+        }
+      ],
+      "ocr_text": "rhea Yael HY. - first 4",
+      "signal_id": "beat_0041",
+      "source_signal_ids": [
+        "ocr_state_0041"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 600,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0041",
+          "time": 10.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 10.0
+    },
+    {
+      "frame": 615,
+      "near_words": [
+        {
+          "end": 10.262,
+          "signal_id": "word_0047",
+          "start": 10.122,
+          "word": "gets"
+        },
+        {
+          "end": 10.382,
+          "signal_id": "word_0048",
+          "start": 10.302,
+          "word": "the"
+        },
+        {
+          "end": 10.622,
+          "signal_id": "word_0049",
+          "start": 10.402,
+          "word": "plan"
+        },
+        {
+          "end": 10.903,
+          "signal_id": "word_0050",
+          "start": 10.683,
+          "word": "right,"
+        },
+        {
+          "end": 11.063,
+          "signal_id": "word_0051",
+          "start": 10.943,
+          "word": "then"
+        }
+      ],
+      "ocr_text": "rh 73a) WY first 4",
+      "signal_id": "beat_0042",
+      "source_signal_ids": [
+        "ocr_state_0042",
+        "aud_onset_0087"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 615,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0042",
+          "time": 10.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 624,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0087",
+          "time": 10.4,
+          "weight": 0.8
+        }
+      ],
+      "time": 10.25
+    },
+    {
+      "frame": 630,
+      "near_words": [
+        {
+          "end": 10.382,
+          "signal_id": "word_0048",
+          "start": 10.302,
+          "word": "the"
+        },
+        {
+          "end": 10.622,
+          "signal_id": "word_0049",
+          "start": 10.402,
+          "word": "plan"
+        },
+        {
+          "end": 10.903,
+          "signal_id": "word_0050",
+          "start": 10.683,
+          "word": "right,"
+        },
+        {
+          "end": 11.063,
+          "signal_id": "word_0051",
+          "start": 10.943,
+          "word": "then"
+        },
+        {
+          "end": 11.263,
+          "signal_id": "word_0052",
+          "start": 11.083,
+          "word": "lets"
+        }
+      ],
+      "ocr_text": "hed Bye a . =w Gets the plan \"",
+      "signal_id": "beat_0043",
+      "source_signal_ids": [
+        "ocr_state_0043"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 630,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0043",
+          "time": 10.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 10.5
+    },
+    {
+      "frame": 655,
+      "near_words": [
+        {
+          "end": 10.903,
+          "signal_id": "word_0050",
+          "start": 10.683,
+          "word": "right,"
+        },
+        {
+          "end": 11.063,
+          "signal_id": "word_0051",
+          "start": 10.943,
+          "word": "then"
+        },
+        {
+          "end": 11.263,
+          "signal_id": "word_0052",
+          "start": 11.083,
+          "word": "lets"
+        },
+        {
+          "end": 11.523,
+          "signal_id": "word_0053",
+          "start": 11.303,
+          "word": "Claude"
+        },
+        {
+          "end": 11.964,
+          "signal_id": "word_0054",
+          "start": 11.564,
+          "word": "execute."
+        }
+      ],
+      "ocr_text": "right q",
+      "signal_id": "beat_0044",
+      "source_signal_ids": [
+        "vis_diff_0008",
+        "vis_scene_0009",
+        "aud_onset_0090",
+        "ocr_state_0045"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 655,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0008",
+          "time": 10.9167,
+          "weight": 1.0
+        },
+        {
+          "frame": 655,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0009",
+          "time": 10.9167,
+          "weight": 1.4
+        },
+        {
+          "frame": 657,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0090",
+          "time": 10.95,
+          "weight": 0.8
+        },
+        {
+          "frame": 660,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0045",
+          "time": 11.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 10.9167
+    },
+    {
+      "frame": 675,
+      "near_words": [
+        {
+          "end": 11.063,
+          "signal_id": "word_0051",
+          "start": 10.943,
+          "word": "then"
+        },
+        {
+          "end": 11.263,
+          "signal_id": "word_0052",
+          "start": 11.083,
+          "word": "lets"
+        },
+        {
+          "end": 11.523,
+          "signal_id": "word_0053",
+          "start": 11.303,
+          "word": "Claude"
+        },
+        {
+          "end": 11.964,
+          "signal_id": "word_0054",
+          "start": 11.564,
+          "word": "execute."
+        },
+        {
+          "end": 12.164,
+          "signal_id": "word_0055",
+          "start": 12.024,
+          "word": "That"
+        }
+      ],
+      "ocr_text": "Conversations V = () Build and test \u00bb Now let's investigate the Ul components f Kanban feature: ) List src/ui/ L Read 26 files ) Read KanbanDetail.tsx L Read 3?1 lines y Edit (kthen-lets: claude 24 *. SW? 25 26 *\u00ab*/.Claude/settings. lLocal.json wae # Playwright traces < Pondering...",
+      "signal_id": "beat_0045",
+      "source_signal_ids": [
+        "ocr_state_0046",
+        "aud_onset_0094"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 675,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0046",
+          "time": 11.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 682,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0094",
+          "time": 11.3667,
+          "weight": 0.8
+        }
+      ],
+      "time": 11.25
+    },
+    {
+      "frame": 690,
+      "near_words": [
+        {
+          "end": 11.523,
+          "signal_id": "word_0053",
+          "start": 11.303,
+          "word": "Claude"
+        },
+        {
+          "end": 11.964,
+          "signal_id": "word_0054",
+          "start": 11.564,
+          "word": "execute."
+        },
+        {
+          "end": 12.164,
+          "signal_id": "word_0055",
+          "start": 12.024,
+          "word": "That"
+        },
+        {
+          "end": 12.344,
+          "signal_id": "word_0056",
+          "start": 12.244,
+          "word": "one"
+        }
+      ],
+      "ocr_text": "Conversations = L Read 321 lines ) Edit (KanbanDetail.tsx) 24 *, SW? 25 26 **/.Cclaude/settings. local.json wae ) # Playwright traces \u00bb Update th\u00e9 lets claude L HYVES tH Cete-tHe-chett-d vet HE 40-@q: Create-an-endpeintferasynchronet Ade-anexport-butterntethe Adnan (J Build and test \u00bb OK, let's see if this works! ~ Pondering...",
+      "signal_id": "beat_0046",
+      "source_signal_ids": [
+        "ocr_state_0047",
+        "aud_onset_0096"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 690,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0047",
+          "time": 11.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 697,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0096",
+          "time": 11.6167,
+          "weight": 0.8
+        }
+      ],
+      "time": 11.5
+    },
+    {
+      "frame": 705,
+      "near_words": [
+        {
+          "end": 11.964,
+          "signal_id": "word_0054",
+          "start": 11.564,
+          "word": "execute."
+        },
+        {
+          "end": 12.164,
+          "signal_id": "word_0055",
+          "start": 12.024,
+          "word": "That"
+        },
+        {
+          "end": 12.344,
+          "signal_id": "word_0056",
+          "start": 12.244,
+          "word": "one"
+        },
+        {
+          "end": 12.585,
+          "signal_id": "word_0057",
+          "start": 12.364,
+          "word": "shift"
+        }
+      ],
+      "ocr_text": "Conversations \u00bb Update Todos L lavestigate the-data-avaitable te-ex\u00a2 Create-an-endpoin-ferasynebronet (J Build and test \u00bb OK, let's see if this works! . Bash execute IN npm run build Test build OUT Build succeeded with 26 warnir < Pondering...",
+      "signal_id": "beat_0047",
+      "source_signal_ids": [
+        "ocr_state_0048",
+        "aud_onset_0097"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 705,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0048",
+          "time": 11.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 706,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0097",
+          "time": 11.7667,
+          "weight": 0.8
+        }
+      ],
+      "time": 11.75
+    },
+    {
+      "frame": 718,
+      "near_words": [
+        {
+          "end": 12.164,
+          "signal_id": "word_0055",
+          "start": 12.024,
+          "word": "That"
+        },
+        {
+          "end": 12.344,
+          "signal_id": "word_0056",
+          "start": 12.244,
+          "word": "one"
+        },
+        {
+          "end": 12.585,
+          "signal_id": "word_0057",
+          "start": 12.364,
+          "word": "shift"
+        },
+        {
+          "end": 12.905,
+          "signal_id": "word_0058",
+          "start": 12.625,
+          "word": "alone"
+        }
+      ],
+      "ocr_text": "Conversations \u00bb Bash IN npm run build Test build OUT Build succeeded with 26 warnir (Ooo ET a ele \u00bb Cool, now let me add an end-to-end weblt \u00bb Create (testayacute:tsx) 24 *, SW? 25 26 **k/.Claude/settings. local. json weet # Playwright traces . Pondering...",
+      "signal_id": "beat_0048",
+      "source_signal_ids": [
+        "aud_onset_0098",
+        "ocr_state_0049",
+        "vis_diff_0009",
+        "vis_scene_0010",
+        "seg_0006",
+        "aud_onset_0099",
+        "aud_peak_0017"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 718,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0098",
+          "time": 11.9667,
+          "weight": 0.8
+        },
+        {
+          "frame": 720,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0049",
+          "time": 12.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 720,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0009",
+          "time": 12.0,
+          "weight": 1.0
+        },
+        {
+          "frame": 720,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0010",
+          "time": 12.0,
+          "weight": 1.4
+        },
+        {
+          "frame": 721,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0006",
+          "time": 12.024,
+          "weight": 1.1
+        },
+        {
+          "frame": 722,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0099",
+          "time": 12.0333,
+          "weight": 0.8
+        },
+        {
+          "frame": 724,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0017",
+          "time": 12.0667,
+          "weight": 0.7
+        }
+      ],
+      "time": 11.9667
+    },
+    {
+      "frame": 735,
+      "near_words": [
+        {
+          "end": 12.164,
+          "signal_id": "word_0055",
+          "start": 12.024,
+          "word": "That"
+        },
+        {
+          "end": 12.344,
+          "signal_id": "word_0056",
+          "start": 12.244,
+          "word": "one"
+        },
+        {
+          "end": 12.585,
+          "signal_id": "word_0057",
+          "start": 12.364,
+          "word": "shift"
+        },
+        {
+          "end": 12.905,
+          "signal_id": "word_0058",
+          "start": 12.625,
+          "word": "alone"
+        },
+        {
+          "end": 13.245,
+          "signal_id": "word_0059",
+          "start": 12.945,
+          "word": "explains"
+        }
+      ],
+      "ocr_text": "| r qar~ | \\ That one",
+      "signal_id": "beat_0049",
+      "source_signal_ids": [
+        "aud_peak_0018",
+        "ocr_state_0050"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 735,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0018",
+          "time": 12.25,
+          "weight": 0.7
+        },
+        {
+          "frame": 735,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0050",
+          "time": 12.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 12.25
+    },
+    {
+      "frame": 750,
+      "near_words": [
+        {
+          "end": 12.344,
+          "signal_id": "word_0056",
+          "start": 12.244,
+          "word": "one"
+        },
+        {
+          "end": 12.585,
+          "signal_id": "word_0057",
+          "start": 12.364,
+          "word": "shift"
+        },
+        {
+          "end": 12.905,
+          "signal_id": "word_0058",
+          "start": 12.625,
+          "word": "alone"
+        },
+        {
+          "end": 13.245,
+          "signal_id": "word_0059",
+          "start": 12.945,
+          "word": "explains"
+        },
+        {
+          "end": 13.385,
+          "signal_id": "word_0060",
+          "start": 13.285,
+          "word": "why"
+        }
+      ],
+      "ocr_text": "J &x\u00a2- That one\u2019 ~\u201d",
+      "signal_id": "beat_0050",
+      "source_signal_ids": [
+        "ocr_state_0051"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 750,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0051",
+          "time": 12.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 12.5
+    },
+    {
+      "frame": 762,
+      "near_words": [
+        {
+          "end": 12.585,
+          "signal_id": "word_0057",
+          "start": 12.364,
+          "word": "shift"
+        },
+        {
+          "end": 12.905,
+          "signal_id": "word_0058",
+          "start": 12.625,
+          "word": "alone"
+        },
+        {
+          "end": 13.245,
+          "signal_id": "word_0059",
+          "start": 12.945,
+          "word": "explains"
+        },
+        {
+          "end": 13.385,
+          "signal_id": "word_0060",
+          "start": 13.285,
+          "word": "why"
+        },
+        {
+          "end": 13.586,
+          "signal_id": "word_0061",
+          "start": 13.446,
+          "word": "most"
+        }
+      ],
+      "ocr_text": "| a shift alone Sd",
+      "signal_id": "beat_0051",
+      "source_signal_ids": [
+        "aud_onset_0104",
+        "aud_peak_0019",
+        "ocr_state_0052"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 762,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0104",
+          "time": 12.7,
+          "weight": 0.8
+        },
+        {
+          "frame": 764,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0019",
+          "time": 12.7333,
+          "weight": 0.7
+        },
+        {
+          "frame": 765,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0052",
+          "time": 12.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 12.7
+    },
+    {
+      "frame": 779,
+      "near_words": [
+        {
+          "end": 13.245,
+          "signal_id": "word_0059",
+          "start": 12.945,
+          "word": "explains"
+        },
+        {
+          "end": 13.385,
+          "signal_id": "word_0060",
+          "start": 13.285,
+          "word": "why"
+        },
+        {
+          "end": 13.586,
+          "signal_id": "word_0061",
+          "start": 13.446,
+          "word": "most"
+        },
+        {
+          "end": 13.806,
+          "signal_id": "word_0062",
+          "start": 13.606,
+          "word": "people"
+        }
+      ],
+      "ocr_text": "; shift aloftes",
+      "signal_id": "beat_0052",
+      "source_signal_ids": [
+        "aud_onset_0106",
+        "aud_onset_0107"
+      ],
+      "source_types": [
+        "audio_onset"
+      ],
+      "sources": [
+        {
+          "frame": 779,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0106",
+          "time": 12.9833,
+          "weight": 0.8
+        },
+        {
+          "frame": 786,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0107",
+          "time": 13.1,
+          "weight": 0.8
+        }
+      ],
+      "time": 12.9833
+    },
+    {
+      "frame": 795,
+      "near_words": [
+        {
+          "end": 13.245,
+          "signal_id": "word_0059",
+          "start": 12.945,
+          "word": "explains"
+        },
+        {
+          "end": 13.385,
+          "signal_id": "word_0060",
+          "start": 13.285,
+          "word": "why"
+        },
+        {
+          "end": 13.586,
+          "signal_id": "word_0061",
+          "start": 13.446,
+          "word": "most"
+        },
+        {
+          "end": 13.806,
+          "signal_id": "word_0062",
+          "start": 13.606,
+          "word": "people"
+        },
+        {
+          "end": 13.926,
+          "signal_id": "word_0063",
+          "start": 13.826,
+          "word": "get"
+        },
+        {
+          "end": 14.186,
+          "signal_id": "word_0064",
+          "start": 13.966,
+          "word": "messy"
+        }
+      ],
+      "ocr_text": "\"Oo ponmndine at LOS dam ta blerk 2 Viewed Studion Coates (4 (Ie | It] nind meat iO2lamto. Xx nd ne at lO Pam te check onimy pro HH Me At TO am to check on my project Cale | fan toe tte thet trae aye Zo Vd bate etl w na \u201c@ MoA\\o QQ Screen Reader Opt",
+      "signal_id": "beat_0053",
+      "source_signal_ids": [
+        "ocr_state_0053",
+        "vis_diff_0010",
+        "vis_scene_0011"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 795,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0053",
+          "time": 13.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 795,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0010",
+          "time": 13.25,
+          "weight": 1.0
+        },
+        {
+          "frame": 795,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0011",
+          "time": 13.25,
+          "weight": 1.4
+        }
+      ],
+      "time": 13.25
+    },
+    {
+      "frame": 810,
+      "near_words": [
+        {
+          "end": 13.385,
+          "signal_id": "word_0060",
+          "start": 13.285,
+          "word": "why"
+        },
+        {
+          "end": 13.586,
+          "signal_id": "word_0061",
+          "start": 13.446,
+          "word": "most"
+        },
+        {
+          "end": 13.806,
+          "signal_id": "word_0062",
+          "start": 13.606,
+          "word": "people"
+        },
+        {
+          "end": 13.926,
+          "signal_id": "word_0063",
+          "start": 13.826,
+          "word": "get"
+        },
+        {
+          "end": 14.186,
+          "signal_id": "word_0064",
+          "start": 13.966,
+          "word": "messy"
+        },
+        {
+          "end": 14.547,
+          "signal_id": "word_0065",
+          "start": 14.206,
+          "word": "results."
+        }
+      ],
+      "ocr_text": "\"Oo ponmndine at LOS dam ta blerk 2 Viewed Studion Coates (4 (Ie | It] nind meat iO2lamto. Xx nd ne at lO Pam te check onimy pro HH Me At TO am to check on my project Cale | fan toe tte thet trae aye Zo Vd bate etl w na \u201c@ MoA\\o QQ Screen Reader Opt",
+      "signal_id": "beat_0054",
+      "source_signal_ids": [
+        "ocr_state_0054"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 810,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0054",
+          "time": 13.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 13.5
+    },
+    {
+      "frame": 825,
+      "near_words": [
+        {
+          "end": 13.586,
+          "signal_id": "word_0061",
+          "start": 13.446,
+          "word": "most"
+        },
+        {
+          "end": 13.806,
+          "signal_id": "word_0062",
+          "start": 13.606,
+          "word": "people"
+        },
+        {
+          "end": 13.926,
+          "signal_id": "word_0063",
+          "start": 13.826,
+          "word": "get"
+        },
+        {
+          "end": 14.186,
+          "signal_id": "word_0064",
+          "start": 13.966,
+          "word": "messy"
+        },
+        {
+          "end": 14.547,
+          "signal_id": "word_0065",
+          "start": 14.206,
+          "word": "results."
+        }
+      ],
+      "ocr_text": ": Q remind me at 10:23 am to... - Herk-2 - Visual Studio Code Ct v 08 O GB nind me at 10:23 am to... X nd me at 10:23 am to check on my pro... v Perea Today is March 7, 2026. Setting a one-shot reminder for 10:23 AM. CronCreate ( gq \u201ccron\u201d: \"23 10 73\u00b0\", \u201cprompt\u2122: \u201cRemind Nate: Check on your project.\u201d, Scheduled one-shot task 482d071b (23 10 7 3 *). Session-only (not written to disk, dies whe: Reminder set for 10:23 AM today. I'll ping you to check on your project. Just keep this session open -- tt only works while Claude is running. ctrl esc to focus o y p p 7 Ask before edits a ng @ Woo @ Screen Reader Opt",
+      "signal_id": "beat_0055",
+      "source_signal_ids": [
+        "ocr_state_0055"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 825,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0055",
+          "time": 13.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 13.75
+    },
+    {
+      "frame": 840,
+      "near_words": [
+        {
+          "end": 13.926,
+          "signal_id": "word_0063",
+          "start": 13.826,
+          "word": "get"
+        },
+        {
+          "end": 14.186,
+          "signal_id": "word_0064",
+          "start": 13.966,
+          "word": "messy"
+        },
+        {
+          "end": 14.547,
+          "signal_id": "word_0065",
+          "start": 14.206,
+          "word": "results."
+        },
+        {
+          "end": 14.747,
+          "signal_id": "word_0066",
+          "start": 14.687,
+          "word": "And"
+        },
+        {
+          "end": 14.927,
+          "signal_id": "word_0067",
+          "start": 14.787,
+          "word": "that's"
+        }
+      ],
+      "ocr_text": "\u201cprompt\u201d: \u201cRemind Nate: Check on your project.\u00b0 Scheduled one-shot task 402d071b (23 10 7 3 *). | @ Reminder set for 10:23 AM today. I'll ping you to check on only works while Claude is running. @ Hey Nate -- this is your reminder to check on your project. trl esc to focus or unfocus Claude ,, Why most people g-turings\u00ae & WoAo",
+      "signal_id": "beat_0056",
+      "source_signal_ids": [
+        "ocr_state_0056"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 840,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0056",
+          "time": 14.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 14.0
+    },
+    {
+      "frame": 855,
+      "near_words": [
+        {
+          "end": 14.186,
+          "signal_id": "word_0064",
+          "start": 13.966,
+          "word": "messy"
+        },
+        {
+          "end": 14.547,
+          "signal_id": "word_0065",
+          "start": 14.206,
+          "word": "results."
+        },
+        {
+          "end": 14.747,
+          "signal_id": "word_0066",
+          "start": 14.687,
+          "word": "And"
+        },
+        {
+          "end": 14.927,
+          "signal_id": "word_0067",
+          "start": 14.787,
+          "word": "that's"
+        },
+        {
+          "end": 15.047,
+          "signal_id": "word_0068",
+          "start": 14.947,
+          "word": "not"
+        }
+      ],
+      "ocr_text": "> 4 every ten minutes, cneck... - Herk-\u00a2 - visual stuaio Loge wy Uo Bw Bry ten minutes, check... X s ten minutes, check my clickup to see... v ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Queue another message... get ft 4 Ask before edits g ng @ @oAo @Q Screen Reader Opt",
+      "signal_id": "beat_0057",
+      "source_signal_ids": [
+        "ocr_state_0057"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 855,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0057",
+          "time": 14.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 14.25
+    },
+    {
+      "frame": 870,
+      "near_words": [
+        {
+          "end": 14.547,
+          "signal_id": "word_0065",
+          "start": 14.206,
+          "word": "results."
+        },
+        {
+          "end": 14.747,
+          "signal_id": "word_0066",
+          "start": 14.687,
+          "word": "And"
+        },
+        {
+          "end": 14.927,
+          "signal_id": "word_0067",
+          "start": 14.787,
+          "word": "that's"
+        },
+        {
+          "end": 15.047,
+          "signal_id": "word_0068",
+          "start": 14.947,
+          "word": "not"
+        },
+        {
+          "end": 15.207,
+          "signal_id": "word_0069",
+          "start": 15.087,
+          "word": "all."
+        },
+        {
+          "end": 15.368,
+          "signal_id": "word_0070",
+          "start": 15.288,
+          "word": "He"
+        }
+      ],
+      "ocr_text": "7 A SVETY (CH IIMEIULES, CHECK... \" MC e ~ Vidudl SUUIY LuUe band - uo @ ww Bry ten minutes, check... | s ten minutes, check my clickup to see... v ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Thinking ~ leop skill Cooking... Queue another message... resu WS / Ask before edits 8 ng @ @WoAdo @ Screen Reader Opt",
+      "signal_id": "beat_0058",
+      "source_signal_ids": [
+        "aud_onset_0120",
+        "ocr_state_0058",
+        "vis_diff_0011",
+        "vis_scene_0012"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 870,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0120",
+          "time": 14.5,
+          "weight": 0.8
+        },
+        {
+          "frame": 870,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0058",
+          "time": 14.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 879,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0011",
+          "time": 14.65,
+          "weight": 1.0
+        },
+        {
+          "frame": 879,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0012",
+          "time": 14.65,
+          "weight": 1.4
+        }
+      ],
+      "time": 14.5
+    },
+    {
+      "frame": 881,
+      "near_words": [
+        {
+          "end": 14.747,
+          "signal_id": "word_0066",
+          "start": 14.687,
+          "word": "And"
+        },
+        {
+          "end": 14.927,
+          "signal_id": "word_0067",
+          "start": 14.787,
+          "word": "that's"
+        },
+        {
+          "end": 15.047,
+          "signal_id": "word_0068",
+          "start": 14.947,
+          "word": "not"
+        },
+        {
+          "end": 15.207,
+          "signal_id": "word_0069",
+          "start": 15.087,
+          "word": "all."
+        },
+        {
+          "end": 15.368,
+          "signal_id": "word_0070",
+          "start": 15.288,
+          "word": "He"
+        },
+        {
+          "end": 15.548,
+          "signal_id": "word_0071",
+          "start": 15.388,
+          "word": "keeps"
+        }
+      ],
+      "ocr_text": "\u2019 A every corr rsa, CGE. \u2014 FIGTACe \u2014 visual guy Reus - ua as \u00a9 Bry ten minutes, check... s ten minutes, check my clickup to see... v Thinking loop skill CronCreate - \u00a3 \u201ccron: \"*/19 * = * #, \u201cprompt\u201d: \u201cCheck ClickUp for any new developments on the project Greengrass. Look for new Scheduled recurring job 3a196c23 (Every 10 minutes). Session-only (not written to disk, die Scheduled. Here's the summary: Crafting... Queue another message... resu lts / Ask before edits g ng @ Woo @Q Screen Reader Opt",
+      "signal_id": "beat_0059",
+      "source_signal_ids": [
+        "seg_0007",
+        "ocr_state_0059"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "transcript_segment_start"
+      ],
+      "sources": [
+        {
+          "frame": 881,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0007",
+          "time": 14.687,
+          "weight": 1.1
+        },
+        {
+          "frame": 885,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0059",
+          "time": 14.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 14.687
+    },
+    {
+      "frame": 915,
+      "near_words": [
+        {
+          "end": 15.047,
+          "signal_id": "word_0068",
+          "start": 14.947,
+          "word": "not"
+        },
+        {
+          "end": 15.207,
+          "signal_id": "word_0069",
+          "start": 15.087,
+          "word": "all."
+        },
+        {
+          "end": 15.368,
+          "signal_id": "word_0070",
+          "start": 15.288,
+          "word": "He"
+        },
+        {
+          "end": 15.548,
+          "signal_id": "word_0071",
+          "start": 15.388,
+          "word": "keeps"
+        },
+        {
+          "end": 15.668,
+          "signal_id": "word_0072",
+          "start": 15.588,
+          "word": "his"
+        },
+        {
+          "end": 15.928,
+          "signal_id": "word_0073",
+          "start": 15.708,
+          "word": "Claude"
+        },
+        {
+          "end": 16.168,
+          "signal_id": "word_0074",
+          "start": 15.948,
+          "word": "file"
+        }
+      ],
+      "ocr_text": "\u00a5 not all",
+      "signal_id": "beat_0060",
+      "source_signal_ids": [
+        "ocr_state_0061",
+        "vis_diff_0012",
+        "vis_scene_0013",
+        "aud_onset_0126",
+        "seg_0008",
+        "aud_onset_0127"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 915,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0061",
+          "time": 15.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 915,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0012",
+          "time": 15.25,
+          "weight": 1.0
+        },
+        {
+          "frame": 915,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0013",
+          "time": 15.25,
+          "weight": 1.4
+        },
+        {
+          "frame": 917,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0126",
+          "time": 15.2833,
+          "weight": 0.8
+        },
+        {
+          "frame": 917,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0008",
+          "time": 15.288,
+          "weight": 1.1
+        },
+        {
+          "frame": 922,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0127",
+          "time": 15.3667,
+          "weight": 0.8
+        }
+      ],
+      "time": 15.25
+    },
+    {
+      "frame": 926,
+      "near_words": [
+        {
+          "end": 15.207,
+          "signal_id": "word_0069",
+          "start": 15.087,
+          "word": "all."
+        },
+        {
+          "end": 15.368,
+          "signal_id": "word_0070",
+          "start": 15.288,
+          "word": "He"
+        },
+        {
+          "end": 15.548,
+          "signal_id": "word_0071",
+          "start": 15.388,
+          "word": "keeps"
+        },
+        {
+          "end": 15.668,
+          "signal_id": "word_0072",
+          "start": 15.588,
+          "word": "his"
+        },
+        {
+          "end": 15.928,
+          "signal_id": "word_0073",
+          "start": 15.708,
+          "word": "Claude"
+        },
+        {
+          "end": 16.168,
+          "signal_id": "word_0074",
+          "start": 15.948,
+          "word": "file"
+        },
+        {
+          "end": 16.489,
+          "signal_id": "word_0075",
+          "start": 16.189,
+          "word": "simple,"
+        }
+      ],
+      "ocr_text": "FAINHALL VIG @ Thinking ~ @ What skill would you like to create or improve? Give me a brief description of what you have in mind, and I'll help you build it out. build a skill with the 3d asset generator on the left Uitte 4 %* Cooking... Queue another message... 7 Ask before edits </> Untitled-1 6 / | Cavane",
+      "signal_id": "beat_0061",
+      "source_signal_ids": [
+        "aud_peak_0020",
+        "ocr_state_0062"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 926,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0020",
+          "time": 15.4333,
+          "weight": 0.7
+        },
+        {
+          "frame": 930,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0062",
+          "time": 15.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 15.4333
+    },
+    {
+      "frame": 942,
+      "near_words": [
+        {
+          "end": 15.548,
+          "signal_id": "word_0071",
+          "start": 15.388,
+          "word": "keeps"
+        },
+        {
+          "end": 15.668,
+          "signal_id": "word_0072",
+          "start": 15.588,
+          "word": "his"
+        },
+        {
+          "end": 15.928,
+          "signal_id": "word_0073",
+          "start": 15.708,
+          "word": "Claude"
+        },
+        {
+          "end": 16.168,
+          "signal_id": "word_0074",
+          "start": 15.948,
+          "word": "file"
+        },
+        {
+          "end": 16.489,
+          "signal_id": "word_0075",
+          "start": 16.189,
+          "word": "simple,"
+        }
+      ],
+      "ocr_text": "FAIRALY VIVLatvi @ Thinking \u00b0\u2019 @ What skill would you like to create or improve? Give me a brief description of what you have in mind, and I'll help you build it out. build a skill with the 3d asset generator on the left + Cooking... his Claude files {Queue another message... 7 Ask before edits <i> Untitled-1 oe / | | Caeane",
+      "signal_id": "beat_0062",
+      "source_signal_ids": [
+        "aud_onset_0129",
+        "ocr_state_0063",
+        "aud_onset_0130",
+        "aud_peak_0021"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 942,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0129",
+          "time": 15.7,
+          "weight": 0.8
+        },
+        {
+          "frame": 945,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0063",
+          "time": 15.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 946,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0130",
+          "time": 15.7667,
+          "weight": 0.8
+        },
+        {
+          "frame": 947,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0021",
+          "time": 15.7833,
+          "weight": 0.7
+        }
+      ],
+      "time": 15.7
+    },
+    {
+      "frame": 960,
+      "near_words": [
+        {
+          "end": 15.928,
+          "signal_id": "word_0073",
+          "start": 15.708,
+          "word": "Claude"
+        },
+        {
+          "end": 16.168,
+          "signal_id": "word_0074",
+          "start": 15.948,
+          "word": "file"
+        },
+        {
+          "end": 16.489,
+          "signal_id": "word_0075",
+          "start": 16.189,
+          "word": "simple,"
+        },
+        {
+          "end": 16.729,
+          "signal_id": "word_0076",
+          "start": 16.569,
+          "word": "makes"
+        },
+        {
+          "end": 17.009,
+          "signal_id": "word_0077",
+          "start": 16.769,
+          "word": "Claude"
+        }
+      ],
+      "ocr_text": "] e Skillis installed and already active. Now let me set up test cases and run them. e@ Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft assertions while runs are in progress Grade, aggregate, and launch eval viewer Iterate based on feedback @ Let me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classi@ase from the skill's own examples \u201c 2. Tropical smoothie \u2014 tests wSpapveverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Hil go cB a Be sk la a ria 1S e@ Bash Create workspace and evals directories . mkdir -p ~/.claude/skills/scroll-stop-prompter\u2014 Q * Forfj tating... Queue another message... 7 Ask before edits </> Untitled-1 ef || Oaeane",
+      "signal_id": "beat_0063",
+      "source_signal_ids": [
+        "ocr_state_0064",
+        "aud_peak_0022"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 960,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0064",
+          "time": 16.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 961,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0022",
+          "time": 16.0167,
+          "weight": 0.7
+        }
+      ],
+      "time": 16.0
+    },
+    {
+      "frame": 974,
+      "near_words": [
+        {
+          "end": 16.168,
+          "signal_id": "word_0074",
+          "start": 15.948,
+          "word": "file"
+        },
+        {
+          "end": 16.489,
+          "signal_id": "word_0075",
+          "start": 16.189,
+          "word": "simple,"
+        },
+        {
+          "end": 16.729,
+          "signal_id": "word_0076",
+          "start": 16.569,
+          "word": "makes"
+        },
+        {
+          "end": 17.009,
+          "signal_id": "word_0077",
+          "start": 16.769,
+          "word": "Claude"
+        }
+      ],
+      "ocr_text": "mkdir -p ~/.claude/skills/scroll-stop-prompter/< Q e@ Skill is installed and already active. Now Jet me set up test cases and run them. e Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft assertions while runs are in progress Grade, aggregate, and launch eval viewer lterate based on feedback e@ Let me create the workspac test cases. Here are 3 realistic prompts I'd use to t 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different comocnent types a a oon Us.Claude.files I'll go ahead and set them up while you think about it. e@ Bash Create workspace and evals directories mkdir -p ~/.claude/skills/scroll-stop-prompter-\u2014y @ + Forming... Queue another message... 7 Ask before edits <i> Untitled-1 e f | Careane",
+      "signal_id": "beat_0064",
+      "source_signal_ids": [
+        "aud_onset_0134",
+        "ocr_state_0065"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 974,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0134",
+          "time": 16.2333,
+          "weight": 0.8
+        },
+        {
+          "frame": 975,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0065",
+          "time": 16.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 16.2333
+    },
+    {
+      "frame": 990,
+      "near_words": [
+        {
+          "end": 16.489,
+          "signal_id": "word_0075",
+          "start": 16.189,
+          "word": "simple,"
+        },
+        {
+          "end": 16.729,
+          "signal_id": "word_0076",
+          "start": 16.569,
+          "word": "makes"
+        },
+        {
+          "end": 17.009,
+          "signal_id": "word_0077",
+          "start": 16.769,
+          "word": "Claude"
+        },
+        {
+          "end": 17.25,
+          "signal_id": "word_0078",
+          "start": 17.049,
+          "word": "check"
+        },
+        {
+          "end": 17.37,
+          "signal_id": "word_0079",
+          "start": 17.29,
+          "word": "its"
+        }
+      ],
+      "ocr_text": "- @ e Skillis installed and already active. Now let me set up test cases and run them. e Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft asserti_ns while runs are in progress Grade, aggr and launch eval viewer Iterate base eedback @ tet me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Do these look good, Sj We a\u201d any out? I'll go ahead and set m ink about it. @ Bash Create workspace and evals directories . mkdir -p ~/.claude/skills/scroll-stop-\u2014prompter-\u2014\u00bb+ C] * Forming... Queue another message... #4 Ask before edits </> Untitled-1 ge / || Cavane",
+      "signal_id": "beat_0065",
+      "source_signal_ids": [
+        "ocr_state_0066",
+        "vis_diff_0013",
+        "vis_scene_0014",
+        "aud_onset_0136"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 990,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0066",
+          "time": 16.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 991,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0013",
+          "time": 16.5167,
+          "weight": 1.0
+        },
+        {
+          "frame": 991,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0014",
+          "time": 16.5167,
+          "weight": 1.4
+        },
+        {
+          "frame": 993,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0136",
+          "time": 16.55,
+          "weight": 0.8
+        }
+      ],
+      "time": 16.5
+    },
+    {
+      "frame": 1005,
+      "near_words": [
+        {
+          "end": 16.729,
+          "signal_id": "word_0076",
+          "start": 16.569,
+          "word": "makes"
+        },
+        {
+          "end": 17.009,
+          "signal_id": "word_0077",
+          "start": 16.769,
+          "word": "Claude"
+        },
+        {
+          "end": 17.25,
+          "signal_id": "word_0078",
+          "start": 17.049,
+          "word": "check"
+        },
+        {
+          "end": 17.37,
+          "signal_id": "word_0079",
+          "start": 17.29,
+          "word": "its"
+        },
+        {
+          "end": 17.53,
+          "signal_id": "word_0080",
+          "start": 17.41,
+          "word": "own"
+        }
+      ],
+      "ocr_text": "e@ Skillis installed and already active. Now let me set up test cases and run them. @ Update Todos * Set up test cases for scroll-stop-prompter skill Run t@ej cases (with-skill and baseline) in parailel Draft ions while runs are in progress Grade, regate, and launch eval viewer Iterate based on feedback @ Let me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Do these look good, Sj ny a\u201d any out? I'll go ahead and set mn ink about it. @ Bash Create workspace and evals directories '. mkdir -p ~/.claude/skills/scroll-stop-prompter\u2014\u00bb @ * Forming... Queue another message... 4 Ask before edits </> Untitled-1 6 || Cavane",
+      "signal_id": "beat_0066",
+      "source_signal_ids": [
+        "ocr_state_0067",
+        "aud_onset_0139",
+        "aud_peak_0023"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1005,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0067",
+          "time": 16.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 1010,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0139",
+          "time": 16.8333,
+          "weight": 0.8
+        },
+        {
+          "frame": 1013,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0023",
+          "time": 16.8833,
+          "weight": 0.7
+        }
+      ],
+      "time": 16.75
+    },
+    {
+      "frame": 1020,
+      "near_words": [
+        {
+          "end": 17.009,
+          "signal_id": "word_0077",
+          "start": 16.769,
+          "word": "Claude"
+        },
+        {
+          "end": 17.25,
+          "signal_id": "word_0078",
+          "start": 17.049,
+          "word": "check"
+        },
+        {
+          "end": 17.37,
+          "signal_id": "word_0079",
+          "start": 17.29,
+          "word": "its"
+        },
+        {
+          "end": 17.53,
+          "signal_id": "word_0080",
+          "start": 17.41,
+          "word": "own"
+        },
+        {
+          "end": 17.75,
+          "signal_id": "word_0081",
+          "start": 17.57,
+          "word": "work,"
+        },
+        {
+          "end": 17.87,
+          "signal_id": "word_0082",
+          "start": 17.77,
+          "word": "and"
+        }
+      ],
+      "ocr_text": "del Opus plan configuration \u00a9 \u00ab he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen ig onPress={ => navigation.navigate( \u2018CameraPermission' } o \u2018Platform.0S === \u2018web\u2019 2 navigation.replace(\u2018Main\u2019) | | a navigation. navigate( \u2018CameraPermission\u2019 )} Now fix CameraPermissionView \u2014 \u201cNot now\" \u2014 Main, and add ScrollView: Edit c:\\Users\\shubh\\OneDrive\\oocuments\\PickleCoach\\src\\screens\\onboarding \\CameraPermissionView.ts x tlodificd CC import { View, Text, StyleSheet, TouchableOpacity, Linking, Platform } from 5 \"peact-native\u2019; ofimport { View, Text, StyleSheet, TouchableQpacity, Linking, Platforal, ScrollVied } | a Edit \u00a2:\\Users\\shubh\\OneDrive\\Documents \\PickleCoach\\sre\\sereens \\onboarding \\CameraPermissionView.ts x Added 1 line a <ScrollView contentContainerStyle={s.scroilCont\u00e9nt} showsVerticalScrollindicator= q {/* Main Content Canvas -\u2014 pt-24 pb-12 flex flex-col items-center text-center \u00b0/} <View style={s.main}> ctrl esc to focus or unfocus Claude t \u00ae Askbeforeedits \u201cT",
+      "signal_id": "beat_0067",
+      "source_signal_ids": [
+        "ocr_state_0068",
+        "aud_onset_0141",
+        "aud_peak_0024"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1020,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0068",
+          "time": 17.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 1027,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0141",
+          "time": 17.1167,
+          "weight": 0.8
+        },
+        {
+          "frame": 1028,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0024",
+          "time": 17.1333,
+          "weight": 0.7
+        }
+      ],
+      "time": 17.0
+    },
+    {
+      "frame": 1034,
+      "near_words": [
+        {
+          "end": 17.25,
+          "signal_id": "word_0078",
+          "start": 17.049,
+          "word": "check"
+        },
+        {
+          "end": 17.37,
+          "signal_id": "word_0079",
+          "start": 17.29,
+          "word": "its"
+        },
+        {
+          "end": 17.53,
+          "signal_id": "word_0080",
+          "start": 17.41,
+          "word": "own"
+        },
+        {
+          "end": 17.75,
+          "signal_id": "word_0081",
+          "start": 17.57,
+          "word": "work,"
+        },
+        {
+          "end": 17.87,
+          "signal_id": "word_0082",
+          "start": 17.77,
+          "word": "and"
+        },
+        {
+          "end": 18.091,
+          "signal_id": "word_0083",
+          "start": 17.91,
+          "word": "runs"
+        }
+      ],
+      "ocr_text": "de! Opus plan configuration Y \u00ab he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Now I'll make both fixes \u2014 on web, \u201cGet started\u201d skips to Main, and \u201cNot now\u201d also goes to Main: Edit c:\\users\\shubh\\OneDrive\\Documents \\Picklecoach\\src\\screens\\onboarding\\SplashView.tsx Modified import React from \u2018react\u2019; | tC. import _{ View, Text, StyleSheet, TouchableOpacit: from \u2018react-native' ; Okimport { View, Text, StyleSheet, TouchableOpacit: from \u2018react-native\u2019 ; . import { SafeAreaView } from \u2018react-native-safe-area-context\u2018; Edit c:\\users\\shubh\\OneDrive\\Documents \\PickleCcoach\\src\\screens \\onboarding\\Splashview.tsx Modified ca onPress=: => navigation.navigate( 'CameraPermission\u2019 e Platform.05 === \u2018web\u2019 2 navigation:neplace(\"Main') | i Q navigation. navigate( 'CameraPermission' ) Now fix CameraPermissionView \u2014 \u201cNot now\u201d \u2014 Main, and add ScrollView: Edit _c:\\uUsers\\shubh\\OneDrive\\Oocuments \\PickleCoach\\src\\screens \\onboarding\\CameraPermissionView.ts trl esc to focus or unfocus Claude f- \u00ae Ask before edits check its",
+      "signal_id": "beat_0068",
+      "source_signal_ids": [
+        "aud_onset_0142",
+        "ocr_state_0069"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1034,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0142",
+          "time": 17.2333,
+          "weight": 0.8
+        },
+        {
+          "frame": 1035,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0069",
+          "time": 17.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 17.2333
+    },
+    {
+      "frame": 1050,
+      "near_words": [
+        {
+          "end": 17.37,
+          "signal_id": "word_0079",
+          "start": 17.29,
+          "word": "its"
+        },
+        {
+          "end": 17.53,
+          "signal_id": "word_0080",
+          "start": 17.41,
+          "word": "own"
+        },
+        {
+          "end": 17.75,
+          "signal_id": "word_0081",
+          "start": 17.57,
+          "word": "work,"
+        },
+        {
+          "end": 17.87,
+          "signal_id": "word_0082",
+          "start": 17.77,
+          "word": "and"
+        },
+        {
+          "end": 18.091,
+          "signal_id": "word_0083",
+          "start": 17.91,
+          "word": "runs"
+        },
+        {
+          "end": 18.411,
+          "signal_id": "word_0084",
+          "start": 18.151,
+          "word": "separate"
+        }
+      ],
+      "ocr_text": "de! Opus plan configuration Y \u00a2 he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Read \u00a2:\\Users\\shubh\\OneDrive \\Documents\\PickleCoach\\sre\\screens\\onboarding\\SplashView.tsx Now I'll make both fixes \u2014 on web, \u201cGet started\u201d skips to Main, and \u201cNot now\u201d also goes to Main: Edit \u00a2:\\users\\shubh\\Onedrive\\Oocuments \\PickleCoach\\src\\screens \\onboarding \\Splashview.tsx Modified ) import React from \u2018react\u2019; CO import _{ View, Text, StyleSheet, TouchableOpacit: from \u2018react-native' ; Slimport { View, Text, StyleSheet, TouchableOpacity,. Platfors } from \u2018react-native\u2019; import { SafeAreaView } from \u2018react-native-safe-area-context '; Edit \u00a2:\\Users\\shubh\\Onedrive\\Documents \\PickleCoach\\sre\\screens \\onboarding \\SplashView.tsx Modified co onPress= => navigation. navigate( \u2018CameraPermission\u2019 a \u2018Platform.0S sas \u2018web\u2019 ? navigation.replace(\"Main') | | Q : \"navigation. navigate( \u2018CameraPermission\u2019 ) trl esc to focus or unfocus Claude + \u00ae Askbeforeedits check its",
+      "signal_id": "beat_0069",
+      "source_signal_ids": [
+        "ocr_state_0070"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1050,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0070",
+          "time": 17.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 17.5
+    },
+    {
+      "frame": 1063,
+      "near_words": [
+        {
+          "end": 17.53,
+          "signal_id": "word_0080",
+          "start": 17.41,
+          "word": "own"
+        },
+        {
+          "end": 17.75,
+          "signal_id": "word_0081",
+          "start": 17.57,
+          "word": "work,"
+        },
+        {
+          "end": 17.87,
+          "signal_id": "word_0082",
+          "start": 17.77,
+          "word": "and"
+        },
+        {
+          "end": 18.091,
+          "signal_id": "word_0083",
+          "start": 17.91,
+          "word": "runs"
+        },
+        {
+          "end": 18.411,
+          "signal_id": "word_0084",
+          "start": 18.151,
+          "word": "separate"
+        },
+        {
+          "end": 18.791,
+          "signal_id": "word_0085",
+          "start": 18.451,
+          "word": "sessions"
+        }
+      ],
+      "ocr_text": "de! Opus plan configuration Y \u00a2 he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Bash Read navigation config -. Cat \u201c/e/Users/shubh/Onedrive/Documents/PickleCoach/sre/navigation/index.tsx\u201d 2>/dev/null | \u201ciT import React, { uset&ffect, useState } from \u2018react\u2019; import { NavigationContainer } from \u2018@react-navigation/native' ; import { createStackNavigator } from \u2018@react-navigation/stack\u2019 ; . | Thinking > Two fixes needed: \"Not now\" should go to Main, and the screen needs a ScrollView. Let me also check SplashView since that starts the flow. Bash Check SplashView navigation -. grep -n \u201cnavigate\\lonPress\u201d \u201c/c/Users/shubh/Onedrive/Documents/PickleCoach/src/screens/onb lhi 43: onPress={(} => navigation. navigate( \u2018CameraPermission\u2019 )} Three fixes in CameraPermissionView: 1. On web \u2014 skip the screen entirely from SplashView 2. \"Not now\u201d ~ goes straight to Main 3. Wrap in ScrallView trl esc to focus or unfocus Claude f- \u00ae Askbefore edits",
+      "signal_id": "beat_0070",
+      "source_signal_ids": [
+        "vis_diff_0014",
+        "vis_scene_0015",
+        "ocr_state_0071"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 1063,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0014",
+          "time": 17.7167,
+          "weight": 1.0
+        },
+        {
+          "frame": 1063,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0015",
+          "time": 17.7167,
+          "weight": 1.4
+        },
+        {
+          "frame": 1065,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0071",
+          "time": 17.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 17.7167
+    },
+    {
+      "frame": 1076,
+      "near_words": [
+        {
+          "end": 17.87,
+          "signal_id": "word_0082",
+          "start": 17.77,
+          "word": "and"
+        },
+        {
+          "end": 18.091,
+          "signal_id": "word_0083",
+          "start": 17.91,
+          "word": "runs"
+        },
+        {
+          "end": 18.411,
+          "signal_id": "word_0084",
+          "start": 18.151,
+          "word": "separate"
+        },
+        {
+          "end": 18.791,
+          "signal_id": "word_0085",
+          "start": 18.451,
+          "word": "sessions"
+        }
+      ],
+      "ocr_text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u201cand runs \u2019",
+      "signal_id": "beat_0071",
+      "source_signal_ids": [
+        "aud_peak_0025",
+        "ocr_state_0072",
+        "aud_onset_0149"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1076,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0025",
+          "time": 17.9333,
+          "weight": 0.7
+        },
+        {
+          "frame": 1080,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0072",
+          "time": 18.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 1083,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0149",
+          "time": 18.05,
+          "weight": 0.8
+        }
+      ],
+      "time": 17.9333
+    },
+    {
+      "frame": 1091,
+      "near_words": [
+        {
+          "end": 18.091,
+          "signal_id": "word_0083",
+          "start": 17.91,
+          "word": "runs"
+        },
+        {
+          "end": 18.411,
+          "signal_id": "word_0084",
+          "start": 18.151,
+          "word": "separate"
+        },
+        {
+          "end": 18.791,
+          "signal_id": "word_0085",
+          "start": 18.451,
+          "word": "sessions"
+        },
+        {
+          "end": 18.972,
+          "signal_id": "word_0086",
+          "start": 18.851,
+          "word": "for"
+        }
+      ],
+      "ocr_text": "- Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u201cand runs \u201ca",
+      "signal_id": "beat_0072",
+      "source_signal_ids": [
+        "aud_onset_0150",
+        "aud_peak_0026",
+        "ocr_state_0073"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1091,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0150",
+          "time": 18.1833,
+          "weight": 0.8
+        },
+        {
+          "frame": 1092,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0026",
+          "time": 18.2,
+          "weight": 0.7
+        },
+        {
+          "frame": 1095,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0073",
+          "time": 18.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 18.1833
+    },
+    {
+      "frame": 1110,
+      "near_words": [
+        {
+          "end": 18.411,
+          "signal_id": "word_0084",
+          "start": 18.151,
+          "word": "separate"
+        },
+        {
+          "end": 18.791,
+          "signal_id": "word_0085",
+          "start": 18.451,
+          "word": "sessions"
+        },
+        {
+          "end": 18.972,
+          "signal_id": "word_0086",
+          "start": 18.851,
+          "word": "for"
+        },
+        {
+          "end": 19.292,
+          "signal_id": "word_0087",
+          "start": 19.012,
+          "word": "separate"
+        }
+      ],
+      "ocr_text": "\u00b0 Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... separate ; y",
+      "signal_id": "beat_0073",
+      "source_signal_ids": [
+        "aud_peak_0027",
+        "ocr_state_0074"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1110,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0027",
+          "time": 18.5,
+          "weight": 0.7
+        },
+        {
+          "frame": 1110,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0074",
+          "time": 18.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 18.5
+    },
+    {
+      "frame": 1125,
+      "near_words": [
+        {
+          "end": 18.791,
+          "signal_id": "word_0085",
+          "start": 18.451,
+          "word": "sessions"
+        },
+        {
+          "end": 18.972,
+          "signal_id": "word_0086",
+          "start": 18.851,
+          "word": "for"
+        },
+        {
+          "end": 19.292,
+          "signal_id": "word_0087",
+          "start": 19.012,
+          "word": "separate"
+        },
+        {
+          "end": 19.712,
+          "signal_id": "word_0088",
+          "start": 19.312,
+          "word": "problems."
+        }
+      ],
+      "ocr_text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... sessions bn y . 7",
+      "signal_id": "beat_0074",
+      "source_signal_ids": [
+        "ocr_state_0075"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1125,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0075",
+          "time": 18.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 18.75
+    },
+    {
+      "frame": 1140,
+      "near_words": [
+        {
+          "end": 18.972,
+          "signal_id": "word_0086",
+          "start": 18.851,
+          "word": "for"
+        },
+        {
+          "end": 19.292,
+          "signal_id": "word_0087",
+          "start": 19.012,
+          "word": "separate"
+        },
+        {
+          "end": 19.712,
+          "signal_id": "word_0088",
+          "start": 19.312,
+          "word": "problems."
+        },
+        {
+          "end": 19.893,
+          "signal_id": "word_0089",
+          "start": 19.792,
+          "word": "So"
+        }
+      ],
+      "ocr_text": "Foy Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... sessions eo | | . 1",
+      "signal_id": "beat_0075",
+      "source_signal_ids": [
+        "ocr_state_0076"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1140,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0076",
+          "time": 19.0,
+          "weight": 1.3
+        }
+      ],
+      "time": 19.0
+    },
+    {
+      "frame": 1155,
+      "near_words": [
+        {
+          "end": 19.292,
+          "signal_id": "word_0087",
+          "start": 19.012,
+          "word": "separate"
+        },
+        {
+          "end": 19.712,
+          "signal_id": "word_0088",
+          "start": 19.312,
+          "word": "problems."
+        },
+        {
+          "end": 19.893,
+          "signal_id": "word_0089",
+          "start": 19.792,
+          "word": "So"
+        },
+        {
+          "end": 20.053,
+          "signal_id": "word_0090",
+          "start": 19.913,
+          "word": "he's"
+        }
+      ],
+      "ocr_text": "\u00bb Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... IQ) for separate 1 t. \u2018 . ~\u2014-",
+      "signal_id": "beat_0076",
+      "source_signal_ids": [
+        "ocr_state_0077"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1155,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0077",
+          "time": 19.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 19.25
+    },
+    {
+      "frame": 1180,
+      "near_words": [
+        {
+          "end": 19.893,
+          "signal_id": "word_0089",
+          "start": 19.792,
+          "word": "So"
+        },
+        {
+          "end": 20.053,
+          "signal_id": "word_0090",
+          "start": 19.913,
+          "word": "he's"
+        },
+        {
+          "end": 20.213,
+          "signal_id": "word_0091",
+          "start": 20.093,
+          "word": "not"
+        },
+        {
+          "end": 20.353,
+          "signal_id": "word_0092",
+          "start": 20.233,
+          "word": "just"
+        },
+        {
+          "end": 20.713,
+          "signal_id": "word_0093",
+          "start": 20.393,
+          "word": "prompting"
+        }
+      ],
+      "ocr_text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u2018problems",
+      "signal_id": "beat_0077",
+      "source_signal_ids": [
+        "aud_onset_0164",
+        "vis_diff_0015",
+        "vis_scene_0016",
+        "ocr_state_0078",
+        "seg_0009"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 1180,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0164",
+          "time": 19.6667,
+          "weight": 0.8
+        },
+        {
+          "frame": 1184,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0015",
+          "time": 19.7333,
+          "weight": 1.0
+        },
+        {
+          "frame": 1184,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0016",
+          "time": 19.7333,
+          "weight": 1.4
+        },
+        {
+          "frame": 1185,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0078",
+          "time": 19.75,
+          "weight": 1.3
+        },
+        {
+          "frame": 1188,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0009",
+          "time": 19.792,
+          "weight": 1.1
+        }
+      ],
+      "time": 19.6667
+    },
+    {
+      "frame": 1204,
+      "near_words": [
+        {
+          "end": 19.893,
+          "signal_id": "word_0089",
+          "start": 19.792,
+          "word": "So"
+        },
+        {
+          "end": 20.053,
+          "signal_id": "word_0090",
+          "start": 19.913,
+          "word": "he's"
+        },
+        {
+          "end": 20.213,
+          "signal_id": "word_0091",
+          "start": 20.093,
+          "word": "not"
+        },
+        {
+          "end": 20.353,
+          "signal_id": "word_0092",
+          "start": 20.233,
+          "word": "just"
+        },
+        {
+          "end": 20.713,
+          "signal_id": "word_0093",
+          "start": 20.393,
+          "word": "prompting"
+        },
+        {
+          "end": 20.994,
+          "signal_id": "word_0094",
+          "start": 20.753,
+          "word": "better,"
+        }
+      ],
+      "ocr_text": "} a nell",
+      "signal_id": "beat_0078",
+      "source_signal_ids": [
+        "aud_onset_0168",
+        "aud_peak_0028"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset"
+      ],
+      "sources": [
+        {
+          "frame": 1204,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0168",
+          "time": 20.0667,
+          "weight": 0.8
+        },
+        {
+          "frame": 1206,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0028",
+          "time": 20.1,
+          "weight": 0.7
+        }
+      ],
+      "time": 20.0667
+    },
+    {
+      "frame": 1215,
+      "near_words": [
+        {
+          "end": 20.053,
+          "signal_id": "word_0090",
+          "start": 19.913,
+          "word": "he's"
+        },
+        {
+          "end": 20.213,
+          "signal_id": "word_0091",
+          "start": 20.093,
+          "word": "not"
+        },
+        {
+          "end": 20.353,
+          "signal_id": "word_0092",
+          "start": 20.233,
+          "word": "just"
+        },
+        {
+          "end": 20.713,
+          "signal_id": "word_0093",
+          "start": 20.393,
+          "word": "prompting"
+        },
+        {
+          "end": 20.994,
+          "signal_id": "word_0094",
+          "start": 20.753,
+          "word": "better,"
+        }
+      ],
+      "ocr_text": "} a nell",
+      "signal_id": "beat_0079",
+      "source_signal_ids": [
+        "ocr_state_0080"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1215,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0080",
+          "time": 20.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 20.25
+    },
+    {
+      "frame": 1226,
+      "near_words": [
+        {
+          "end": 20.213,
+          "signal_id": "word_0091",
+          "start": 20.093,
+          "word": "not"
+        },
+        {
+          "end": 20.353,
+          "signal_id": "word_0092",
+          "start": 20.233,
+          "word": "just"
+        },
+        {
+          "end": 20.713,
+          "signal_id": "word_0093",
+          "start": 20.393,
+          "word": "prompting"
+        },
+        {
+          "end": 20.994,
+          "signal_id": "word_0094",
+          "start": 20.753,
+          "word": "better,"
+        },
+        {
+          "end": 21.214,
+          "signal_id": "word_0095",
+          "start": 21.094,
+          "word": "he's"
+        }
+      ],
+      "ocr_text": "- just promptifig _",
+      "signal_id": "beat_0080",
+      "source_signal_ids": [
+        "aud_onset_0171",
+        "aud_peak_0029",
+        "ocr_state_0081"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1226,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0171",
+          "time": 20.4333,
+          "weight": 0.8
+        },
+        {
+          "frame": 1228,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0029",
+          "time": 20.4667,
+          "weight": 0.7
+        },
+        {
+          "frame": 1230,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0081",
+          "time": 20.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 20.4333
+    },
+    {
+      "frame": 1245,
+      "near_words": [
+        {
+          "end": 20.994,
+          "signal_id": "word_0094",
+          "start": 20.753,
+          "word": "better,"
+        },
+        {
+          "end": 21.214,
+          "signal_id": "word_0095",
+          "start": 21.094,
+          "word": "he's"
+        },
+        {
+          "end": 21.454,
+          "signal_id": "word_0096",
+          "start": 21.274,
+          "word": "using"
+        },
+        {
+          "end": 21.715,
+          "signal_id": "word_0097",
+          "start": 21.474,
+          "word": "Claude"
+        }
+      ],
+      "ocr_text": "~ ~~ 4 just promptifig",
+      "signal_id": "beat_0081",
+      "source_signal_ids": [
+        "aud_onset_0173"
+      ],
+      "source_types": [
+        "audio_onset"
+      ],
+      "sources": [
+        {
+          "frame": 1245,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0173",
+          "time": 20.75,
+          "weight": 0.8
+        }
+      ],
+      "time": 20.75
+    },
+    {
+      "frame": 1264,
+      "near_words": [
+        {
+          "end": 20.994,
+          "signal_id": "word_0094",
+          "start": 20.753,
+          "word": "better,"
+        },
+        {
+          "end": 21.214,
+          "signal_id": "word_0095",
+          "start": 21.094,
+          "word": "he's"
+        },
+        {
+          "end": 21.454,
+          "signal_id": "word_0096",
+          "start": 21.274,
+          "word": "using"
+        },
+        {
+          "end": 21.715,
+          "signal_id": "word_0097",
+          "start": 21.474,
+          "word": "Claude"
+        },
+        {
+          "end": 21.995,
+          "signal_id": "word_0098",
+          "start": 21.755,
+          "word": "Code"
+        }
+      ],
+      "ocr_text": "better\u2019;",
+      "signal_id": "beat_0082",
+      "source_signal_ids": [
+        "vis_diff_0016",
+        "vis_scene_0017"
+      ],
+      "source_types": [
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 1264,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0016",
+          "time": 21.0667,
+          "weight": 1.0
+        },
+        {
+          "frame": 1264,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0017",
+          "time": 21.0667,
+          "weight": 1.4
+        }
+      ],
+      "time": 21.0667
+    },
+    {
+      "frame": 1275,
+      "near_words": [
+        {
+          "end": 21.214,
+          "signal_id": "word_0095",
+          "start": 21.094,
+          "word": "he's"
+        },
+        {
+          "end": 21.454,
+          "signal_id": "word_0096",
+          "start": 21.274,
+          "word": "using"
+        },
+        {
+          "end": 21.715,
+          "signal_id": "word_0097",
+          "start": 21.474,
+          "word": "Claude"
+        },
+        {
+          "end": 21.995,
+          "signal_id": "word_0098",
+          "start": 21.755,
+          "word": "Code"
+        },
+        {
+          "end": 22.155,
+          "signal_id": "word_0099",
+          "start": 22.035,
+          "word": "like"
+        }
+      ],
+      "ocr_text": "better\u2019;",
+      "signal_id": "beat_0083",
+      "source_signal_ids": [
+        "ocr_state_0083"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1275,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0083",
+          "time": 21.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 21.25
+    },
+    {
+      "frame": 1290,
+      "near_words": [
+        {
+          "end": 21.454,
+          "signal_id": "word_0096",
+          "start": 21.274,
+          "word": "using"
+        },
+        {
+          "end": 21.715,
+          "signal_id": "word_0097",
+          "start": 21.474,
+          "word": "Claude"
+        },
+        {
+          "end": 21.995,
+          "signal_id": "word_0098",
+          "start": 21.755,
+          "word": "Code"
+        },
+        {
+          "end": 22.155,
+          "signal_id": "word_0099",
+          "start": 22.035,
+          "word": "like"
+        },
+        {
+          "end": 22.235,
+          "signal_id": "word_0100",
+          "start": 22.195,
+          "word": "a"
+        },
+        {
+          "end": 22.636,
+          "signal_id": "word_0101",
+          "start": 22.295,
+          "word": "system."
+        }
+      ],
+      "ocr_text": "me EEE A Ee Neb UE SN rer RN fe ft er ee This session is being continued from a previous conversation that ran out of context. The su covers the earlier portion of the conversation. Summary: 1. Primary Request and Intent: The session had two user requests: \u00a9 \u201cbuild a web version\u201d \u2014 user wanted to preview the app in a browser. | checked (react-native-web already installed), found port 8081 already had a dev server runr user to http://localhost:8081. o Camera permissiol gscreen UX fixes \u2014 user complained: (1) the screen is annoyir it doesn't scroll, (3) \u201cNot now\" doesn't go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 for browser preview on port 8081 \u00b0 guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main} \u2014 OnboardingStack (Splash \u2014 ctrl esc to focus or unfocus Claude B jayo . itcae UU e \u00e9 \\ \u2018 . -",
+      "signal_id": "beat_0084",
+      "source_signal_ids": [
+        "ocr_state_0084",
+        "aud_peak_0030"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1290,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0084",
+          "time": 21.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 1294,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0030",
+          "time": 21.5667,
+          "weight": 0.7
+        }
+      ],
+      "time": 21.5
+    },
+    {
+      "frame": 1304,
+      "near_words": [
+        {
+          "end": 21.715,
+          "signal_id": "word_0097",
+          "start": 21.474,
+          "word": "Claude"
+        },
+        {
+          "end": 21.995,
+          "signal_id": "word_0098",
+          "start": 21.755,
+          "word": "Code"
+        },
+        {
+          "end": 22.155,
+          "signal_id": "word_0099",
+          "start": 22.035,
+          "word": "like"
+        },
+        {
+          "end": 22.235,
+          "signal_id": "word_0100",
+          "start": 22.195,
+          "word": "a"
+        },
+        {
+          "end": 22.636,
+          "signal_id": "word_0101",
+          "start": 22.295,
+          "word": "system."
+        }
+      ],
+      "ocr_text": "1. Primary Request and Intent: The session had two user requests: \u00b0 \u201cbuild a web version\u201d \u2014 user wanted to preview the app in a browser. | checked | (react-native-web already installed), found port 8081 already had a dev server runr user to http://localhost:8081. \u00a9 Camera permission screen UX fixes \u2014 user complained: (1) the screen is annoyin it doesn't scroll, (3) \u201cNot now\u201d doesn\u2019t go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 Exieevcamemacn (or browser preview on port 8081 \u00b0 guards for native-only code 9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash - CameraPermission \u2014 SetupGuide) > MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) o ED with for scrollable screens ctrl esc to focus or unfocus Claude f \u00a9 5 \u2019 \u00b0",
+      "signal_id": "beat_0085",
+      "source_signal_ids": [
+        "aud_onset_0181",
+        "ocr_state_0085"
+      ],
+      "source_types": [
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1304,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0181",
+          "time": 21.7333,
+          "weight": 0.8
+        },
+        {
+          "frame": 1305,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0085",
+          "time": 21.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 21.7333
+    },
+    {
+      "frame": 1320,
+      "near_words": [
+        {
+          "end": 21.995,
+          "signal_id": "word_0098",
+          "start": 21.755,
+          "word": "Code"
+        },
+        {
+          "end": 22.155,
+          "signal_id": "word_0099",
+          "start": 22.035,
+          "word": "like"
+        },
+        {
+          "end": 22.235,
+          "signal_id": "word_0100",
+          "start": 22.195,
+          "word": "a"
+        },
+        {
+          "end": 22.636,
+          "signal_id": "word_0101",
+          "start": 22.295,
+          "word": "system."
+        },
+        {
+          "end": 22.936,
+          "signal_id": "word_0102",
+          "start": 22.676,
+          "word": "Comment"
+        }
+      ],
+      "ocr_text": "it doesn't scroll, (3) \u201cNot now\" doesn't go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 for browser preview on port 8081 \u00b0 guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash \u2014 CameraPermission \u2014 SetupGuide) \u2014- MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) \u00b0 for scrollable screens o rte ee was already guarded with CameraPermissionView (no changes needed there) 3. Files and Code Sections: c Added EXRRRMg) to React Native imports 29 Changed \u201cGet started\u201d button to skip CameraPermission entirely on web and qo st ctrl esc to focus or unfocus Claude Laaugac elels | f ~\u2014 |",
+      "signal_id": "beat_0086",
+      "source_signal_ids": [
+        "ocr_state_0086",
+        "vis_diff_0017"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff"
+      ],
+      "sources": [
+        {
+          "frame": 1320,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0086",
+          "time": 22.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 1324,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0017",
+          "time": 22.0667,
+          "weight": 1.0
+        }
+      ],
+      "time": 22.0
+    },
+    {
+      "frame": 1335,
+      "near_words": [
+        {
+          "end": 22.155,
+          "signal_id": "word_0099",
+          "start": 22.035,
+          "word": "like"
+        },
+        {
+          "end": 22.235,
+          "signal_id": "word_0100",
+          "start": 22.195,
+          "word": "a"
+        },
+        {
+          "end": 22.636,
+          "signal_id": "word_0101",
+          "start": 22.295,
+          "word": "system."
+        },
+        {
+          "end": 22.936,
+          "signal_id": "word_0102",
+          "start": 22.676,
+          "word": "Comment"
+        }
+      ],
+      "ocr_text": "me Plat forr.0s Brame Guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash - CameraPermission \u2014 SetupGuide) \u2014- MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) \u00b0 (ERNE 62s otready ovorded with EEA CameraPermissionView (no changes needed there) 3. Files and Code Sections: src/sereens/onboardine/SplashView, tsx \u00b0 Added to React Native imports \u00a9 Changed \u201cGet started\u201d button to skip CameraPermission entirely on web and go st import { View, Text, StyleSheet, TouchableQpacity, Platform } front \u2018react-na onPress:{() > Platform.0S es * \u2018web\u2019 > navigation.replace(\u2018Main\u2019) : navigati ctrl esc to focus or unfocus Claude a Ke Cc v > P \u2018 -",
+      "signal_id": "beat_0087",
+      "source_signal_ids": [
+        "ocr_state_0087",
+        "vis_diff_0018"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "visual_frame_diff"
+      ],
+      "sources": [
+        {
+          "frame": 1335,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0087",
+          "time": 22.25,
+          "weight": 1.3
+        },
+        {
+          "frame": 1345,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0018",
+          "time": 22.4167,
+          "weight": 1.0
+        }
+      ],
+      "time": 22.25
+    },
+    {
+      "frame": 1350,
+      "near_words": [
+        {
+          "end": 22.235,
+          "signal_id": "word_0100",
+          "start": 22.195,
+          "word": "a"
+        },
+        {
+          "end": 22.636,
+          "signal_id": "word_0101",
+          "start": 22.295,
+          "word": "system."
+        },
+        {
+          "end": 22.936,
+          "signal_id": "word_0102",
+          "start": 22.676,
+          "word": "Comment"
+        },
+        {
+          "end": 23.476,
+          "signal_id": "word_0103",
+          "start": 23.056,
+          "word": "creator,"
+        }
+      ],
+      "ocr_text": "src/screens/onboarding/SplashView.tsx \u00a9 Added to React Native imports \u00a9 Changed \u201cGet started\" button to skip CameraPermission entirely on web and go st import { View, Text, StyleSheet, TouchableQpacity, Platform } from \u2018react-na onPress={() => Platform,OS =s= \u2018web\u2019 ? navigation.replace(\u2018Main\u2019) : navigati sre/screens/onboarding/CameraPermissionView.tsx o Added Scrollvicw Neg React Native imports \u00a9 Wrapped the main scrollable area (everything between the header SafeAreaView a Shem <ScroliView contentContainerStyle {s.scrollCentent} showsVerticalScrollIncicator={(false}> \u00a9 Changed \u201cNot now\" button to go directly to Main instead of SetupGuide: // Before: lonPress={() => navieation.navisatel \u2019SetunGuide')} ctrl esc to focus or unfocus Claude a a r | ~ v -_ iy - - \u2014 . - , ; >",
+      "signal_id": "beat_0088",
+      "source_signal_ids": [
+        "ocr_state_0088",
+        "vis_diff_0019",
+        "vis_scene_0018",
+        "seg_0010"
+      ],
+      "source_types": [
+        "ocr_caption_change",
+        "transcript_segment_start",
+        "visual_frame_diff",
+        "visual_scene_cut"
+      ],
+      "sources": [
+        {
+          "frame": 1350,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0088",
+          "time": 22.5,
+          "weight": 1.3
+        },
+        {
+          "frame": 1357,
+          "kind": "visual_frame_diff",
+          "signal_id": "vis_diff_0019",
+          "time": 22.6167,
+          "weight": 1.0
+        },
+        {
+          "frame": 1357,
+          "kind": "visual_scene_cut",
+          "signal_id": "vis_scene_0018",
+          "time": 22.6167,
+          "weight": 1.4
+        },
+        {
+          "frame": 1361,
+          "kind": "transcript_segment_start",
+          "signal_id": "seg_0010",
+          "time": 22.676,
+          "weight": 1.1
+        }
+      ],
+      "time": 22.5
+    },
+    {
+      "frame": 1379,
+      "near_words": [
+        {
+          "end": 22.936,
+          "signal_id": "word_0102",
+          "start": 22.676,
+          "word": "Comment"
+        },
+        {
+          "end": 23.476,
+          "signal_id": "word_0103",
+          "start": 23.056,
+          "word": "creator,"
+        },
+        {
+          "end": 23.677,
+          "signal_id": "word_0104",
+          "start": 23.597,
+          "word": "and"
+        },
+        {
+          "end": 23.857,
+          "signal_id": "word_0105",
+          "start": 23.717,
+          "word": "I'll"
+        }
+      ],
+      "ocr_text": "\u00b0 \u00a5 comment",
+      "signal_id": "beat_0089",
+      "source_signal_ids": [
+        "aud_onset_0193"
+      ],
+      "source_types": [
+        "audio_onset"
+      ],
+      "sources": [
+        {
+          "frame": 1379,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0193",
+          "time": 22.9833,
+          "weight": 0.8
+        }
+      ],
+      "time": 22.9833
+    },
+    {
+      "frame": 1393,
+      "near_words": [
+        {
+          "end": 23.476,
+          "signal_id": "word_0103",
+          "start": 23.056,
+          "word": "creator,"
+        },
+        {
+          "end": 23.677,
+          "signal_id": "word_0104",
+          "start": 23.597,
+          "word": "and"
+        },
+        {
+          "end": 23.857,
+          "signal_id": "word_0105",
+          "start": 23.717,
+          "word": "I'll"
+        },
+        {
+          "end": 24.077,
+          "signal_id": "word_0106",
+          "start": 23.877,
+          "word": "send"
+        }
+      ],
+      "ocr_text": "( =~ \\ \u201cCREATOR\u201d.",
+      "signal_id": "beat_0090",
+      "source_signal_ids": [
+        "aud_peak_0031"
+      ],
+      "source_types": [
+        "audio_loudness_peak"
+      ],
+      "sources": [
+        {
+          "frame": 1393,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0031",
+          "time": 23.2167,
+          "weight": 0.7
+        }
+      ],
+      "time": 23.2167
+    },
+    {
+      "frame": 1410,
+      "near_words": [
+        {
+          "end": 23.677,
+          "signal_id": "word_0104",
+          "start": 23.597,
+          "word": "and"
+        },
+        {
+          "end": 23.857,
+          "signal_id": "word_0105",
+          "start": 23.717,
+          "word": "I'll"
+        },
+        {
+          "end": 24.077,
+          "signal_id": "word_0106",
+          "start": 23.877,
+          "word": "send"
+        },
+        {
+          "end": 24.297,
+          "signal_id": "word_0107",
+          "start": 24.137,
+          "word": "over"
+        }
+      ],
+      "ocr_text": "( =~ \\ \u201cCREATOR\u201d.",
+      "signal_id": "beat_0091",
+      "source_signal_ids": [
+        "ocr_state_0091"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1410,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0091",
+          "time": 23.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 23.5
+    },
+    {
+      "frame": 1425,
+      "near_words": [
+        {
+          "end": 23.677,
+          "signal_id": "word_0104",
+          "start": 23.597,
+          "word": "and"
+        },
+        {
+          "end": 23.857,
+          "signal_id": "word_0105",
+          "start": 23.717,
+          "word": "I'll"
+        },
+        {
+          "end": 24.077,
+          "signal_id": "word_0106",
+          "start": 23.877,
+          "word": "send"
+        },
+        {
+          "end": 24.297,
+          "signal_id": "word_0107",
+          "start": 24.137,
+          "word": "over"
+        },
+        {
+          "end": 24.397,
+          "signal_id": "word_0108",
+          "start": 24.337,
+          "word": "the"
+        },
+        {
+          "end": 24.658,
+          "signal_id": "word_0109",
+          "start": 24.457,
+          "word": "free"
+        }
+      ],
+      "ocr_text": "| y 1 \u00a5 _ andI'illsend",
+      "signal_id": "beat_0092",
+      "source_signal_ids": [
+        "ocr_state_0092"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1425,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0092",
+          "time": 23.75,
+          "weight": 1.3
+        }
+      ],
+      "time": 23.75
+    },
+    {
+      "frame": 1440,
+      "near_words": [
+        {
+          "end": 23.857,
+          "signal_id": "word_0105",
+          "start": 23.717,
+          "word": "I'll"
+        },
+        {
+          "end": 24.077,
+          "signal_id": "word_0106",
+          "start": 23.877,
+          "word": "send"
+        },
+        {
+          "end": 24.297,
+          "signal_id": "word_0107",
+          "start": 24.137,
+          "word": "over"
+        },
+        {
+          "end": 24.397,
+          "signal_id": "word_0108",
+          "start": 24.337,
+          "word": "the"
+        },
+        {
+          "end": 24.658,
+          "signal_id": "word_0109",
+          "start": 24.457,
+          "word": "free"
+        },
+        {
+          "end": 24.898,
+          "signal_id": "word_0110",
+          "start": 24.678,
+          "word": "guide."
+        }
+      ],
+      "ocr_text": "| Y andli'llsend _.",
+      "signal_id": "beat_0093",
+      "source_signal_ids": [
+        "ocr_state_0093",
+        "aud_onset_0200",
+        "aud_peak_0032"
+      ],
+      "source_types": [
+        "audio_loudness_peak",
+        "audio_onset",
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1440,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0093",
+          "time": 24.0,
+          "weight": 1.3
+        },
+        {
+          "frame": 1444,
+          "kind": "audio_onset",
+          "signal_id": "aud_onset_0200",
+          "time": 24.0667,
+          "weight": 0.8
+        },
+        {
+          "frame": 1446,
+          "kind": "audio_loudness_peak",
+          "signal_id": "aud_peak_0032",
+          "time": 24.1,
+          "weight": 0.7
+        }
+      ],
+      "time": 24.0
+    },
+    {
+      "frame": 1455,
+      "near_words": [
+        {
+          "end": 24.297,
+          "signal_id": "word_0107",
+          "start": 24.137,
+          "word": "over"
+        },
+        {
+          "end": 24.397,
+          "signal_id": "word_0108",
+          "start": 24.337,
+          "word": "the"
+        },
+        {
+          "end": 24.658,
+          "signal_id": "word_0109",
+          "start": 24.457,
+          "word": "free"
+        },
+        {
+          "end": 24.898,
+          "signal_id": "word_0110",
+          "start": 24.678,
+          "word": "guide."
+        }
+      ],
+      "ocr_text": "and I'iIlsend _.",
+      "signal_id": "beat_0094",
+      "source_signal_ids": [
+        "ocr_state_0094"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1455,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0094",
+          "time": 24.25,
+          "weight": 1.3
+        }
+      ],
+      "time": 24.25
+    },
+    {
+      "frame": 1470,
+      "near_words": [
+        {
+          "end": 24.397,
+          "signal_id": "word_0108",
+          "start": 24.337,
+          "word": "the"
+        },
+        {
+          "end": 24.658,
+          "signal_id": "word_0109",
+          "start": 24.457,
+          "word": "free"
+        },
+        {
+          "end": 24.898,
+          "signal_id": "word_0110",
+          "start": 24.678,
+          "word": "guide."
+        }
+      ],
+      "ocr_text": "\u201cKn. over the",
+      "signal_id": "beat_0095",
+      "source_signal_ids": [
+        "ocr_state_0095"
+      ],
+      "source_types": [
+        "ocr_caption_change"
+      ],
+      "sources": [
+        {
+          "frame": 1470,
+          "kind": "ocr_caption_change",
+          "signal_id": "ocr_state_0095",
+          "time": 24.5,
+          "weight": 1.3
+        }
+      ],
+      "time": 24.5
+    }
+  ],
+  "merge_window_seconds": 0.18,
+  "source_type_counts": {
+    "audio_loudness_peak": 32,
+    "audio_onset": 38,
+    "boundary": 1,
+    "first_word": 1,
+    "ocr_caption_change": 89,
+    "transcript_segment_start": 10,
+    "visual_frame_diff": 19,
+    "visual_scene_cut": 18
+  }
+}

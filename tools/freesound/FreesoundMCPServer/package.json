@@ -1,0 +1,22 @@
+{
+  "name": "freesoundmcpserver",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@types/node": "^25.9.3",
+    "axios": "^1.17.0",
+    "tsx": "^4.22.4",
+    "typescript": "^5.9.3"
+  }
+}

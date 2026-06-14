@@ -1,0 +1,25 @@
+{
+  "audio": {
+    "channels": 2,
+    "codec": "aac",
+    "sample_rate": 48000
+  },
+  "duration": 24.897,
+  "filename": "instagram-real.MP4",
+  "format": {
+    "bit_rate": 3148047,
+    "size": 9797117
+  },
+  "fps": 60.0,
+  "frame_count": 1492,
+  "resolution": {
+    "height": 1920,
+    "width": 1080
+  },
+  "source_path": "/Users/pedrocarvalho/projects/video_editing_ai/assets/instagram-real.MP4",
+  "video": {
+    "avg_frame_rate": "60/1",
+    "codec": "h264",
+    "r_frame_rate": "60/1"
+  }
+}

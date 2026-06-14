@@ -1,0 +1,1246 @@
+{
+  "frame_diff_events": [
+    {
+      "frame": 111,
+      "score": 0.205728,
+      "signal_id": "vis_diff_0001",
+      "threshold": 0.107743,
+      "time": 1.85
+    },
+    {
+      "frame": 189,
+      "score": 0.210662,
+      "signal_id": "vis_diff_0002",
+      "threshold": 0.107743,
+      "time": 3.15
+    },
+    {
+      "frame": 238,
+      "score": 0.333426,
+      "signal_id": "vis_diff_0003",
+      "threshold": 0.107743,
+      "time": 3.9667
+    },
+    {
+      "frame": 333,
+      "score": 0.242696,
+      "signal_id": "vis_diff_0004",
+      "threshold": 0.107743,
+      "time": 5.55
+    },
+    {
+      "frame": 376,
+      "score": 0.288595,
+      "signal_id": "vis_diff_0005",
+      "threshold": 0.107743,
+      "time": 6.2667
+    },
+    {
+      "frame": 505,
+      "score": 0.308283,
+      "signal_id": "vis_diff_0006",
+      "threshold": 0.107743,
+      "time": 8.4167
+    },
+    {
+      "frame": 552,
+      "score": 0.252226,
+      "signal_id": "vis_diff_0007",
+      "threshold": 0.107743,
+      "time": 9.2
+    },
+    {
+      "frame": 655,
+      "score": 0.180401,
+      "signal_id": "vis_diff_0008",
+      "threshold": 0.107743,
+      "time": 10.9167
+    },
+    {
+      "frame": 720,
+      "score": 0.249416,
+      "signal_id": "vis_diff_0009",
+      "threshold": 0.107743,
+      "time": 12.0
+    },
+    {
+      "frame": 795,
+      "score": 0.255099,
+      "signal_id": "vis_diff_0010",
+      "threshold": 0.107743,
+      "time": 13.25
+    },
+    {
+      "frame": 879,
+      "score": 0.232495,
+      "signal_id": "vis_diff_0011",
+      "threshold": 0.107743,
+      "time": 14.65
+    },
+    {
+      "frame": 915,
+      "score": 0.261388,
+      "signal_id": "vis_diff_0012",
+      "threshold": 0.107743,
+      "time": 15.25
+    },
+    {
+      "frame": 991,
+      "score": 0.107999,
+      "signal_id": "vis_diff_0013",
+      "threshold": 0.107743,
+      "time": 16.5167
+    },
+    {
+      "frame": 1063,
+      "score": 0.257607,
+      "signal_id": "vis_diff_0014",
+      "threshold": 0.107743,
+      "time": 17.7167
+    },
+    {
+      "frame": 1184,
+      "score": 0.317382,
+      "signal_id": "vis_diff_0015",
+      "threshold": 0.107743,
+      "time": 19.7333
+    },
+    {
+      "frame": 1264,
+      "score": 0.297934,
+      "signal_id": "vis_diff_0016",
+      "threshold": 0.107743,
+      "time": 21.0667
+    },
+    {
+      "frame": 1324,
+      "score": 0.110683,
+      "signal_id": "vis_diff_0017",
+      "threshold": 0.107743,
+      "time": 22.0667
+    },
+    {
+      "frame": 1345,
+      "score": 0.108518,
+      "signal_id": "vis_diff_0018",
+      "threshold": 0.107743,
+      "time": 22.4167
+    },
+    {
+      "frame": 1357,
+      "score": 0.334014,
+      "signal_id": "vis_diff_0019",
+      "threshold": 0.107743,
+      "time": 22.6167
+    }
+  ],
+  "keyframes": [
+    {
+      "frame": 0,
+      "path": "keyframes/keyframe_0001.jpg",
+      "signal_id": "keyframe_0001",
+      "time": 0.0
+    },
+    {
+      "frame": 111,
+      "path": "keyframes/keyframe_0002.jpg",
+      "signal_id": "keyframe_0002",
+      "time": 1.85
+    },
+    {
+      "frame": 189,
+      "path": "keyframes/keyframe_0003.jpg",
+      "signal_id": "keyframe_0003",
+      "time": 3.15
+    },
+    {
+      "frame": 238,
+      "path": "keyframes/keyframe_0004.jpg",
+      "signal_id": "keyframe_0004",
+      "time": 3.967
+    },
+    {
+      "frame": 333,
+      "path": "keyframes/keyframe_0005.jpg",
+      "signal_id": "keyframe_0005",
+      "time": 5.55
+    },
+    {
+      "frame": 376,
+      "path": "keyframes/keyframe_0006.jpg",
+      "signal_id": "keyframe_0006",
+      "time": 6.267
+    },
+    {
+      "frame": 445,
+      "path": "keyframes/keyframe_0007.jpg",
+      "signal_id": "keyframe_0007",
+      "time": 7.417
+    },
+    {
+      "frame": 505,
+      "path": "keyframes/keyframe_0008.jpg",
+      "signal_id": "keyframe_0008",
+      "time": 8.417
+    },
+    {
+      "frame": 552,
+      "path": "keyframes/keyframe_0009.jpg",
+      "signal_id": "keyframe_0009",
+      "time": 9.2
+    },
+    {
+      "frame": 655,
+      "path": "keyframes/keyframe_0010.jpg",
+      "signal_id": "keyframe_0010",
+      "time": 10.917
+    },
+    {
+      "frame": 720,
+      "path": "keyframes/keyframe_0011.jpg",
+      "signal_id": "keyframe_0011",
+      "time": 12.0
+    },
+    {
+      "frame": 795,
+      "path": "keyframes/keyframe_0012.jpg",
+      "signal_id": "keyframe_0012",
+      "time": 13.25
+    },
+    {
+      "frame": 879,
+      "path": "keyframes/keyframe_0013.jpg",
+      "signal_id": "keyframe_0013",
+      "time": 14.65
+    },
+    {
+      "frame": 915,
+      "path": "keyframes/keyframe_0014.jpg",
+      "signal_id": "keyframe_0014",
+      "time": 15.25
+    },
+    {
+      "frame": 991,
+      "path": "keyframes/keyframe_0015.jpg",
+      "signal_id": "keyframe_0015",
+      "time": 16.517
+    },
+    {
+      "frame": 1063,
+      "path": "keyframes/keyframe_0016.jpg",
+      "signal_id": "keyframe_0016",
+      "time": 17.717
+    },
+    {
+      "frame": 1184,
+      "path": "keyframes/keyframe_0017.jpg",
+      "signal_id": "keyframe_0017",
+      "time": 19.733
+    },
+    {
+      "frame": 1264,
+      "path": "keyframes/keyframe_0018.jpg",
+      "signal_id": "keyframe_0018",
+      "time": 21.067
+    },
+    {
+      "frame": 1324,
+      "path": "keyframes/keyframe_0019.jpg",
+      "signal_id": "keyframe_0019",
+      "time": 22.067
+    },
+    {
+      "frame": 1345,
+      "path": "keyframes/keyframe_0020.jpg",
+      "signal_id": "keyframe_0020",
+      "time": 22.417
+    },
+    {
+      "frame": 1357,
+      "path": "keyframes/keyframe_0021.jpg",
+      "signal_id": "keyframe_0021",
+      "time": 22.617
+    }
+  ],
+  "ocr_states": [
+    {
+      "end": 0.25,
+      "end_frame": 15,
+      "normalized_text": "nd me at 1023 am to check on my pro v ind me at 1023 am to check on my projact calc baueue atuither mesnaye 7 ask hielo eelity ri t most people a t i a",
+      "signal_id": "ocr_state_0001",
+      "start": 0.0,
+      "start_frame": 0,
+      "text": "nd me at 10:23 am to check on my pro... v ind me at 10:23 am to check on my projact. Calc baueue atuither mesnaye 7 Ask hielo eelity ri t | - Most people a t i \u00aba \u2019"
+    },
+    {
+      "end": 0.5,
+      "end_frame": 30,
+      "normalized_text": "thanking today is march 7 2026 setting a oneshot reminder for 1023 am croncreate cae c u cron 23 10 7 3 prompt remind nate check on your project scheduled oneshot task 402d71b 23 18 7 3 sessiononly not written to disk dies whe reminder set for 1023 am today ill ping you to check on your project just keep this session open tt only works while claude is running ctrl esc to focus or unfocus claude ask before edits g tag 4 a",
+      "signal_id": "ocr_state_0002",
+      "start": 0.25,
+      "start_frame": 15,
+      "text": "Thanking Today is March 7, 2026. Setting a one-shot reminder for 10:23 AM. CronCreate (cae c u \u201ccron\u2122: \"23 10 7 3 *\", \u201cprompt\u201d: \u201cRemind Nate: Check on your project.\u201d, Scheduled one-shot task 402d@71b (23 18 7 3 *). Session-only (not written to disk, dies whe Reminder set for 10:23 AM today. I'll ping you to check on your project. Just keep this session open -- tt only works while Claude is running. ctrl esc to focus or unfocus Claude / Ask before edits g Tag 4 =~. + : : a >"
+    },
+    {
+      "end": 0.75,
+      "end_frame": 45,
+      "normalized_text": "smsc uuloey vest oh lao hulu ay lf 40 of pg reminder set for 1023 am today ill ping you to check on only works while claude is running hey nate this is your reminder to check on your project ktrl esc to focus or unfocus claude 7 ask before edits turing od ice claude code a",
+      "signal_id": "ocr_state_0003",
+      "start": 0.5,
+      "start_frame": 30,
+      "text": "SMSC UULOEY VEST OH Lao HULU AY Lf 40 OF PG @ Reminder set for 10:23 AM today. I'll ping you to check on only works while Claude is running. @ Hey Nate -- this is your reminder to check on your project. ktrl esc to focus or unfocus Claude 7 Ask before edits -turing* Od ice Claude code , a>."
+    },
+    {
+      "end": 1.0,
+      "end_frame": 60,
+      "normalized_text": "ry ten minutes check my clickup to see if theres any new developments on our project greengrass syn ug s claude code queue another message sk before edits e ee usc claude code paca 2 ee",
+      "signal_id": "ocr_state_0004",
+      "start": 0.75,
+      "start_frame": 45,
+      "text": "ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Syn. \u00a7 ug s Claude Code Queue another message... @ # sk before edits e \u2018ee USC Claude COdE paca -2@- + ee"
+    },
+    {
+      "end": 1.25,
+      "end_frame": 75,
+      "normalized_text": "ry ten minutes check my clickup to see if theres any new developments on our project greengrass making loop skill cooking queue another message 7 ask before edits g wae usc claude codc pamcme a o py a",
+      "signal_id": "ocr_state_0005",
+      "start": 1.0,
+      "start_frame": 60,
+      "text": "ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Making loop skill _ \u00ab Cooking... Queue another message... @ 7 Ask before edits g \u2018wae USC Claude COdC pamcme a ; - o Py =a"
+    },
+    {
+      "end": 1.5,
+      "end_frame": 90,
+      "normalized_text": "fhoarikuag 7 loop skill croncreate soa cron 18 prompt check cli ject greengrass look for new scheduled recurring jo laude ode nly not written to disk die scheduled heres the summary crafting queue another message 7 ask before edits 6 ng woo screen reader opt i eo",
+      "signal_id": "ocr_state_0006",
+      "start": 1.25,
+      "start_frame": 75,
+      "text": "Fhoarikuag 7 loop skill CronCreate { soa \u201ccron\u201c: \u201c*/18 % * * \u201cprompt\u201d: \u201cCheck Cli ject Greengrass. Look for new Scheduled recurring jo ( laude ( ode nly (not written to disk, die Scheduled. Here's the summary: Crafting... Queue another message... @ 7 Ask before edits 6 ng @ Woo @ Screen Reader Opt | \u2014 | _ *. i eo \u00ab"
+    },
+    {
+      "end": 1.75,
+      "end_frame": 105,
+      "normalized_text": "ae int a prompt check clickup for any new developments on the project greengrass look for new scheduled recurring job 3a196c23 every 16 minutes sessiononly not written to disk die scheduled heres the summa ug a what checking clickup ss cadence every 10 minute job id 3019623 autoexpires after 3 days laude ode sessiononly stops whe to cancel early can run crondelete with job id 3a196c23 ill surface any new tasks status changes updates as they come in ctrl esc to focus or unfocus claude j ask betore edits g ng woo screen reader opt o",
+      "signal_id": "ocr_state_0007",
+      "start": 1.5,
+      "start_frame": 90,
+      "text": "ae int a \u201cprompt\u201d: \u201cCheck ClickUp for any new developments on the project Greengrass. Look for new Scheduled recurring job 3a196c23 (Every 16 minutes). Session-only (not written to disk, die Scheduled. Here's the summa ug a \u00ab What: Checking ClickUp ss \u00a9 Cadence: Every 10 minute \u00a9 Job ID: 30196\u00a223 \u00a9 Auto-expires after 3 days ( laude ( ode \u00a9 Session-only -- stops whe To cancel early, | can run CronDelete with job ID 3a196c23 . I'll surface any new tasks, status changes, \u00ab updates as they come in. ctrl esc to focus or unfocus Claude @ J Ask betore edits g ng @ Woo @ Screen Reader Opt \\ \u2014 | ' o ."
+    },
+    {
+      "end": 2.0,
+      "end_frame": 120,
+      "normalized_text": "fdatadccraep loop skill croncreate a a cron 18 prompt check cli ject greengrass look for new scheduled recurring jo claude code nly not written to disk die scheduled heres the summary what checking clickup for new developments on project greengrass cadence every 10 minutes 18 ctrl esc to focus or unfocus claude 7 ask before edits e nq mofo screen reader opt isp ie a a e 77",
+      "signal_id": "ocr_state_0008",
+      "start": 1.75,
+      "start_frame": 105,
+      "text": "fdatadccraep loop skill CronCreate @ { a a \u201ccron\u2122: \"*/18 * = \u00a9 \u201cprompt\u201c: \u201cCheck Cli ject Greengrass. Look for new Scheduled recurring jo Claude Code nly (not written to disk, die Scheduled. Here's the summary: \u00a9 What: Checking ClickUp for new developments on project Greengrass * Cadence: Every 10 minutes {*/18 * * * *%) ctrl esc to focus or unfocus Claude 7 Ask before edits e nq @ Mofo @ Screen Reader Opt isp ie \\ \u2019 \u2014 | { } \\ a . a \u2018e 77 *"
+    },
+    {
+      "end": 2.25,
+      "end_frame": 135,
+      "normalized_text": "allfode am images videos news shopping forums more claudecom httpsclaudecom product claude code clavie code by anthropic al coding agent terminal ide anthropics agentic coding tool for developers claude code understands your code runs commands and helps you ship faster claude httpsclaudeai claude claude is anthrepics al butt fer srabtem setvers tackle complex challenges analyze a cranecnon they open it claudecom hitpscodeclaudecom docs quickstart quickstart claude code docs quickstart before you begin step 1 install claude code step 2 lag in to your 3 start your first session step 4 ask read more",
+      "signal_id": "ocr_state_0009",
+      "start": 2.0,
+      "start_frame": 120,
+      "text": "Allfode AM Images Videos News = Shopping Forums More - : \u00a9 Claude.com https://claude.com \u00bb Product \u00bb Claude Code: Clavie Code by Anthropic | Al Coding Agent, Terminal, IDE Anthropic's agentic coding tool for developers. Claude Code understands your code runs commands, and helps you ship faster. @ Claude https://claude.ai : Claude Claude is Anthrepic's Al butt fer srabtem setvers Tackle complex challenges, analyze \u00a2 a cranecnon They open it @ claude.com hitps://code.claude.com \u00bb docs \u00bb quickstart: Quickstart - Claude Code Docs Quickstart - . Before you begin - . Step 1: Install Claude Code - . Step 2: Lag in to your 3: Start your first session - . Step 4: Ask ... Read more"
+    },
+    {
+      "end": 2.5,
+      "end_frame": 150,
+      "normalized_text": "almode al images videos news shopping forums more claudecom httpsclaudecom product claude code clause code by anthropic al coding agent terminal ide anthropics agentic coding tool for developers claude code understands your code runs commands and helps you ship faster claude hitpsclaudeai claude claude is anthrenics al built for arnblem solvers tackle complex challenges analyze claudecom hitpscodeclaudecom docs quickstart quickstart claude code docs quickstart before you begin step 1 install claude code step 2 log in to your 3 start your first session step 4 ask read more",
+      "signal_id": "ocr_state_0010",
+      "start": 2.25,
+      "start_frame": 135,
+      "text": "AlMode Al Images Videos News Shopping Forums More - . @ Claude.com https://claude.com > Product > Claude Code: Clause Code by Anthropic | Al Coding Agent, Terminal, IDE Anthropic's agentic coding tool for developers. Claude Code understands your code runs commands, and helps you ship faster. @ Claude hitps//claude.ai : Claude Claude is Anthrenic's Al built for arnblem solvers Tackle complex challenges, analyze \u00a2 @ claude.com hitps://code.claude.com > docs \u00bb quickstart : Quickstart - Claude Code Docs Quickstart . . Before you begin - . Step 1: Install Claude Code - . Step 2: Log in to your 3: Start your first session - . Step 4: Ask ... Read more"
+    },
+    {
+      "end": 2.75,
+      "end_frame": 165,
+      "normalized_text": "claude code type model to pick the right tool for the job prefer the terminal experience switch bac n settings x scrape 2 cd untitled1 edit automatically a",
+      "signal_id": "ocr_state_0011",
+      "start": 2.5,
+      "start_frame": 150,
+      "text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Switch bac< n Settings. X Scrape 2( + CD) untitled-1 </> Edit automatically a"
+    },
+    {
+      "end": 3.0,
+      "end_frame": 180,
+      "normalized_text": "claude code type model to pick the right tool for the job prefer the terminal experience switch bac n settings x scrape 200 leads and ther cd untitled1 edit automatically a",
+      "signal_id": "ocr_state_0012",
+      "start": 2.75,
+      "start_frame": 165,
+      "text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Switch bac< n Settings. X Scrape 200 leads and ther: + CD) untitled-1 </> Edit automatically a"
+    },
+    {
+      "end": 3.25,
+      "end_frame": 195,
+      "normalized_text": "claude code type model to pick the right tool for the job prefer the terminal experience seiich bac n serv ngs x scrape 200 leads and there personal inforan cd untitled1 edit automatically",
+      "signal_id": "ocr_state_0013",
+      "start": 3.0,
+      "start_frame": 180,
+      "text": "% Claude Code Type /model to pick the right tool for the job. > Prefer the Terminal experience? Seiich bac< n Serv ngs. X Scrape 200 leads and there personal inforan + CD) untitled-1 </> Edit automatically ,"
+    },
+    {
+      "end": 3.5,
+      "end_frame": 210,
+      "normalized_text": "2 and hope wae",
+      "signal_id": "ocr_state_0014",
+      "start": 3.25,
+      "start_frame": 195,
+      "text": "2 and hope ) - | wae"
+    },
+    {
+      "end": 3.75,
+      "end_frame": 225,
+      "normalized_text": "the project is empty let me set up a new remotion project and create the animation basn allow claude to run npm create videolatest templateblank yes create a new remotion project npm create videolatest template nk yes deny esc al for project local ctrl enter reply for the best p i t",
+      "signal_id": "ocr_state_0015",
+      "start": 3.5,
+      "start_frame": 210,
+      "text": "\u00a2 The project is empty. Let me set up a new Remotion project and create the animation. Basn Allow Claude to Run npm create video@latest -- --template=blank --yes? Create a new Remotion project npm create video@latest -- --template nk --yes Deny Esc Al for project (local) Ctrl Enter Reply... for the best | P i - t"
+    },
+    {
+      "end": 4.0,
+      "end_frame": 240,
+      "normalized_text": "found 2 patterns the project is empty let me set up a new remotion project and create the animation ran 2 commands i incubating k reply for the best sai a",
+      "signal_id": "ocr_state_0016",
+      "start": 3.75,
+      "start_frame": 225,
+      "text": "> Found 2 patterns \u00bb The project Is empty. Let me set up a new Remotion project and create the animation. > Ran 2 commands i Incubating... k Reply... for the best | sai _ \u00b0 \u2018a,"
+    },
+    {
+      "end": 4.25,
+      "end_frame": 255,
+      "normalized_text": "a e on but the guy who",
+      "signal_id": "ocr_state_0017",
+      "start": 4.0,
+      "start_frame": 240,
+      "text": "- &>~ a ~ _ | e | oN But the guy who } ;"
+    },
+    {
+      "end": 4.5,
+      "end_frame": 270,
+      "normalized_text": "p e but the guy who 8",
+      "signal_id": "ocr_state_0018",
+      "start": 4.25,
+      "start_frame": 255,
+      "text": "p ~ , e _\u2014 , But the guy who 8"
+    },
+    {
+      "end": 4.75,
+      "end_frame": 285,
+      "normalized_text": "but the guy who 6",
+      "signal_id": "ocr_state_0019",
+      "start": 4.5,
+      "start_frame": 270,
+      "text": "~\u00bb ~ , _ But the guy who 6"
+    },
+    {
+      "end": 5.0,
+      "end_frame": 300,
+      "normalized_text": "created cloud 0 i",
+      "signal_id": "ocr_state_0020",
+      "start": 4.75,
+      "start_frame": 285,
+      "text": "\u00bb _ , \u00bb ; created cloud 0 : \u2018 . i"
+    },
+    {
+      "end": 5.25,
+      "end_frame": 315,
+      "normalized_text": "e claude code",
+      "signal_id": "ocr_state_0021",
+      "start": 5.0,
+      "start_frame": 300,
+      "text": "~ _ ; e Claude code , |"
+    },
+    {
+      "end": 5.5,
+      "end_frame": 330,
+      "normalized_text": "o a pe claude code",
+      "signal_id": "ocr_state_0022",
+      "start": 5.25,
+      "start_frame": 315,
+      "text": "o | , a\u2122 pe _ | \u00bb | Claude code"
+    },
+    {
+      "end": 5.75,
+      "end_frame": 345,
+      "normalized_text": "a y pr e claude code",
+      "signal_id": "ocr_state_0023",
+      "start": 5.5,
+      "start_frame": 330,
+      "text": "a : , y= pr _ | \\ e -\u2014 Claude code"
+    },
+    {
+      "end": 6.0,
+      "end_frame": 360,
+      "normalized_text": "does the opposite",
+      "signal_id": "ocr_state_0024",
+      "start": 5.75,
+      "start_frame": 345,
+      "text": "does the opposite"
+    },
+    {
+      "end": 6.25,
+      "end_frame": 375,
+      "normalized_text": "does the opposite py",
+      "signal_id": "ocr_state_0025",
+      "start": 6.0,
+      "start_frame": 360,
+      "text": "does the opposite py"
+    },
+    {
+      "end": 6.5,
+      "end_frame": 390,
+      "normalized_text": "does the oppogfte",
+      "signal_id": "ocr_state_0026",
+      "start": 6.25,
+      "start_frame": 375,
+      "text": "does the oppogfte"
+    },
+    {
+      "end": 6.75,
+      "end_frame": 405,
+      "normalized_text": "tanke this progect 03 0n an old verwon of node and i want your heip ir es ory code packagelockson packagejion yyerndoch fis project is on an old versions of pode ard i art yout belp in upgradeg this a the luseet u6 version of tee rary nodes 0 think ts v22 sad then comple ruslan yer toot sede jutteser ns tha la ea dev to verty the version beep marked and theookk rege jrveqartts bear everyting complet corecty 1 ve waetirae s tld ad you may need to vse bash to ieezadl yerrt gest ipod otabieindcsee typecast a treattt intest wots teeaer nto moog reqiteaatys tut oe update node js to the tates lts version v27 rote in wek tom gapersercient use mon to ental and weech to lode ps v22 a mw tostcerefsier mm der at a sates gs too update the engines hed im package jton to refiect noo stariwinden role the new mode 73 vervon o yy mat terqimes ts esa ym ra snode 16202 ms ats lbw eo ook jn 1 tete nitalea el icas croat eae teerabents tm ge compe the project roe teetolved 2 hi tphi eegtatry fenys crgiearst ie um tere geg tyr tepaeyd argap cer yes sr kcat eta few wr thtceasets cults sate e the changes woos aeretcecciet ff wae yao qucebenigihigny me u teopirancs aa 1 saget tee teta ha aml bee et man ret cre ted oy pn a a me tty trode monilesimeticore",
+      "signal_id": "ocr_state_0027",
+      "start": 6.5,
+      "start_frame": 390,
+      "text": "Tanke this progect 03 0n an old verwon of node and I want your heip ir (es ory ) \u00ab> Code .- . package-lock}son \u00ab= packagejion = yyerndoch fis project is on an old versions of pode ard I art \u2014\u2014\u2014\u2014\u2014\u2014 yout belp in upgradeg this a the luseet U6 version of tee rary \u2018Nodes 0 think ts v22) sad then comple Ruslan yer, toot sede jutteser ns tha la, EA dev to verty the version beep marked and theookk rege jrveqartts bear, everyting complet corecty? 1? ve \u201cwaetirae s \u201cTLD aD, \u2018You may need to vse bash to ieezadl yerrt Gest, ipod \"Otabieindcsee typecast, \" a treattt \u2018Intest\u2122, wots Teeaer NTO, ; moog reqiteaatys TUT Oe @ Update Node js to the tates? LTS version (v27). rote in Wek tom Gapersercient: Use mon to ental and weech to lode ps v22. a Mw Tostcerefsier\u2122: \u201cMM Der, at a sates gs TOO, \u00a9 Update the engines hed im package, jton to refiect noo stariwinden role the new Mode 73 vervon o YY ) mat terqimes ts @ esa ym : ra snode\": \"16.20.2\u00b0 ms | ats (lbw eo ook ) Jn 1 Tete nitalea el icas: Croat . eae Teerabents TM Ge, \u00a9 Compe the project roe Teetolved 2 hi tphi (eegtatry fenys crgiearst ie uM \u201d Tere geg tyr Tepaeyd- arGap cer yes sr kCat eta few wR thtceasets CULTS Sate . ' e the changes. woos aeretcecciet ff wae yao \"@Qucebenigihigny Me u \u201c Teopirancs aa 1 Saget tee Teta ha aml bee et man ret Cre ted Oy pn a ' a ) \u2018 Me ). tty trode monilesimeticore\u2019: ("
+    },
+    {
+      "end": 7.0,
+      "end_frame": 420,
+      "normalized_text": "sane atthe decid diate catia alienate eatin deters ciel went eh atietniall peckagelockson packagejion yarn och shia preyect is on an old version of node aed i nent oo your help in upgrade this to the lisest lis version of vee eres te eee es noida js 0 think ts 22 sad then compte r sing yen moo nye fostoowants ott 622 yarn dev to vendy the version beve noried and moon teede fader gen ego everyting complies correctly mow orgatiede tee oe you may need to vee bash to esta yernt find te rt tahab wads she tye ey sol wm 48 tesets latest ete regetd tod i te eesitisarty tep oo updase node js to the latest ls version 27 note 7m te ty tse gagecserctuats ute yn to mitall and recch to hode jt v22 woods oetecrefsran s tw dey at a tater s to update the engines head in package jten torenect m tropbedetsaa fae the new fode js verucn mn a at veaaineg rf wuuatyan ph node 16202 a werg 2d tested project dependencies moot i fe frete mee ae ol crome y ra wersiecatr ot tt gt compie the project a ns resolved s httpasseregistry roays crgimoetc w oo temleqed ys sdahd 2 prgap celery s salt brs tan sudvent the ct bowe lacessets uit e the yy nererdercies 2 ade 4 aureebmignhight 2 ttp gk ot ve tsaginantt a tassett ten 98 tork heed be eee ef mate cree uy ps foo a ve h woe tanat moculesiemabicores 4 aa a",
+      "signal_id": "ocr_state_0028",
+      "start": 6.75,
+      "start_frame": 405,
+      "text": "Sane atthe decid diate catia alienate eatin deters ciel, went eh atietniall & . peckage-lock}son \u00ab= packagejion = yarn och Shia preyect is on an old version: of node aed I nent oo your help In upgrade this to the lisest LIS version of vee eres te eee es \u2018Noida js 0 think ts \u00a522) sad then compte R sing yen, moo nye fostoowants ott 6.22, yarn dev to vendy the version beve noried and Moon teede fader gen EGO \u2018everyting complies correctly? Mow \u2018orgatiede: TEE OE, \u2018You may need to vee bash to esta yernt find te rt TAHAb wads she tye ey SOL, wm 48 Teset's \u2018latest\u2019, ete \u2018regetD TOD, i te eesitisarty TEP Oo @ Updase Node js to the Latest LS version (\u00a527), : note 7m te ty Tse Gagecserctuats \u00a2 Ute yn to mitall and recch to Hode jt v22. woods \u201coetecrefsran s TW Dey at a tater s TO, \u00bb Update the engines head in package, jten torenect > M tropbedetsaa fae the new fode js verucn mn a } at veaaineg rf @ wuuatyan : Ph *node\": \"16.20.2\u00b0 a | werg 2D @ tested project dependencies : Moot i fe . frete MEE AE OL Crome y | . ra ? \u201cwersiecatr oT tt Gt, @ Compie the project. a ns resolved s \u201chttpasseregistry roays crgimoet'c w oo TEMLeQed ys sDahd 2: prGap celery s salt brs tan Sudvent the ct . Bowe Lacessets \u201cUIT, e the YY \u201c \u201cnererdercies 2 ade 4 \" \u2018aureebmignhight 2 TTP gk ot \u201c ve tsaginantt { a Tassett ten 98 Tork heed be eee ef mate Cree Uy ps \u2018 foo ) a ve h woe Tanat moculesiemabicore\u2019s ( \u00a5 /-_ , 4 aa a"
+    },
+    {
+      "end": 7.25,
+      "end_frame": 435,
+      "normalized_text": "ree ee ct intel packagelockson packagefion yarnjoch ois srcpect is on an old version of code and i nent your bait ia upgrading this ta the lisest lts version of wee wee ne eee es node o thick ts v77 and then comple r uslag yen tt tb wetesjasleometn of e202 aen dev lo very the version bee worted and me te tomgesfefecort th ng everyting complies contectly bhooy tergetiede dde you may need to vee bash to instal yerrt frat te ry mtabbwanscasetyteneoy s ok a we hd teset latest ie te teeast ont od ut ie vestige tat 87 updase node js to the iatest lts version 27 ote h ow tseugagerserciuats usa neato entat and sacch to hode pt 22 woke costccrefiver 2 tw dery at at osateis ss ts i update the engines hed in package jion torefiect n xe tatlwinesaat 35 o the new node js vervon a a vas tenqoeg mulym ot aode 162029 nm arty th oe check if yarn atready missed aaa mm a hook metas yam godoty wing ren mg fete notables ral ices tromatt see weestents ta testa project dependencies oe tresolved f mera cregtstey toms erg ince ad 4 vv tentegeaty shashd pray ce gergen rh acabara fay he wm peceasesr cult compile the project woos serercercies 3 ret emebinigiisgny sie ot moot hr um teagirenct moot inne p ten g8 tek wend bee fea re creat uy yes t as hh tate monlesieemeaticares a a",
+      "signal_id": "ocr_state_0029",
+      "start": 7.0,
+      "start_frame": 420,
+      "text": "REE EE ct intel ~~ . package-lock}son \u00ab= packagefion = yarnJoch {ois srcpect is on an old version of code and I nent __ your bait ia upgrading this ta the lisest LTS version of wee wee ne eee es Node) O thick ts v77) and then comple R uslag yen, tt tb \"WetesJasleometn of e202, AEN dev lo very the version bee worted and Me te tomgesfefecort th NG, \u2018everyting complies contectly? bhooy tergetiede : DDE, You may need to vee bash to instal yerrt frat te ry \u201cMtabbwanscasetyteneoy s Ok a, we Hd Teset '? \u2018latest\u2019, ie te Teeast; ONT OD, ut ie vestige TAT 87 @ > Updase Node js to the iatest LTS version (27). : ote h . ow tseuGagerserciuats \u00a2 \u2018Usa neato entat and sacch to Hode pt \u00a522. woke Costccrefiver 2 TW Dery at at osateis ss TS I, \u00bb Update the engines hed in package, jion torefiect n xe \u201ctatlwinesaat 35 o the new Node js vervon. a a } vas Tenqoeg @ mulym. ot *aode\": \"16.20.29\" nm | arty TH Oe Check if yarn atready missed aaa ; ) MM a . \u00a9 Hook metas yam godoty wing ren mG fete notables Ral ices tromatt | see weestents Ta, testa project dependencies oe Tresolved f MERA c\u00e9regtstey toms erg ince) \u00a2 Ad 4 vv TEntegeaty shashd: pray ce Gergen rh ACabara fay he wm \u201cPeceasesr CULT, @ Compile the project. . woos \u2018serercercies 3 { ret \u2018@emebinigiisgny sie ot moot Hr uM teagirenct { Moot inne p ten G8 Tek wend bee fea re Creat Uy yes * t As ) hh tate monlesieemeaticare\u2019s a a | ~ >"
+    },
+    {
+      "end": 7.5,
+      "end_frame": 450,
+      "normalized_text": "i nn pachagelockion packagefion yarnjach hile project is on an old version of rode aed i want node g uith its v27 sed then comple r usieg yen mous orde jaflooen nr or 682 oa dev to verdy the version buwe worted and tots fomtesfaseeaitts clg2i everyting complies conectiy tyo4 estlede tl you may need to vee bash to asta yern orit we rt mol wags tal tyccue oy sd ola wth comets latest le te tressttr ito pear vepitesonts tut od update node js to the 1a1e42 75 version 773 ote in ty tae orpenzerciuats use nym to mitad and natch to liode pt 22 aoooke costecrefixer ss try ter nm at tpesstessts cm 0 update the engines hed in package jicn torefect op te wtathajetens an ro the new mode 13 vernon a nn oat engines esutym i node 16202 pad ata te check yarn ateaty misses oe not insext yarn gobaty using rpm a a teote mitabea st telicane croett tebe tearsigats ct mg testal prosect dependencies oe ferolecd f mitpeisfeegtstry tome crgiqecal ie e uy u stace ge sty tt shasbe corgagce qc yes rth bra ten by ln yeceavens omit pun yarn install to ugdate denencercat yy seoerceccios 3 f moots teebeaigilsght pee ot hoe hy ooom teagirants woo tange tee ae task 9 hace eed be ee feat ray py fobs we tay teat eemlesiopmeabicare a a o",
+      "signal_id": "ocr_state_0030",
+      "start": 7.25,
+      "start_frame": 435,
+      "text": "i, \u2014 nn \u201d pachage-lock}ion \u00ab= packagefion = yarnJach hile project Is on an old version of rode aed I want \u2014_\u2014\u2014_ Node) G Uith its. v27) sed then comple R usieg yen, mous Orde Jaflooen nr OR 6.82, OA dev to verdy the version buwe worted and tots fomtesfaseeaitts CLG2I, everyting complies conectiy? tyo4 \u201cestlede tL, \u2018You may need to vee bash to asta yern Orit, we rt \u201cMOL WAGs tal tyccue oy sd OLA, wth Comets \u2018Latest\u2019, le te tressttr ITO, pear vepitesonts TUT OD @ Update Node js to the 1a1e42 \u00a375 version (773, . ote in ty tae Orpenzerciuats Use nym to mitad and natch to liode pt \u00a522, aoooke Costecrefixer ss TRY Ter, nm at Tpesstessts CM 0, \u00a9 Update the engines hed in package. Jicn torefect oP te wtathajetens : an ro the new Mode 13 vernon. a nn ) oat engines\u2019 \u00a2 @ esutym i *node\": \u201c16\u00a2.20.2\u00b0 pad | ata Te Check yarn ateaty misses oe ) ) \u00a9 not insext yarn gobaty using rpm a a Teote mitabea st telicane Croett tebe tearsigats CT MG, testal prosect dependencies : oe \u201cferolecd f Mitpeisfeegtstry tome crgiqecal ie e uy u Stace ge sty tt shasbe- CorGagce QC yes rth bra ten By Ln \u201cYeceavens OMIT, Pun yarn install to ugdate denencercat YY \u201c \u201cseoerceccios 3 f moots Teebeaigilsght pee ot hoe Hy oooM teagirants { woo) Tange tee ae Task 9 hace eed be ee feat ray py > fobs ) % we ). tay teat eemlesiopmeabicare\u2019: | a a , ~ o -."
+    },
+    {
+      "end": 7.75,
+      "end_frame": 465,
+      "normalized_text": "plan mode e",
+      "signal_id": "ocr_state_0031",
+      "start": 7.5,
+      "start_frame": 450,
+      "text": "| Plan Mode e"
+    },
+    {
+      "end": 8.0,
+      "end_frame": 480,
+      "normalized_text": "section plan mode a nee start in",
+      "signal_id": "ocr_state_0032",
+      "start": 7.75,
+      "start_frame": 465,
+      "text": "Section? Plan Mode A Nee start in :"
+    },
+    {
+      "end": 8.25,
+      "end_frame": 495,
+      "normalized_text": "section plan mode a col",
+      "signal_id": "ocr_state_0033",
+      "start": 8.0,
+      "start_frame": 480,
+      "text": "Section) Plan Mode A col"
+    },
+    {
+      "end": 8.5,
+      "end_frame": 510,
+      "normalized_text": "section plan mode a gee plan mode",
+      "signal_id": "ocr_state_0034",
+      "start": 8.25,
+      "start_frame": 495,
+      "text": "Section) Plan Mode A gee Plan mode :"
+    },
+    {
+      "end": 8.75,
+      "end_frame": 525,
+      "normalized_text": "f a build mode",
+      "signal_id": "ocr_state_0035",
+      "start": 8.5,
+      "start_frame": 510,
+      "text": "f a ) \\ . build mode"
+    },
+    {
+      "end": 9.0,
+      "end_frame": 540,
+      "normalized_text": "build mode dd",
+      "signal_id": "ocr_state_0036",
+      "start": 8.75,
+      "start_frame": 525,
+      "text": "build mode dd"
+    },
+    {
+      "end": 9.25,
+      "end_frame": 555,
+      "normalized_text": "build mae",
+      "signal_id": "ocr_state_0037",
+      "start": 9.0,
+      "start_frame": 540,
+      "text": "build m\u00e9ae"
+    },
+    {
+      "end": 9.5,
+      "end_frame": 570,
+      "normalized_text": "z slows down 3",
+      "signal_id": "ocr_state_0038",
+      "start": 9.25,
+      "start_frame": 555,
+      "text": "=z Slows down 3"
+    },
+    {
+      "end": 9.75,
+      "end_frame": 585,
+      "normalized_text": "slows down",
+      "signal_id": "ocr_state_0039",
+      "start": 9.5,
+      "start_frame": 570,
+      "text": "= Slows down %"
+    },
+    {
+      "end": 10.0,
+      "end_frame": 600,
+      "normalized_text": "rhea yael hy first 4",
+      "signal_id": "ocr_state_0040",
+      "start": 9.75,
+      "start_frame": 585,
+      "text": "rhea Yael HY. - first 4"
+    },
+    {
+      "end": 10.25,
+      "end_frame": 615,
+      "normalized_text": "rh 73a wy first 4",
+      "signal_id": "ocr_state_0041",
+      "start": 10.0,
+      "start_frame": 600,
+      "text": "rh 73a) WY first 4"
+    },
+    {
+      "end": 10.5,
+      "end_frame": 630,
+      "normalized_text": "hed bye a w gets the plan",
+      "signal_id": "ocr_state_0042",
+      "start": 10.25,
+      "start_frame": 615,
+      "text": "hed Bye a . =w Gets the plan \""
+    },
+    {
+      "end": 10.75,
+      "end_frame": 645,
+      "normalized_text": "rit 7 pak gets the plan ad gy ne",
+      "signal_id": "ocr_state_0043",
+      "start": 10.5,
+      "start_frame": 630,
+      "text": "rit 7 pak : Gets the plan @ \\, Ad * gy\u2019 | Ne"
+    },
+    {
+      "end": 11.0,
+      "end_frame": 660,
+      "normalized_text": "right q",
+      "signal_id": "ocr_state_0044",
+      "start": 10.75,
+      "start_frame": 645,
+      "text": "right q"
+    },
+    {
+      "end": 11.25,
+      "end_frame": 675,
+      "normalized_text": "conversations v build and test now lets investigate the ul components f kanban feature list srcui l read 26 files read kanbandetailtsx l read 31 lines y edit kthenlets claude 24 sw 25 26 claudesettings llocaljson wae playwright traces pondering",
+      "signal_id": "ocr_state_0045",
+      "start": 11.0,
+      "start_frame": 660,
+      "text": "Conversations V = () Build and test \u00bb Now let's investigate the Ul components f Kanban feature: ) List src/ui/ L Read 26 files ) Read KanbanDetail.tsx L Read 3?1 lines y Edit (kthen-lets: claude 24 *. SW? 25 26 *\u00ab*/.Claude/settings. lLocal.json wae # Playwright traces < Pondering..."
+    },
+    {
+      "end": 11.5,
+      "end_frame": 690,
+      "normalized_text": "conversations l read 321 lines edit kanbandetailtsx 24 sw 25 26 cclaudesettings localjson wae playwright traces update th lets claude l hyves th cetethechettd vet he 40q createanendpeintferasynchronet adeanexportbutterntethe adnan j build and test ok lets see if this works pondering",
+      "signal_id": "ocr_state_0046",
+      "start": 11.25,
+      "start_frame": 675,
+      "text": "Conversations = L Read 321 lines ) Edit (KanbanDetail.tsx) 24 *, SW? 25 26 **/.Cclaude/settings. local.json wae ) # Playwright traces \u00bb Update th\u00e9 lets claude L HYVES tH Cete-tHe-chett-d vet HE 40-@q: Create-an-endpeintferasynchronet Ade-anexport-butterntethe Adnan (J Build and test \u00bb OK, let's see if this works! ~ Pondering..."
+    },
+    {
+      "end": 11.75,
+      "end_frame": 705,
+      "normalized_text": "conversations update todos l lavestigate thedataavaitable teex createanendpoinferasynebronet j build and test ok lets see if this works bash execute in npm run build test build out build succeeded with 26 warnir pondering",
+      "signal_id": "ocr_state_0047",
+      "start": 11.5,
+      "start_frame": 690,
+      "text": "Conversations \u00bb Update Todos L lavestigate the-data-avaitable te-ex\u00a2 Create-an-endpoin-ferasynebronet (J Build and test \u00bb OK, let's see if this works! . Bash execute IN npm run build Test build OUT Build succeeded with 26 warnir < Pondering..."
+    },
+    {
+      "end": 12.0,
+      "end_frame": 720,
+      "normalized_text": "conversations bash in npm run build test build out build succeeded with 26 warnir ooo et a ele cool now let me add an endtoend weblt create testayacutetsx 24 sw 25 26 kclaudesettings local json weet playwright traces pondering",
+      "signal_id": "ocr_state_0048",
+      "start": 11.75,
+      "start_frame": 705,
+      "text": "Conversations \u00bb Bash IN npm run build Test build OUT Build succeeded with 26 warnir (Ooo ET a ele \u00bb Cool, now let me add an end-to-end weblt \u00bb Create (testayacute:tsx) 24 *, SW? 25 26 **k/.Claude/settings. local. json weet # Playwright traces . Pondering..."
+    },
+    {
+      "end": 12.25,
+      "end_frame": 735,
+      "normalized_text": "r qar that one",
+      "signal_id": "ocr_state_0049",
+      "start": 12.0,
+      "start_frame": 720,
+      "text": "| r qar~ | \\ That one"
+    },
+    {
+      "end": 12.5,
+      "end_frame": 750,
+      "normalized_text": "j x that one",
+      "signal_id": "ocr_state_0050",
+      "start": 12.25,
+      "start_frame": 735,
+      "text": "J &x\u00a2- That one\u2019 ~\u201d"
+    },
+    {
+      "end": 12.75,
+      "end_frame": 765,
+      "normalized_text": "a shift alone sd",
+      "signal_id": "ocr_state_0051",
+      "start": 12.5,
+      "start_frame": 750,
+      "text": "| a shift alone Sd"
+    },
+    {
+      "end": 13.0,
+      "end_frame": 780,
+      "normalized_text": "shift aloftes",
+      "signal_id": "ocr_state_0052",
+      "start": 12.75,
+      "start_frame": 765,
+      "text": "; shift aloftes"
+    },
+    {
+      "end": 13.5,
+      "end_frame": 810,
+      "normalized_text": "oo ponmndine at los dam ta blerk 2 viewed studion coates 4 ie it nind meat io2lamto xx nd ne at lo pam te check onimy pro hh me at to am to check on my project cale fan toe tte thet trae aye zo vd bate etl w na moao qq screen reader opt",
+      "signal_id": "ocr_state_0053",
+      "start": 13.25,
+      "start_frame": 795,
+      "text": "\"Oo ponmndine at LOS dam ta blerk 2 Viewed Studion Coates (4 (Ie | It] nind meat iO2lamto. Xx nd ne at lO Pam te check onimy pro HH Me At TO am to check on my project Cale | fan toe tte thet trae aye Zo Vd bate etl w na \u201c@ MoA\\o QQ Screen Reader Opt"
+    },
+    {
+      "end": 13.75,
+      "end_frame": 825,
+      "normalized_text": "q remind me at 1023 am to herk2 visual studio code ct v 08 o gb nind me at 1023 am to x nd me at 1023 am to check on my pro v perea today is march 7 2026 setting a oneshot reminder for 1023 am croncreate gq cron 23 10 73 prompt remind nate check on your project scheduled oneshot task 482d071b 23 10 7 3 sessiononly not written to disk dies whe reminder set for 1023 am today ill ping you to check on your project just keep this session open tt only works while claude is running ctrl esc to focus o y p p 7 ask before edits a ng woo screen reader opt",
+      "signal_id": "ocr_state_0054",
+      "start": 13.5,
+      "start_frame": 810,
+      "text": ": Q remind me at 10:23 am to... - Herk-2 - Visual Studio Code Ct v 08 O GB nind me at 10:23 am to... X nd me at 10:23 am to check on my pro... v Perea Today is March 7, 2026. Setting a one-shot reminder for 10:23 AM. CronCreate ( gq \u201ccron\u201d: \"23 10 73\u00b0\", \u201cprompt\u2122: \u201cRemind Nate: Check on your project.\u201d, Scheduled one-shot task 482d071b (23 10 7 3 *). Session-only (not written to disk, dies whe: Reminder set for 10:23 AM today. I'll ping you to check on your project. Just keep this session open -- tt only works while Claude is running. ctrl esc to focus o y p p 7 Ask before edits a ng @ Woo @ Screen Reader Opt"
+    },
+    {
+      "end": 14.0,
+      "end_frame": 840,
+      "normalized_text": "prompt remind nate check on your project scheduled oneshot task 402d071b 23 10 7 3 reminder set for 1023 am today ill ping you to check on only works while claude is running hey nate this is your reminder to check on your project trl esc to focus or unfocus claude why most people gturings woao",
+      "signal_id": "ocr_state_0055",
+      "start": 13.75,
+      "start_frame": 825,
+      "text": "\u201cprompt\u201d: \u201cRemind Nate: Check on your project.\u00b0 Scheduled one-shot task 402d071b (23 10 7 3 *). | @ Reminder set for 10:23 AM today. I'll ping you to check on only works while Claude is running. @ Hey Nate -- this is your reminder to check on your project. trl esc to focus or unfocus Claude ,, Why most people g-turings\u00ae & WoAo"
+    },
+    {
+      "end": 14.25,
+      "end_frame": 855,
+      "normalized_text": "4 every ten minutes cneck herk visual stuaio loge wy uo bw bry ten minutes check x s ten minutes check my clickup to see v ry ten minutes check my clickup to see if theres any new developments on our project greengrass queue another message get ft 4 ask before edits g ng oao q screen reader opt",
+      "signal_id": "ocr_state_0056",
+      "start": 14.0,
+      "start_frame": 840,
+      "text": "> 4 every ten minutes, cneck... - Herk-\u00a2 - visual stuaio Loge wy Uo Bw Bry ten minutes, check... X s ten minutes, check my clickup to see... v ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Queue another message... get ft 4 Ask before edits g ng @ @oAo @Q Screen Reader Opt"
+    },
+    {
+      "end": 14.5,
+      "end_frame": 870,
+      "normalized_text": "7 a svety ch iimeiules check mc e vidudl suuiy luue band uo ww bry ten minutes check s ten minutes check my clickup to see v ry ten minutes check my clickup to see if theres any new developments on our project greengrass thinking leop skill cooking queue another message resu ws ask before edits 8 ng woado screen reader opt",
+      "signal_id": "ocr_state_0057",
+      "start": 14.25,
+      "start_frame": 855,
+      "text": "7 A SVETY (CH IIMEIULES, CHECK... \" MC e ~ Vidudl SUUIY LuUe band - uo @ ww Bry ten minutes, check... | s ten minutes, check my clickup to see... v ry ten minutes, check my clickup to see if there's any new developments on our project Greengrass. Thinking ~ leop skill Cooking... Queue another message... resu WS / Ask before edits 8 ng @ @WoAdo @ Screen Reader Opt"
+    },
+    {
+      "end": 14.75,
+      "end_frame": 885,
+      "normalized_text": "a every corr rsa cge figtace visual guy reus ua as bry ten minutes check s ten minutes check my clickup to see v thinking loop skill croncreate cron 19 prompt check clickup for any new developments on the project greengrass look for new scheduled recurring job 3a196c23 every 10 minutes sessiononly not written to disk die scheduled heres the summary crafting queue another message resu lts ask before edits g ng woo q screen reader opt",
+      "signal_id": "ocr_state_0058",
+      "start": 14.5,
+      "start_frame": 870,
+      "text": "\u2019 A every corr rsa, CGE. \u2014 FIGTACe \u2014 visual guy Reus - ua as \u00a9 Bry ten minutes, check... s ten minutes, check my clickup to see... v Thinking loop skill CronCreate - \u00a3 \u201ccron: \"*/19 * = * #, \u201cprompt\u201d: \u201cCheck ClickUp for any new developments on the project Greengrass. Look for new Scheduled recurring job 3a196c23 (Every 10 minutes). Session-only (not written to disk, die Scheduled. Here's the summary: Crafting... Queue another message... resu lts / Ask before edits g ng @ Woo @Q Screen Reader Opt"
+    },
+    {
+      "end": 15.0,
+      "end_frame": 900,
+      "normalized_text": "and thats",
+      "signal_id": "ocr_state_0059",
+      "start": 14.75,
+      "start_frame": 885,
+      "text": "And that's"
+    },
+    {
+      "end": 15.25,
+      "end_frame": 915,
+      "normalized_text": "not all",
+      "signal_id": "ocr_state_0060",
+      "start": 15.0,
+      "start_frame": 900,
+      "text": "\u00a5 not all"
+    },
+    {
+      "end": 15.5,
+      "end_frame": 930,
+      "normalized_text": "fainhall vig thinking what skill would you like to create or improve give me a brief description of what you have in mind and ill help you build it out build a skill with the 3d asset generator on the left uitte 4 cooking queue another message 7 ask before edits untitled1 6 cavane",
+      "signal_id": "ocr_state_0061",
+      "start": 15.25,
+      "start_frame": 915,
+      "text": "FAINHALL VIG @ Thinking ~ @ What skill would you like to create or improve? Give me a brief description of what you have in mind, and I'll help you build it out. build a skill with the 3d asset generator on the left Uitte 4 %* Cooking... Queue another message... 7 Ask before edits </> Untitled-1 6 / | Cavane"
+    },
+    {
+      "end": 15.75,
+      "end_frame": 945,
+      "normalized_text": "fairaly vivlatvi thinking what skill would you like to create or improve give me a brief description of what you have in mind and ill help you build it out build a skill with the 3d asset generator on the left cooking his claude files queue another message 7 ask before edits i untitled1 oe caeane",
+      "signal_id": "ocr_state_0062",
+      "start": 15.5,
+      "start_frame": 930,
+      "text": "FAIRALY VIVLatvi @ Thinking \u00b0\u2019 @ What skill would you like to create or improve? Give me a brief description of what you have in mind, and I'll help you build it out. build a skill with the 3d asset generator on the left + Cooking... his Claude files {Queue another message... 7 Ask before edits <i> Untitled-1 oe / | | Caeane"
+    },
+    {
+      "end": 16.0,
+      "end_frame": 960,
+      "normalized_text": "e skillis installed and already active now let me set up test cases and run them e update todos set up test cases for scrollstopprompter skill run test cases withskill and baseline in parallel draft assertions while runs are in progress grade aggregate and launch eval viewer iterate based on feedback let me create the workspace and test cases here are 3 realistic prompts id use to test 1 laptop the defaultclassiase from the skills own examples 2 tropical smoothie tests wspapveverage explosion variant 3 sneaker tests a fashion product with different component types hil go cb a be sk la a ria 1s e bash create workspace and evals directories mkdir p claudeskillsscrollstopprompter q forfj tating queue another message 7 ask before edits untitled1 ef oaeane",
+      "signal_id": "ocr_state_0063",
+      "start": 15.75,
+      "start_frame": 945,
+      "text": "] e Skillis installed and already active. Now let me set up test cases and run them. e@ Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft assertions while runs are in progress Grade, aggregate, and launch eval viewer Iterate based on feedback @ Let me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classi@ase from the skill's own examples \u201c 2. Tropical smoothie \u2014 tests wSpapveverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Hil go cB a Be sk la a ria 1S e@ Bash Create workspace and evals directories . mkdir -p ~/.claude/skills/scroll-stop-prompter\u2014 Q * Forfj tating... Queue another message... 7 Ask before edits </> Untitled-1 ef || Oaeane"
+    },
+    {
+      "end": 16.25,
+      "end_frame": 975,
+      "normalized_text": "mkdir p claudeskillsscrollstopprompter q e skill is installed and already active now jet me set up test cases and run them e update todos set up test cases for scrollstopprompter skill run test cases withskill and baseline in parallel draft assertions while runs are in progress grade aggregate and launch eval viewer lterate based on feedback e let me create the workspac test cases here are 3 realistic prompts id use to t 1 laptop the defaultclassic case from the skills own examples 2 tropical smoothie tests the foodbeverage explosion variant 3 sneaker tests a fashion product with different comocnent types a a oon usclaudefiles ill go ahead and set them up while you think about it e bash create workspace and evals directories mkdir p claudeskillsscrollstoppromptery forming queue another message 7 ask before edits i untitled1 e f careane",
+      "signal_id": "ocr_state_0064",
+      "start": 16.0,
+      "start_frame": 960,
+      "text": "mkdir -p ~/.claude/skills/scroll-stop-prompter/< Q e@ Skill is installed and already active. Now Jet me set up test cases and run them. e Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft assertions while runs are in progress Grade, aggregate, and launch eval viewer lterate based on feedback e@ Let me create the workspac test cases. Here are 3 realistic prompts I'd use to t 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different comocnent types a a oon Us.Claude.files I'll go ahead and set them up while you think about it. e@ Bash Create workspace and evals directories mkdir -p ~/.claude/skills/scroll-stop-prompter-\u2014y @ + Forming... Queue another message... 7 Ask before edits <i> Untitled-1 e f | Careane"
+    },
+    {
+      "end": 16.5,
+      "end_frame": 990,
+      "normalized_text": "e skillis installed and already active now let me set up test cases and run them e update todos set up test cases for scrollstopprompter skill run test cases withskill and baseline in parallel draft assertins while runs are in progress grade aggr and launch eval viewer iterate base eedback tet me create the workspace and test cases here are 3 realistic prompts id use to test 1 laptop the defaultclassic case from the skills own examples 2 tropical smoothie tests the foodbeverage explosion variant 3 sneaker tests a fashion product with different component types do these look good sj we a any out ill go ahead and set m ink about it bash create workspace and evals directories mkdir p claudeskillsscrollstopprompter c forming queue another message 4 ask before edits untitled1 ge cavane",
+      "signal_id": "ocr_state_0065",
+      "start": 16.25,
+      "start_frame": 975,
+      "text": "- @ e Skillis installed and already active. Now let me set up test cases and run them. e Update Todos * Set up test cases for scroll-stop-prompter skill Run test cases (with-skill and baseline) in parallel Draft asserti_ns while runs are in progress Grade, aggr and launch eval viewer Iterate base eedback @ tet me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Do these look good, Sj We a\u201d any out? I'll go ahead and set m ink about it. @ Bash Create workspace and evals directories . mkdir -p ~/.claude/skills/scroll-stop-\u2014prompter-\u2014\u00bb+ C] * Forming... Queue another message... #4 Ask before edits </> Untitled-1 ge / || Cavane"
+    },
+    {
+      "end": 16.75,
+      "end_frame": 1005,
+      "normalized_text": "e skillis installed and already active now let me set up test cases and run them update todos set up test cases for scrollstopprompter skill run tej cases withskill and baseline in parailel draft ions while runs are in progress grade regate and launch eval viewer iterate based on feedback let me create the workspace and test cases here are 3 realistic prompts id use to test 1 laptop the defaultclassic case from the skills own examples 2 tropical smoothie tests the foodbeverage explosion variant 3 sneaker tests a fashion product with different component types do these look good sj ny a any out ill go ahead and set mn ink about it bash create workspace and evals directories mkdir p claudeskillsscrollstopprompter forming queue another message 4 ask before edits untitled1 6 cavane",
+      "signal_id": "ocr_state_0066",
+      "start": 16.5,
+      "start_frame": 990,
+      "text": "e@ Skillis installed and already active. Now let me set up test cases and run them. @ Update Todos * Set up test cases for scroll-stop-prompter skill Run t@ej cases (with-skill and baseline) in parailel Draft ions while runs are in progress Grade, regate, and launch eval viewer Iterate based on feedback @ Let me create the workspace and test cases. Here are 3 realistic prompts I'd use to test: 1. Laptop \u2014 the default/classic case from the skill's own examples 2. Tropical smoothie \u2014 tests the food/beverage \u201cexplosion\u201d variant 3. Sneaker \u2014 tests a fashion product with different component types Do these look good, Sj ny a\u201d any out? I'll go ahead and set mn ink about it. @ Bash Create workspace and evals directories '. mkdir -p ~/.claude/skills/scroll-stop-prompter\u2014\u00bb @ * Forming... Queue another message... 4 Ask before edits </> Untitled-1 6 || Cavane"
+    },
+    {
+      "end": 17.0,
+      "end_frame": 1020,
+      "normalized_text": "del opus plan configuration he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen ig onpress navigationnavigate camerapermission o platform0s web 2 navigationreplacemain a navigation navigate camerapermission now fix camerapermissionview not now main and add scrollview edit cusersshubhonedriveoocumentspicklecoachsrcscreensonboarding camerapermissionviewts x tlodificd cc import view text stylesheet touchableopacity linking platform from 5 peactnative ofimport view text stylesheet touchableqpacity linking platforal scrollvied a edit usersshubhonedrivedocuments picklecoachsresereens onboarding camerapermissionviewts x added 1 line a scrollview contentcontainerstylesscroilcontnt showsverticalscrollindicator q main content canvas pt24 pb12 flex flexcol itemscenter textcenter view stylesmain ctrl esc to focus or unfocus claude t askbeforeedits t",
+      "signal_id": "ocr_state_0067",
+      "start": 16.75,
+      "start_frame": 1005,
+      "text": "del Opus plan configuration \u00a9 \u00ab he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen ig onPress={ => navigation.navigate( \u2018CameraPermission' } o \u2018Platform.0S === \u2018web\u2019 2 navigation.replace(\u2018Main\u2019) | | a navigation. navigate( \u2018CameraPermission\u2019 )} Now fix CameraPermissionView \u2014 \u201cNot now\" \u2014 Main, and add ScrollView: Edit c:\\Users\\shubh\\OneDrive\\oocuments\\PickleCoach\\src\\screens\\onboarding \\CameraPermissionView.ts x tlodificd CC import { View, Text, StyleSheet, TouchableOpacity, Linking, Platform } from 5 \"peact-native\u2019; ofimport { View, Text, StyleSheet, TouchableQpacity, Linking, Platforal, ScrollVied } | a Edit \u00a2:\\Users\\shubh\\OneDrive\\Documents \\PickleCoach\\sre\\sereens \\onboarding \\CameraPermissionView.ts x Added 1 line a <ScrollView contentContainerStyle={s.scroilCont\u00e9nt} showsVerticalScrollindicator= q {/* Main Content Canvas -\u2014 pt-24 pb-12 flex flex-col items-center text-center \u00b0/} <View style={s.main}> ctrl esc to focus or unfocus Claude t \u00ae Askbeforeedits \u201cT"
+    },
+    {
+      "end": 17.25,
+      "end_frame": 1035,
+      "normalized_text": "de opus plan configuration y he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen now ill make both fixes on web get started skips to main and not now also goes to main edit cusersshubhonedrivedocuments picklecoachsrcscreensonboardingsplashviewtsx modified import react from react tc import view text stylesheet touchableopacit from reactnative okimport view text stylesheet touchableopacit from reactnative import safeareaview from reactnativesafeareacontext edit cusersshubhonedrivedocuments pickleccoachsrcscreens onboardingsplashviewtsx modified ca onpress navigationnavigate camerapermission e platform05 web 2 navigationneplacemain i q navigation navigate camerapermission now fix camerapermissionview not now main and add scrollview edit cuusersshubhonedriveoocuments picklecoachsrcscreens onboardingcamerapermissionviewts trl esc to focus or unfocus claude f ask before edits check its",
+      "signal_id": "ocr_state_0068",
+      "start": 17.0,
+      "start_frame": 1020,
+      "text": "de! Opus plan configuration Y \u00ab he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Now I'll make both fixes \u2014 on web, \u201cGet started\u201d skips to Main, and \u201cNot now\u201d also goes to Main: Edit c:\\users\\shubh\\OneDrive\\Documents \\Picklecoach\\src\\screens\\onboarding\\SplashView.tsx Modified import React from \u2018react\u2019; | tC. import _{ View, Text, StyleSheet, TouchableOpacit: from \u2018react-native' ; Okimport { View, Text, StyleSheet, TouchableOpacit: from \u2018react-native\u2019 ; . import { SafeAreaView } from \u2018react-native-safe-area-context\u2018; Edit c:\\users\\shubh\\OneDrive\\Documents \\PickleCcoach\\src\\screens \\onboarding\\Splashview.tsx Modified ca onPress=: => navigation.navigate( 'CameraPermission\u2019 e Platform.05 === \u2018web\u2019 2 navigation:neplace(\"Main') | i Q navigation. navigate( 'CameraPermission' ) Now fix CameraPermissionView \u2014 \u201cNot now\u201d \u2014 Main, and add ScrollView: Edit _c:\\uUsers\\shubh\\OneDrive\\Oocuments \\PickleCoach\\src\\screens \\onboarding\\CameraPermissionView.ts trl esc to focus or unfocus Claude f- \u00ae Ask before edits check its"
+    },
+    {
+      "end": 17.5,
+      "end_frame": 1050,
+      "normalized_text": "de opus plan configuration y he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen read usersshubhonedrive documentspicklecoachsrescreensonboardingsplashviewtsx now ill make both fixes on web get started skips to main and not now also goes to main edit usersshubhonedriveoocuments picklecoachsrcscreens onboarding splashviewtsx modified import react from react co import view text stylesheet touchableopacit from reactnative slimport view text stylesheet touchableopacity platfors from reactnative import safeareaview from reactnativesafeareacontext edit usersshubhonedrivedocuments picklecoachsrescreens onboarding splashviewtsx modified co onpress navigation navigate camerapermission a platform0s sas web navigationreplacemain q navigation navigate camerapermission trl esc to focus or unfocus claude askbeforeedits check its",
+      "signal_id": "ocr_state_0069",
+      "start": 17.25,
+      "start_frame": 1035,
+      "text": "de! Opus plan configuration Y \u00a2 he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Read \u00a2:\\Users\\shubh\\OneDrive \\Documents\\PickleCoach\\sre\\screens\\onboarding\\SplashView.tsx Now I'll make both fixes \u2014 on web, \u201cGet started\u201d skips to Main, and \u201cNot now\u201d also goes to Main: Edit \u00a2:\\users\\shubh\\Onedrive\\Oocuments \\PickleCoach\\src\\screens \\onboarding \\Splashview.tsx Modified ) import React from \u2018react\u2019; CO import _{ View, Text, StyleSheet, TouchableOpacit: from \u2018react-native' ; Slimport { View, Text, StyleSheet, TouchableOpacity,. Platfors } from \u2018react-native\u2019; import { SafeAreaView } from \u2018react-native-safe-area-context '; Edit \u00a2:\\Users\\shubh\\Onedrive\\Documents \\PickleCoach\\sre\\screens \\onboarding \\SplashView.tsx Modified co onPress= => navigation. navigate( \u2018CameraPermission\u2019 a \u2018Platform.0S sas \u2018web\u2019 ? navigation.replace(\"Main') | | Q : \"navigation. navigate( \u2018CameraPermission\u2019 ) trl esc to focus or unfocus Claude + \u00ae Askbeforeedits check its"
+    },
+    {
+      "end": 17.75,
+      "end_frame": 1065,
+      "normalized_text": "de opus plan configuration y he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen bash read navigation config cat eusersshubhonedrivedocumentspicklecoachsrenavigationindextsx 2devnull it import react usetffect usestate from react import navigationcontainer from reactnavigationnative import createstacknavigator from reactnavigationstack thinking two fixes needed not now should go to main and the screen needs a scrollview let me also check splashview since that starts the flow bash check splashview navigation grep n navigatelonpress cusersshubhonedrivedocumentspicklecoachsrcscreensonb lhi 43 onpress navigation navigate camerapermission three fixes in camerapermissionview 1 on web skip the screen entirely from splashview 2 not now goes straight to main 3 wrap in scrallview trl esc to focus or unfocus claude f askbefore edits",
+      "signal_id": "ocr_state_0070",
+      "start": 17.5,
+      "start_frame": 1050,
+      "text": "de! Opus plan configuration Y \u00a2 he kamera permsion frame is a a pain in the ass and it doesnt sroll and even in not now it doesnt rasnser ne to homesreen Bash Read navigation config -. Cat \u201c/e/Users/shubh/Onedrive/Documents/PickleCoach/sre/navigation/index.tsx\u201d 2>/dev/null | \u201ciT import React, { uset&ffect, useState } from \u2018react\u2019; import { NavigationContainer } from \u2018@react-navigation/native' ; import { createStackNavigator } from \u2018@react-navigation/stack\u2019 ; . | Thinking > Two fixes needed: \"Not now\" should go to Main, and the screen needs a ScrollView. Let me also check SplashView since that starts the flow. Bash Check SplashView navigation -. grep -n \u201cnavigate\\lonPress\u201d \u201c/c/Users/shubh/Onedrive/Documents/PickleCoach/src/screens/onb lhi 43: onPress={(} => navigation. navigate( \u2018CameraPermission\u2019 )} Three fixes in CameraPermissionView: 1. On web \u2014 skip the screen entirely from SplashView 2. \"Not now\u201d ~ goes straight to Main 3. Wrap in ScrallView trl esc to focus or unfocus Claude f- \u00ae Askbefore edits"
+    },
+    {
+      "end": 18.0,
+      "end_frame": 1080,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch and runs",
+      "signal_id": "ocr_state_0071",
+      "start": 17.75,
+      "start_frame": 1065,
+      "text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u201cand runs \u2019"
+    },
+    {
+      "end": 18.25,
+      "end_frame": 1095,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch and runs a",
+      "signal_id": "ocr_state_0072",
+      "start": 18.0,
+      "start_frame": 1080,
+      "text": "- Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u201cand runs \u201ca"
+    },
+    {
+      "end": 18.5,
+      "end_frame": 1110,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch separate y",
+      "signal_id": "ocr_state_0073",
+      "start": 18.25,
+      "start_frame": 1095,
+      "text": "\u00b0 Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... separate ; y"
+    },
+    {
+      "end": 18.75,
+      "end_frame": 1125,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch sessions bn y 7",
+      "signal_id": "ocr_state_0074",
+      "start": 18.5,
+      "start_frame": 1110,
+      "text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... sessions bn y . 7"
+    },
+    {
+      "end": 19.0,
+      "end_frame": 1140,
+      "normalized_text": "foy claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch sessions eo 1",
+      "signal_id": "ocr_state_0075",
+      "start": 18.75,
+      "start_frame": 1125,
+      "text": "Foy Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... sessions eo | | . 1"
+    },
+    {
+      "end": 19.25,
+      "end_frame": 1155,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch iq for separate 1 t",
+      "signal_id": "ocr_state_0076",
+      "start": 19.0,
+      "start_frame": 1140,
+      "text": "\u00bb Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... IQ) for separate 1 t. \u2018 . ~\u2014-"
+    },
+    {
+      "end": 19.75,
+      "end_frame": 1185,
+      "normalized_text": "claude let me walk through the structure first youll want to extract that into its own service sure heres the revised interface we should wrap each boundary with a trycatch problems",
+      "signal_id": "ocr_state_0077",
+      "start": 19.25,
+      "start_frame": 1155,
+      "text": "> Claude Let me walk through the structure first... You'll want to extract that into its own service. Sure, here's the revised interface: We should wrap each boundary with a try/catch... \u2018problems"
+    },
+    {
+      "end": 20.0,
+      "end_frame": 1200,
+      "normalized_text": "eo so hes not s",
+      "signal_id": "ocr_state_0078",
+      "start": 19.75,
+      "start_frame": 1185,
+      "text": "\u201ceo So he's not __\u2014s-"
+    },
+    {
+      "end": 20.25,
+      "end_frame": 1215,
+      "normalized_text": "a nell",
+      "signal_id": "ocr_state_0079",
+      "start": 20.0,
+      "start_frame": 1200,
+      "text": "} a nell"
+    },
+    {
+      "end": 20.5,
+      "end_frame": 1230,
+      "normalized_text": "just promptifig",
+      "signal_id": "ocr_state_0080",
+      "start": 20.25,
+      "start_frame": 1215,
+      "text": "- just promptifig _"
+    },
+    {
+      "end": 20.75,
+      "end_frame": 1245,
+      "normalized_text": "4 just promptifig",
+      "signal_id": "ocr_state_0081",
+      "start": 20.5,
+      "start_frame": 1230,
+      "text": "~ ~~ 4 just promptifig"
+    },
+    {
+      "end": 21.25,
+      "end_frame": 1275,
+      "normalized_text": "better",
+      "signal_id": "ocr_state_0082",
+      "start": 20.75,
+      "start_frame": 1245,
+      "text": "better\u2019;"
+    },
+    {
+      "end": 21.5,
+      "end_frame": 1290,
+      "normalized_text": "me eee a ee neb ue sn rer rn fe ft er ee this session is being continued from a previous conversation that ran out of context the su covers the earlier portion of the conversation summary 1 primary request and intent the session had two user requests build a web version user wanted to preview the app in a browser checked reactnativeweb already installed found port 8081 already had a dev server runr user to httplocalhost8081 o camera permissiol gscreen ux fixes user complained 1 the screen is annoyir it doesnt scroll 3 not now doesnt go to the home screen all three were fixed 2 key technical concepts react native expo managed workflow sdk 54 web via for browser preview on port 8081 guards for nativeonly code react navigation v7 rootstack onboarding main onboardingstack splash ctrl esc to focus or unfocus claude b jayo itcae uu e",
+      "signal_id": "ocr_state_0083",
+      "start": 21.25,
+      "start_frame": 1275,
+      "text": "me EEE A Ee Neb UE SN rer RN fe ft er ee This session is being continued from a previous conversation that ran out of context. The su covers the earlier portion of the conversation. Summary: 1. Primary Request and Intent: The session had two user requests: \u00a9 \u201cbuild a web version\u201d \u2014 user wanted to preview the app in a browser. | checked (react-native-web already installed), found port 8081 already had a dev server runr user to http://localhost:8081. o Camera permissiol gscreen UX fixes \u2014 user complained: (1) the screen is annoyir it doesn't scroll, (3) \u201cNot now\" doesn't go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 for browser preview on port 8081 \u00b0 guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main} \u2014 OnboardingStack (Splash \u2014 ctrl esc to focus or unfocus Claude B jayo . itcae UU e \u00e9 \\ \u2018 . -"
+    },
+    {
+      "end": 21.75,
+      "end_frame": 1305,
+      "normalized_text": "1 primary request and intent the session had two user requests build a web version user wanted to preview the app in a browser checked reactnativeweb already installed found port 8081 already had a dev server runr user to httplocalhost8081 camera permission screen ux fixes user complained 1 the screen is annoyin it doesnt scroll 3 not now doesnt go to the home screen all three were fixed 2 key technical concepts react native expo managed workflow sdk 54 web via exieevcamemacn or browser preview on port 8081 guards for nativeonly code 9 react navigation v7 rootstack onboarding main onboardingstack splash camerapermission setupguide maintab practice progress settings to jump from onboarding stack to main replaces t no back button o ed with for scrollable screens ctrl esc to focus or unfocus claude f 5",
+      "signal_id": "ocr_state_0084",
+      "start": 21.5,
+      "start_frame": 1290,
+      "text": "1. Primary Request and Intent: The session had two user requests: \u00b0 \u201cbuild a web version\u201d \u2014 user wanted to preview the app in a browser. | checked | (react-native-web already installed), found port 8081 already had a dev server runr user to http://localhost:8081. \u00a9 Camera permission screen UX fixes \u2014 user complained: (1) the screen is annoyin it doesn't scroll, (3) \u201cNot now\u201d doesn\u2019t go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 Exieevcamemacn (or browser preview on port 8081 \u00b0 guards for native-only code 9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash - CameraPermission \u2014 SetupGuide) > MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) o ED with for scrollable screens ctrl esc to focus or unfocus Claude f \u00a9 5 \u2019 \u00b0"
+    },
+    {
+      "end": 22.0,
+      "end_frame": 1320,
+      "normalized_text": "it doesnt scroll 3 not now doesnt go to the home screen all three were fixed 2 key technical concepts react native expo managed workflow sdk 54 web via for browser preview on port 8081 guards for nativeonly code react navigation v7 rootstack onboarding main onboardingstack splash camerapermission setupguide maintab practice progress settings to jump from onboarding stack to main replaces t no back button for scrollable screens o rte ee was already guarded with camerapermissionview no changes needed there 3 files and code sections c added exrrrmg to react native imports 29 changed get started button to skip camerapermission entirely on web and qo st ctrl esc to focus or unfocus claude laaugac elels f",
+      "signal_id": "ocr_state_0085",
+      "start": 21.75,
+      "start_frame": 1305,
+      "text": "it doesn't scroll, (3) \u201cNot now\" doesn't go to the home screen. All three were fixed. 2. Key Technical Concepts: \u00a9 React Native + Expo managed workflow, SDK 54, web via \u00b0 for browser preview on port 8081 \u00b0 guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash \u2014 CameraPermission \u2014 SetupGuide) \u2014- MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) \u00b0 for scrollable screens o rte ee was already guarded with CameraPermissionView (no changes needed there) 3. Files and Code Sections: c Added EXRRRMg) to React Native imports 29 Changed \u201cGet started\u201d button to skip CameraPermission entirely on web and qo st ctrl esc to focus or unfocus Claude Laaugac elels | f ~\u2014 |"
+    },
+    {
+      "end": 22.25,
+      "end_frame": 1335,
+      "normalized_text": "me plat forr0s brame guards for nativeonly code react navigation v7 rootstack onboarding main onboardingstack splash camerapermission setupguide maintab practice progress settings to jump from onboarding stack to main replaces t no back button erne 62s otready ovorded with eea camerapermissionview no changes needed there 3 files and code sections srcsereensonboardinesplashview tsx added to react native imports changed get started button to skip camerapermission entirely on web and go st import view text stylesheet touchableqpacity platform front reactna onpress platform0s es web navigationreplacemain navigati ctrl esc to focus or unfocus claude a ke cc v p",
+      "signal_id": "ocr_state_0086",
+      "start": 22.0,
+      "start_frame": 1320,
+      "text": "me Plat forr.0s Brame Guards for native-only code \u00a9 React Navigation v7: RootStack (Onboarding | Main) - OnboardingStack (Splash - CameraPermission \u2014 SetupGuide) \u2014- MainTab (Practice | Progress | Settings) \u00b0 to jump from Onboarding stack to Main (replaces t no back button) \u00b0 (ERNE 62s otready ovorded with EEA CameraPermissionView (no changes needed there) 3. Files and Code Sections: src/sereens/onboardine/SplashView, tsx \u00b0 Added to React Native imports \u00a9 Changed \u201cGet started\u201d button to skip CameraPermission entirely on web and go st import { View, Text, StyleSheet, TouchableQpacity, Platform } front \u2018react-na onPress:{() > Platform.0S es * \u2018web\u2019 > navigation.replace(\u2018Main\u2019) : navigati ctrl esc to focus or unfocus Claude a Ke Cc v > P \u2018 -"
+    },
+    {
+      "end": 22.5,
+      "end_frame": 1350,
+      "normalized_text": "srcscreensonboardingsplashviewtsx added to react native imports changed get started button to skip camerapermission entirely on web and go st import view text stylesheet touchableqpacity platform from reactna onpress platformos s web navigationreplacemain navigati srescreensonboardingcamerapermissionviewtsx o added scrollvicw neg react native imports wrapped the main scrollable area everything between the header safeareaview a shem scroliview contentcontainerstyle sscrollcentent showsverticalscrollincicatorfalse changed not now button to go directly to main instead of setupguide before lonpress navieationnavisatel setunguide ctrl esc to focus or unfocus claude a a r v iy",
+      "signal_id": "ocr_state_0087",
+      "start": 22.25,
+      "start_frame": 1335,
+      "text": "src/screens/onboarding/SplashView.tsx \u00a9 Added to React Native imports \u00a9 Changed \u201cGet started\" button to skip CameraPermission entirely on web and go st import { View, Text, StyleSheet, TouchableQpacity, Platform } from \u2018react-na onPress={() => Platform,OS =s= \u2018web\u2019 ? navigation.replace(\u2018Main\u2019) : navigati sre/screens/onboarding/CameraPermissionView.tsx o Added Scrollvicw Neg React Native imports \u00a9 Wrapped the main scrollable area (everything between the header SafeAreaView a Shem <ScroliView contentContainerStyle {s.scrollCentent} showsVerticalScrollIncicator={(false}> \u00a9 Changed \u201cNot now\" button to go directly to Main instead of SetupGuide: // Before: lonPress={() => navieation.navisatel \u2019SetunGuide')} ctrl esc to focus or unfocus Claude a a r | ~ v -_ iy - - \u2014 . - , ; >"
+    },
+    {
+      "end": 22.75,
+      "end_frame": 1365,
+      "normalized_text": "o wrapped ine main scrotiable area everytning detween tne neader saieareaview a ue sceollview contentcontainorstyle sscrollcentent showsverticalscrolllncicaton false changed not now button to go directly to main instead of setupguide anpress0 navipationnavisatesetupguide onpress 0 navigation replacemain added ceeri se scrollontent flexgrow l alignltems center width 100 j 4 errors and fixes port 8081 already in use when trying to start in background rejected because port 8081 was already occupied by an existing dev server no fix cuisting server was alroady serving the apo ctrl esc to focus or unfocus claude a mea ry a bf",
+      "signal_id": "ocr_state_0088",
+      "start": 22.5,
+      "start_frame": 1350,
+      "text": "o Wrapped ine main scrotiable area (everytning Detween tne neader saieAreaview a Ue <SceollView contentContainorStyle {s.scrollCentent} showsVerticalScrolllncicaton (false}> @ Changed \u201cNot now\" button to go directly to Main instead of SetupGuide: anPress={0) => navipation.navisate('SetupGuide\u2019 ) | onPress (0) >\u00bb navigation. replace(\u2018Main\u2019 )}} \u00a9 Added CEERI se: scroll\u20acontent: [ flexGrow: L, alignltems: \u2018center\u2019, width: \u2018100% j, 4. Errors and Fixes: \u00b0 Port 8081 already in use: When trying to start in background, rejected because port 8081 was already occupied by an existing dev server. No fix cuisting server was alroady serving the apo. ctrl esc to focus or unfocus Claude a mea\u2019 ~ ~ \\ ry a \u00a2 ' bf"
+    },
+    {
+      "end": 23.0,
+      "end_frame": 1380,
+      "normalized_text": "comment",
+      "signal_id": "ocr_state_0089",
+      "start": 22.75,
+      "start_frame": 1365,
+      "text": "\u00b0 \u00a5 comment"
+    },
+    {
+      "end": 23.5,
+      "end_frame": 1410,
+      "normalized_text": "creator",
+      "signal_id": "ocr_state_0090",
+      "start": 23.0,
+      "start_frame": 1380,
+      "text": "( =~ \\ \u201cCREATOR\u201d."
+    },
+    {
+      "end": 23.75,
+      "end_frame": 1425,
+      "normalized_text": "y 1 andiillsend",
+      "signal_id": "ocr_state_0091",
+      "start": 23.5,
+      "start_frame": 1410,
+      "text": "| y 1 \u00a5 _ andI'illsend"
+    },
+    {
+      "end": 24.0,
+      "end_frame": 1440,
+      "normalized_text": "y andlillsend",
+      "signal_id": "ocr_state_0092",
+      "start": 23.75,
+      "start_frame": 1425,
+      "text": "| Y andli'llsend _."
+    },
+    {
+      "end": 24.25,
+      "end_frame": 1455,
+      "normalized_text": "and iiilsend",
+      "signal_id": "ocr_state_0093",
+      "start": 24.0,
+      "start_frame": 1440,
+      "text": "and I'iIlsend _."
+    },
+    {
+      "end": 24.5,
+      "end_frame": 1470,
+      "normalized_text": "kn over the",
+      "signal_id": "ocr_state_0094",
+      "start": 24.25,
+      "start_frame": 1455,
+      "text": "\u201cKn. over the"
+    },
+    {
+      "end": 24.897,
+      "end_frame": 1491,
+      "normalized_text": "free guide",
+      "signal_id": "ocr_state_0095",
+      "start": 24.5,
+      "start_frame": 1470,
+      "text": ", free guide"
+    },
+    {
+      "end": 24.897,
+      "end_frame": 1494,
+      "normalized_text": "j free guide",
+      "signal_id": "ocr_state_0096",
+      "start": 24.897,
+      "start_frame": 1491,
+      "text": "J free guide"
+    }
+  ],
+  "scene_cuts": [
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 111,
+      "signal_id": "vis_scene_0001",
+      "time": 1.85
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 189,
+      "signal_id": "vis_scene_0002",
+      "time": 3.15
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 238,
+      "signal_id": "vis_scene_0003",
+      "time": 3.9667
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 333,
+      "signal_id": "vis_scene_0004",
+      "time": 5.55
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 376,
+      "signal_id": "vis_scene_0005",
+      "time": 6.2667
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 445,
+      "signal_id": "vis_scene_0006",
+      "time": 7.4167
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 505,
+      "signal_id": "vis_scene_0007",
+      "time": 8.4167
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 552,
+      "signal_id": "vis_scene_0008",
+      "time": 9.2
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 655,
+      "signal_id": "vis_scene_0009",
+      "time": 10.9167
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 720,
+      "signal_id": "vis_scene_0010",
+      "time": 12.0
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 795,
+      "signal_id": "vis_scene_0011",
+      "time": 13.25
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 879,
+      "signal_id": "vis_scene_0012",
+      "time": 14.65
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 915,
+      "signal_id": "vis_scene_0013",
+      "time": 15.25
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 991,
+      "signal_id": "vis_scene_0014",
+      "time": 16.5167
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 1063,
+      "signal_id": "vis_scene_0015",
+      "time": 17.7167
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 1184,
+      "signal_id": "vis_scene_0016",
+      "time": 19.7333
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 1264,
+      "signal_id": "vis_scene_0017",
+      "time": 21.0667
+    },
+    {
+      "detector": "pyscenedetect.ContentDetector",
+      "frame": 1357,
+      "signal_id": "vis_scene_0018",
+      "time": 22.6167
+    }
+  ],
+  "tooling": {
+    "frame_diff": "opencv mean grayscale absdiff",
+    "ocr": "pytesseract",
+    "scene_detector": "pyscenedetect.ContentDetector"
+  }
+}
