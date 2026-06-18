@@ -1,0 +1,253 @@
+{
+  "adaptive_fps": true,
+  "base_fps": 12.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T170432Z",
+  "media_resolution": "MEDIA_RESOLUTION_HIGH",
+  "model": "gemini-3.5-flash",
+  "passes": [
+    {
+      "base_fps": 12.0,
+      "end": 1.8438,
+      "end_timecode": "00:01:51",
+      "evidence": null,
+      "fps": 24.0,
+      "fps_reasons": [
+        "retry:unparseable_or_non_object_response"
+      ],
+      "media_resolution": "MEDIA_RESOLUTION_HIGH",
+      "model": "gemini-3.5-flash",
+      "prompt": "prompts/micro_edit_span_0001.md",
+      "raw_text": "{\n  \"span_id\": \"edit_span_0001\",\n  \"time_range\": \"00:00:00-00:01:51\",\n  \"layout_snapshot\": {\n    \"evidence_id\": \"layout_snap_0001\",\n    \"time_range\": \"00:00:00-00:01:51\",\n    \"anchor_signal_ids\": [\n      \"edit_span_0001\"\n    ],\n    \"grounding_constraints\": {\n      \"shot_span_ids\": [\n        \"edit_span_0001\"\n      ],\n      \"cut_boundary_ids\": [\n        \"edit_boundary_0001\"\n      ],\n      \"candidate_beat_ids\": [\n        \"beat_0001\",\n        \"beat_0002\",\n        \"beat_0003\",\n        \"beat_0004\",\n        \"beat_0005\"\n      ],\n      \"word_ids\": [\n        \"word_0001\",\n        \"word_0002\",\n        \"word_0003\",\n        \"word_0004\",\n        \"word_0005\",\n        \"word_0006\",\n        \"word_0007\",\n        \"word_0008\"\n      ],\n      \"prosody_segment_ids\": [\n        \"prosody_seg_0001\"\n      ],\n      \"audio_signal_ids\": []\n    },\n    \"layout_type\": \"split_screen\",\n    \"visible_layers\": [\n      \"terminal_ui_recording\",\n      \"sticker_graphic\",\n      \"caption_text\",\n      \"talking_head_speaker\"\n    ],\n    \"surface_roles\": [\n      \"screen_recording\",\n      \"sticker_emoji\",\n      \"caption_layer\",\n      \"talking_head\"\n    ],\n    \"layer_stack_description\": \"The frame is divided horizontally: the top layer displays a VS Code command line terminal running automated workflows, and the bottom layer features a talking head speaker in close-up. Centered over the split is a stylized word-by-word caption bar with pill background styling, and a retro orange computer monster sticker.\",\n    \"dominant_focus\": \"split_screen\",\n    \"composition_notes\": \"Split layout anchors the viewer visually with technical, moving terminal code on top while maintaining personal connection with the speaker below.\",\n    \"confidence\": 1.0,\n    \"needs_review\": false\n  },\n  \"visual_craft_events\": [\n    {\n      \"evidence_id\": \"vcraft_0001\",\n      \"time_range\": \"00:00:00-00:01:51\",\n      \"anchor_signal_ids\": [\n        \"edit_span_0001\"\n      ],\n      \"grounding_constraints\": {\n        \"shot_span_ids\": [\n          \"edit_span_0001\"\n        ],\n        \"cut_boundary_ids\": [\n          \"edit_boundary_0001\"\n        ],\n        \"candidate_beat_ids\": [\n          \"beat_0001\",\n          \"beat_0005\"\n        ],\n        \"word_ids\": [\n          \"word_0001\",\n          \"word_0008\"\n        ],\n        \"prosody_segment_ids\": [\n          \"prosody_seg_0001\"\n        ],\n        \"audio_signal_ids\": []\n      },\n      \"mechanic_family\": \"layout_layering\",\n      \"event_type\": \"split_screen\",\n      \"visible_evidence\": \"The layout splits the screen horizontally, keeping terminal UI on top and a talking head on bottom for the entire span.\",\n      \"affected_layer\": \"split_screen_layout\",\n      \"motion_direction\": \"none\",\n      \"motion_profile\": \"none\",\n      \"intensity\": \"none\",\n      \"duration_class\": \"sustained_over_1500ms\",\n      \"sync_kind\": \"none\",\n      \"sync_observation\": \"Maintains a persistent dual split layout throughout the video's hook.\",\n      \"craft_function_hypothesis\": \"layout_orientation\",\n      \"hypothesis_basis\": \"visible_only\",\n      \"recreation_relevance\": \"Essential to recreate vertical split screen setups to satisfy technical audiences.\",\n      \"confidence\": 1.0,\n      \"needs_review\": false,\n      \"review_reason\": \"\"\n    },\n    {\n      \"evidence_id\": \"vcraft_0002\",\n      \"time_range\": \"00:00:00-00:00:24\",\n      \"anchor_signal_ids\": [\n        \"word_0001\",\n        \"word_0002\"\n      ],\n      \"grounding_constraints\": {\n        \"shot_span_ids\": [\n          \"edit_span_0001\"\n        ],\n        \"cut_boundary_ids\": [],\n        \"candidate_beat_ids\": [\n          \"beat_0001\",\n          \"beat_0002",
+      "retry": {
+        "evidence": null,
+        "fps": 24.0,
+        "raw_text": "{\n  \"span_id\": \"edit_span_0001\",\n  \"time_range\": \"00:00:00-00:01:51\",\n  \"layout_snapshot\": {\n    \"evidence_id\": \"layout_snap_0001\",\n    \"time_range\": \"00:00:00-00:01:51\",\n    \"anchor_signal_ids\": [\n      \"edit_span_0001\"\n    ],\n    \"grounding_constraints\": {\n      \"shot_span_ids\": [\n        \"edit_span_0001\"\n      ],\n      \"cut_boundary_ids\": [\n        \"edit_boundary_0001\"\n      ],\n      \"candidate_beat_ids\": [\n        \"beat_0001\",\n        \"beat_0002\",\n        \"beat_0003\",\n        \"beat_0004\",\n        \"beat_0005\"\n      ],\n      \"word_ids\": [\n        \"word_0001\",\n        \"word_0002\",\n        \"word_0003\",\n        \"word_0004\",\n        \"word_0005\",\n        \"word_0006\",\n        \"word_0007\",\n        \"word_0008\"\n      ],\n      \"prosody_segment_ids\": [\n        \"prosody_seg_0001\"\n      ],\n      \"audio_signal_ids\": []\n    },\n    \"layout_type\": \"split_screen\",\n    \"visible_layers\": [\n      \"terminal_ui_recording\",\n      \"sticker_graphic\",\n      \"caption_text\",\n      \"talking_head_speaker\"\n    ],\n    \"surface_roles\": [\n      \"screen_recording\",\n      \"sticker_emoji\",\n      \"caption_layer\",\n      \"talking_head\"\n    ],\n    \"layer_stack_description\": \"The frame is divided horizontally: the top layer displays a VS Code command line terminal running automated workflows, and the bottom layer features a talking head speaker in close-up. Centered over the split is a stylized word-by-word caption bar with pill background styling, and a retro orange computer monster sticker.\",\n    \"dominant_focus\": \"split_screen\",\n    \"composition_notes\": \"Split layout anchors the viewer visually with technical, moving terminal code on top while maintaining personal connection with the speaker below.\",\n    \"confidence\": 1.0,\n    \"needs_review\": false\n  },\n  \"visual_craft_events\": [\n    {\n      \"evidence_id\": \"vcraft_0001\",\n      \"time_range\": \"00:00:00-00:01:51\",\n      \"anchor_signal_ids\": [\n        \"edit_span_0001\"\n      ],\n      \"grounding_constraints\": {\n        \"shot_span_ids\": [\n          \"edit_span_0001\"\n        ],\n        \"cut_boundary_ids\": [\n          \"edit_boundary_0001\"\n        ],\n        \"candidate_beat_ids\": [\n          \"beat_0001\",\n          \"beat_0005\"\n        ],\n        \"word_ids\": [\n          \"word_0001\",\n          \"word_0008\"\n        ],\n        \"prosody_segment_ids\": [\n          \"prosody_seg_0001\"\n        ],\n        \"audio_signal_ids\": []\n      },\n      \"mechanic_family\": \"layout_layering\",\n      \"event_type\": \"split_screen\",\n      \"visible_evidence\": \"The layout splits the screen horizontally, keeping terminal UI on top and a talking head on bottom for the entire span.\",\n      \"affected_layer\": \"split_screen_layout\",\n      \"motion_direction\": \"none\",\n      \"motion_profile\": \"none\",\n      \"intensity\": \"none\",\n      \"duration_class\": \"sustained_over_1500ms\",\n      \"sync_kind\": \"none\",\n      \"sync_observation\": \"Maintains a persistent dual split layout throughout the video's hook.\",\n      \"craft_function_hypothesis\": \"layout_orientation\",\n      \"hypothesis_basis\": \"visible_only\",\n      \"recreation_relevance\": \"Essential to recreate vertical split screen setups to satisfy technical audiences.\",\n      \"confidence\": 1.0,\n      \"needs_review\": false,\n      \"review_reason\": \"\"\n    },\n    {\n      \"evidence_id\": \"vcraft_0002\",\n      \"time_range\": \"00:00:00-00:00:24\",\n      \"anchor_signal_ids\": [\n        \"word_0001\",\n        \"word_0002\"\n      ],\n      \"grounding_constraints\": {\n        \"shot_span_ids\": [\n          \"edit_span_0001\"\n        ],\n        \"cut_boundary_ids\": [],\n        \"candidate_beat_ids\": [\n          \"beat_0001\",\n          \"beat_0002",
+        "retry_reasons": [
+          "unparseable_or_non_object_response"
+        ]
+      },
+      "review_fps": 24.0,
+      "span_id": "edit_span_0001",
+      "start": 0.0,
+      "start_timecode": "00:00:00",
+      "thinking_level": "high"
+    },
+    {
+      "base_fps": 12.0,
+      "end": 2.35,
+      "end_timecode": "00:02:21",
+      "evidence": {
+        "layout_snapshot": {
+          "anchor_signal_ids": [
+            "edit_span_0002"
+          ],
+          "composition_notes": "Clean split-screen division to showcase the UI screen recording while maintaining eye contact with the speaker.",
+          "confidence": 0.95,
+          "dominant_focus": "mixed",
+          "evidence_id": "layout_snapshot_0002",
+          "grounding_constraints": {
+            "audio_signal_ids": [],
+            "candidate_beat_ids": [],
+            "cut_boundary_ids": [
+              "edit_boundary_0001",
+              "edit_boundary_0002"
+            ],
+            "prosody_segment_ids": [],
+            "shot_span_ids": [
+              "edit_span_0002"
+            ],
+            "word_ids": []
+          },
+          "layer_stack_description": "Split screen layout with Claude terminal screen recording on the top half, talking head speaker on the bottom half, and a persistent caption box overlaid at the center boundary split.",
+          "layout_type": "split_screen",
+          "needs_review": false,
+          "surface_roles": [
+            "caption_layer",
+            "screen_recording",
+            "talking_head"
+          ],
+          "time_range": "00:01:51-00:02:21",
+          "visible_layers": [
+            "caption_layer",
+            "screen_recording",
+            "talking_head"
+          ]
+        },
+        "negative_observations": [
+          "No zooming, keyframed motion, text formatting changes, or floating graphic stickers in this span."
+        ],
+        "review_notes": "The transition at the end of the span (00:02:21) skips idle typing delay in the screen recording while maintaining split-screen alignment.",
+        "span_id": "edit_span_0002",
+        "time_range": "00:01:51-00:02:21",
+        "visual_craft_events": [
+          {
+            "affected_layer": "all",
+            "anchor_signal_ids": [
+              "edit_boundary_0001",
+              "beat_0005"
+            ],
+            "confidence": 0.95,
+            "craft_function_hypothesis": "pattern_interrupt",
+            "duration_class": "micro_under_250ms",
+            "event_type": "hard_cut",
+            "evidence_id": "event_0001",
+            "grounding_constraints": {
+              "audio_signal_ids": [],
+              "candidate_beat_ids": [
+                "beat_0005"
+              ],
+              "cut_boundary_ids": [
+                "edit_boundary_0001"
+              ],
+              "prosody_segment_ids": [
+                "prosody_seg_0002"
+              ],
+              "shot_span_ids": [
+                "edit_span_0002"
+              ],
+              "word_ids": [
+                "word_0009"
+              ]
+            },
+            "hypothesis_basis": "visible_plus_audio_signal",
+            "intensity": "strong",
+            "mechanic_family": "cut_boundary",
+            "motion_direction": "none",
+            "motion_profile": "none",
+            "needs_review": false,
+            "recreation_relevance": "Highly relevant to establish visual pacing.",
+            "review_reason": "",
+            "sync_kind": "beat_sync",
+            "sync_observation": "The hard cut aligns perfectly with the start of the word 'They' and beat_0005 audio onset.",
+            "time_range": "00:01:51-00:01:55",
+            "visible_evidence": "Hard cut transition to start the split-screen sequence."
+          },
+          {
+            "affected_layer": "screen_recording",
+            "anchor_signal_ids": [
+              "word_0010"
+            ],
+            "confidence": 0.9,
+            "craft_function_hypothesis": "cognitive_load_reduction",
+            "duration_class": "sustained_over_1500ms",
+            "event_type": "typing_indicator",
+            "evidence_id": "event_0002",
+            "grounding_constraints": {
+              "audio_signal_ids": [],
+              "candidate_beat_ids": [],
+              "cut_boundary_ids": [],
+              "prosody_segment_ids": [
+                "prosody_seg_0002"
+              ],
+              "shot_span_ids": [
+                "edit_span_0002"
+              ],
+              "word_ids": [
+                "word_0009",
+                "word_0010"
+              ]
+            },
+            "hypothesis_basis": "visible_only",
+            "intensity": "subtle",
+            "mechanic_family": "screen_ui_interaction",
+            "motion_direction": "right",
+            "motion_profile": "linear",
+            "needs_review": false,
+            "recreation_relevance": "Key UI visual context.",
+            "review_reason": "",
+            "sync_kind": "word_sync",
+            "sync_observation": "Terminal animation syncs with voiceover talking about opening and using Claude Code.",
+            "time_range": "00:01:51-00:02:13",
+            "visible_evidence": "Simulated high-speed typing animation of the text 'Calculating...' and then 'Thinking...' inside the Claude Code CLI window."
+          },
+          {
+            "affected_layer": "screen_recording",
+            "anchor_signal_ids": [
+              "edit_boundary_0002",
+              "beat_0006"
+            ],
+            "confidence": 0.85,
+            "craft_function_hypothesis": "pattern_interrupt",
+            "duration_class": "micro_under_250ms",
+            "event_type": "jump_cut",
+            "evidence_id": "event_0003",
+            "grounding_constraints": {
+              "audio_signal_ids": [],
+              "candidate_beat_ids": [
+                "beat_0006"
+              ],
+              "cut_boundary_ids": [
+                "edit_boundary_0002"
+              ],
+              "prosody_segment_ids": [
+                "prosody_seg_0002"
+              ],
+              "shot_span_ids": [
+                "edit_span_0002"
+              ],
+              "word_ids": [
+                "word_0011"
+              ]
+            },
+            "hypothesis_basis": "visible_plus_audio_signal",
+            "intensity": "medium",
+            "mechanic_family": "cut_boundary",
+            "motion_direction": "none",
+            "motion_profile": "none",
+            "needs_review": true,
+            "recreation_relevance": "Important to keep CLI demonstration pacing highly responsive.",
+            "review_reason": "The candidate cut has low detector confidence but shows a clear abrupt jump in CLI output.",
+            "sync_kind": "beat_sync",
+            "sync_observation": "Aligns with the candidate cut at edit_boundary_0002 and beat_0006.",
+            "time_range": "00:02:21-00:02:21",
+            "visible_evidence": "A sharp jump cut is visible in the terminal CLI state, jumping to print 'Flibbertigibbet...' to fast-track user-experience delay."
+          }
+        ]
+      },
+      "fps": 24.0,
+      "fps_reasons": [
+        "short_span<=1s",
+        "end_boundary_review:edit_boundary_0002",
+        "end_boundary_confidence<0.7:edit_boundary_0002"
+      ],
+      "media_resolution": "MEDIA_RESOLUTION_HIGH",
+      "model": "gemini-3.5-flash",
+      "prompt": "prompts/micro_edit_span_0002.md",
+      "raw_text": null,
+      "retry": null,
+      "review_fps": 24.0,
+      "span_id": "edit_span_0002",
+      "start": 1.8438,
+      "start_timecode": "00:01:51",
+      "thinking_level": "high"
+    },
+    {
+      "base_fps": 12.0,
+      "end": 3.1438,
+      "end_timecode": "00:03:09",
+      "evidence": null,
+      "fps": 24.0,
+      "fps_reasons": [
+        "short_span<=1s",
+        "start_boundary_review:edit_boundary_0002",
+        "start_boundary_confidence<0.7:edit_boundary_0002"
+      ],
+      "media_resolution": "MEDIA_RESOLUTION_HIGH",
+      "model": "gemini-3.5-flash",
+      "prompt": "prompts/micro_edit_span_0003.md",
+      "raw_text": "{\n  \"span_id\": \"edit_span_0003\",\n  \"time_range\": \"00:02:21-00:03:09\",\n  \"layout_snapshot\": {\n    \"evidence_id\": \"layout_span_0003\",\n    \"time_range\": \"00:02:21-00:03:09\",\n    \"anchor_signal_ids\": [\n      \"edit_span_0003\"\n    ],\n    \"grounding_constraints\": {\n      \"shot_span_ids\": [\n        \"edit_span_0003\"\n      ],\n      \"cut_boundary_ids\": [\n        \"edit_boundary_0002\",\n        \"edit_boundary_0003\"\n      ],\n      \"candidate_beat_ids\": [\n        \"beat_0006\",\n        \"beat_0007\",\n        \"beat_0008\",\n        \"beat_0009\"\n      ],\n      \"word_ids\": [\n        \"word_0011\",\n        \"word_0012\",\n        \"word_0013\",\n        \"word_0014\",\n        \"word_0015\"\n      ],\n      \"prosody_segment_ids\": [\n        \"prosody_seg_0002\"\n      ],\n      \"audio_signal_ids\": []\n    },\n    \"layout_type\": \"screen_recording\",\n    \"visible_layers\": [\n      \"caption_layer\",\n      \"cursor_pointer\",\n      \"screen_recording\"\n    ],\n    \"surface_roles\": [\n      \"caption_layer\",\n      \"cursor_pointer\",\n      \"screen_recording\",\n      \"browser_ui\"\n    ],\n    \"layer_stack_description\": \"Top layer is a stylized black caption box containing 'They open it'. Middle layer is a cursor pointer. Bottom layer is a screen recording of Google Search results in a dark-themed browser.\",\n    \"dominant_focus\": \"The user's cursor hovering over and clicking the search result for 'Claude Code by Anthropic'.\",\n    \"composition_notes\": \"Centered vertical crop (9:16 aspect ratio) focusing on the key web element. A large caption box overlays the lower-middle area, leaving the browser interaction area mostly unobstructed.\",\n    \"confidence\": 0.95,\n    \"needs_review\": false\n  },\n  \"visual_craft_events\": [\n    {\n      \"evidence_id\": \"event_0003_transition\",\n      \"time_range\": \"00:02:21-00:02:25\",\n      \"anchor_signal_ids\": [\n        \"edit_boundary_0002\"\n      ],\n      \"grounding_constraints\": {\n        \"shot_span_ids\": [\n          \"edit_span_0003\"\n        ],\n        \"cut_boundary_ids\": [\n          \"edit_boundary_0002\"\n        ],\n        \"candidate_beat_ids\": [\n          \"beat_0006\"\n        ],\n        \"word_ids\": [],\n        \"prosody_segment_ids\": [],\n        \"audio_signal_ids\": []\n      },\n      \"mechanic_family\": \"transition\",\n      \"event_type\": \"motion_blur\",\n      \"visible_evidence\": \"A single-frame directional blur transition that blends the previous shot's content into the current Google Search screen recording.\",\n      \"affected_layer\": \"screen_recording\",\n      \"motion_direction\": \"mixed\",\n      \"motion_profile\": \"ease_out\",\n      \"intensity\": \"strong\",\n      \"duration_class\": \"micro_under_250ms\",\n      ",
+      "retry": null,
+      "review_fps": 24.0,
+      "span_id": "edit_span_0003",
+      "start": 2.35,
+      "start_timecode": "00:02:21",
+      "thinking_level": "high"
+    }
+  ],
+  "review_fps": 24.0,
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_micro_passes",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

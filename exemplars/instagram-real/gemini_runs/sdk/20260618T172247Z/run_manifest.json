@@ -1,0 +1,16 @@
+{
+  "mode": "survey",
+  "model": "gemini-3.5-flash",
+  "out_dir": "/Users/pedrocarvalho/projects/video_editing_ai/exemplars/instagram-real/gemini_runs/sdk/20260618T172247Z",
+  "schema_version": 1,
+  "signals_dir": "/Users/pedrocarvalho/projects/video_editing_ai/gemini_pipeline/outputs/instagram-real/signals",
+  "survey": {
+    "fps": 5.0,
+    "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+    "prompt": "prompts/survey.md",
+    "response_schema": "response_schema_survey.json",
+    "thinking_level": "high"
+  },
+  "updated_at": "20260618T172247Z",
+  "video": "/Users/pedrocarvalho/projects/video_editing_ai/assets/instagram-real.MP4"
+}

@@ -1,0 +1,317 @@
+{
+  "events": [
+    {
+      "anchor_signal_ids": [
+        "edit_span_0001",
+        "beat_0001"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 1.843,
+      "event_type": "overlay_change",
+      "evidence_id": "visfx_0001",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Add centered, stylized captions synchronized with the voiceover.",
+      "start_seconds": 0.0,
+      "time_range": "00:00:00-00:01:51",
+      "visible_evidence": "Captions 'Most people use claude code' and 'the wrong way' appear sequentially."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0002",
+        "beat_0005"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 2.21,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0002",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a browser screen recording.",
+      "start_seconds": 1.843,
+      "time_range": "00:01:51-00:02:21",
+      "visible_evidence": "Hard cut from split screen to full-screen browser view."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0003",
+        "beat_0006"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 3.09,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0003",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a typing screen recording.",
+      "start_seconds": 2.21,
+      "time_range": "00:02:21-00:03:09",
+      "visible_evidence": "Hard cut to Claude Code UI typing prompt."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0004",
+        "beat_0009"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 3.58,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0004",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to split screen and overlay a praying hands emoji.",
+      "start_seconds": 3.09,
+      "time_range": "00:03:09-00:03:58",
+      "visible_evidence": "Hard cut to split screen with hands praying emoji overlay."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0005",
+        "beat_0010"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 5.33,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0005",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a different speaker's talking head.",
+      "start_seconds": 3.58,
+      "time_range": "00:03:58-00:05:33",
+      "visible_evidence": "Hard cut to bald man talking head."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0006",
+        "beat_0014"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 6.16,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0006",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut back to the primary speaker.",
+      "start_seconds": 5.33,
+      "time_range": "00:05:33-00:06:16",
+      "visible_evidence": "Hard cut back to Asian man talking head."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0007",
+        "beat_0016"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 7.25,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0007",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a split screen layout.",
+      "start_seconds": 6.16,
+      "time_range": "00:06:16-00:07:25",
+      "visible_evidence": "Hard cut to split screen showing package.json."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0008",
+        "beat_0019"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 8.25,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0008",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut and overlay a stylized title card.",
+      "start_seconds": 7.25,
+      "time_range": "00:07:25-00:08:25",
+      "visible_evidence": "Hard cut to talking head with 'Section 1 Plan Mode' title card overlay."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0009",
+        "beat_0022"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 9.12,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0009",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to full-screen talking head.",
+      "start_seconds": 8.25,
+      "time_range": "00:08:25-00:09:12",
+      "visible_evidence": "Hard cut to full-screen talking head."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0010",
+        "beat_0024"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 10.91,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0010",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a different camera angle/setup.",
+      "start_seconds": 9.12,
+      "time_range": "00:09:12-00:10:55",
+      "visible_evidence": "Hard cut to medium shot of Asian man sitting at desk thinking."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0011",
+        "beat_0028"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 12.0,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0011",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a terminal screen recording.",
+      "start_seconds": 10.91,
+      "time_range": "00:10:55-00:12:00",
+      "visible_evidence": "Hard cut to screen recording of Claude terminal with green checkmarks."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0012",
+        "beat_0031"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 13.25,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0012",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to full-screen talking head.",
+      "start_seconds": 12.0,
+      "time_range": "00:12:00-00:13:15",
+      "visible_evidence": "Hard cut to full-screen talking head."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0013",
+        "edit_span_0014",
+        "beat_0035"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 15.25,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0013",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a split screen layout.",
+      "start_seconds": 13.25,
+      "time_range": "00:13:15-00:15:15",
+      "visible_evidence": "Hard cut to split screen showing Claude Code terminal."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0015",
+        "beat_0038"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 16.51,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0014",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a terminal screen recording.",
+      "start_seconds": 15.25,
+      "time_range": "00:15:15-00:16:31",
+      "visible_evidence": "Hard cut to screen recording of Claude terminal executing tasks."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0016",
+        "beat_0043"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 17.71,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0015",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a code diff screen recording.",
+      "start_seconds": 16.51,
+      "time_range": "00:16:31-00:17:43",
+      "visible_evidence": "Hard cut to screen recording of VS Code code diffs."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0017",
+        "beat_0046"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 19.73,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0016",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a side-by-side split screen layout.",
+      "start_seconds": 17.71,
+      "time_range": "00:17:43-00:19:44",
+      "visible_evidence": "Hard cut to split screen showing talking head on left and Claude chat on right."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0018",
+        "beat_0050"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 21.06,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0017",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to full-screen talking head.",
+      "start_seconds": 19.73,
+      "time_range": "00:19:44-00:21:04",
+      "visible_evidence": "Hard cut to full-screen talking head."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0019",
+        "beat_0054"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 22.61,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0018",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to a split screen layout.",
+      "start_seconds": 21.06,
+      "time_range": "00:21:04-00:22:37",
+      "visible_evidence": "Hard cut to split screen showing Claude terminal output."
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0020",
+        "beat_0058"
+      ],
+      "confidence": 0.95,
+      "end_seconds": 24.89,
+      "event_type": "hard_cut",
+      "evidence_id": "visfx_0019",
+      "motion_direction": "none",
+      "needs_review": false,
+      "recreation_relevance": "Execute a clean cut to full-screen talking head.",
+      "start_seconds": 22.61,
+      "time_range": "00:22:37-00:24:54",
+      "visible_evidence": "Hard cut to full-screen talking head."
+    }
+  ],
+  "fps": 5.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260615T202939Z",
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "video": "instagram-real.MP4"
+}

@@ -1,0 +1,38 @@
+{
+  "survey": {
+    "count_tokens": {
+      "sdk_http_response": {
+        "headers": {
+          "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+          "content-encoding": "gzip",
+          "content-type": "application/json; charset=UTF-8",
+          "date": "Thu, 18 Jun 2026 18:21:50 GMT",
+          "server": "scaffolding on HTTPServer2",
+          "server-timing": "gfet4t7; dur=211",
+          "transfer-encoding": "chunked",
+          "vary": "Origin, X-Origin, Referer",
+          "x-content-type-options": "nosniff",
+          "x-frame-options": "SAMEORIGIN",
+          "x-xss-protection": "0"
+        }
+      },
+      "total_tokens": 179667
+    },
+    "usage_metadata": {
+      "candidates_token_count": 11440,
+      "prompt_token_count": 175697,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 17467
+        },
+        {
+          "modality": "VIDEO",
+          "token_count": 158230
+        }
+      ],
+      "thoughts_token_count": 7807,
+      "total_token_count": 194944
+    }
+  }
+}

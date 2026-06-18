@@ -1,0 +1,659 @@
+{
+  "fps": 24.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T182414Z",
+  "layout_timeline": [
+    {
+      "anchor_signal_ids": [
+        "edit_span_0001"
+      ],
+      "composition_notes": "Perfect horizontal 50-50 vertical split-screen with clear dark separator line behind active word-by-word captions.",
+      "confidence": 0.95,
+      "dominant_focus": "VS Code Claude Code terminal typing automation activity",
+      "evidence_id": "layout_row_0001",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0001",
+          "beat_0002",
+          "beat_0003",
+          "beat_0004"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0001"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001"
+        ],
+        "word_ids": [
+          "word_0001",
+          "word_0002",
+          "word_0003",
+          "word_0004",
+          "word_0005",
+          "word_0006",
+          "word_0007",
+          "word_0008"
+        ]
+      },
+      "layer_stack_description": "Top layer: VS Code Claude Code terminal screen recording. Bottom layer: Talking head speaker close-up. Overlay: Center word-by-word highlighted captions.",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:00:00-00:01:51",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0002",
+        "edit_span_0003"
+      ],
+      "composition_notes": "Cropped 9:16 layout capturing browser UI details clearly.",
+      "confidence": 0.95,
+      "dominant_focus": "Google Search browser window showing Claude Code link and mouse pointer movement",
+      "evidence_id": "layout_row_0002",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005",
+          "beat_0006",
+          "beat_0007"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002",
+          "edit_span_0003"
+        ],
+        "word_ids": [
+          "word_0009",
+          "word_0010",
+          "word_0011",
+          "word_0012"
+        ]
+      },
+      "layer_stack_description": "Full screen Google Search results displaying Claude Code by Anthropic with active word-by-word captions in center.",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "browser_ui",
+        "caption_layer"
+      ],
+      "time_range": "00:01:51-00:02:34",
+      "visible_layers": [
+        "screen_recording",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0003"
+      ],
+      "composition_notes": "Deep dark UI background emphasizes text input visibility.",
+      "confidence": 0.9,
+      "dominant_focus": "Prompt execution box and automated cursor animation",
+      "evidence_id": "layout_row_0003",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0008"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0003"
+        ],
+        "word_ids": [
+          "word_0013",
+          "word_0014",
+          "word_0015"
+        ]
+      },
+      "layer_stack_description": "Full screen typing automated text input in the Claude prompt UI with center overlay captions.",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "app_ui",
+        "caption_layer"
+      ],
+      "time_range": "00:02:34-00:03:09",
+      "visible_layers": [
+        "screen_recording",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0004"
+      ],
+      "composition_notes": "Return to primary split layout, incorporating static emoji graphic as visual disruptor.",
+      "confidence": 0.95,
+      "dominant_focus": "Rhythmic talking head speaker matching prompt text overlay activity",
+      "evidence_id": "layout_row_0004",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0009",
+          "beat_0010"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0003"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0004"
+        ],
+        "word_ids": [
+          "word_0016",
+          "word_0017",
+          "word_0018",
+          "word_0019",
+          "word_0020"
+        ]
+      },
+      "layer_stack_description": "Top layer: Screen recording of terminal. Bottom layer: Talking head Asian male close-up. Overlay: Floating prayer hands emoji and karaoke captions in center.",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "sticker_emoji",
+        "caption_layer"
+      ],
+      "time_range": "00:03:09-00:03:58",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "sticker_emoji",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0005"
+      ],
+      "composition_notes": "B-roll talking head insert adds human-interest validation.",
+      "confidence": 0.95,
+      "dominant_focus": "Podcast interview guest speaking",
+      "evidence_id": "layout_row_0005",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0011",
+          "beat_0012",
+          "beat_0013",
+          "beat_0014"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0004"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0003"
+        ],
+        "shot_span_ids": [
+          "edit_span_0005"
+        ],
+        "word_ids": [
+          "word_0021",
+          "word_0022",
+          "word_0023",
+          "word_0024",
+          "word_0025",
+          "word_0026",
+          "word_0027",
+          "word_0028"
+        ]
+      },
+      "layer_stack_description": "Close-up talking head of B-roll speaker (bald host on a podcast set with desk microphone). Overlaid with central captions.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "b_roll",
+        "caption_layer"
+      ],
+      "time_range": "00:03:58-00:05:33",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0006"
+      ],
+      "composition_notes": "Slight digital framing push-in emphasizes speaker delivery on 'opposite'.",
+      "confidence": 0.95,
+      "dominant_focus": "Speaker's face and dramatic verbal transition",
+      "evidence_id": "layout_row_0006",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0015",
+          "beat_0016"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0005"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0003"
+        ],
+        "shot_span_ids": [
+          "edit_span_0006"
+        ],
+        "word_ids": [
+          "word_0029",
+          "word_0030"
+        ]
+      },
+      "layer_stack_description": "Full screen close-up talking head of primary Asian male speaker with karaoke style caption on his chest.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:05:33-00:06:16",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0007",
+        "edit_span_0008",
+        "edit_span_0009"
+      ],
+      "composition_notes": "Layout combines continuous speaker performance with stylized conceptual graphics to anchor the lesson.",
+      "confidence": 0.95,
+      "dominant_focus": "Terminal workspace activity paired with Plan Mode custom popup visual",
+      "evidence_id": "layout_row_0007",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0017",
+          "beat_0018",
+          "beat_0019",
+          "beat_0020",
+          "beat_0021",
+          "beat_0022",
+          "beat_0023"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0006",
+          "edit_boundary_0007",
+          "edit_boundary_0008",
+          "edit_boundary_0009"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0007",
+          "edit_span_0008",
+          "edit_span_0009"
+        ],
+        "word_ids": [
+          "word_0031",
+          "word_0032",
+          "word_0033",
+          "word_0034",
+          "word_0035",
+          "word_0036",
+          "word_0037",
+          "word_0038",
+          "word_0039",
+          "word_0040",
+          "word_0041",
+          "word_0042",
+          "word_0043"
+        ]
+      },
+      "layer_stack_description": "Top layer: VS Code terminal screen recording. Bottom layer: Talking head close-up. Overlaid with high-fidelity Plan Mode section graphic card and center captions.",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "graphic_card",
+        "caption_layer"
+      ],
+      "time_range": "00:06:16-00:09:12",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "graphic_card",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0010"
+      ],
+      "composition_notes": "Angle shift reduces repetition by changing from tight close-up to medium-wide desk setup.",
+      "confidence": 0.95,
+      "dominant_focus": "Speaker performance in context-rich secondary background workspace",
+      "evidence_id": "layout_row_0008",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0024",
+          "beat_0025",
+          "beat_0026",
+          "beat_0027"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0009"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0010"
+        ],
+        "word_ids": [
+          "word_0044",
+          "word_0045",
+          "word_0046",
+          "word_0047",
+          "word_0048",
+          "word_0049",
+          "word_0050"
+        ]
+      },
+      "layer_stack_description": "Medium-wide talking head shot of Asian male sitting in an office chair in front of a bookshelf, speaker hand gestures visible.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "background_plate",
+        "caption_layer"
+      ],
+      "time_range": "00:09:12-00:10:55",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0011"
+      ],
+      "composition_notes": "High contrast terminal recording with distinct custom graphical assets overlay.",
+      "confidence": 0.95,
+      "dominant_focus": "Successful automation code tests scrolling UI",
+      "evidence_id": "layout_row_0009",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0028",
+          "beat_0029",
+          "beat_0030"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0010"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0051",
+          "word_0052",
+          "word_0053",
+          "word_0054"
+        ]
+      },
+      "layer_stack_description": "Full screen terminal with automated green checkmark checkbox popups displaying successful tests.",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "app_ui",
+        "sticker_emoji",
+        "caption_layer"
+      ],
+      "time_range": "00:10:55-00:12:00",
+      "visible_layers": [
+        "screen_recording",
+        "sticker_emoji",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0012",
+        "edit_span_0013",
+        "edit_span_0014"
+      ],
+      "composition_notes": "Mixed layout sequences align with active keyword highlight ('messy results' turns red).",
+      "confidence": 0.95,
+      "dominant_focus": "Speaker articulating contrast between messy outcomes and structured workflows",
+      "evidence_id": "layout_row_0010",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0031",
+          "beat_0032",
+          "beat_0033",
+          "beat_0034",
+          "beat_0035",
+          "beat_0036",
+          "beat_0037"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0011",
+          "edit_boundary_0012",
+          "edit_boundary_0013",
+          "edit_boundary_0014"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0006",
+          "prosody_seg_0007"
+        ],
+        "shot_span_ids": [
+          "edit_span_0012",
+          "edit_span_0013",
+          "edit_span_0014"
+        ],
+        "word_ids": [
+          "word_0055",
+          "word_0056",
+          "word_0057",
+          "word_0058",
+          "word_0059",
+          "word_0060",
+          "word_0061",
+          "word_0062",
+          "word_0063",
+          "word_0064",
+          "word_0065",
+          "word_0066",
+          "word_0067",
+          "word_0068",
+          "word_0069"
+        ]
+      },
+      "layer_stack_description": "Alternating between full-screen primary close-up talking head (12:00-13:15) and split screen VS Code / speaker layout (13:15-15:15).",
+      "layout_type": "mixed",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:12:00-00:15:15",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0015",
+        "edit_span_0016"
+      ],
+      "composition_notes": "Maximizes terminal legibility in the vertical portrait space.",
+      "confidence": 0.9,
+      "dominant_focus": "Integrated code-scrolling window demonstrating file simplicity rules",
+      "evidence_id": "layout_row_0011",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0038",
+          "beat_0039",
+          "beat_0040",
+          "beat_0041",
+          "beat_0042",
+          "beat_0043",
+          "beat_0044",
+          "beat_0045"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0015"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008"
+        ],
+        "shot_span_ids": [
+          "edit_span_0015",
+          "edit_span_0016"
+        ],
+        "word_ids": [
+          "word_0070",
+          "word_0071",
+          "word_0072",
+          "word_0073",
+          "word_0074",
+          "word_0075",
+          "word_0076",
+          "word_0077",
+          "word_0078",
+          "word_0079",
+          "word_0080",
+          "word_0081",
+          "word_0082"
+        ]
+      },
+      "layer_stack_description": "Full screen recording of code files, file browser tree list view, and scrolling line edits within Claude Code.",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "app_ui",
+        "caption_layer"
+      ],
+      "time_range": "00:15:15-00:17:43",
+      "visible_layers": [
+        "screen_recording",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0017",
+        "edit_span_0018",
+        "edit_span_0019",
+        "edit_span_0020"
+      ],
+      "composition_notes": "Blends high contrast mock interface graphics with direct personal lens gaze for the final interaction hook.",
+      "confidence": 0.95,
+      "dominant_focus": "System-focused workflow chat demo followed by direct speaker CTA targeting audience growth",
+      "evidence_id": "layout_row_0012",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [],
+        "cut_boundary_ids": [
+          "edit_boundary_0016",
+          "edit_boundary_0017",
+          "edit_boundary_0018",
+          "edit_boundary_0021"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008",
+          "prosody_seg_0009",
+          "prosody_seg_0010"
+        ],
+        "shot_span_ids": [
+          "edit_span_0017",
+          "edit_span_0018",
+          "edit_span_0019",
+          "edit_span_0020"
+        ],
+        "word_ids": [
+          "word_0083",
+          "word_0084",
+          "word_0085",
+          "word_0086",
+          "word_0087",
+          "word_0088",
+          "word_0089",
+          "word_0090",
+          "word_0091",
+          "word_0092",
+          "word_0093",
+          "word_0094",
+          "word_0095",
+          "word_0096",
+          "word_0097",
+          "word_0098",
+          "word_0099",
+          "word_0100",
+          "word_0101",
+          "word_0102",
+          "word_0103",
+          "word_0104",
+          "word_0105",
+          "word_0106",
+          "word_0107",
+          "word_0108",
+          "word_0109",
+          "word_0110"
+        ]
+      },
+      "layer_stack_description": "Upper third mockup chat animation, bottom talking head (Asian male) followed by transition into full scale final call-to-action close-up of Asian male speaker.",
+      "layout_type": "mixed",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:17:43-00:24:54",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    }
+  ],
+  "media_resolution": "MEDIA_RESOLUTION_HIGH",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

@@ -1,0 +1,1 @@
+The video alternates rapidly between full-screen talking head shots, split-screen layouts (combining talking head with code/terminal recordings), and full-screen screen recordings. Captions are consistently centered and stylized throughout.

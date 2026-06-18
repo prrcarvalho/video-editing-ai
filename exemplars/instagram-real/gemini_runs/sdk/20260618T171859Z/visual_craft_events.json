@@ -1,0 +1,12 @@
+{
+  "events": [],
+  "fps": 5.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T172153Z",
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

@@ -1,0 +1,876 @@
+{
+  "events": [
+    {
+      "affected_layer": "caption_layer",
+      "anchor_signal_ids": [
+        "word_0001",
+        "word_0002",
+        "word_0003",
+        "word_0004",
+        "word_0005"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "keyword_captions",
+      "evidence_id": "craft_event_01",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0001",
+          "beat_0002",
+          "beat_0003"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0001"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001"
+        ],
+        "word_ids": [
+          "word_0001",
+          "word_0002",
+          "word_0003",
+          "word_0004",
+          "word_0005"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "caption_text",
+      "motion_direction": "up",
+      "motion_profile": "bounce",
+      "needs_review": false,
+      "recreation_relevance": "Essential to recreate style using energetic colored keyword captions synchronized to narration.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The captions appear exactly synchronized to the spoken words 'Most people use Claude Code'.",
+      "time_range": "00:00:00-00:01:18",
+      "visible_evidence": "Text displays 'Most people' then 'use claude code' in white/teal colored fonts with bounce transition."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0001"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_02",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Provides structure and seamless narration pacing by aligning scene changes directly to speech.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Cut occurs precisely on word onset 'They' starting the next thought segment.",
+      "time_range": "00:01:51-00:01:51",
+      "visible_evidence": "Clean transition from horizontal split screen view directly into full screen web browser view."
+    },
+    {
+      "affected_layer": "browser_ui",
+      "anchor_signal_ids": [
+        "edit_span_0002"
+      ],
+      "confidence": 0.9,
+      "craft_function_hypothesis": "interaction_focus",
+      "duration_class": "beat_750_1500ms",
+      "event_type": "cursor_pointer",
+      "evidence_id": "craft_event_03",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005",
+          "beat_0006"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001",
+          "edit_boundary_0002"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009",
+          "word_0010"
+        ]
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "subtle",
+      "mechanic_family": "screen_ui_interaction",
+      "motion_direction": "up",
+      "motion_profile": "linear",
+      "needs_review": false,
+      "recreation_relevance": "Highlighted cursors are helpful to guide viewer focus during quick screen details.",
+      "review_reason": "",
+      "sync_kind": "none",
+      "sync_observation": "Cursor motion aligns with general flow of narration describing search execution.",
+      "time_range": "00:01:51-00:02:15",
+      "visible_evidence": "Yellow-highlighted mouse cursor maneuvers across Google search listings and triggers click action."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0003"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_04",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0009"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0003"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0004"
+        ],
+        "word_ids": []
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Establishes a neat structure showing alternating views between concepts and real application UI.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transition lands immediately on the beat boundary preceding next spoken segment.",
+      "time_range": "00:03:09-00:03:09",
+      "visible_evidence": "Hard cut from browser workspace screen directly back to vertical split screen view."
+    },
+    {
+      "affected_layer": "sticker_emoji",
+      "anchor_signal_ids": [
+        "edit_span_0004"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "reveal_accent",
+      "duration_class": "beat_750_1500ms",
+      "event_type": "sticker_emoji",
+      "evidence_id": "craft_event_05",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0010"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0003",
+          "edit_boundary_0004"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0004"
+        ],
+        "word_ids": [
+          "word_0017",
+          "word_0018",
+          "word_0019",
+          "word_0020"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "graphic_overlay",
+      "motion_direction": "in",
+      "motion_profile": "bounce",
+      "needs_review": false,
+      "recreation_relevance": "Excellent comedic timing reinforcement using themed pop-up stickers in vertical videos.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Emoji pop precisely synchronized with spoken words 'and hope for the best'.",
+      "time_range": "00:03:09-00:03:58",
+      "visible_evidence": "A golden praying hands emoji graphic overlay appears centered over the split view boundary."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0004"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_06",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0010"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0004"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0003"
+        ],
+        "shot_span_ids": [
+          "edit_span_0005"
+        ],
+        "word_ids": [
+          "word_0021"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Provides authority by directly cutting to original source interview reference footage.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transition coincides with word 'But' at the start of guest speaker's section.",
+      "time_range": "00:03:58-00:03:58",
+      "visible_evidence": "Cut to interview guest talking head shot with microphone."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0005"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_07",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0014"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0005"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0006"
+        ],
+        "word_ids": []
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Maintains narrator-guided structure when switching back from referenced guest quotes.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Clean transition back to primary narration host segment.",
+      "time_range": "00:05:33-00:05:33",
+      "visible_evidence": "Hard cut from guest interview back to full talking head screen of host."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0006"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_08",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0016"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0006"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0007"
+        ],
+        "word_ids": [
+          "word_0031"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Great visual cue of transitioning from simple talking head mode to split screen demonstration layout.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transition lands exactly on word 'He' commencing speaker's list of recommendations.",
+      "time_range": "00:06:16-00:06:16",
+      "visible_evidence": "Transition from host speaker talking head to horizontal split screen displaying code layout on top."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0007"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "information_chunking",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_09",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0019"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0007"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0008"
+        ],
+        "word_ids": [
+          "word_0037"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Section cards help viewers process distinct segments of tech tips within structured videos.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The title card segment pops instantly on the spoken word 'start'.",
+      "time_range": "00:07:25-00:07:25",
+      "visible_evidence": "Hard cut replacing the top code screen segment with a styled graphic card 'Section 1 Plan Mode'."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0009"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "reveal_accent",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_10",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0024"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0009"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0010"
+        ],
+        "word_ids": [
+          "word_0044"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Excellent conceptual match between dialogue 'slows down' and slow side profile cinematic b-roll.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Cut occurs precisely on word 'Slows' representing visual translation of spoken content.",
+      "time_range": "00:09:12-00:09:12",
+      "visible_evidence": "Cut to side perspective B-roll of speaker sitting thoughtfully at desk."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0010"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_11",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0028"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0010"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0051"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Reinforces step-by-step logic by showing real code feedback screen immediately after design tips.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transitions immediately on spoken word 'then' as we see code execution.",
+      "time_range": "00:10:55-00:10:55",
+      "visible_evidence": "Transition from desk B-roll to terminal execution log screen."
+    },
+    {
+      "affected_layer": "sticker_emoji",
+      "anchor_signal_ids": [
+        "word_0054"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "reveal_accent",
+      "duration_class": "beat_750_1500ms",
+      "event_type": "sticker_emoji",
+      "evidence_id": "craft_event_12",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0029",
+          "beat_0030"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0054"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "graphic_overlay",
+      "motion_direction": "in",
+      "motion_profile": "bounce",
+      "needs_review": false,
+      "recreation_relevance": "Using clear animated success status stickers over code recordings makes technical output more engaging.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The checkmark pops instantly during pronunciation of terminal execution step words.",
+      "time_range": "00:11:00-00:11:40",
+      "visible_evidence": "A green checkmark sticker appears on the terminal interface demonstrating successful completion."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0011"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_13",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0031"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0011"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0006"
+        ],
+        "shot_span_ids": [
+          "edit_span_0012"
+        ],
+        "word_ids": [
+          "word_0055"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Refocuses viewers on host speaking directly to camera after code executions.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transitions instantly on word 'That' outlining next host lesson.",
+      "time_range": "00:12:00-00:12:00",
+      "visible_evidence": "Hard cut to full talking head video of host."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0012"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_14",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0035"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0012"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0013"
+        ],
+        "word_ids": []
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Simple visual division pattern keeping talking head elements while highlighting technical outputs.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transitions neatly into conceptual layout.",
+      "time_range": "00:13:15-00:13:15",
+      "visible_evidence": "Transitions host talking head to split screen terminal output showing VS Code lines."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0013"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_15",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0036"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0013"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0007"
+        ],
+        "shot_span_ids": [
+          "edit_span_0014"
+        ],
+        "word_ids": [
+          "word_0066"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Refocusing narration on speaker maintains human connect during technical summaries.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transitions seamlessly on word 'And' leading next sequence.",
+      "time_range": "00:14:39-00:14:39",
+      "visible_evidence": "Hard cut back to full screen talking head host video."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0014"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_16",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0038"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0014"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008"
+        ],
+        "shot_span_ids": [
+          "edit_span_0015"
+        ],
+        "word_ids": [
+          "word_0070"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Full screens provide legible clarity for terminal tasks and interactive execution scripts.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transition lands instantly on word 'He' referencing system functions.",
+      "time_range": "00:15:15-00:15:15",
+      "visible_evidence": "Transitions host talking head to full screen screen recording of code execution workspace."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0015"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "reveal_accent",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_17",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0043"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0015"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008"
+        ],
+        "shot_span_ids": [
+          "edit_span_0016"
+        ],
+        "word_ids": [
+          "word_0076"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "A visual explanation of diff checking logs matches host dialogue describing file confirmation step.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Cut occurs precisely on word 'makes' describing file checking logic.",
+      "time_range": "00:16:31-00:16:31",
+      "visible_evidence": "Hard cut to full screen file diff editor screen showing red/green edits in terminal file lines."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0016"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_18",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0046"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0016"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008"
+        ],
+        "shot_span_ids": [
+          "edit_span_0017"
+        ],
+        "word_ids": [
+          "word_0082"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Provides consistent conceptual layouts when jumping back from detailed system interactions.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Pops cleanly on transition word 'and' pointing to separate workspace sessions.",
+      "time_range": "00:17:43-00:17:43",
+      "visible_evidence": "Transitions file comparison screens into horizontal split screen dialog view."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0017"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_19",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0050"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0017"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0009"
+        ],
+        "shot_span_ids": [
+          "edit_span_0018"
+        ],
+        "word_ids": [
+          "word_0089"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Bringing host back to full screen creates high viewer connection for key final conclusions.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transition lands instantly on wrap statement starting with 'So'.",
+      "time_range": "00:19:44-00:19:44",
+      "visible_evidence": "Hard cut to full screen host talking head."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0018"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "layout_orientation",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_20",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0054"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0018"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0009"
+        ],
+        "shot_span_ids": [
+          "edit_span_0019"
+        ],
+        "word_ids": [
+          "word_0095"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Maintains split view continuity to contrast direct instructions with actual execution proof.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Cut is placed immediately on the spoken word 'he's'.",
+      "time_range": "00:21:04-00:21:04",
+      "visible_evidence": "Transition from talking head back to horizontal split view showing system logs on top."
+    },
+    {
+      "affected_layer": "all_layers",
+      "anchor_signal_ids": [
+        "edit_boundary_0021"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "payoff_marker",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_21",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0058"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0021"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0010"
+        ],
+        "shot_span_ids": [
+          "edit_span_0020"
+        ],
+        "word_ids": [
+          "word_0102"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Outro transition marks the transition into marketing funnel CTAs.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Transitions precisely on word 'Comment' to trigger comment requests.",
+      "time_range": "00:22:37-00:22:37",
+      "visible_evidence": "Final cut back to full screen talking head host for the call-to-action outro."
+    }
+  ],
+  "fps": 5.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T172454Z",
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

@@ -1,0 +1,470 @@
+{
+  "events": [
+    {
+      "affected_layer": "caption_layer",
+      "anchor_signal_ids": [
+        "edit_span_0001"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "word-by-word captions",
+      "evidence_id": "craft_0001",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0001"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0001"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001"
+        ],
+        "word_ids": [
+          "word_0001",
+          "word_0002",
+          "word_0003",
+          "word_0004",
+          "word_0005"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "subtle",
+      "mechanic_family": "caption_text",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. The opening hook text grabs viewer attention.",
+      "review_reason": "",
+      "sync_kind": "caption_sync",
+      "sync_observation": "The word pop alignment tracks perfectly with the starting word 'Most' on frame 3.",
+      "time_range": "00:00:00-00:01:51",
+      "visible_evidence": "Plain white central caption word transitions saying 'Most people' matching speaker timing."
+    },
+    {
+      "affected_layer": "screen_recording",
+      "anchor_signal_ids": [
+        "edit_span_0001"
+      ],
+      "confidence": 0.9,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "typing_indicator",
+      "evidence_id": "craft_0002",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0001"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001"
+        ],
+        "word_ids": [
+          "word_0001",
+          "word_0002",
+          "word_0003",
+          "word_0004",
+          "word_0005"
+        ]
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "subtle",
+      "mechanic_family": "screen_ui_interaction",
+      "motion_direction": "right",
+      "motion_profile": "linear",
+      "needs_review": false,
+      "recreation_relevance": "Medium. Auto-typing helps convey screen demo execution progress.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The screen updates with auto-typing actions synchronized with narrative execution context.",
+      "time_range": "00:00:00-00:01:51",
+      "visible_evidence": "Typing cursor inserts 'Calculatin...' and automated command strings on top screen layer."
+    },
+    {
+      "affected_layer": "screen_recording",
+      "anchor_signal_ids": [
+        "edit_boundary_0001"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard cut",
+      "evidence_id": "craft_0003",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0001",
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. Typical TikTok workflow progression cut.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transition lands cleanly on word transition 'They' at frame 111.",
+      "time_range": "00:01:51-00:01:51",
+      "visible_evidence": "Instantaneous cut from the split VS Code terminal view to Google Search browser viewport."
+    },
+    {
+      "affected_layer": "sticker_emoji",
+      "anchor_signal_ids": [
+        "edit_span_0004"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "reveal_accent",
+      "duration_class": "short_250_750ms",
+      "event_type": "sticker_emoji",
+      "evidence_id": "craft_0004",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0009"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0003"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0004"
+        ],
+        "word_ids": [
+          "word_0016",
+          "word_0017",
+          "word_0018",
+          "word_0019",
+          "word_0020"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "graphic_overlay",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. High-impact meme representation of the scripted joke.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Appears precisely as narrator says 'hope for the best' over frame 189.",
+      "time_range": "00:03:09-00:03:58",
+      "visible_evidence": "Yellow praying hands emoji overlay centered on screen."
+    },
+    {
+      "affected_layer": "b_roll",
+      "anchor_signal_ids": [
+        "edit_boundary_0004"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard cut",
+      "evidence_id": "craft_0005",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0010"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0004"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0004",
+          "edit_span_0005"
+        ],
+        "word_ids": [
+          "word_0021"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. Shifts perspective to support secondary narrative reference.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "The transition lands exactly on the onset 'But' at frame 238.",
+      "time_range": "00:03:58-00:03:58",
+      "visible_evidence": "Clean transition from the Claude terminal to portrait podcast B-roll video."
+    },
+    {
+      "affected_layer": "talking_head",
+      "anchor_signal_ids": [
+        "edit_boundary_0005"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard cut",
+      "evidence_id": "craft_0006",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0014"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0005"
+        ],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0005",
+          "edit_span_0006"
+        ],
+        "word_ids": [
+          "word_0028"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. Keeps dynamic focus centered on host's main narrative.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Transition coincides with word onset 'does' at frame 333.",
+      "time_range": "00:05:33-00:05:33",
+      "visible_evidence": "Hard cut back to the main host portrait close-up."
+    },
+    {
+      "affected_layer": "graphic_card",
+      "anchor_signal_ids": [
+        "edit_span_0008"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "information_chunking",
+      "duration_class": "beat_750_1500ms",
+      "event_type": "graphic_card",
+      "evidence_id": "craft_0007",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0019"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0007"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0008"
+        ],
+        "word_ids": [
+          "word_0038",
+          "word_0039",
+          "word_0040"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "graphic_overlay",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. Clear chapter title breaks increase visual polish.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Pops cleanly on 'plan mode' delivery context.",
+      "time_range": "00:07:25-00:08:25",
+      "visible_evidence": "Plan Mode neon title card overlay appears in the top screen segment."
+    },
+    {
+      "affected_layer": "talking_head",
+      "anchor_signal_ids": [
+        "edit_span_0010"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "reframe",
+      "evidence_id": "craft_0008",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0024"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0009"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0010"
+        ],
+        "word_ids": [
+          "word_0044",
+          "word_0045"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "framing_motion",
+      "motion_direction": "none",
+      "motion_profile": "snap",
+      "needs_review": false,
+      "recreation_relevance": "High. Shifts pacing beautifully to match verbal context.",
+      "review_reason": "",
+      "sync_kind": "cut_sync",
+      "sync_observation": "Landed cleanly on transition 'Slows down' at frame 552.",
+      "time_range": "00:09:12-00:10:55",
+      "visible_evidence": "Reframe wide-angle transition showing host leaning back on desk."
+    },
+    {
+      "affected_layer": "screen_recording",
+      "anchor_signal_ids": [
+        "edit_span_0011"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "timelapse",
+      "evidence_id": "craft_0009",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0028"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0010"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0051",
+          "word_0052",
+          "word_0053",
+          "word_0054"
+        ]
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "strong",
+      "mechanic_family": "speed_time",
+      "motion_direction": "up",
+      "motion_profile": "linear",
+      "needs_review": false,
+      "recreation_relevance": "Medium. Speeds up technical proof sections.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The high speed workflow typing loops over 'then lets Claude execute'.",
+      "time_range": "00:10:55-00:12:00",
+      "visible_evidence": "Accelerated terminal screen capture running automated verification workflow checks."
+    },
+    {
+      "affected_layer": "graphic_card",
+      "anchor_signal_ids": [
+        "edit_span_0011"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "payoff_marker",
+      "duration_class": "short_250_750ms",
+      "event_type": "click_indicator",
+      "evidence_id": "craft_0010",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0030"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0054"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "screen_ui_interaction",
+      "motion_direction": "in",
+      "motion_profile": "bounce",
+      "needs_review": false,
+      "recreation_relevance": "High. Reinforces positive feedback loop logic on programmatic success.",
+      "review_reason": "",
+      "sync_kind": "beat_sync",
+      "sync_observation": "The checkmark pops perfectly on a loud peak beat_0030.",
+      "time_range": "00:11:37-00:11:45",
+      "visible_evidence": "A massive neon green box with a dark checkmark graphic pops over the screen center."
+    },
+    {
+      "affected_layer": "callout_layer",
+      "anchor_signal_ids": [
+        "edit_span_0020"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "caption_emphasis",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "word-by-word captions",
+      "evidence_id": "craft_0011",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0058"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0021"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0010"
+        ],
+        "shot_span_ids": [
+          "edit_span_0020"
+        ],
+        "word_ids": [
+          "word_0102",
+          "word_0103"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "caption_text",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "High. Key trigger highlighted CTA for short form conversions.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "The neon green highlighted text block emphasizes CTA trigger word 'Comment CREATOR' immediately after cut_0021.",
+      "time_range": "00:22:37-00:24:54",
+      "visible_evidence": "Neon green background highlighted overlay behind the word 'CREATOR' in final captions."
+    }
+  ],
+  "fps": 24.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T181655Z",
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

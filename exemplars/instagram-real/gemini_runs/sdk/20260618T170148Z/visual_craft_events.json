@@ -1,0 +1,130 @@
+{
+  "events": [
+    {
+      "affected_layer": "all",
+      "anchor_signal_ids": [
+        "edit_boundary_0001",
+        "beat_0005"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "hard_cut",
+      "evidence_id": "event_0001",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Highly relevant to establish visual pacing.",
+      "review_reason": "",
+      "sync_kind": "beat_sync",
+      "sync_observation": "The hard cut aligns perfectly with the start of the word 'They' and beat_0005 audio onset.",
+      "time_range": "00:01:51-00:01:55",
+      "visible_evidence": "Hard cut transition to start the split-screen sequence."
+    },
+    {
+      "affected_layer": "screen_recording",
+      "anchor_signal_ids": [
+        "word_0010"
+      ],
+      "confidence": 0.9,
+      "craft_function_hypothesis": "cognitive_load_reduction",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "typing_indicator",
+      "evidence_id": "event_0002",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009",
+          "word_0010"
+        ]
+      },
+      "hypothesis_basis": "visible_only",
+      "intensity": "subtle",
+      "mechanic_family": "screen_ui_interaction",
+      "motion_direction": "right",
+      "motion_profile": "linear",
+      "needs_review": false,
+      "recreation_relevance": "Key UI visual context.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Terminal animation syncs with voiceover talking about opening and using Claude Code.",
+      "time_range": "00:01:51-00:02:13",
+      "visible_evidence": "Simulated high-speed typing animation of the text 'Calculating...' and then 'Thinking...' inside the Claude Code CLI window."
+    },
+    {
+      "affected_layer": "screen_recording",
+      "anchor_signal_ids": [
+        "edit_boundary_0002",
+        "beat_0006"
+      ],
+      "confidence": 0.85,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "micro_under_250ms",
+      "event_type": "jump_cut",
+      "evidence_id": "event_0003",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0006"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0002"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0011"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": true,
+      "recreation_relevance": "Important to keep CLI demonstration pacing highly responsive.",
+      "review_reason": "The candidate cut has low detector confidence but shows a clear abrupt jump in CLI output.",
+      "sync_kind": "beat_sync",
+      "sync_observation": "Aligns with the candidate cut at edit_boundary_0002 and beat_0006.",
+      "time_range": "00:02:21-00:02:21",
+      "visible_evidence": "A sharp jump cut is visible in the terminal CLI state, jumping to print 'Flibbertigibbet...' to fast-track user-experience delay."
+    }
+  ],
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T170432Z",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_evidence_merged"
+}

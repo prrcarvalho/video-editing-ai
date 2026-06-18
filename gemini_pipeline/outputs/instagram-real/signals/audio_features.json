@@ -4,227 +4,272 @@
       {
         "frame": 5,
         "signal_id": "aud_beat_0001",
-        "time": 0.0833
+        "time": 0.0833,
+        "timecode": "00:00:05"
       },
       {
         "frame": 42,
         "signal_id": "aud_beat_0002",
-        "time": 0.7
+        "time": 0.7,
+        "timecode": "00:00:42"
       },
       {
         "frame": 81,
         "signal_id": "aud_beat_0003",
-        "time": 1.35
+        "time": 1.35,
+        "timecode": "00:01:21"
       },
       {
         "frame": 113,
         "signal_id": "aud_beat_0004",
-        "time": 1.8833
+        "time": 1.8833,
+        "timecode": "00:01:53"
       },
       {
         "frame": 145,
         "signal_id": "aud_beat_0005",
-        "time": 2.4167
+        "time": 2.4167,
+        "timecode": "00:02:25"
       },
       {
         "frame": 179,
         "signal_id": "aud_beat_0006",
-        "time": 2.9833
+        "time": 2.9833,
+        "timecode": "00:02:59"
       },
       {
         "frame": 213,
         "signal_id": "aud_beat_0007",
-        "time": 3.55
+        "time": 3.55,
+        "timecode": "00:03:33"
       },
       {
         "frame": 248,
         "signal_id": "aud_beat_0008",
-        "time": 4.1333
+        "time": 4.1333,
+        "timecode": "00:04:08"
       },
       {
         "frame": 278,
         "signal_id": "aud_beat_0009",
-        "time": 4.6333
+        "time": 4.6333,
+        "timecode": "00:04:38"
       },
       {
         "frame": 313,
         "signal_id": "aud_beat_0010",
-        "time": 5.2167
+        "time": 5.2167,
+        "timecode": "00:05:13"
       },
       {
         "frame": 347,
         "signal_id": "aud_beat_0011",
-        "time": 5.7833
+        "time": 5.7833,
+        "timecode": "00:05:47"
       },
       {
         "frame": 379,
         "signal_id": "aud_beat_0012",
-        "time": 6.3167
+        "time": 6.3167,
+        "timecode": "00:06:19"
       },
       {
         "frame": 411,
         "signal_id": "aud_beat_0013",
-        "time": 6.85
+        "time": 6.85,
+        "timecode": "00:06:51"
       },
       {
         "frame": 446,
         "signal_id": "aud_beat_0014",
-        "time": 7.4333
+        "time": 7.4333,
+        "timecode": "00:07:26"
       },
       {
         "frame": 476,
         "signal_id": "aud_beat_0015",
-        "time": 7.9333
+        "time": 7.9333,
+        "timecode": "00:07:56"
       },
       {
         "frame": 508,
         "signal_id": "aud_beat_0016",
-        "time": 8.4667
+        "time": 8.4667,
+        "timecode": "00:08:28"
       },
       {
         "frame": 540,
         "signal_id": "aud_beat_0017",
-        "time": 9.0
+        "time": 9.0,
+        "timecode": "00:09:00"
       },
       {
         "frame": 571,
         "signal_id": "aud_beat_0018",
-        "time": 9.5167
+        "time": 9.5167,
+        "timecode": "00:09:31"
       },
       {
         "frame": 601,
         "signal_id": "aud_beat_0019",
-        "time": 10.0167
+        "time": 10.0167,
+        "timecode": "00:10:01"
       },
       {
         "frame": 629,
         "signal_id": "aud_beat_0020",
-        "time": 10.4833
+        "time": 10.4833,
+        "timecode": "00:10:29"
       },
       {
         "frame": 658,
         "signal_id": "aud_beat_0021",
-        "time": 10.9667
+        "time": 10.9667,
+        "timecode": "00:10:58"
       },
       {
         "frame": 691,
         "signal_id": "aud_beat_0022",
-        "time": 11.5167
+        "time": 11.5167,
+        "timecode": "00:11:31"
       },
       {
         "frame": 723,
         "signal_id": "aud_beat_0023",
-        "time": 12.05
+        "time": 12.05,
+        "timecode": "00:12:03"
       },
       {
         "frame": 754,
         "signal_id": "aud_beat_0024",
-        "time": 12.5667
+        "time": 12.5667,
+        "timecode": "00:12:34"
       },
       {
         "frame": 787,
         "signal_id": "aud_beat_0025",
-        "time": 13.1167
+        "time": 13.1167,
+        "timecode": "00:13:07"
       },
       {
         "frame": 819,
         "signal_id": "aud_beat_0026",
-        "time": 13.65
+        "time": 13.65,
+        "timecode": "00:13:39"
       },
       {
         "frame": 853,
         "signal_id": "aud_beat_0027",
-        "time": 14.2167
+        "time": 14.2167,
+        "timecode": "00:14:13"
       },
       {
         "frame": 887,
         "signal_id": "aud_beat_0028",
-        "time": 14.7833
+        "time": 14.7833,
+        "timecode": "00:14:47"
       },
       {
         "frame": 917,
         "signal_id": "aud_beat_0029",
-        "time": 15.2833
+        "time": 15.2833,
+        "timecode": "00:15:17"
       },
       {
         "frame": 946,
         "signal_id": "aud_beat_0030",
-        "time": 15.7667
+        "time": 15.7667,
+        "timecode": "00:15:46"
       },
       {
         "frame": 974,
         "signal_id": "aud_beat_0031",
-        "time": 16.2333
+        "time": 16.2333,
+        "timecode": "00:16:14"
       },
       {
         "frame": 1001,
         "signal_id": "aud_beat_0032",
-        "time": 16.6833
+        "time": 16.6833,
+        "timecode": "00:16:41"
       },
       {
         "frame": 1034,
         "signal_id": "aud_beat_0033",
-        "time": 17.2333
+        "time": 17.2333,
+        "timecode": "00:17:14"
       },
       {
         "frame": 1065,
         "signal_id": "aud_beat_0034",
-        "time": 17.75
+        "time": 17.75,
+        "timecode": "00:17:45"
       },
       {
         "frame": 1098,
         "signal_id": "aud_beat_0035",
-        "time": 18.3
+        "time": 18.3,
+        "timecode": "00:18:18"
       },
       {
         "frame": 1134,
         "signal_id": "aud_beat_0036",
-        "time": 18.9
+        "time": 18.9,
+        "timecode": "00:18:54"
       },
       {
         "frame": 1169,
         "signal_id": "aud_beat_0037",
-        "time": 19.4833
+        "time": 19.4833,
+        "timecode": "00:19:29"
       },
       {
         "frame": 1204,
         "signal_id": "aud_beat_0038",
-        "time": 20.0667
+        "time": 20.0667,
+        "timecode": "00:20:04"
       },
       {
         "frame": 1236,
         "signal_id": "aud_beat_0039",
-        "time": 20.6
+        "time": 20.6,
+        "timecode": "00:20:36"
       },
       {
         "frame": 1267,
         "signal_id": "aud_beat_0040",
-        "time": 21.1167
+        "time": 21.1167,
+        "timecode": "00:21:07"
       },
       {
         "frame": 1297,
         "signal_id": "aud_beat_0041",
-        "time": 21.6167
+        "time": 21.6167,
+        "timecode": "00:21:37"
       },
       {
         "frame": 1328,
         "signal_id": "aud_beat_0042",
-        "time": 22.1333
+        "time": 22.1333,
+        "timecode": "00:22:08"
       },
       {
         "frame": 1359,
         "signal_id": "aud_beat_0043",
-        "time": 22.65
+        "time": 22.65,
+        "timecode": "00:22:39"
       },
       {
         "frame": 1392,
         "signal_id": "aud_beat_0044",
-        "time": 23.2
+        "time": 23.2,
+        "timecode": "00:23:12"
       },
       {
         "frame": 1426,
         "signal_id": "aud_beat_0045",
-        "time": 23.7667
+        "time": 23.7667,
+        "timecode": "00:23:46"
       }
     ],
     "loudness_peaks": [
@@ -233,224 +278,256 @@
         "frame": 6,
         "rms": 0.307401,
         "signal_id": "aud_peak_0001",
-        "time": 0.1
+        "time": 0.1,
+        "timecode": "00:00:06"
       },
       {
         "db_relative_to_peak": -4.307,
         "frame": 24,
         "rms": 0.243146,
         "signal_id": "aud_peak_0002",
-        "time": 0.4
+        "time": 0.4,
+        "timecode": "00:00:24"
       },
       {
         "db_relative_to_peak": -4.052,
         "frame": 49,
         "rms": 0.25038,
         "signal_id": "aud_peak_0003",
-        "time": 0.8167
+        "time": 0.8167,
+        "timecode": "00:00:49"
       },
       {
         "db_relative_to_peak": -2.41,
         "frame": 80,
         "rms": 0.302505,
         "signal_id": "aud_peak_0004",
-        "time": 1.3333
+        "time": 1.3333,
+        "timecode": "00:01:20"
       },
       {
         "db_relative_to_peak": -3.714,
         "frame": 116,
         "rms": 0.260334,
         "signal_id": "aud_peak_0005",
-        "time": 1.9333
+        "time": 1.9333,
+        "timecode": "00:01:56"
       },
       {
         "db_relative_to_peak": -5.16,
         "frame": 134,
         "rms": 0.220396,
         "signal_id": "aud_peak_0006",
-        "time": 2.2333
+        "time": 2.2333,
+        "timecode": "00:02:14"
       },
       {
         "db_relative_to_peak": -3.263,
         "frame": 150,
         "rms": 0.274201,
         "signal_id": "aud_peak_0007",
-        "time": 2.5
+        "time": 2.5,
+        "timecode": "00:02:30"
       },
       {
         "db_relative_to_peak": -4.73,
         "frame": 166,
         "rms": 0.231584,
         "signal_id": "aud_peak_0008",
-        "time": 2.7667
+        "time": 2.7667,
+        "timecode": "00:02:46"
       },
       {
         "db_relative_to_peak": -4.462,
         "frame": 263,
         "rms": 0.238832,
         "signal_id": "aud_peak_0009",
-        "time": 4.3833
+        "time": 4.3833,
+        "timecode": "00:04:23"
       },
       {
         "db_relative_to_peak": -3.681,
         "frame": 320,
         "rms": 0.261325,
         "signal_id": "aud_peak_0010",
-        "time": 5.3333
+        "time": 5.3333,
+        "timecode": "00:05:20"
       },
       {
         "db_relative_to_peak": -3.182,
         "frame": 390,
         "rms": 0.276763,
         "signal_id": "aud_peak_0011",
-        "time": 6.5
+        "time": 6.5,
+        "timecode": "00:06:30"
       },
       {
         "db_relative_to_peak": -4.124,
         "frame": 402,
         "rms": 0.248337,
         "signal_id": "aud_peak_0012",
-        "time": 6.7
+        "time": 6.7,
+        "timecode": "00:06:42"
       },
       {
         "db_relative_to_peak": -4.931,
         "frame": 459,
         "rms": 0.226297,
         "signal_id": "aud_peak_0013",
-        "time": 7.65
+        "time": 7.65,
+        "timecode": "00:07:39"
       },
       {
         "db_relative_to_peak": -3.01,
         "frame": 527,
         "rms": 0.282299,
         "signal_id": "aud_peak_0014",
-        "time": 8.7833
+        "time": 8.7833,
+        "timecode": "00:08:47"
       },
       {
         "db_relative_to_peak": -1.173,
         "frame": 562,
         "rms": 0.348785,
         "signal_id": "aud_peak_0015",
-        "time": 9.3667
+        "time": 9.3667,
+        "timecode": "00:09:22"
       },
       {
         "db_relative_to_peak": -4.456,
         "frame": 573,
         "rms": 0.239004,
         "signal_id": "aud_peak_0016",
-        "time": 9.55
+        "time": 9.55,
+        "timecode": "00:09:33"
       },
       {
         "db_relative_to_peak": -2.568,
         "frame": 724,
         "rms": 0.297036,
         "signal_id": "aud_peak_0017",
-        "time": 12.0667
+        "time": 12.0667,
+        "timecode": "00:12:04"
       },
       {
         "db_relative_to_peak": -2.787,
         "frame": 735,
         "rms": 0.289648,
         "signal_id": "aud_peak_0018",
-        "time": 12.25
+        "time": 12.25,
+        "timecode": "00:12:15"
       },
       {
         "db_relative_to_peak": -3.742,
         "frame": 764,
         "rms": 0.259484,
         "signal_id": "aud_peak_0019",
-        "time": 12.7333
+        "time": 12.7333,
+        "timecode": "00:12:44"
       },
       {
         "db_relative_to_peak": -2.835,
         "frame": 926,
         "rms": 0.288051,
         "signal_id": "aud_peak_0020",
-        "time": 15.4333
+        "time": 15.4333,
+        "timecode": "00:15:26"
       },
       {
         "db_relative_to_peak": -2.726,
         "frame": 947,
         "rms": 0.29168,
         "signal_id": "aud_peak_0021",
-        "time": 15.7833
+        "time": 15.7833,
+        "timecode": "00:15:47"
       },
       {
         "db_relative_to_peak": -3.087,
         "frame": 961,
         "rms": 0.279797,
         "signal_id": "aud_peak_0022",
-        "time": 16.0167
+        "time": 16.0167,
+        "timecode": "00:16:01"
       },
       {
         "db_relative_to_peak": -2.668,
         "frame": 1013,
         "rms": 0.293642,
         "signal_id": "aud_peak_0023",
-        "time": 16.8833
+        "time": 16.8833,
+        "timecode": "00:16:53"
       },
       {
         "db_relative_to_peak": -4.599,
         "frame": 1028,
         "rms": 0.235107,
         "signal_id": "aud_peak_0024",
-        "time": 17.1333
+        "time": 17.1333,
+        "timecode": "00:17:08"
       },
       {
         "db_relative_to_peak": -4.533,
         "frame": 1076,
         "rms": 0.236888,
         "signal_id": "aud_peak_0025",
-        "time": 17.9333
+        "time": 17.9333,
+        "timecode": "00:17:56"
       },
       {
         "db_relative_to_peak": -2.985,
         "frame": 1092,
         "rms": 0.283128,
         "signal_id": "aud_peak_0026",
-        "time": 18.2
+        "time": 18.2,
+        "timecode": "00:18:12"
       },
       {
         "db_relative_to_peak": -4.989,
         "frame": 1110,
         "rms": 0.224777,
         "signal_id": "aud_peak_0027",
-        "time": 18.5
+        "time": 18.5,
+        "timecode": "00:18:30"
       },
       {
         "db_relative_to_peak": -4.713,
         "frame": 1206,
         "rms": 0.232052,
         "signal_id": "aud_peak_0028",
-        "time": 20.1
+        "time": 20.1,
+        "timecode": "00:20:06"
       },
       {
         "db_relative_to_peak": -3.78,
         "frame": 1228,
         "rms": 0.258358,
         "signal_id": "aud_peak_0029",
-        "time": 20.4667
+        "time": 20.4667,
+        "timecode": "00:20:28"
       },
       {
         "db_relative_to_peak": -4.862,
         "frame": 1294,
         "rms": 0.228084,
         "signal_id": "aud_peak_0030",
-        "time": 21.5667
+        "time": 21.5667,
+        "timecode": "00:21:34"
       },
       {
         "db_relative_to_peak": -1.705,
         "frame": 1393,
         "rms": 0.328067,
         "signal_id": "aud_peak_0031",
-        "time": 23.2167
+        "time": 23.2167,
+        "timecode": "00:23:13"
       },
       {
         "db_relative_to_peak": -0.0,
         "frame": 1446,
         "rms": 0.399225,
         "signal_id": "aud_peak_0032",
-        "time": 24.1
+        "time": 24.1,
+        "timecode": "00:24:06"
       }
     ],
     "onsets": [
@@ -458,1225 +535,1429 @@
         "frame": 3,
         "signal_id": "aud_onset_0001",
         "strength": 9.695165,
-        "time": 0.05
+        "time": 0.05,
+        "timecode": "00:00:03"
       },
       {
         "frame": 5,
         "signal_id": "aud_onset_0002",
         "strength": 11.131163,
-        "time": 0.0833
+        "time": 0.0833,
+        "timecode": "00:00:05"
       },
       {
         "frame": 15,
         "signal_id": "aud_onset_0003",
         "strength": 4.868537,
-        "time": 0.25
+        "time": 0.25,
+        "timecode": "00:00:15"
       },
       {
         "frame": 23,
         "signal_id": "aud_onset_0004",
         "strength": 4.021754,
-        "time": 0.3833
+        "time": 0.3833,
+        "timecode": "00:00:23"
       },
       {
         "frame": 36,
         "signal_id": "aud_onset_0005",
         "strength": 4.651934,
-        "time": 0.6
+        "time": 0.6,
+        "timecode": "00:00:36"
       },
       {
         "frame": 42,
         "signal_id": "aud_onset_0006",
         "strength": 5.968592,
-        "time": 0.7
+        "time": 0.7,
+        "timecode": "00:00:42"
       },
       {
         "frame": 47,
         "signal_id": "aud_onset_0007",
         "strength": 5.910685,
-        "time": 0.7833
+        "time": 0.7833,
+        "timecode": "00:00:47"
       },
       {
         "frame": 59,
         "signal_id": "aud_onset_0008",
         "strength": 4.318475,
-        "time": 0.9833
+        "time": 0.9833,
+        "timecode": "00:00:59"
       },
       {
         "frame": 65,
         "signal_id": "aud_onset_0009",
         "strength": 4.233304,
-        "time": 1.0833
+        "time": 1.0833,
+        "timecode": "00:01:05"
       },
       {
         "frame": 74,
         "signal_id": "aud_onset_0010",
         "strength": 2.321313,
-        "time": 1.2333
+        "time": 1.2333,
+        "timecode": "00:01:14"
       },
       {
         "frame": 80,
         "signal_id": "aud_onset_0011",
         "strength": 3.253693,
-        "time": 1.3333
+        "time": 1.3333,
+        "timecode": "00:01:20"
       },
       {
         "frame": 88,
         "signal_id": "aud_onset_0012",
         "strength": 3.72275,
-        "time": 1.4667
+        "time": 1.4667,
+        "timecode": "00:01:28"
       },
       {
         "frame": 102,
         "signal_id": "aud_onset_0013",
         "strength": 3.010966,
-        "time": 1.7
+        "time": 1.7,
+        "timecode": "00:01:42"
       },
       {
         "frame": 113,
         "signal_id": "aud_onset_0014",
         "strength": 13.815112,
-        "time": 1.8833
+        "time": 1.8833,
+        "timecode": "00:01:53"
       },
       {
         "frame": 121,
         "signal_id": "aud_onset_0015",
         "strength": 5.171165,
-        "time": 2.0167
+        "time": 2.0167,
+        "timecode": "00:02:01"
       },
       {
         "frame": 127,
         "signal_id": "aud_onset_0016",
         "strength": 5.59091,
-        "time": 2.1167
+        "time": 2.1167,
+        "timecode": "00:02:07"
       },
       {
         "frame": 129,
         "signal_id": "aud_onset_0017",
         "strength": 5.17357,
-        "time": 2.15
+        "time": 2.15,
+        "timecode": "00:02:09"
       },
       {
         "frame": 132,
         "signal_id": "aud_onset_0018",
         "strength": 3.713242,
-        "time": 2.2
+        "time": 2.2,
+        "timecode": "00:02:12"
       },
       {
         "frame": 144,
         "signal_id": "aud_onset_0019",
         "strength": 8.587917,
-        "time": 2.4
+        "time": 2.4,
+        "timecode": "00:02:24"
       },
       {
         "frame": 149,
         "signal_id": "aud_onset_0020",
         "strength": 5.169278,
-        "time": 2.4833
+        "time": 2.4833,
+        "timecode": "00:02:29"
       },
       {
         "frame": 156,
         "signal_id": "aud_onset_0021",
         "strength": 3.017962,
-        "time": 2.6
+        "time": 2.6,
+        "timecode": "00:02:36"
       },
       {
         "frame": 158,
         "signal_id": "aud_onset_0022",
         "strength": 4.189532,
-        "time": 2.6333
+        "time": 2.6333,
+        "timecode": "00:02:38"
       },
       {
         "frame": 164,
         "signal_id": "aud_onset_0023",
         "strength": 7.430263,
-        "time": 2.7333
+        "time": 2.7333,
+        "timecode": "00:02:44"
       },
       {
         "frame": 176,
         "signal_id": "aud_onset_0024",
         "strength": 2.514472,
-        "time": 2.9333
+        "time": 2.9333,
+        "timecode": "00:02:56"
       },
       {
         "frame": 192,
         "signal_id": "aud_onset_0025",
         "strength": 5.708483,
-        "time": 3.2
+        "time": 3.2,
+        "timecode": "00:03:12"
       },
       {
         "frame": 196,
         "signal_id": "aud_onset_0026",
         "strength": 4.429536,
-        "time": 3.2667
+        "time": 3.2667,
+        "timecode": "00:03:16"
       },
       {
         "frame": 204,
         "signal_id": "aud_onset_0027",
         "strength": 4.298067,
-        "time": 3.4
+        "time": 3.4,
+        "timecode": "00:03:24"
       },
       {
         "frame": 207,
         "signal_id": "aud_onset_0028",
         "strength": 3.968819,
-        "time": 3.45
+        "time": 3.45,
+        "timecode": "00:03:27"
       },
       {
         "frame": 209,
         "signal_id": "aud_onset_0029",
         "strength": 5.082532,
-        "time": 3.4833
+        "time": 3.4833,
+        "timecode": "00:03:29"
       },
       {
         "frame": 213,
         "signal_id": "aud_onset_0030",
         "strength": 4.896083,
-        "time": 3.55
+        "time": 3.55,
+        "timecode": "00:03:33"
       },
       {
         "frame": 219,
         "signal_id": "aud_onset_0031",
         "strength": 7.119202,
-        "time": 3.65
+        "time": 3.65,
+        "timecode": "00:03:39"
       },
       {
         "frame": 227,
         "signal_id": "aud_onset_0032",
         "strength": 4.194081,
-        "time": 3.7833
+        "time": 3.7833,
+        "timecode": "00:03:47"
       },
       {
         "frame": 236,
         "signal_id": "aud_onset_0033",
         "strength": 6.237297,
-        "time": 3.9333
+        "time": 3.9333,
+        "timecode": "00:03:56"
       },
       {
         "frame": 240,
         "signal_id": "aud_onset_0034",
         "strength": 8.8163,
-        "time": 4.0
+        "time": 4.0,
+        "timecode": "00:04:00"
       },
       {
         "frame": 247,
         "signal_id": "aud_onset_0035",
         "strength": 8.40786,
-        "time": 4.1167
+        "time": 4.1167,
+        "timecode": "00:04:07"
       },
       {
         "frame": 256,
         "signal_id": "aud_onset_0036",
         "strength": 11.305116,
-        "time": 4.2667
+        "time": 4.2667,
+        "timecode": "00:04:16"
       },
       {
         "frame": 258,
         "signal_id": "aud_onset_0037",
         "strength": 5.148017,
-        "time": 4.3
+        "time": 4.3,
+        "timecode": "00:04:18"
       },
       {
         "frame": 277,
         "signal_id": "aud_onset_0038",
         "strength": 8.505737,
-        "time": 4.6167
+        "time": 4.6167,
+        "timecode": "00:04:37"
       },
       {
         "frame": 282,
         "signal_id": "aud_onset_0039",
         "strength": 3.513145,
-        "time": 4.7
+        "time": 4.7,
+        "timecode": "00:04:42"
       },
       {
         "frame": 291,
         "signal_id": "aud_onset_0040",
         "strength": 4.434539,
-        "time": 4.85
+        "time": 4.85,
+        "timecode": "00:04:51"
       },
       {
         "frame": 296,
         "signal_id": "aud_onset_0041",
         "strength": 4.800045,
-        "time": 4.9333
+        "time": 4.9333,
+        "timecode": "00:04:56"
       },
       {
         "frame": 302,
         "signal_id": "aud_onset_0042",
         "strength": 7.123216,
-        "time": 5.0333
+        "time": 5.0333,
+        "timecode": "00:05:02"
       },
       {
         "frame": 313,
         "signal_id": "aud_onset_0043",
         "strength": 9.242345,
-        "time": 5.2167
+        "time": 5.2167,
+        "timecode": "00:05:13"
       },
       {
         "frame": 317,
         "signal_id": "aud_onset_0044",
         "strength": 4.594973,
-        "time": 5.2833
+        "time": 5.2833,
+        "timecode": "00:05:17"
       },
       {
         "frame": 331,
         "signal_id": "aud_onset_0045",
         "strength": 6.425011,
-        "time": 5.5167
+        "time": 5.5167,
+        "timecode": "00:05:31"
       },
       {
         "frame": 335,
         "signal_id": "aud_onset_0046",
         "strength": 5.066595,
-        "time": 5.5833
+        "time": 5.5833,
+        "timecode": "00:05:35"
       },
       {
         "frame": 337,
         "signal_id": "aud_onset_0047",
         "strength": 5.68569,
-        "time": 5.6167
+        "time": 5.6167,
+        "timecode": "00:05:37"
       },
       {
         "frame": 342,
         "signal_id": "aud_onset_0048",
         "strength": 4.608343,
-        "time": 5.7
+        "time": 5.7,
+        "timecode": "00:05:42"
       },
       {
         "frame": 347,
         "signal_id": "aud_onset_0049",
         "strength": 6.343294,
-        "time": 5.7833
+        "time": 5.7833,
+        "timecode": "00:05:47"
       },
       {
         "frame": 350,
         "signal_id": "aud_onset_0050",
         "strength": 3.081623,
-        "time": 5.8333
+        "time": 5.8333,
+        "timecode": "00:05:50"
       },
       {
         "frame": 360,
         "signal_id": "aud_onset_0051",
         "strength": 7.130192,
-        "time": 6.0
+        "time": 6.0,
+        "timecode": "00:06:00"
       },
       {
         "frame": 362,
         "signal_id": "aud_onset_0052",
         "strength": 4.3605,
-        "time": 6.0333
+        "time": 6.0333,
+        "timecode": "00:06:02"
       },
       {
         "frame": 366,
         "signal_id": "aud_onset_0053",
         "strength": 3.95295,
-        "time": 6.1
+        "time": 6.1,
+        "timecode": "00:06:06"
       },
       {
         "frame": 374,
         "signal_id": "aud_onset_0054",
         "strength": 11.713759,
-        "time": 6.2333
+        "time": 6.2333,
+        "timecode": "00:06:14"
       },
       {
         "frame": 378,
         "signal_id": "aud_onset_0055",
         "strength": 11.341605,
-        "time": 6.3
+        "time": 6.3,
+        "timecode": "00:06:18"
       },
       {
         "frame": 388,
         "signal_id": "aud_onset_0056",
         "strength": 5.733904,
-        "time": 6.4667
+        "time": 6.4667,
+        "timecode": "00:06:28"
       },
       {
         "frame": 394,
         "signal_id": "aud_onset_0057",
         "strength": 3.377523,
-        "time": 6.5667
+        "time": 6.5667,
+        "timecode": "00:06:34"
       },
       {
         "frame": 401,
         "signal_id": "aud_onset_0058",
         "strength": 5.005876,
-        "time": 6.6833
+        "time": 6.6833,
+        "timecode": "00:06:41"
       },
       {
         "frame": 407,
         "signal_id": "aud_onset_0059",
         "strength": 5.649965,
-        "time": 6.7833
+        "time": 6.7833,
+        "timecode": "00:06:47"
       },
       {
         "frame": 412,
         "signal_id": "aud_onset_0060",
         "strength": 6.031812,
-        "time": 6.8667
+        "time": 6.8667,
+        "timecode": "00:06:52"
       },
       {
         "frame": 419,
         "signal_id": "aud_onset_0061",
         "strength": 4.034407,
-        "time": 6.9833
+        "time": 6.9833,
+        "timecode": "00:06:59"
       },
       {
         "frame": 427,
         "signal_id": "aud_onset_0062",
         "strength": 6.596803,
-        "time": 7.1167
+        "time": 7.1167,
+        "timecode": "00:07:07"
       },
       {
         "frame": 433,
         "signal_id": "aud_onset_0063",
         "strength": 4.416362,
-        "time": 7.2167
+        "time": 7.2167,
+        "timecode": "00:07:13"
       },
       {
         "frame": 439,
         "signal_id": "aud_onset_0064",
         "strength": 2.993527,
-        "time": 7.3167
+        "time": 7.3167,
+        "timecode": "00:07:19"
       },
       {
         "frame": 445,
         "signal_id": "aud_onset_0065",
         "strength": 4.402331,
-        "time": 7.4167
+        "time": 7.4167,
+        "timecode": "00:07:25"
       },
       {
         "frame": 455,
         "signal_id": "aud_onset_0066",
         "strength": 4.50787,
-        "time": 7.5833
+        "time": 7.5833,
+        "timecode": "00:07:35"
       },
       {
         "frame": 466,
         "signal_id": "aud_onset_0067",
         "strength": 3.138477,
-        "time": 7.7667
+        "time": 7.7667,
+        "timecode": "00:07:46"
       },
       {
         "frame": 476,
         "signal_id": "aud_onset_0068",
         "strength": 8.998388,
-        "time": 7.9333
+        "time": 7.9333,
+        "timecode": "00:07:56"
       },
       {
         "frame": 480,
         "signal_id": "aud_onset_0069",
         "strength": 4.430894,
-        "time": 8.0
+        "time": 8.0,
+        "timecode": "00:08:00"
       },
       {
         "frame": 493,
         "signal_id": "aud_onset_0070",
         "strength": 2.950762,
-        "time": 8.2167
+        "time": 8.2167,
+        "timecode": "00:08:13"
       },
       {
         "frame": 505,
         "signal_id": "aud_onset_0071",
         "strength": 3.418034,
-        "time": 8.4167
+        "time": 8.4167,
+        "timecode": "00:08:25"
       },
       {
         "frame": 508,
         "signal_id": "aud_onset_0072",
         "strength": 10.489587,
-        "time": 8.4667
+        "time": 8.4667,
+        "timecode": "00:08:28"
       },
       {
         "frame": 524,
         "signal_id": "aud_onset_0073",
         "strength": 4.191139,
-        "time": 8.7333
+        "time": 8.7333,
+        "timecode": "00:08:44"
       },
       {
         "frame": 535,
         "signal_id": "aud_onset_0074",
         "strength": 4.606802,
-        "time": 8.9167
+        "time": 8.9167,
+        "timecode": "00:08:55"
       },
       {
         "frame": 541,
         "signal_id": "aud_onset_0075",
         "strength": 3.294061,
-        "time": 9.0167
+        "time": 9.0167,
+        "timecode": "00:09:01"
       },
       {
         "frame": 553,
         "signal_id": "aud_onset_0076",
         "strength": 8.779286,
-        "time": 9.2167
+        "time": 9.2167,
+        "timecode": "00:09:13"
       },
       {
         "frame": 560,
         "signal_id": "aud_onset_0077",
         "strength": 5.115612,
-        "time": 9.3333
+        "time": 9.3333,
+        "timecode": "00:09:20"
       },
       {
         "frame": 562,
         "signal_id": "aud_onset_0078",
         "strength": 3.724293,
-        "time": 9.3667
+        "time": 9.3667,
+        "timecode": "00:09:22"
       },
       {
         "frame": 567,
         "signal_id": "aud_onset_0079",
         "strength": 4.514266,
-        "time": 9.45
+        "time": 9.45,
+        "timecode": "00:09:27"
       },
       {
         "frame": 571,
         "signal_id": "aud_onset_0080",
         "strength": 6.224293,
-        "time": 9.5167
+        "time": 9.5167,
+        "timecode": "00:09:31"
       },
       {
         "frame": 586,
         "signal_id": "aud_onset_0081",
         "strength": 6.601356,
-        "time": 9.7667
+        "time": 9.7667,
+        "timecode": "00:09:46"
       },
       {
         "frame": 595,
         "signal_id": "aud_onset_0082",
         "strength": 4.774618,
-        "time": 9.9167
+        "time": 9.9167,
+        "timecode": "00:09:55"
       },
       {
         "frame": 601,
         "signal_id": "aud_onset_0083",
         "strength": 3.628107,
-        "time": 10.0167
+        "time": 10.0167,
+        "timecode": "00:10:01"
       },
       {
         "frame": 608,
         "signal_id": "aud_onset_0084",
         "strength": 4.447119,
-        "time": 10.1333
+        "time": 10.1333,
+        "timecode": "00:10:08"
       },
       {
         "frame": 614,
         "signal_id": "aud_onset_0085",
         "strength": 5.232798,
-        "time": 10.2333
+        "time": 10.2333,
+        "timecode": "00:10:14"
       },
       {
         "frame": 619,
         "signal_id": "aud_onset_0086",
         "strength": 5.957146,
-        "time": 10.3167
+        "time": 10.3167,
+        "timecode": "00:10:19"
       },
       {
         "frame": 624,
         "signal_id": "aud_onset_0087",
         "strength": 8.574704,
-        "time": 10.4
+        "time": 10.4,
+        "timecode": "00:10:24"
       },
       {
         "frame": 627,
         "signal_id": "aud_onset_0088",
         "strength": 5.459899,
-        "time": 10.45
+        "time": 10.45,
+        "timecode": "00:10:27"
       },
       {
         "frame": 641,
         "signal_id": "aud_onset_0089",
         "strength": 3.187809,
-        "time": 10.6833
+        "time": 10.6833,
+        "timecode": "00:10:41"
       },
       {
         "frame": 657,
         "signal_id": "aud_onset_0090",
         "strength": 12.885571,
-        "time": 10.95
+        "time": 10.95,
+        "timecode": "00:10:57"
       },
       {
         "frame": 665,
         "signal_id": "aud_onset_0091",
         "strength": 6.415551,
-        "time": 11.0833
+        "time": 11.0833,
+        "timecode": "00:11:05"
       },
       {
         "frame": 672,
         "signal_id": "aud_onset_0092",
         "strength": 5.318788,
-        "time": 11.2
+        "time": 11.2,
+        "timecode": "00:11:12"
       },
       {
         "frame": 678,
         "signal_id": "aud_onset_0093",
         "strength": 6.074559,
-        "time": 11.3
+        "time": 11.3,
+        "timecode": "00:11:18"
       },
       {
         "frame": 682,
         "signal_id": "aud_onset_0094",
         "strength": 7.816122,
-        "time": 11.3667
+        "time": 11.3667,
+        "timecode": "00:11:22"
       },
       {
         "frame": 691,
         "signal_id": "aud_onset_0095",
         "strength": 4.390098,
-        "time": 11.5167
+        "time": 11.5167,
+        "timecode": "00:11:31"
       },
       {
         "frame": 697,
         "signal_id": "aud_onset_0096",
         "strength": 8.613365,
-        "time": 11.6167
+        "time": 11.6167,
+        "timecode": "00:11:37"
       },
       {
         "frame": 706,
         "signal_id": "aud_onset_0097",
         "strength": 7.483734,
-        "time": 11.7667
+        "time": 11.7667,
+        "timecode": "00:11:46"
       },
       {
         "frame": 718,
         "signal_id": "aud_onset_0098",
         "strength": 14.926402,
-        "time": 11.9667
+        "time": 11.9667,
+        "timecode": "00:11:58"
       },
       {
         "frame": 722,
         "signal_id": "aud_onset_0099",
         "strength": 8.391804,
-        "time": 12.0333
+        "time": 12.0333,
+        "timecode": "00:12:02"
       },
       {
         "frame": 733,
         "signal_id": "aud_onset_0100",
         "strength": 3.481465,
-        "time": 12.2167
+        "time": 12.2167,
+        "timecode": "00:12:13"
       },
       {
         "frame": 741,
         "signal_id": "aud_onset_0101",
         "strength": 6.676653,
-        "time": 12.35
+        "time": 12.35,
+        "timecode": "00:12:21"
       },
       {
         "frame": 746,
         "signal_id": "aud_onset_0102",
         "strength": 4.681658,
-        "time": 12.4333
+        "time": 12.4333,
+        "timecode": "00:12:26"
       },
       {
         "frame": 754,
         "signal_id": "aud_onset_0103",
         "strength": 5.913922,
-        "time": 12.5667
+        "time": 12.5667,
+        "timecode": "00:12:34"
       },
       {
         "frame": 762,
         "signal_id": "aud_onset_0104",
         "strength": 7.172096,
-        "time": 12.7
+        "time": 12.7,
+        "timecode": "00:12:42"
       },
       {
         "frame": 775,
         "signal_id": "aud_onset_0105",
         "strength": 4.821526,
-        "time": 12.9167
+        "time": 12.9167,
+        "timecode": "00:12:55"
       },
       {
         "frame": 779,
         "signal_id": "aud_onset_0106",
         "strength": 9.370211,
-        "time": 12.9833
+        "time": 12.9833,
+        "timecode": "00:12:59"
       },
       {
         "frame": 786,
         "signal_id": "aud_onset_0107",
         "strength": 8.44234,
-        "time": 13.1
+        "time": 13.1,
+        "timecode": "00:13:06"
       },
       {
         "frame": 794,
         "signal_id": "aud_onset_0108",
         "strength": 4.448921,
-        "time": 13.2333
+        "time": 13.2333,
+        "timecode": "00:13:14"
       },
       {
         "frame": 797,
         "signal_id": "aud_onset_0109",
         "strength": 4.893409,
-        "time": 13.2833
+        "time": 13.2833,
+        "timecode": "00:13:17"
       },
       {
         "frame": 805,
         "signal_id": "aud_onset_0110",
         "strength": 6.798656,
-        "time": 13.4167
+        "time": 13.4167,
+        "timecode": "00:13:25"
       },
       {
         "frame": 812,
         "signal_id": "aud_onset_0111",
         "strength": 6.694236,
-        "time": 13.5333
+        "time": 13.5333,
+        "timecode": "00:13:32"
       },
       {
         "frame": 819,
         "signal_id": "aud_onset_0112",
         "strength": 5.530424,
-        "time": 13.65
+        "time": 13.65,
+        "timecode": "00:13:39"
       },
       {
         "frame": 824,
         "signal_id": "aud_onset_0113",
         "strength": 5.804584,
-        "time": 13.7333
+        "time": 13.7333,
+        "timecode": "00:13:44"
       },
       {
         "frame": 829,
         "signal_id": "aud_onset_0114",
         "strength": 5.463978,
-        "time": 13.8167
+        "time": 13.8167,
+        "timecode": "00:13:49"
       },
       {
         "frame": 839,
         "signal_id": "aud_onset_0115",
         "strength": 6.823562,
-        "time": 13.9833
+        "time": 13.9833,
+        "timecode": "00:13:59"
       },
       {
         "frame": 843,
         "signal_id": "aud_onset_0116",
         "strength": 6.060523,
-        "time": 14.05
+        "time": 14.05,
+        "timecode": "00:14:03"
       },
       {
         "frame": 852,
         "signal_id": "aud_onset_0117",
         "strength": 3.01977,
-        "time": 14.2
+        "time": 14.2,
+        "timecode": "00:14:12"
       },
       {
         "frame": 854,
         "signal_id": "aud_onset_0118",
         "strength": 3.306372,
-        "time": 14.2333
+        "time": 14.2333,
+        "timecode": "00:14:14"
       },
       {
         "frame": 859,
         "signal_id": "aud_onset_0119",
         "strength": 4.376404,
-        "time": 14.3167
+        "time": 14.3167,
+        "timecode": "00:14:19"
       },
       {
         "frame": 870,
         "signal_id": "aud_onset_0120",
         "strength": 8.479165,
-        "time": 14.5
+        "time": 14.5,
+        "timecode": "00:14:30"
       },
       {
         "frame": 881,
         "signal_id": "aud_onset_0121",
         "strength": 4.457271,
-        "time": 14.6833
+        "time": 14.6833,
+        "timecode": "00:14:41"
       },
       {
         "frame": 887,
         "signal_id": "aud_onset_0122",
         "strength": 6.078996,
-        "time": 14.7833
+        "time": 14.7833,
+        "timecode": "00:14:47"
       },
       {
         "frame": 893,
         "signal_id": "aud_onset_0123",
         "strength": 5.564784,
-        "time": 14.8833
+        "time": 14.8833,
+        "timecode": "00:14:53"
       },
       {
         "frame": 896,
         "signal_id": "aud_onset_0124",
         "strength": 4.580114,
-        "time": 14.9333
+        "time": 14.9333,
+        "timecode": "00:14:56"
       },
       {
         "frame": 903,
         "signal_id": "aud_onset_0125",
         "strength": 2.340984,
-        "time": 15.05
+        "time": 15.05,
+        "timecode": "00:15:03"
       },
       {
         "frame": 917,
         "signal_id": "aud_onset_0126",
         "strength": 14.915315,
-        "time": 15.2833
+        "time": 15.2833,
+        "timecode": "00:15:17"
       },
       {
         "frame": 922,
         "signal_id": "aud_onset_0127",
         "strength": 7.143235,
-        "time": 15.3667
+        "time": 15.3667,
+        "timecode": "00:15:22"
       },
       {
         "frame": 930,
         "signal_id": "aud_onset_0128",
         "strength": 6.832617,
-        "time": 15.5
+        "time": 15.5,
+        "timecode": "00:15:30"
       },
       {
         "frame": 942,
         "signal_id": "aud_onset_0129",
         "strength": 7.336432,
-        "time": 15.7
+        "time": 15.7,
+        "timecode": "00:15:42"
       },
       {
         "frame": 946,
         "signal_id": "aud_onset_0130",
         "strength": 7.984985,
-        "time": 15.7667
+        "time": 15.7667,
+        "timecode": "00:15:46"
       },
       {
         "frame": 955,
         "signal_id": "aud_onset_0131",
         "strength": 4.283414,
-        "time": 15.9167
+        "time": 15.9167,
+        "timecode": "00:15:55"
       },
       {
         "frame": 959,
         "signal_id": "aud_onset_0132",
         "strength": 6.010365,
-        "time": 15.9833
+        "time": 15.9833,
+        "timecode": "00:15:59"
       },
       {
         "frame": 968,
         "signal_id": "aud_onset_0133",
         "strength": 5.126589,
-        "time": 16.1333
+        "time": 16.1333,
+        "timecode": "00:16:08"
       },
       {
         "frame": 974,
         "signal_id": "aud_onset_0134",
         "strength": 8.395566,
-        "time": 16.2333
+        "time": 16.2333,
+        "timecode": "00:16:14"
       },
       {
         "frame": 981,
         "signal_id": "aud_onset_0135",
         "strength": 7.006981,
-        "time": 16.35
+        "time": 16.35,
+        "timecode": "00:16:21"
       },
       {
         "frame": 993,
         "signal_id": "aud_onset_0136",
         "strength": 13.990117,
-        "time": 16.55
+        "time": 16.55,
+        "timecode": "00:16:33"
       },
       {
         "frame": 1000,
         "signal_id": "aud_onset_0137",
         "strength": 6.750295,
-        "time": 16.6667
+        "time": 16.6667,
+        "timecode": "00:16:40"
       },
       {
         "frame": 1006,
         "signal_id": "aud_onset_0138",
         "strength": 6.821651,
-        "time": 16.7667
+        "time": 16.7667,
+        "timecode": "00:16:46"
       },
       {
         "frame": 1010,
         "signal_id": "aud_onset_0139",
         "strength": 7.756927,
-        "time": 16.8333
+        "time": 16.8333,
+        "timecode": "00:16:50"
       },
       {
         "frame": 1020,
         "signal_id": "aud_onset_0140",
         "strength": 3.572693,
-        "time": 17.0
+        "time": 17.0,
+        "timecode": "00:17:00"
       },
       {
         "frame": 1027,
         "signal_id": "aud_onset_0141",
         "strength": 8.765749,
-        "time": 17.1167
+        "time": 17.1167,
+        "timecode": "00:17:07"
       },
       {
         "frame": 1034,
         "signal_id": "aud_onset_0142",
         "strength": 8.047908,
-        "time": 17.2333
+        "time": 17.2333,
+        "timecode": "00:17:14"
       },
       {
         "frame": 1039,
         "signal_id": "aud_onset_0143",
         "strength": 6.020998,
-        "time": 17.3167
+        "time": 17.3167,
+        "timecode": "00:17:19"
       },
       {
         "frame": 1041,
         "signal_id": "aud_onset_0144",
         "strength": 4.726813,
-        "time": 17.35
+        "time": 17.35,
+        "timecode": "00:17:21"
       },
       {
         "frame": 1055,
         "signal_id": "aud_onset_0145",
         "strength": 2.358087,
-        "time": 17.5833
+        "time": 17.5833,
+        "timecode": "00:17:35"
       },
       {
         "frame": 1064,
         "signal_id": "aud_onset_0146",
         "strength": 5.058566,
-        "time": 17.7333
+        "time": 17.7333,
+        "timecode": "00:17:44"
       },
       {
         "frame": 1067,
         "signal_id": "aud_onset_0147",
         "strength": 6.191465,
-        "time": 17.7833
+        "time": 17.7833,
+        "timecode": "00:17:47"
       },
       {
         "frame": 1074,
         "signal_id": "aud_onset_0148",
         "strength": 5.191938,
-        "time": 17.9
+        "time": 17.9,
+        "timecode": "00:17:54"
       },
       {
         "frame": 1083,
         "signal_id": "aud_onset_0149",
         "strength": 7.18055,
-        "time": 18.05
+        "time": 18.05,
+        "timecode": "00:18:03"
       },
       {
         "frame": 1091,
         "signal_id": "aud_onset_0150",
         "strength": 9.362871,
-        "time": 18.1833
+        "time": 18.1833,
+        "timecode": "00:18:11"
       },
       {
         "frame": 1098,
         "signal_id": "aud_onset_0151",
         "strength": 5.727228,
-        "time": 18.3
+        "time": 18.3,
+        "timecode": "00:18:18"
       },
       {
         "frame": 1103,
         "signal_id": "aud_onset_0152",
         "strength": 5.191183,
-        "time": 18.3833
+        "time": 18.3833,
+        "timecode": "00:18:23"
       },
       {
         "frame": 1109,
         "signal_id": "aud_onset_0153",
         "strength": 6.405556,
-        "time": 18.4833
+        "time": 18.4833,
+        "timecode": "00:18:29"
       },
       {
         "frame": 1115,
         "signal_id": "aud_onset_0154",
         "strength": 3.420437,
-        "time": 18.5833
+        "time": 18.5833,
+        "timecode": "00:18:35"
       },
       {
         "frame": 1120,
         "signal_id": "aud_onset_0155",
         "strength": 4.245808,
-        "time": 18.6667
+        "time": 18.6667,
+        "timecode": "00:18:40"
       },
       {
         "frame": 1126,
         "signal_id": "aud_onset_0156",
         "strength": 6.340187,
-        "time": 18.7667
+        "time": 18.7667,
+        "timecode": "00:18:46"
       },
       {
         "frame": 1133,
         "signal_id": "aud_onset_0157",
         "strength": 4.738571,
-        "time": 18.8833
+        "time": 18.8833,
+        "timecode": "00:18:53"
       },
       {
         "frame": 1136,
         "signal_id": "aud_onset_0158",
         "strength": 3.677414,
-        "time": 18.9333
+        "time": 18.9333,
+        "timecode": "00:18:56"
       },
       {
         "frame": 1142,
         "signal_id": "aud_onset_0159",
         "strength": 4.891967,
-        "time": 19.0333
+        "time": 19.0333,
+        "timecode": "00:19:02"
       },
       {
         "frame": 1149,
         "signal_id": "aud_onset_0160",
         "strength": 5.303925,
-        "time": 19.15
+        "time": 19.15,
+        "timecode": "00:19:09"
       },
       {
         "frame": 1157,
         "signal_id": "aud_onset_0161",
         "strength": 3.493414,
-        "time": 19.2833
+        "time": 19.2833,
+        "timecode": "00:19:17"
       },
       {
         "frame": 1161,
         "signal_id": "aud_onset_0162",
         "strength": 5.609065,
-        "time": 19.35
+        "time": 19.35,
+        "timecode": "00:19:21"
       },
       {
         "frame": 1172,
         "signal_id": "aud_onset_0163",
         "strength": 1.910669,
-        "time": 19.5333
+        "time": 19.5333,
+        "timecode": "00:19:32"
       },
       {
         "frame": 1180,
         "signal_id": "aud_onset_0164",
         "strength": 8.456081,
-        "time": 19.6667
+        "time": 19.6667,
+        "timecode": "00:19:40"
       },
       {
         "frame": 1186,
         "signal_id": "aud_onset_0165",
         "strength": 4.444627,
-        "time": 19.7667
+        "time": 19.7667,
+        "timecode": "00:19:46"
       },
       {
         "frame": 1190,
         "signal_id": "aud_onset_0166",
         "strength": 6.578348,
-        "time": 19.8333
+        "time": 19.8333,
+        "timecode": "00:19:50"
       },
       {
         "frame": 1194,
         "signal_id": "aud_onset_0167",
         "strength": 4.750429,
-        "time": 19.9
+        "time": 19.9,
+        "timecode": "00:19:54"
       },
       {
         "frame": 1204,
         "signal_id": "aud_onset_0168",
         "strength": 7.539082,
-        "time": 20.0667
+        "time": 20.0667,
+        "timecode": "00:20:04"
       },
       {
         "frame": 1213,
         "signal_id": "aud_onset_0169",
         "strength": 6.353467,
-        "time": 20.2167
+        "time": 20.2167,
+        "timecode": "00:20:13"
       },
       {
         "frame": 1223,
         "signal_id": "aud_onset_0170",
         "strength": 5.777541,
-        "time": 20.3833
+        "time": 20.3833,
+        "timecode": "00:20:23"
       },
       {
         "frame": 1226,
         "signal_id": "aud_onset_0171",
         "strength": 7.806174,
-        "time": 20.4333
+        "time": 20.4333,
+        "timecode": "00:20:26"
       },
       {
         "frame": 1235,
         "signal_id": "aud_onset_0172",
         "strength": 3.778349,
-        "time": 20.5833
+        "time": 20.5833,
+        "timecode": "00:20:35"
       },
       {
         "frame": 1245,
         "signal_id": "aud_onset_0173",
         "strength": 7.681776,
-        "time": 20.75
+        "time": 20.75,
+        "timecode": "00:20:45"
       },
       {
         "frame": 1252,
         "signal_id": "aud_onset_0174",
         "strength": 2.629843,
-        "time": 20.8667
+        "time": 20.8667,
+        "timecode": "00:20:52"
       },
       {
         "frame": 1266,
         "signal_id": "aud_onset_0175",
         "strength": 6.056048,
-        "time": 21.1
+        "time": 21.1,
+        "timecode": "00:21:06"
       },
       {
         "frame": 1270,
         "signal_id": "aud_onset_0176",
         "strength": 4.471828,
-        "time": 21.1667
+        "time": 21.1667,
+        "timecode": "00:21:10"
       },
       {
         "frame": 1278,
         "signal_id": "aud_onset_0177",
         "strength": 3.229917,
-        "time": 21.3
+        "time": 21.3,
+        "timecode": "00:21:18"
       },
       {
         "frame": 1281,
         "signal_id": "aud_onset_0178",
         "strength": 3.04538,
-        "time": 21.35
+        "time": 21.35,
+        "timecode": "00:21:21"
       },
       {
         "frame": 1288,
         "signal_id": "aud_onset_0179",
         "strength": 6.576666,
-        "time": 21.4667
+        "time": 21.4667,
+        "timecode": "00:21:28"
       },
       {
         "frame": 1292,
         "signal_id": "aud_onset_0180",
         "strength": 7.005573,
-        "time": 21.5333
+        "time": 21.5333,
+        "timecode": "00:21:32"
       },
       {
         "frame": 1304,
         "signal_id": "aud_onset_0181",
         "strength": 7.477931,
-        "time": 21.7333
+        "time": 21.7333,
+        "timecode": "00:21:44"
       },
       {
         "frame": 1308,
         "signal_id": "aud_onset_0182",
         "strength": 5.195977,
-        "time": 21.8
+        "time": 21.8,
+        "timecode": "00:21:48"
       },
       {
         "frame": 1320,
         "signal_id": "aud_onset_0183",
         "strength": 3.075892,
-        "time": 22.0
+        "time": 22.0,
+        "timecode": "00:22:00"
       },
       {
         "frame": 1322,
         "signal_id": "aud_onset_0184",
         "strength": 4.069636,
-        "time": 22.0333
+        "time": 22.0333,
+        "timecode": "00:22:02"
       },
       {
         "frame": 1328,
         "signal_id": "aud_onset_0185",
         "strength": 6.389238,
-        "time": 22.1333
+        "time": 22.1333,
+        "timecode": "00:22:08"
       },
       {
         "frame": 1332,
         "signal_id": "aud_onset_0186",
         "strength": 5.833637,
-        "time": 22.2
+        "time": 22.2,
+        "timecode": "00:22:12"
       },
       {
         "frame": 1340,
         "signal_id": "aud_onset_0187",
         "strength": 4.429072,
-        "time": 22.3333
+        "time": 22.3333,
+        "timecode": "00:22:20"
       },
       {
         "frame": 1343,
         "signal_id": "aud_onset_0188",
         "strength": 5.058486,
-        "time": 22.3833
+        "time": 22.3833,
+        "timecode": "00:22:23"
       },
       {
         "frame": 1349,
         "signal_id": "aud_onset_0189",
         "strength": 3.119441,
-        "time": 22.4833
+        "time": 22.4833,
+        "timecode": "00:22:29"
       },
       {
         "frame": 1359,
         "signal_id": "aud_onset_0190",
         "strength": 4.617343,
-        "time": 22.65
+        "time": 22.65,
+        "timecode": "00:22:39"
       },
       {
         "frame": 1363,
         "signal_id": "aud_onset_0191",
         "strength": 5.247342,
-        "time": 22.7167
+        "time": 22.7167,
+        "timecode": "00:22:43"
       },
       {
         "frame": 1369,
         "signal_id": "aud_onset_0192",
         "strength": 2.854961,
-        "time": 22.8167
+        "time": 22.8167,
+        "timecode": "00:22:49"
       },
       {
         "frame": 1379,
         "signal_id": "aud_onset_0193",
         "strength": 7.740086,
-        "time": 22.9833
+        "time": 22.9833,
+        "timecode": "00:22:59"
       },
       {
         "frame": 1386,
         "signal_id": "aud_onset_0194",
         "strength": 3.565157,
-        "time": 23.1
+        "time": 23.1,
+        "timecode": "00:23:06"
       },
       {
         "frame": 1399,
         "signal_id": "aud_onset_0195",
         "strength": 2.486184,
-        "time": 23.3167
+        "time": 23.3167,
+        "timecode": "00:23:19"
       },
       {
         "frame": 1417,
         "signal_id": "aud_onset_0196",
         "strength": 3.709158,
-        "time": 23.6167
+        "time": 23.6167,
+        "timecode": "00:23:37"
       },
       {
         "frame": 1421,
         "signal_id": "aud_onset_0197",
         "strength": 5.856814,
-        "time": 23.6833
+        "time": 23.6833,
+        "timecode": "00:23:41"
       },
       {
         "frame": 1427,
         "signal_id": "aud_onset_0198",
         "strength": 5.286357,
-        "time": 23.7833
+        "time": 23.7833,
+        "timecode": "00:23:47"
       },
       {
         "frame": 1435,
         "signal_id": "aud_onset_0199",
         "strength": 4.325054,
-        "time": 23.9167
+        "time": 23.9167,
+        "timecode": "00:23:55"
       },
       {
         "frame": 1444,
         "signal_id": "aud_onset_0200",
         "strength": 8.647714,
-        "time": 24.0667
+        "time": 24.0667,
+        "timecode": "00:24:04"
       },
       {
         "frame": 1459,
         "signal_id": "aud_onset_0201",
         "strength": 5.889719,
-        "time": 24.3167
+        "time": 24.3167,
+        "timecode": "00:24:19"
       },
       {
         "frame": 1462,
         "signal_id": "aud_onset_0202",
         "strength": 3.05341,
-        "time": 24.3667
+        "time": 24.3667,
+        "timecode": "00:24:22"
       },
       {
         "frame": 1470,
         "signal_id": "aud_onset_0203",
         "strength": 2.830532,
-        "time": 24.5
+        "time": 24.5,
+        "timecode": "00:24:30"
       },
       {
         "frame": 1480,
         "signal_id": "aud_onset_0204",
         "strength": 3.632697,
-        "time": 24.6667
+        "time": 24.6667,
+        "timecode": "00:24:40"
       }
     ],
     "silences": []

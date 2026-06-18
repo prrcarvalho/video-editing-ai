@@ -1,0 +1,413 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "visual_craft_events": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "affected_layer": {
+            "type": "string"
+          },
+          "anchor_signal_ids": {
+            "description": "Deterministic signal IDs used as timing anchors.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "confidence": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "craft_function_hypothesis": {
+            "enum": [
+              "pattern_interrupt",
+              "beat_sync",
+              "caption_emphasis",
+              "reveal_accent",
+              "layout_orientation",
+              "cognitive_load_reduction",
+              "interaction_focus",
+              "tension_build",
+              "payoff_marker",
+              "motion_continuity",
+              "information_chunking",
+              "unclear"
+            ],
+            "type": "string"
+          },
+          "duration_class": {
+            "enum": [
+              "flash_1_4_frames",
+              "micro_under_250ms",
+              "short_250_750ms",
+              "beat_750_1500ms",
+              "sustained_over_1500ms",
+              "unknown"
+            ],
+            "type": "string"
+          },
+          "event_type": {
+            "description": "Taxonomy label from the prompt's edit-mechanic list. Do not invent labels.",
+            "type": "string"
+          },
+          "evidence_id": {
+            "type": "string"
+          },
+          "grounding_constraints": {
+            "additionalProperties": false,
+            "description": "Grouped deterministic signal IDs. Use empty arrays when a category is not applicable; never invent IDs.",
+            "properties": {
+              "audio_signal_ids": {
+                "description": "Supplied audio/onset/sync IDs used for audio-visible sync.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "candidate_beat_ids": {
+                "description": "Supplied beat_* IDs used as nearby beat/onset anchors.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cut_boundary_ids": {
+                "description": "Supplied edit_boundary_* or sync_* IDs used for cut/boundary timing.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "prosody_segment_ids": {
+                "description": "Supplied prosody_seg_* IDs used for delivery/pace sync.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "shot_span_ids": {
+                "description": "Supplied edit_span_* IDs that bound this claim.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "word_ids": {
+                "description": "Supplied word_* IDs used for exact spoken-word timing.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "shot_span_ids",
+              "cut_boundary_ids",
+              "candidate_beat_ids",
+              "word_ids",
+              "prosody_segment_ids",
+              "audio_signal_ids"
+            ],
+            "type": "object"
+          },
+          "hypothesis_basis": {
+            "enum": [
+              "visible_only",
+              "visible_plus_audio_signal",
+              "weak_inference"
+            ],
+            "type": "string"
+          },
+          "intensity": {
+            "enum": [
+              "none",
+              "subtle",
+              "medium",
+              "strong",
+              "unknown"
+            ],
+            "type": "string"
+          },
+          "mechanic_family": {
+            "enum": [
+              "cut_boundary",
+              "transition",
+              "framing_motion",
+              "camera_motion",
+              "speed_time",
+              "caption_text",
+              "graphic_overlay",
+              "vfx_compositing",
+              "screen_ui_interaction",
+              "color_light",
+              "audio_visual_sync",
+              "layout_layering",
+              "other"
+            ],
+            "type": "string"
+          },
+          "motion_direction": {
+            "enum": [
+              "none",
+              "in",
+              "out",
+              "left",
+              "right",
+              "up",
+              "down",
+              "clockwise",
+              "counterclockwise",
+              "mixed",
+              "unknown"
+            ],
+            "type": "string"
+          },
+          "motion_profile": {
+            "enum": [
+              "none",
+              "linear",
+              "ease_in",
+              "ease_out",
+              "ease_in_out",
+              "snap",
+              "ramp",
+              "bounce",
+              "elastic",
+              "handheld",
+              "unknown"
+            ],
+            "type": "string"
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "recreation_relevance": {
+            "type": "string"
+          },
+          "review_reason": {
+            "type": "string"
+          },
+          "sync_kind": {
+            "enum": [
+              "none",
+              "word_sync",
+              "beat_sync",
+              "onset_sync",
+              "sfx_hit_sync",
+              "cut_sync",
+              "prosody_sync",
+              "silence_drop_sync",
+              "riser_sync",
+              "caption_sync",
+              "unclear"
+            ],
+            "type": "string"
+          },
+          "sync_observation": {
+            "type": "string"
+          },
+          "time_range": {
+            "description": "Resolve-style MM:SS:FF-MM:SS:FF or HH:MM:SS:FF-HH:MM:SS:FF.",
+            "type": "string"
+          },
+          "visible_evidence": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "time_range",
+          "anchor_signal_ids",
+          "grounding_constraints",
+          "mechanic_family",
+          "event_type",
+          "visible_evidence",
+          "affected_layer",
+          "motion_direction",
+          "motion_profile",
+          "intensity",
+          "duration_class",
+          "sync_kind",
+          "sync_observation",
+          "craft_function_hypothesis",
+          "hypothesis_basis",
+          "recreation_relevance",
+          "confidence",
+          "needs_review",
+          "review_reason"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "visual_evidence_notes": {
+      "type": "string"
+    },
+    "visual_layout_timeline": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "anchor_signal_ids": {
+            "description": "Deterministic signal IDs used as timing anchors.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "composition_notes": {
+            "type": "string"
+          },
+          "confidence": {
+            "maximum": 1,
+            "minimum": 0,
+            "type": "number"
+          },
+          "dominant_focus": {
+            "type": "string"
+          },
+          "evidence_id": {
+            "type": "string"
+          },
+          "grounding_constraints": {
+            "additionalProperties": false,
+            "description": "Grouped deterministic signal IDs. Use empty arrays when a category is not applicable; never invent IDs.",
+            "properties": {
+              "audio_signal_ids": {
+                "description": "Supplied audio/onset/sync IDs used for audio-visible sync.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "candidate_beat_ids": {
+                "description": "Supplied beat_* IDs used as nearby beat/onset anchors.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "cut_boundary_ids": {
+                "description": "Supplied edit_boundary_* or sync_* IDs used for cut/boundary timing.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "prosody_segment_ids": {
+                "description": "Supplied prosody_seg_* IDs used for delivery/pace sync.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "shot_span_ids": {
+                "description": "Supplied edit_span_* IDs that bound this claim.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "word_ids": {
+                "description": "Supplied word_* IDs used for exact spoken-word timing.",
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "shot_span_ids",
+              "cut_boundary_ids",
+              "candidate_beat_ids",
+              "word_ids",
+              "prosody_segment_ids",
+              "audio_signal_ids"
+            ],
+            "type": "object"
+          },
+          "layer_stack_description": {
+            "type": "string"
+          },
+          "layout_type": {
+            "enum": [
+              "talking_head",
+              "screen_recording",
+              "split_screen",
+              "picture_in_picture",
+              "facecam_over_screen",
+              "talking_head_over_broll",
+              "graphic_card",
+              "ui_demo",
+              "mixed",
+              "other"
+            ],
+            "type": "string"
+          },
+          "needs_review": {
+            "type": "boolean"
+          },
+          "surface_roles": {
+            "items": {
+              "enum": [
+                "talking_head",
+                "facecam",
+                "screen_recording",
+                "browser_ui",
+                "app_ui",
+                "mobile_ui",
+                "caption_layer",
+                "title_layer",
+                "callout_layer",
+                "cursor_pointer",
+                "click_indicator",
+                "b_roll",
+                "graphic_card",
+                "background_plate",
+                "progress_bar",
+                "sticker_emoji",
+                "other"
+              ],
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "time_range": {
+            "description": "Resolve-style MM:SS:FF-MM:SS:FF or HH:MM:SS:FF-HH:MM:SS:FF.",
+            "type": "string"
+          },
+          "visible_layers": {
+            "description": "Plain names of visible layers, top-to-bottom when possible.",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "time_range",
+          "anchor_signal_ids",
+          "grounding_constraints",
+          "layout_type",
+          "visible_layers",
+          "surface_roles",
+          "layer_stack_description",
+          "dominant_focus",
+          "composition_notes",
+          "confidence",
+          "needs_review"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "visual_layout_timeline",
+    "visual_craft_events",
+    "visual_evidence_notes"
+  ],
+  "type": "object"
+}

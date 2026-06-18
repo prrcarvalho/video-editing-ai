@@ -1,0 +1,20 @@
+{
+  "survey": {
+    "usage_metadata": {
+      "candidates_token_count": 6698,
+      "prompt_token_count": 18415,
+      "prompt_tokens_details": [
+        {
+          "modality": "VIDEO",
+          "token_count": 8806
+        },
+        {
+          "modality": "TEXT",
+          "token_count": 9609
+        }
+      ],
+      "thoughts_token_count": 1212,
+      "total_token_count": 26325
+    }
+  }
+}

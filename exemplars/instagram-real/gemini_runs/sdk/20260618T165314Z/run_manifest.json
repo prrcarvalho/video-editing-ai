@@ -1,0 +1,18 @@
+{
+  "micro": {
+    "adaptive_fps": true,
+    "base_fps": 12.0,
+    "media_resolution": "MEDIA_RESOLUTION_HIGH",
+    "prompt_dir": "prompts/",
+    "response_schema": "response_schema_micro.json",
+    "review_fps": 24.0,
+    "thinking_level": "high"
+  },
+  "mode": "micro",
+  "model": "gemini-3.5-flash",
+  "out_dir": "/Users/pedrocarvalho/projects/video_editing_ai/exemplars/instagram-real/gemini_runs/sdk/20260618T165314Z",
+  "schema_version": 1,
+  "signals_dir": "/Users/pedrocarvalho/projects/video_editing_ai/gemini_pipeline/outputs/instagram-real/signals",
+  "updated_at": "20260618T165322Z",
+  "video": "/Users/pedrocarvalho/projects/video_editing_ai/assets/instagram-real.MP4"
+}

@@ -1,0 +1,613 @@
+{
+  "fps": 24.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T181655Z",
+  "layout_timeline": [
+    {
+      "anchor_signal_ids": [
+        "edit_span_0001"
+      ],
+      "composition_notes": "Split-frame visual hierarchy balancing raw terminal inputs with the speaker's facial expressions.",
+      "confidence": 0.95,
+      "dominant_focus": "Claude Code UI demonstrating automated file creation.",
+      "evidence_id": "layout_0001",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0001"
+        ],
+        "cut_boundary_ids": [],
+        "prosody_segment_ids": [
+          "prosody_seg_0001"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001"
+        ],
+        "word_ids": [
+          "word_0001",
+          "word_0002",
+          "word_0003",
+          "word_0004",
+          "word_0005"
+        ]
+      },
+      "layer_stack_description": "VS Code editor window on the top half showing Claude Code CLI, speaker talking head cropped circular on the bottom half.",
+      "layout_type": "talking_head_over_broll",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:00:00-00:01:51",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0002",
+        "edit_span_0003"
+      ],
+      "composition_notes": "Clean viewport presentation emphasizing screen-based user action.",
+      "confidence": 0.9,
+      "dominant_focus": "Google search and Claude terminal input field.",
+      "evidence_id": "layout_0002",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002",
+          "edit_span_0003"
+        ],
+        "word_ids": [
+          "word_0009",
+          "word_0010",
+          "word_0011",
+          "word_0012",
+          "word_0013"
+        ]
+      },
+      "layer_stack_description": "Full-screen browser view showing a Google search page, then transitioning to Claude web interface terminal window.",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "caption_layer"
+      ],
+      "time_range": "00:01:51-00:03:09",
+      "visible_layers": [
+        "screen_recording",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0004"
+      ],
+      "composition_notes": "Humorous composition to emphasize hoping for the best when running code.",
+      "confidence": 0.95,
+      "dominant_focus": "Praying hands emoji sticker overlay.",
+      "evidence_id": "layout_0003",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0009"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0003"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0004"
+        ],
+        "word_ids": [
+          "word_0016",
+          "word_0017",
+          "word_0018",
+          "word_0019",
+          "word_0020"
+        ]
+      },
+      "layer_stack_description": "Claude terminal showing execution failures on the top half with a large praying hands emoji overlay, speaker circular talking head on the bottom.",
+      "layout_type": "talking_head_over_broll",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "sticker_emoji",
+        "caption_layer"
+      ],
+      "time_range": "00:03:09-00:03:58",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "sticker_emoji",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0005"
+      ],
+      "composition_notes": "Standard clean medium close-up of a podcast guest acting as credible b-roll evidence.",
+      "confidence": 0.95,
+      "dominant_focus": "Podcast speaker.",
+      "evidence_id": "layout_0004",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0010"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0004"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0003"
+        ],
+        "shot_span_ids": [
+          "edit_span_0005"
+        ],
+        "word_ids": [
+          "word_0021",
+          "word_0022",
+          "word_0023",
+          "word_0024",
+          "word_0025"
+        ]
+      },
+      "layer_stack_description": "Podcast studio setup with talking head of Jared Palmer speaking into a microphone.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "b_roll",
+        "caption_layer"
+      ],
+      "time_range": "00:03:58-00:05:33",
+      "visible_layers": [
+        "b_roll",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0006"
+      ],
+      "composition_notes": "Close-up portrait crop for direct conversational framing.",
+      "confidence": 0.95,
+      "dominant_focus": "Speaker face.",
+      "evidence_id": "layout_0005",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0014"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0005"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0003"
+        ],
+        "shot_span_ids": [
+          "edit_span_0006"
+        ],
+        "word_ids": [
+          "word_0028",
+          "word_0029",
+          "word_0030"
+        ]
+      },
+      "layer_stack_description": "Speaker in direct front close-up talking head portrait.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:05:33-00:06:16",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0007",
+        "edit_span_0008"
+      ],
+      "composition_notes": "Split layout focusing on structural workflow phases (Plan Mode).",
+      "confidence": 0.95,
+      "dominant_focus": "Section 1: Plan Mode title graphic.",
+      "evidence_id": "layout_0006",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0016"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0006"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0007",
+          "edit_span_0008"
+        ],
+        "word_ids": [
+          "word_0031",
+          "word_0032",
+          "word_0033",
+          "word_0034",
+          "word_0035",
+          "word_0036"
+        ]
+      },
+      "layer_stack_description": "Top half displays terminal workspace and custom Section 1 graphic overlay, bottom half contains the circular facecam talking head portrait.",
+      "layout_type": "talking_head_over_broll",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer",
+        "graphic_card"
+      ],
+      "time_range": "00:06:16-00:08:25",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer",
+        "graphic_card"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0009"
+      ],
+      "composition_notes": "Quick talking-head cutback to maintain on-camera host continuity.",
+      "confidence": 0.95,
+      "dominant_focus": "Speaker face.",
+      "evidence_id": "layout_0007",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0022"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0008"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0004"
+        ],
+        "shot_span_ids": [
+          "edit_span_0009"
+        ],
+        "word_ids": [
+          "word_0041",
+          "word_0042",
+          "word_0043"
+        ]
+      },
+      "layer_stack_description": "Speaker in direct front close-up talking head portrait.",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:08:25-00:09:12",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0010"
+      ],
+      "composition_notes": "Dramatic change of environment and wider crop pacing to emphasize reflection.",
+      "confidence": 0.95,
+      "dominant_focus": "Host body language (thoughtful contemplation).",
+      "evidence_id": "layout_0008",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0024"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0009"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0010"
+        ],
+        "word_ids": [
+          "word_0044",
+          "word_0045",
+          "word_0046",
+          "word_0047",
+          "word_0048",
+          "word_0049",
+          "word_0050"
+        ]
+      },
+      "layer_stack_description": "Host sitting back in office chair at desk thinking, with bookshelf background (Slows down first).",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:09:12-00:10:55",
+      "visible_layers": [
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0011"
+      ],
+      "composition_notes": "Dynamic split-screen to validate the host's logic visually.",
+      "confidence": 0.95,
+      "dominant_focus": "Completed green checkmarks on checklist.",
+      "evidence_id": "layout_0009",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0028"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0010"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0005"
+        ],
+        "shot_span_ids": [
+          "edit_span_0011"
+        ],
+        "word_ids": [
+          "word_0051",
+          "word_0052",
+          "word_0053",
+          "word_0054"
+        ]
+      },
+      "layer_stack_description": "Top half shows high-speed green checkmark animations and checklist task execution in Claude, bottom half is host's close-up crop.",
+      "layout_type": "talking_head_over_broll",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:10:55-00:12:00",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0012",
+        "edit_span_0013",
+        "edit_span_0014"
+      ],
+      "composition_notes": "Maintains flow by interleaving personal direct address with relevant system UI captures.",
+      "confidence": 0.95,
+      "dominant_focus": "Host facial delivery and visual proof of code results.",
+      "evidence_id": "layout_0010",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0031",
+          "beat_0035",
+          "beat_0036"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0011",
+          "edit_boundary_0012",
+          "edit_boundary_0013"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0006",
+          "prosody_seg_0007"
+        ],
+        "shot_span_ids": [
+          "edit_span_0012",
+          "edit_span_0013",
+          "edit_span_0014"
+        ],
+        "word_ids": [
+          "word_0055",
+          "word_0056",
+          "word_0057",
+          "word_0058",
+          "word_0059",
+          "word_0060",
+          "word_0061",
+          "word_0062",
+          "word_0063",
+          "word_0064",
+          "word_0065",
+          "word_0066",
+          "word_0067"
+        ]
+      },
+      "layer_stack_description": "Alternates between close-up talking head portrait and split screen displaying terminal outputs detailing workspace execution.",
+      "layout_type": "mixed",
+      "needs_review": false,
+      "surface_roles": [
+        "talking_head",
+        "screen_recording",
+        "caption_layer"
+      ],
+      "time_range": "00:12:00-00:15:15",
+      "visible_layers": [
+        "talking_head",
+        "screen_recording",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0015",
+        "edit_span_0016",
+        "edit_span_0017"
+      ],
+      "composition_notes": "Combines raw system terminal updates with personal direct explanation context.",
+      "confidence": 0.95,
+      "dominant_focus": "Claude workspace code changes and statistics.",
+      "evidence_id": "layout_0011",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0038",
+          "beat_0043",
+          "beat_0046"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0014",
+          "edit_boundary_0015",
+          "edit_boundary_0016"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0008"
+        ],
+        "shot_span_ids": [
+          "edit_span_0015",
+          "edit_span_0016",
+          "edit_span_0017"
+        ],
+        "word_ids": [
+          "word_0071",
+          "word_0072",
+          "word_0073",
+          "word_0074",
+          "word_0075",
+          "word_0076",
+          "word_0077",
+          "word_0078",
+          "word_0079",
+          "word_0080",
+          "word_0081",
+          "word_0082",
+          "word_0083",
+          "word_0084",
+          "word_0085",
+          "word_0086",
+          "word_0087",
+          "word_0088"
+        ]
+      },
+      "layer_stack_description": "Displays custom workspace code modifications on screen, then transitions into context tokens statistics splits.",
+      "layout_type": "mixed",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ],
+      "time_range": "00:15:15-00:19:44",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0018",
+        "edit_span_0019",
+        "edit_span_0020"
+      ],
+      "composition_notes": "Actionable call-to-action transition focusing on conversion instructions.",
+      "confidence": 0.95,
+      "dominant_focus": "Comment CREATOR green callout text layer.",
+      "evidence_id": "layout_0012",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0050",
+          "beat_0054",
+          "beat_0058"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0017",
+          "edit_boundary_0018",
+          "edit_boundary_0021"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0009",
+          "prosody_seg_0010"
+        ],
+        "shot_span_ids": [
+          "edit_span_0018",
+          "edit_span_0019",
+          "edit_span_0020"
+        ],
+        "word_ids": [
+          "word_0089",
+          "word_0090",
+          "word_0091",
+          "word_0092",
+          "word_0093",
+          "word_0094",
+          "word_0095",
+          "word_0096",
+          "word_0097",
+          "word_0098",
+          "word_0099",
+          "word_0100",
+          "word_0101",
+          "word_0102",
+          "word_0103",
+          "word_0104",
+          "word_0105",
+          "word_0106",
+          "word_0107",
+          "word_0108",
+          "word_0109",
+          "word_0110"
+        ]
+      },
+      "layer_stack_description": "Split screen Claude UI, followed by full talking head ending with the neon green Comment CREATOR callout.",
+      "layout_type": "mixed",
+      "needs_review": false,
+      "surface_roles": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer",
+        "callout_layer"
+      ],
+      "time_range": "00:19:44-00:24:54",
+      "visible_layers": [
+        "screen_recording",
+        "talking_head",
+        "caption_layer",
+        "callout_layer"
+      ]
+    }
+  ],
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "thinking_level": "high",
+  "video": "instagram-real.MP4"
+}

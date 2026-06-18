@@ -1,137 +1,331 @@
 {
+  "autoshot_candidate_cuts": [
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 141,
+      "score": 0.058922,
+      "signal_id": "autoshot_candidate_0001",
+      "threshold": 0.05,
+      "time": 2.35,
+      "timecode": "00:02:21"
+    }
+  ],
+  "autoshot_cuts": [
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 110,
+      "score": 0.999984,
+      "signal_id": "autoshot_cut_0001",
+      "threshold": 0.296,
+      "time": 1.8333,
+      "timecode": "00:01:50"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 188,
+      "score": 0.999843,
+      "signal_id": "autoshot_cut_0002",
+      "threshold": 0.296,
+      "time": 3.1333,
+      "timecode": "00:03:08"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 237,
+      "score": 0.99998,
+      "signal_id": "autoshot_cut_0003",
+      "threshold": 0.296,
+      "time": 3.95,
+      "timecode": "00:03:57"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 332,
+      "score": 0.999987,
+      "signal_id": "autoshot_cut_0004",
+      "threshold": 0.296,
+      "time": 5.5333,
+      "timecode": "00:05:32"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 375,
+      "score": 0.999998,
+      "signal_id": "autoshot_cut_0005",
+      "threshold": 0.296,
+      "time": 6.25,
+      "timecode": "00:06:15"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 444,
+      "score": 0.987087,
+      "signal_id": "autoshot_cut_0006",
+      "threshold": 0.296,
+      "time": 7.4,
+      "timecode": "00:07:24"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 504,
+      "score": 0.99999,
+      "signal_id": "autoshot_cut_0007",
+      "threshold": 0.296,
+      "time": 8.4,
+      "timecode": "00:08:24"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 551,
+      "score": 0.999999,
+      "signal_id": "autoshot_cut_0008",
+      "threshold": 0.296,
+      "time": 9.1833,
+      "timecode": "00:09:11"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 654,
+      "score": 0.999524,
+      "signal_id": "autoshot_cut_0009",
+      "threshold": 0.296,
+      "time": 10.9,
+      "timecode": "00:10:54"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 719,
+      "score": 0.999831,
+      "signal_id": "autoshot_cut_0010",
+      "threshold": 0.296,
+      "time": 11.9833,
+      "timecode": "00:11:59"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 794,
+      "score": 0.999996,
+      "signal_id": "autoshot_cut_0011",
+      "threshold": 0.296,
+      "time": 13.2333,
+      "timecode": "00:13:14"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 878,
+      "score": 0.974007,
+      "signal_id": "autoshot_cut_0012",
+      "threshold": 0.296,
+      "time": 14.6333,
+      "timecode": "00:14:38"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 914,
+      "score": 0.999474,
+      "signal_id": "autoshot_cut_0013",
+      "threshold": 0.296,
+      "time": 15.2333,
+      "timecode": "00:15:14"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 990,
+      "score": 0.996525,
+      "signal_id": "autoshot_cut_0014",
+      "threshold": 0.296,
+      "time": 16.5,
+      "timecode": "00:16:30"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 1062,
+      "score": 0.99993,
+      "signal_id": "autoshot_cut_0015",
+      "threshold": 0.296,
+      "time": 17.7,
+      "timecode": "00:17:42"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 1183,
+      "score": 1.0,
+      "signal_id": "autoshot_cut_0016",
+      "threshold": 0.296,
+      "time": 19.7167,
+      "timecode": "00:19:43"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 1263,
+      "score": 0.999998,
+      "signal_id": "autoshot_cut_0017",
+      "threshold": 0.296,
+      "time": 21.05,
+      "timecode": "00:21:03"
+    },
+    {
+      "detector": "AutoShot.TransNetV2Supernet",
+      "frame": 1356,
+      "score": 0.999988,
+      "signal_id": "autoshot_cut_0018",
+      "threshold": 0.296,
+      "time": 22.6,
+      "timecode": "00:22:36"
+    }
+  ],
   "frame_diff_events": [
     {
       "frame": 111,
       "score": 0.205728,
       "signal_id": "vis_diff_0001",
       "threshold": 0.107743,
-      "time": 1.85
+      "time": 1.85,
+      "timecode": "00:01:51"
     },
     {
       "frame": 189,
       "score": 0.210662,
       "signal_id": "vis_diff_0002",
       "threshold": 0.107743,
-      "time": 3.15
+      "time": 3.15,
+      "timecode": "00:03:09"
     },
     {
       "frame": 238,
       "score": 0.333426,
       "signal_id": "vis_diff_0003",
       "threshold": 0.107743,
-      "time": 3.9667
+      "time": 3.9667,
+      "timecode": "00:03:58"
     },
     {
       "frame": 333,
       "score": 0.242696,
       "signal_id": "vis_diff_0004",
       "threshold": 0.107743,
-      "time": 5.55
+      "time": 5.55,
+      "timecode": "00:05:33"
     },
     {
       "frame": 376,
       "score": 0.288595,
       "signal_id": "vis_diff_0005",
       "threshold": 0.107743,
-      "time": 6.2667
+      "time": 6.2667,
+      "timecode": "00:06:16"
     },
     {
       "frame": 505,
       "score": 0.308283,
       "signal_id": "vis_diff_0006",
       "threshold": 0.107743,
-      "time": 8.4167
+      "time": 8.4167,
+      "timecode": "00:08:25"
     },
     {
       "frame": 552,
       "score": 0.252226,
       "signal_id": "vis_diff_0007",
       "threshold": 0.107743,
-      "time": 9.2
+      "time": 9.2,
+      "timecode": "00:09:12"
     },
     {
       "frame": 655,
       "score": 0.180401,
       "signal_id": "vis_diff_0008",
       "threshold": 0.107743,
-      "time": 10.9167
+      "time": 10.9167,
+      "timecode": "00:10:55"
     },
     {
       "frame": 720,
       "score": 0.249416,
       "signal_id": "vis_diff_0009",
       "threshold": 0.107743,
-      "time": 12.0
+      "time": 12.0,
+      "timecode": "00:12:00"
     },
     {
       "frame": 795,
       "score": 0.255099,
       "signal_id": "vis_diff_0010",
       "threshold": 0.107743,
-      "time": 13.25
+      "time": 13.25,
+      "timecode": "00:13:15"
     },
     {
       "frame": 879,
       "score": 0.232495,
       "signal_id": "vis_diff_0011",
       "threshold": 0.107743,
-      "time": 14.65
+      "time": 14.65,
+      "timecode": "00:14:39"
     },
     {
       "frame": 915,
       "score": 0.261388,
       "signal_id": "vis_diff_0012",
       "threshold": 0.107743,
-      "time": 15.25
+      "time": 15.25,
+      "timecode": "00:15:15"
     },
     {
       "frame": 991,
       "score": 0.107999,
       "signal_id": "vis_diff_0013",
       "threshold": 0.107743,
-      "time": 16.5167
+      "time": 16.5167,
+      "timecode": "00:16:31"
     },
     {
       "frame": 1063,
       "score": 0.257607,
       "signal_id": "vis_diff_0014",
       "threshold": 0.107743,
-      "time": 17.7167
+      "time": 17.7167,
+      "timecode": "00:17:43"
     },
     {
       "frame": 1184,
       "score": 0.317382,
       "signal_id": "vis_diff_0015",
       "threshold": 0.107743,
-      "time": 19.7333
+      "time": 19.7333,
+      "timecode": "00:19:44"
     },
     {
       "frame": 1264,
       "score": 0.297934,
       "signal_id": "vis_diff_0016",
       "threshold": 0.107743,
-      "time": 21.0667
+      "time": 21.0667,
+      "timecode": "00:21:04"
     },
     {
       "frame": 1324,
       "score": 0.110683,
       "signal_id": "vis_diff_0017",
       "threshold": 0.107743,
-      "time": 22.0667
+      "time": 22.0667,
+      "timecode": "00:22:04"
     },
     {
       "frame": 1345,
       "score": 0.108518,
       "signal_id": "vis_diff_0018",
       "threshold": 0.107743,
-      "time": 22.4167
+      "time": 22.4167,
+      "timecode": "00:22:25"
     },
     {
       "frame": 1357,
       "score": 0.334014,
       "signal_id": "vis_diff_0019",
       "threshold": 0.107743,
-      "time": 22.6167
+      "time": 22.6167,
+      "timecode": "00:22:37"
     }
   ],
   "keyframes": [
@@ -139,127 +333,155 @@
       "frame": 0,
       "path": "keyframes/keyframe_0001.jpg",
       "signal_id": "keyframe_0001",
-      "time": 0.0
+      "time": 0.0,
+      "timecode": "00:00:00"
     },
     {
-      "frame": 111,
+      "frame": 114,
       "path": "keyframes/keyframe_0002.jpg",
       "signal_id": "keyframe_0002",
-      "time": 1.85
+      "time": 1.893,
+      "timecode": "00:01:54"
     },
     {
-      "frame": 189,
+      "frame": 145,
       "path": "keyframes/keyframe_0003.jpg",
       "signal_id": "keyframe_0003",
-      "time": 3.15
+      "time": 2.41,
+      "timecode": "00:02:25"
     },
     {
-      "frame": 238,
+      "frame": 192,
       "path": "keyframes/keyframe_0004.jpg",
       "signal_id": "keyframe_0004",
-      "time": 3.967
+      "time": 3.193,
+      "timecode": "00:03:12"
     },
     {
-      "frame": 333,
+      "frame": 241,
       "path": "keyframes/keyframe_0005.jpg",
       "signal_id": "keyframe_0005",
-      "time": 5.55
+      "time": 4.01,
+      "timecode": "00:04:01"
     },
     {
-      "frame": 376,
+      "frame": 336,
       "path": "keyframes/keyframe_0006.jpg",
       "signal_id": "keyframe_0006",
-      "time": 6.267
+      "time": 5.593,
+      "timecode": "00:05:36"
     },
     {
-      "frame": 445,
+      "frame": 379,
       "path": "keyframes/keyframe_0007.jpg",
       "signal_id": "keyframe_0007",
-      "time": 7.417
+      "time": 6.31,
+      "timecode": "00:06:19"
     },
     {
-      "frame": 505,
+      "frame": 448,
       "path": "keyframes/keyframe_0008.jpg",
       "signal_id": "keyframe_0008",
-      "time": 8.417
+      "time": 7.46,
+      "timecode": "00:07:28"
     },
     {
-      "frame": 552,
+      "frame": 508,
       "path": "keyframes/keyframe_0009.jpg",
       "signal_id": "keyframe_0009",
-      "time": 9.2
+      "time": 8.46,
+      "timecode": "00:08:28"
     },
     {
-      "frame": 655,
+      "frame": 555,
       "path": "keyframes/keyframe_0010.jpg",
       "signal_id": "keyframe_0010",
-      "time": 10.917
+      "time": 9.243,
+      "timecode": "00:09:15"
     },
     {
-      "frame": 720,
+      "frame": 658,
       "path": "keyframes/keyframe_0011.jpg",
       "signal_id": "keyframe_0011",
-      "time": 12.0
+      "time": 10.96,
+      "timecode": "00:10:58"
     },
     {
-      "frame": 795,
+      "frame": 723,
       "path": "keyframes/keyframe_0012.jpg",
       "signal_id": "keyframe_0012",
-      "time": 13.25
+      "time": 12.043,
+      "timecode": "00:12:03"
     },
     {
-      "frame": 879,
+      "frame": 798,
       "path": "keyframes/keyframe_0013.jpg",
       "signal_id": "keyframe_0013",
-      "time": 14.65
+      "time": 13.293,
+      "timecode": "00:13:18"
     },
     {
-      "frame": 915,
+      "frame": 882,
       "path": "keyframes/keyframe_0014.jpg",
       "signal_id": "keyframe_0014",
-      "time": 15.25
+      "time": 14.693,
+      "timecode": "00:14:42"
     },
     {
-      "frame": 991,
+      "frame": 918,
       "path": "keyframes/keyframe_0015.jpg",
       "signal_id": "keyframe_0015",
-      "time": 16.517
+      "time": 15.293,
+      "timecode": "00:15:18"
     },
     {
-      "frame": 1063,
+      "frame": 994,
       "path": "keyframes/keyframe_0016.jpg",
       "signal_id": "keyframe_0016",
-      "time": 17.717
+      "time": 16.56,
+      "timecode": "00:16:34"
     },
     {
-      "frame": 1184,
+      "frame": 1066,
       "path": "keyframes/keyframe_0017.jpg",
       "signal_id": "keyframe_0017",
-      "time": 19.733
+      "time": 17.76,
+      "timecode": "00:17:46"
     },
     {
-      "frame": 1264,
+      "frame": 1187,
       "path": "keyframes/keyframe_0018.jpg",
       "signal_id": "keyframe_0018",
-      "time": 21.067
+      "time": 19.777,
+      "timecode": "00:19:47"
     },
     {
-      "frame": 1324,
+      "frame": 1267,
       "path": "keyframes/keyframe_0019.jpg",
       "signal_id": "keyframe_0019",
-      "time": 22.067
+      "time": 21.11,
+      "timecode": "00:21:07"
     },
     {
-      "frame": 1345,
+      "frame": 1328,
       "path": "keyframes/keyframe_0020.jpg",
       "signal_id": "keyframe_0020",
-      "time": 22.417
+      "time": 22.127,
+      "timecode": "00:22:08"
     },
     {
-      "frame": 1357,
+      "frame": 1349,
       "path": "keyframes/keyframe_0021.jpg",
       "signal_id": "keyframe_0021",
-      "time": 22.617
+      "time": 22.477,
+      "timecode": "00:22:29"
+    },
+    {
+      "frame": 1360,
+      "path": "keyframes/keyframe_0022.jpg",
+      "signal_id": "keyframe_0022",
+      "time": 22.66,
+      "timecode": "00:22:40"
     }
   ],
   "scene_cuts": [
@@ -267,113 +489,320 @@
       "detector": "pyscenedetect.ContentDetector",
       "frame": 111,
       "signal_id": "vis_scene_0001",
-      "time": 1.85
+      "time": 1.85,
+      "timecode": "00:01:51"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 189,
       "signal_id": "vis_scene_0002",
-      "time": 3.15
+      "time": 3.15,
+      "timecode": "00:03:09"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 238,
       "signal_id": "vis_scene_0003",
-      "time": 3.9667
+      "time": 3.9667,
+      "timecode": "00:03:58"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 333,
       "signal_id": "vis_scene_0004",
-      "time": 5.55
+      "time": 5.55,
+      "timecode": "00:05:33"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 376,
       "signal_id": "vis_scene_0005",
-      "time": 6.2667
+      "time": 6.2667,
+      "timecode": "00:06:16"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 445,
       "signal_id": "vis_scene_0006",
-      "time": 7.4167
+      "time": 7.4167,
+      "timecode": "00:07:25"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 505,
       "signal_id": "vis_scene_0007",
-      "time": 8.4167
+      "time": 8.4167,
+      "timecode": "00:08:25"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 552,
       "signal_id": "vis_scene_0008",
-      "time": 9.2
+      "time": 9.2,
+      "timecode": "00:09:12"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 655,
       "signal_id": "vis_scene_0009",
-      "time": 10.9167
+      "time": 10.9167,
+      "timecode": "00:10:55"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 720,
       "signal_id": "vis_scene_0010",
-      "time": 12.0
+      "time": 12.0,
+      "timecode": "00:12:00"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 795,
       "signal_id": "vis_scene_0011",
-      "time": 13.25
+      "time": 13.25,
+      "timecode": "00:13:15"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 879,
       "signal_id": "vis_scene_0012",
-      "time": 14.65
+      "time": 14.65,
+      "timecode": "00:14:39"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 915,
       "signal_id": "vis_scene_0013",
-      "time": 15.25
+      "time": 15.25,
+      "timecode": "00:15:15"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 991,
       "signal_id": "vis_scene_0014",
-      "time": 16.5167
+      "time": 16.5167,
+      "timecode": "00:16:31"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 1063,
       "signal_id": "vis_scene_0015",
-      "time": 17.7167
+      "time": 17.7167,
+      "timecode": "00:17:43"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 1184,
       "signal_id": "vis_scene_0016",
-      "time": 19.7333
+      "time": 19.7333,
+      "timecode": "00:19:44"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 1264,
       "signal_id": "vis_scene_0017",
-      "time": 21.0667
+      "time": 21.0667,
+      "timecode": "00:21:04"
     },
     {
       "detector": "pyscenedetect.ContentDetector",
       "frame": 1357,
       "signal_id": "vis_scene_0018",
-      "time": 22.6167
+      "time": 22.6167,
+      "timecode": "00:22:37"
     }
   ],
   "tooling": {
     "frame_diff": "opencv mean grayscale absdiff",
+    "learned_shot_detector": {
+      "candidate_cuts": [
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 141,
+          "score": 0.058922,
+          "signal_id": "autoshot_candidate_0001",
+          "threshold": 0.05,
+          "time": 2.35,
+          "timecode": "00:02:21"
+        }
+      ],
+      "candidate_threshold": 0.05,
+      "cuts": [
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 110,
+          "score": 0.999984,
+          "signal_id": "autoshot_cut_0001",
+          "threshold": 0.296,
+          "time": 1.8333,
+          "timecode": "00:01:50"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 188,
+          "score": 0.999843,
+          "signal_id": "autoshot_cut_0002",
+          "threshold": 0.296,
+          "time": 3.1333,
+          "timecode": "00:03:08"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 237,
+          "score": 0.99998,
+          "signal_id": "autoshot_cut_0003",
+          "threshold": 0.296,
+          "time": 3.95,
+          "timecode": "00:03:57"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 332,
+          "score": 0.999987,
+          "signal_id": "autoshot_cut_0004",
+          "threshold": 0.296,
+          "time": 5.5333,
+          "timecode": "00:05:32"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 375,
+          "score": 0.999998,
+          "signal_id": "autoshot_cut_0005",
+          "threshold": 0.296,
+          "time": 6.25,
+          "timecode": "00:06:15"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 444,
+          "score": 0.987087,
+          "signal_id": "autoshot_cut_0006",
+          "threshold": 0.296,
+          "time": 7.4,
+          "timecode": "00:07:24"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 504,
+          "score": 0.99999,
+          "signal_id": "autoshot_cut_0007",
+          "threshold": 0.296,
+          "time": 8.4,
+          "timecode": "00:08:24"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 551,
+          "score": 0.999999,
+          "signal_id": "autoshot_cut_0008",
+          "threshold": 0.296,
+          "time": 9.1833,
+          "timecode": "00:09:11"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 654,
+          "score": 0.999524,
+          "signal_id": "autoshot_cut_0009",
+          "threshold": 0.296,
+          "time": 10.9,
+          "timecode": "00:10:54"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 719,
+          "score": 0.999831,
+          "signal_id": "autoshot_cut_0010",
+          "threshold": 0.296,
+          "time": 11.9833,
+          "timecode": "00:11:59"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 794,
+          "score": 0.999996,
+          "signal_id": "autoshot_cut_0011",
+          "threshold": 0.296,
+          "time": 13.2333,
+          "timecode": "00:13:14"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 878,
+          "score": 0.974007,
+          "signal_id": "autoshot_cut_0012",
+          "threshold": 0.296,
+          "time": 14.6333,
+          "timecode": "00:14:38"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 914,
+          "score": 0.999474,
+          "signal_id": "autoshot_cut_0013",
+          "threshold": 0.296,
+          "time": 15.2333,
+          "timecode": "00:15:14"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 990,
+          "score": 0.996525,
+          "signal_id": "autoshot_cut_0014",
+          "threshold": 0.296,
+          "time": 16.5,
+          "timecode": "00:16:30"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 1062,
+          "score": 0.99993,
+          "signal_id": "autoshot_cut_0015",
+          "threshold": 0.296,
+          "time": 17.7,
+          "timecode": "00:17:42"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 1183,
+          "score": 1.0,
+          "signal_id": "autoshot_cut_0016",
+          "threshold": 0.296,
+          "time": 19.7167,
+          "timecode": "00:19:43"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 1263,
+          "score": 0.999998,
+          "signal_id": "autoshot_cut_0017",
+          "threshold": 0.296,
+          "time": 21.05,
+          "timecode": "00:21:03"
+        },
+        {
+          "detector": "AutoShot.TransNetV2Supernet",
+          "frame": 1356,
+          "score": 0.999988,
+          "signal_id": "autoshot_cut_0018",
+          "threshold": 0.296,
+          "time": 22.6,
+          "timecode": "00:22:36"
+        }
+      ],
+      "detector": "AutoShot.TransNetV2Supernet",
+      "device": "mps",
+      "frame_count": 1492,
+      "frame_size": {
+        "height": 27,
+        "width": 48
+      },
+      "model_dir": "/Users/pedrocarvalho/.cache/kagglehub/models/tuktuai/autoshot/pyTorch/v1/1",
+      "runtime_seconds": 9.053,
+      "status": "ok",
+      "threshold": 0.296
+    },
     "scene_detector": "pyscenedetect.ContentDetector"
   }
 }

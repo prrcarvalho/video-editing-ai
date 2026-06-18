@@ -1,0 +1,541 @@
+{
+  "definitions": {
+    "relative_delivery": "low/mid/high bucket relative to other transcript segments in this Exemplar",
+    "scope": "Each row aggregates acoustic functionals over one WhisperX transcript segment.",
+    "wpm": "words per minute from WhisperX word timings for the same segment"
+  },
+  "feature_level": "Functionals_by_transcript_segment",
+  "feature_set": "eGeMAPSv02",
+  "segments": [
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "low_relative_pitch",
+        "high_relative_pitch_range"
+      ],
+      "duration": 1.762,
+      "end": 1.813,
+      "end_frame": 109,
+      "end_timecode": "00:01:49",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 22.593464,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 110.946449,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 215.651764,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 11.374205,
+        "loudnessPeaksPerSec": 6.285714,
+        "loudness_sma3_amean": 1.976617,
+        "loudness_sma3_meanFallingSlope": 21.00423,
+        "loudness_sma3_meanRisingSlope": 27.208771,
+        "loudness_sma3_pctlrange0-2": 1.733409,
+        "spectralFlux_sma3_amean": 2.836361
+      },
+      "relative_delivery": {
+        "loudness": "mid",
+        "loudness_range": "mid",
+        "pitch": "low",
+        "pitch_range": "high",
+        "speech_rate": "mid"
+      },
+      "segment_id": "seg_0001",
+      "signal_id": "prosody_seg_0001",
+      "start": 0.051,
+      "start_frame": 3,
+      "start_timecode": "00:00:03",
+      "status": "ok",
+      "text": "Most people use Claude code the wrong way.",
+      "word_count": 8,
+      "word_ids": [
+        "word_0001",
+        "word_0002",
+        "word_0003",
+        "word_0004",
+        "word_0005",
+        "word_0006",
+        "word_0007",
+        "word_0008"
+      ],
+      "wpm": 272.418
+    },
+    {
+      "delivery_tags": [
+        "very_fast_speech",
+        "high_relative_speech_rate",
+        "low_relative_pitch",
+        "high_relative_pitch_range"
+      ],
+      "duration": 2.042,
+      "end": 3.895,
+      "end_frame": 234,
+      "end_timecode": "00:03:54",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 19.721867,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 262.535126,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 164.393936,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 8.397023,
+        "loudnessPeaksPerSec": 6.896552,
+        "loudness_sma3_amean": 1.979484,
+        "loudness_sma3_meanFallingSlope": 24.149723,
+        "loudness_sma3_meanRisingSlope": 31.464567,
+        "loudness_sma3_pctlrange0-2": 1.72899,
+        "spectralFlux_sma3_amean": 3.164419
+      },
+      "relative_delivery": {
+        "loudness": "mid",
+        "loudness_range": "mid",
+        "pitch": "low",
+        "pitch_range": "high",
+        "speech_rate": "high"
+      },
+      "segment_id": "seg_0002",
+      "signal_id": "prosody_seg_0002",
+      "start": 1.853,
+      "start_frame": 111,
+      "start_timecode": "00:01:51",
+      "status": "ok",
+      "text": "They open it, type what they want, and hope for the best.",
+      "word_count": 12,
+      "word_ids": [
+        "word_0009",
+        "word_0010",
+        "word_0011",
+        "word_0012",
+        "word_0013",
+        "word_0014",
+        "word_0015",
+        "word_0016",
+        "word_0017",
+        "word_0018",
+        "word_0019",
+        "word_0020"
+      ],
+      "wpm": 352.595
+    },
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "high_relative_pitch",
+        "low_relative_loudness",
+        "high_relative_loudness_range"
+      ],
+      "duration": 2.223,
+      "end": 6.218,
+      "end_frame": 373,
+      "end_timecode": "00:06:13",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 24.484482,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 99.854927,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 812.317078,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 5.979692,
+        "loudnessPeaksPerSec": 4.977376,
+        "loudness_sma3_amean": 1.870291,
+        "loudness_sma3_meanFallingSlope": 21.985594,
+        "loudness_sma3_meanRisingSlope": 28.672449,
+        "loudness_sma3_pctlrange0-2": 2.092583,
+        "spectralFlux_sma3_amean": 2.004391
+      },
+      "relative_delivery": {
+        "loudness": "low",
+        "loudness_range": "high",
+        "pitch": "high",
+        "pitch_range": "mid",
+        "speech_rate": "mid"
+      },
+      "segment_id": "seg_0003",
+      "signal_id": "prosody_seg_0003",
+      "start": 3.995,
+      "start_frame": 240,
+      "start_timecode": "00:04:00",
+      "status": "ok",
+      "text": "But the guy who created Claude code does the opposite.",
+      "word_count": 10,
+      "word_ids": [
+        "word_0021",
+        "word_0022",
+        "word_0023",
+        "word_0024",
+        "word_0025",
+        "word_0026",
+        "word_0027",
+        "word_0028",
+        "word_0029",
+        "word_0030"
+      ],
+      "wpm": 269.906
+    },
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "low_relative_pitch_range",
+        "low_relative_loudness"
+      ],
+      "duration": 2.943,
+      "end": 9.241,
+      "end_frame": 554,
+      "end_timecode": "00:09:14",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 23.626446,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 78.992294,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 223.266296,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 4.930212,
+        "loudnessPeaksPerSec": 5.119454,
+        "loudness_sma3_amean": 1.948928,
+        "loudness_sma3_meanFallingSlope": 17.90411,
+        "loudness_sma3_meanRisingSlope": 26.13324,
+        "loudness_sma3_pctlrange0-2": 1.677741,
+        "spectralFlux_sma3_amean": 1.794965
+      },
+      "relative_delivery": {
+        "loudness": "low",
+        "loudness_range": "mid",
+        "pitch": "mid",
+        "pitch_range": "low",
+        "speech_rate": "mid"
+      },
+      "segment_id": "seg_0004",
+      "signal_id": "prosody_seg_0004",
+      "start": 6.298,
+      "start_frame": 378,
+      "start_timecode": "00:06:18",
+      "status": "ok",
+      "text": "He says most of his sessions start in plan mode, not build mode.",
+      "word_count": 13,
+      "word_ids": [
+        "word_0031",
+        "word_0032",
+        "word_0033",
+        "word_0034",
+        "word_0035",
+        "word_0036",
+        "word_0037",
+        "word_0038",
+        "word_0039",
+        "word_0040",
+        "word_0041",
+        "word_0042",
+        "word_0043"
+      ],
+      "wpm": 265.036
+    },
+    {
+      "delivery_tags": [
+        "low_relative_speech_rate",
+        "low_relative_pitch_range",
+        "low_relative_loudness",
+        "high_relative_loudness_range"
+      ],
+      "duration": 2.703,
+      "end": 11.964,
+      "end_frame": 718,
+      "end_timecode": "00:11:58",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 23.435558,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 101.311172,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 370.966583,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 4.722115,
+        "loudnessPeaksPerSec": 6.319703,
+        "loudness_sma3_amean": 1.922656,
+        "loudness_sma3_meanFallingSlope": 23.477772,
+        "loudness_sma3_meanRisingSlope": 30.148075,
+        "loudness_sma3_pctlrange0-2": 2.081059,
+        "spectralFlux_sma3_amean": 1.865977
+      },
+      "relative_delivery": {
+        "loudness": "low",
+        "loudness_range": "high",
+        "pitch": "mid",
+        "pitch_range": "low",
+        "speech_rate": "low"
+      },
+      "segment_id": "seg_0005",
+      "signal_id": "prosody_seg_0005",
+      "start": 9.261,
+      "start_frame": 556,
+      "start_timecode": "00:09:16",
+      "status": "ok",
+      "text": "Slows down first, gets the plan right, then lets Claude execute.",
+      "word_count": 11,
+      "word_ids": [
+        "word_0044",
+        "word_0045",
+        "word_0046",
+        "word_0047",
+        "word_0048",
+        "word_0049",
+        "word_0050",
+        "word_0051",
+        "word_0052",
+        "word_0053",
+        "word_0054"
+      ],
+      "wpm": 244.173
+    },
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "high_relative_pitch",
+        "high_relative_loudness",
+        "low_relative_loudness_range"
+      ],
+      "duration": 2.523,
+      "end": 14.547,
+      "end_frame": 873,
+      "end_timecode": "00:14:33",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 24.091484,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 131.11734,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 169.952393,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 5.318092,
+        "loudnessPeaksPerSec": 6.374502,
+        "loudness_sma3_amean": 2.049378,
+        "loudness_sma3_meanFallingSlope": 29.700369,
+        "loudness_sma3_meanRisingSlope": 32.76152,
+        "loudness_sma3_pctlrange0-2": 1.674982,
+        "spectralFlux_sma3_amean": 2.23332
+      },
+      "relative_delivery": {
+        "loudness": "high",
+        "loudness_range": "low",
+        "pitch": "high",
+        "pitch_range": "mid",
+        "speech_rate": "mid"
+      },
+      "segment_id": "seg_0006",
+      "signal_id": "prosody_seg_0006",
+      "start": 12.024,
+      "start_frame": 721,
+      "start_timecode": "00:12:01",
+      "status": "ok",
+      "text": "That one shift alone explains why most people get messy results.",
+      "word_count": 11,
+      "word_ids": [
+        "word_0055",
+        "word_0056",
+        "word_0057",
+        "word_0058",
+        "word_0059",
+        "word_0060",
+        "word_0061",
+        "word_0062",
+        "word_0063",
+        "word_0064",
+        "word_0065"
+      ],
+      "wpm": 261.593
+    },
+    {
+      "delivery_tags": [
+        "very_fast_speech",
+        "high_relative_speech_rate",
+        "low_relative_pitch"
+      ],
+      "duration": 0.52,
+      "end": 15.207,
+      "end_frame": 912,
+      "end_timecode": "00:15:12",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 22.359394,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 30.245869,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 32.026115,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 5.953016,
+        "loudnessPeaksPerSec": 5.882353,
+        "loudness_sma3_amean": 1.966895,
+        "loudness_sma3_meanFallingSlope": 26.633219,
+        "loudness_sma3_meanRisingSlope": 30.287268,
+        "loudness_sma3_pctlrange0-2": 1.687174,
+        "spectralFlux_sma3_amean": 1.840573
+      },
+      "relative_delivery": {
+        "loudness": "mid",
+        "loudness_range": "mid",
+        "pitch": "low",
+        "pitch_range": "mid",
+        "speech_rate": "high"
+      },
+      "segment_id": "seg_0007",
+      "signal_id": "prosody_seg_0007",
+      "start": 14.687,
+      "start_frame": 881,
+      "start_timecode": "00:14:41",
+      "status": "ok",
+      "text": "And that's not all.",
+      "word_count": 4,
+      "word_ids": [
+        "word_0066",
+        "word_0067",
+        "word_0068",
+        "word_0069"
+      ],
+      "wpm": 461.538
+    },
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "low_relative_speech_rate",
+        "high_relative_pitch_range",
+        "low_relative_loudness_range"
+      ],
+      "duration": 4.424,
+      "end": 19.712,
+      "end_frame": 1183,
+      "end_timecode": "00:19:43",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 23.410107,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 100.264389,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 331.084869,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 7.359701,
+        "loudnessPeaksPerSec": 6.349206,
+        "loudness_sma3_amean": 2.016428,
+        "loudness_sma3_meanFallingSlope": 29.548908,
+        "loudness_sma3_meanRisingSlope": 29.709387,
+        "loudness_sma3_pctlrange0-2": 1.650832,
+        "spectralFlux_sma3_amean": 2.083955
+      },
+      "relative_delivery": {
+        "loudness": "mid",
+        "loudness_range": "low",
+        "pitch": "mid",
+        "pitch_range": "high",
+        "speech_rate": "low"
+      },
+      "segment_id": "seg_0008",
+      "signal_id": "prosody_seg_0008",
+      "start": 15.288,
+      "start_frame": 917,
+      "start_timecode": "00:15:17",
+      "status": "ok",
+      "text": "He keeps his Claude file simple, makes Claude check its own work, and runs separate sessions for separate problems.",
+      "word_count": 19,
+      "word_ids": [
+        "word_0070",
+        "word_0071",
+        "word_0072",
+        "word_0073",
+        "word_0074",
+        "word_0075",
+        "word_0076",
+        "word_0077",
+        "word_0078",
+        "word_0079",
+        "word_0080",
+        "word_0081",
+        "word_0082",
+        "word_0083",
+        "word_0084",
+        "word_0085",
+        "word_0086",
+        "word_0087",
+        "word_0088"
+      ],
+      "wpm": 257.685
+    },
+    {
+      "delivery_tags": [
+        "fast_speech",
+        "high_relative_speech_rate",
+        "low_relative_pitch_range",
+        "high_relative_loudness",
+        "low_relative_loudness_range"
+      ],
+      "duration": 2.844,
+      "end": 22.636,
+      "end_frame": 1358,
+      "end_timecode": "00:22:38",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 23.897676,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 49.17836,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 456.357971,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 4.33617,
+        "loudnessPeaksPerSec": 6.713781,
+        "loudness_sma3_amean": 2.071107,
+        "loudness_sma3_meanFallingSlope": 23.68004,
+        "loudness_sma3_meanRisingSlope": 27.330175,
+        "loudness_sma3_pctlrange0-2": 1.600765,
+        "spectralFlux_sma3_amean": 1.801251
+      },
+      "relative_delivery": {
+        "loudness": "high",
+        "loudness_range": "low",
+        "pitch": "mid",
+        "pitch_range": "low",
+        "speech_rate": "high"
+      },
+      "segment_id": "seg_0009",
+      "signal_id": "prosody_seg_0009",
+      "start": 19.792,
+      "start_frame": 1188,
+      "start_timecode": "00:19:48",
+      "status": "ok",
+      "text": "So he's not just prompting better, he's using Claude code like a system.",
+      "word_count": 13,
+      "word_ids": [
+        "word_0089",
+        "word_0090",
+        "word_0091",
+        "word_0092",
+        "word_0093",
+        "word_0094",
+        "word_0095",
+        "word_0096",
+        "word_0097",
+        "word_0098",
+        "word_0099",
+        "word_0100",
+        "word_0101"
+      ],
+      "wpm": 274.262
+    },
+    {
+      "delivery_tags": [
+        "low_relative_speech_rate",
+        "high_relative_pitch",
+        "high_relative_loudness",
+        "high_relative_loudness_range"
+      ],
+      "duration": 2.222,
+      "end": 24.898,
+      "end_frame": 1494,
+      "end_timecode": "00:24:54",
+      "features": {
+        "F0semitoneFrom27.5Hz_sma3nz_amean": 27.35873,
+        "F0semitoneFrom27.5Hz_sma3nz_meanFallingSlope": 53.685738,
+        "F0semitoneFrom27.5Hz_sma3nz_meanRisingSlope": 815.89856,
+        "F0semitoneFrom27.5Hz_sma3nz_pctlrange0-2": 6.424967,
+        "loudnessPeaksPerSec": 6.334842,
+        "loudness_sma3_amean": 2.342706,
+        "loudness_sma3_meanFallingSlope": 22.507355,
+        "loudness_sma3_meanRisingSlope": 30.832403,
+        "loudness_sma3_pctlrange0-2": 1.850657,
+        "spectralFlux_sma3_amean": 2.099412
+      },
+      "relative_delivery": {
+        "loudness": "high",
+        "loudness_range": "high",
+        "pitch": "high",
+        "pitch_range": "mid",
+        "speech_rate": "low"
+      },
+      "segment_id": "seg_0010",
+      "signal_id": "prosody_seg_0010",
+      "start": 22.676,
+      "start_frame": 1361,
+      "start_timecode": "00:22:41",
+      "status": "ok",
+      "text": "Comment creator, and I'll send over the free guide.",
+      "word_count": 9,
+      "word_ids": [
+        "word_0102",
+        "word_0103",
+        "word_0104",
+        "word_0105",
+        "word_0106",
+        "word_0107",
+        "word_0108",
+        "word_0109",
+        "word_0110"
+      ],
+      "wpm": 243.024
+    }
+  ],
+  "status": "ok",
+  "tool": "opensmile"
+}

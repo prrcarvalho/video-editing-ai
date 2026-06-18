@@ -57,12 +57,19 @@ Responsibilities:
 
 - Segment source videos into scenes, shots, beats, and notable moments.
 - Extract transcript, speaker changes, visual events, motion, objects, locations, and audio cues.
+- For fast-paced short-form Exemplars, deterministic ingest should let
+  `--content-profile auto` enable AutoShot alongside PySceneDetect/OpenCV, or
+  use `--content-profile short-form` when forcing the short-form path.
+- For fast-paced short-form Exemplars, run a high-FPS visual evidence pass
+  after deterministic ingest to capture layout, motion edits, overlays,
+  transitions, VFX, scrolling, and cursor/click indicators.
 - Identify high-value moments, weak moments, risks, and missing context.
 - Preserve timestamps and source references.
 
 Output:
 
 - `SourceAnalysis`
+- `VisualEvidencePack` when high-FPS visual mechanics are needed
 
 ### Report Synthesizer Agent
 
@@ -71,6 +78,9 @@ Turns raw analysis into a compact production report.
 Responsibilities:
 
 - Merge source observations into a structured narrative report.
+- Treat `VisualEvidencePack` as evidence only. The Report Synthesizer, not
+  Gemini, decides which visual mechanics matter for the Viral Pattern and
+  Recreation plan.
 - Identify themes, strongest moments, useful quotes, visual motifs, and editing opportunities.
 - Mark unusable or risky sections.
 - Produce a report that downstream agents can treat as the contract.

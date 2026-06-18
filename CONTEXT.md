@@ -35,6 +35,10 @@ The first concrete Stock Connector for SFX/audio accents. Agents search Freesoun
 The per-shot timed grid an edit is built from — each row a shot with its timestamp, source-type (headshot / screencast / b-roll / graphic card), caption fragment, and audio cue. Doubles as the keying structure for asset sourcing: an agent fills each beat from an **Asset Segment** or a **Stock Connector**.
 _Avoid_: edit grid, shot list (use Beat Sheet for the canonical artifact)
 
+**Visual Evidence Pack**:
+A machine-readable evidence artifact describing what is visibly present in an Exemplar — layout, motion edits, overlays, VFX, transitions, scrolling, cursor/click indicators, and uncertainty — without deciding why those observations matter. It feeds the later Codex/GPT reasoning stage.
+_Avoid_: final report, Viral Pattern, Recreation plan (those require reasoning, not just visual evidence)
+
 **Recreation**:
 The finished new video the system produces. Follows a Viral Pattern but may cover a similar *or different* subject than the Exemplar.
 _Avoid_: edit, cut, render (those name steps, not the deliverable)

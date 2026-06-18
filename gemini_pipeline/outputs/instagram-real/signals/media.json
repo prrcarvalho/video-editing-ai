@@ -5,6 +5,7 @@
     "sample_rate": 48000
   },
   "duration": 24.897,
+  "duration_timecode": "00:24:54",
   "filename": "instagram-real.MP4",
   "format": {
     "bit_rate": 3148047,
@@ -12,11 +13,19 @@
   },
   "fps": 60.0,
   "frame_count": 1492,
+  "ingest_profile": {
+    "autoshot_enabled": true,
+    "autoshot_reason": "auto_detected_vertical_short_form",
+    "content_profile": "auto",
+    "short_form_detected": true,
+    "short_form_max_duration_seconds": 90.0
+  },
   "resolution": {
     "height": 1920,
     "width": 1080
   },
   "source_path": "/Users/pedrocarvalho/projects/video_editing_ai/assets/instagram-real.MP4",
+  "timecode_timebase_fps": 60,
   "video": {
     "avg_frame_rate": "60/1",
     "codec": "h264",

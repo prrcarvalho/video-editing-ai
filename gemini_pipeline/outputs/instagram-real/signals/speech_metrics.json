@@ -1,0 +1,186 @@
+{
+  "definitions": {
+    "bpm": "beats per minute, the dominant rhythmic audio pulse from librosa over the mixed audio",
+    "wpm": "words per minute, the speaker/narrator speech rate from WhisperX word timings"
+  },
+  "overall": {
+    "articulation_wpm_word_durations_only": 331.725,
+    "media_duration_seconds": 24.897,
+    "speech_span_seconds": 24.847,
+    "spoken_word_duration_seconds": 19.896,
+    "word_count": 110,
+    "wpm_first_word_to_last_word": 265.626,
+    "wpm_over_media_duration": 265.092
+  },
+  "pauses": {
+    "count": 3,
+    "duration_summary": {
+      "max": 0.14,
+      "mean": 0.127,
+      "median": 0.121,
+      "min": 0.12,
+      "p10": 0.1202,
+      "p90": 0.1362
+    },
+    "min_pause_seconds": 0.12,
+    "notable_pauses": [
+      {
+        "after_word": "results.",
+        "after_word_id": "word_0065",
+        "before_word": "And",
+        "before_word_id": "word_0066",
+        "duration": 0.14,
+        "end": 14.687,
+        "end_timecode": "00:14:41",
+        "start": 14.547,
+        "start_timecode": "00:14:33"
+      },
+      {
+        "after_word": "creator,",
+        "after_word_id": "word_0103",
+        "before_word": "and",
+        "before_word_id": "word_0104",
+        "duration": 0.121,
+        "end": 23.597,
+        "end_timecode": "00:23:36",
+        "start": 23.476,
+        "start_timecode": "00:23:29"
+      },
+      {
+        "after_word": "Comment",
+        "after_word_id": "word_0102",
+        "before_word": "creator,",
+        "before_word_id": "word_0103",
+        "duration": 0.12,
+        "end": 23.056,
+        "end_timecode": "00:23:03",
+        "start": 22.936,
+        "start_timecode": "00:22:56"
+      }
+    ]
+  },
+  "segment_rates": [
+    {
+      "duration": 1.762,
+      "end": 1.813,
+      "end_timecode": "00:01:49",
+      "segment_id": "seg_0001",
+      "signal_id": "speech_rate_0001",
+      "start": 0.051,
+      "start_timecode": "00:00:03",
+      "text": "Most people use Claude code the wrong way.",
+      "word_count": 8,
+      "wpm": 272.418
+    },
+    {
+      "duration": 2.042,
+      "end": 3.895,
+      "end_timecode": "00:03:54",
+      "segment_id": "seg_0002",
+      "signal_id": "speech_rate_0002",
+      "start": 1.853,
+      "start_timecode": "00:01:51",
+      "text": "They open it, type what they want, and hope for the best.",
+      "word_count": 12,
+      "wpm": 352.595
+    },
+    {
+      "duration": 2.223,
+      "end": 6.218,
+      "end_timecode": "00:06:13",
+      "segment_id": "seg_0003",
+      "signal_id": "speech_rate_0003",
+      "start": 3.995,
+      "start_timecode": "00:04:00",
+      "text": "But the guy who created Claude code does the opposite.",
+      "word_count": 10,
+      "wpm": 269.906
+    },
+    {
+      "duration": 2.943,
+      "end": 9.241,
+      "end_timecode": "00:09:14",
+      "segment_id": "seg_0004",
+      "signal_id": "speech_rate_0004",
+      "start": 6.298,
+      "start_timecode": "00:06:18",
+      "text": "He says most of his sessions start in plan mode, not build mode.",
+      "word_count": 13,
+      "wpm": 265.036
+    },
+    {
+      "duration": 2.703,
+      "end": 11.964,
+      "end_timecode": "00:11:58",
+      "segment_id": "seg_0005",
+      "signal_id": "speech_rate_0005",
+      "start": 9.261,
+      "start_timecode": "00:09:16",
+      "text": "Slows down first, gets the plan right, then lets Claude execute.",
+      "word_count": 11,
+      "wpm": 244.173
+    },
+    {
+      "duration": 2.523,
+      "end": 14.547,
+      "end_timecode": "00:14:33",
+      "segment_id": "seg_0006",
+      "signal_id": "speech_rate_0006",
+      "start": 12.024,
+      "start_timecode": "00:12:01",
+      "text": "That one shift alone explains why most people get messy results.",
+      "word_count": 11,
+      "wpm": 261.593
+    },
+    {
+      "duration": 0.52,
+      "end": 15.207,
+      "end_timecode": "00:15:12",
+      "segment_id": "seg_0007",
+      "signal_id": "speech_rate_0007",
+      "start": 14.687,
+      "start_timecode": "00:14:41",
+      "text": "And that's not all.",
+      "word_count": 4,
+      "wpm": 461.538
+    },
+    {
+      "duration": 4.424,
+      "end": 19.712,
+      "end_timecode": "00:19:43",
+      "segment_id": "seg_0008",
+      "signal_id": "speech_rate_0008",
+      "start": 15.288,
+      "start_timecode": "00:15:17",
+      "text": "He keeps his Claude file simple, makes Claude check its own work, and runs separate sessions for separate problems.",
+      "word_count": 19,
+      "wpm": 257.685
+    },
+    {
+      "duration": 2.844,
+      "end": 22.636,
+      "end_timecode": "00:22:38",
+      "segment_id": "seg_0009",
+      "signal_id": "speech_rate_0009",
+      "start": 19.792,
+      "start_timecode": "00:19:48",
+      "text": "So he's not just prompting better, he's using Claude code like a system.",
+      "word_count": 13,
+      "wpm": 274.262
+    },
+    {
+      "duration": 2.222,
+      "end": 24.898,
+      "end_timecode": "00:24:54",
+      "segment_id": "seg_0010",
+      "signal_id": "speech_rate_0010",
+      "start": 22.676,
+      "start_timecode": "00:22:41",
+      "text": "Comment creator, and I'll send over the free guide.",
+      "word_count": 9,
+      "wpm": 243.024
+    }
+  ],
+  "status": "ok",
+  "tool": "whisperx_derived"
+}

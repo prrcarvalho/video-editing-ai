@@ -1,31 +1,39 @@
 {
-  "beat_count": 60,
+  "beat_count": 61,
   "beats": [
     {
       "frame": 0,
       "near_words": [
         {
           "end": 0.191,
+          "end_timecode": "00:00:11",
           "signal_id": "word_0001",
           "start": 0.051,
+          "start_timecode": "00:00:03",
           "word": "Most"
         },
         {
           "end": 0.451,
+          "end_timecode": "00:00:27",
           "signal_id": "word_0002",
           "start": 0.211,
+          "start_timecode": "00:00:13",
           "word": "people"
         },
         {
           "end": 0.652,
+          "end_timecode": "00:00:39",
           "signal_id": "word_0003",
           "start": 0.532,
+          "start_timecode": "00:00:32",
           "word": "use"
         },
         {
           "end": 0.952,
+          "end_timecode": "00:00:57",
           "signal_id": "word_0004",
           "start": 0.692,
+          "start_timecode": "00:00:42",
           "word": "Claude"
         }
       ],
@@ -51,6 +59,7 @@
           "kind": "boundary",
           "signal_id": "media_start",
           "time": 0.0,
+          "timecode": "00:00:00",
           "weight": 2.0
         },
         {
@@ -58,6 +67,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0001",
           "time": 0.05,
+          "timecode": "00:00:03",
           "weight": 0.8
         },
         {
@@ -65,6 +75,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0001",
           "time": 0.051,
+          "timecode": "00:00:03",
           "weight": 1.1
         },
         {
@@ -72,6 +83,7 @@
           "kind": "first_word",
           "signal_id": "word_0001",
           "time": 0.051,
+          "timecode": "00:00:03",
           "weight": 1.0
         },
         {
@@ -79,6 +91,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0002",
           "time": 0.0833,
+          "timecode": "00:00:05",
           "weight": 0.8
         },
         {
@@ -86,43 +99,55 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0001",
           "time": 0.1,
+          "timecode": "00:00:06",
           "weight": 0.7
         }
       ],
-      "time": 0.0
+      "time": 0.0,
+      "timecode": "00:00:00"
     },
     {
       "frame": 24,
       "near_words": [
         {
           "end": 0.191,
+          "end_timecode": "00:00:11",
           "signal_id": "word_0001",
           "start": 0.051,
+          "start_timecode": "00:00:03",
           "word": "Most"
         },
         {
           "end": 0.451,
+          "end_timecode": "00:00:27",
           "signal_id": "word_0002",
           "start": 0.211,
+          "start_timecode": "00:00:13",
           "word": "people"
         },
         {
           "end": 0.652,
+          "end_timecode": "00:00:39",
           "signal_id": "word_0003",
           "start": 0.532,
+          "start_timecode": "00:00:32",
           "word": "use"
         },
         {
           "end": 0.952,
+          "end_timecode": "00:00:57",
           "signal_id": "word_0004",
           "start": 0.692,
+          "start_timecode": "00:00:42",
           "word": "Claude"
         },
         {
           "end": 1.292,
+          "end_timecode": "00:01:18",
           "signal_id": "word_0005",
           "start": 0.992,
-          "word": "Code"
+          "start_timecode": "00:01:00",
+          "word": "code"
         }
       ],
       "signal_id": "beat_0002",
@@ -138,42 +163,54 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0002",
           "time": 0.4,
+          "timecode": "00:00:24",
           "weight": 0.7
         }
       ],
-      "time": 0.4
+      "time": 0.4,
+      "timecode": "00:00:24"
     },
     {
       "frame": 49,
       "near_words": [
         {
           "end": 0.652,
+          "end_timecode": "00:00:39",
           "signal_id": "word_0003",
           "start": 0.532,
+          "start_timecode": "00:00:32",
           "word": "use"
         },
         {
           "end": 0.952,
+          "end_timecode": "00:00:57",
           "signal_id": "word_0004",
           "start": 0.692,
+          "start_timecode": "00:00:42",
           "word": "Claude"
         },
         {
           "end": 1.292,
+          "end_timecode": "00:01:18",
           "signal_id": "word_0005",
           "start": 0.992,
-          "word": "Code"
+          "start_timecode": "00:01:00",
+          "word": "code"
         },
         {
           "end": 1.412,
+          "end_timecode": "00:01:25",
           "signal_id": "word_0006",
           "start": 1.332,
+          "start_timecode": "00:01:20",
           "word": "the"
         },
         {
           "end": 1.633,
+          "end_timecode": "00:01:38",
           "signal_id": "word_0007",
           "start": 1.453,
+          "start_timecode": "00:01:27",
           "word": "wrong"
         }
       ],
@@ -190,48 +227,62 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0003",
           "time": 0.8167,
+          "timecode": "00:00:49",
           "weight": 0.7
         }
       ],
-      "time": 0.8167
+      "time": 0.8167,
+      "timecode": "00:00:49"
     },
     {
       "frame": 80,
       "near_words": [
         {
           "end": 1.292,
+          "end_timecode": "00:01:18",
           "signal_id": "word_0005",
           "start": 0.992,
-          "word": "Code"
+          "start_timecode": "00:01:00",
+          "word": "code"
         },
         {
           "end": 1.412,
+          "end_timecode": "00:01:25",
           "signal_id": "word_0006",
           "start": 1.332,
+          "start_timecode": "00:01:20",
           "word": "the"
         },
         {
           "end": 1.633,
+          "end_timecode": "00:01:38",
           "signal_id": "word_0007",
           "start": 1.453,
+          "start_timecode": "00:01:27",
           "word": "wrong"
         },
         {
           "end": 1.813,
+          "end_timecode": "00:01:49",
           "signal_id": "word_0008",
           "start": 1.673,
+          "start_timecode": "00:01:40",
           "word": "way."
         },
         {
           "end": 1.973,
+          "end_timecode": "00:01:58",
           "signal_id": "word_0009",
           "start": 1.853,
+          "start_timecode": "00:01:51",
           "word": "They"
         },
         {
           "end": 2.213,
+          "end_timecode": "00:02:13",
           "signal_id": "word_0010",
           "start": 2.033,
+          "start_timecode": "00:02:02",
           "word": "open"
         }
       ],
@@ -248,53 +299,68 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0004",
           "time": 1.3333,
+          "timecode": "00:01:20",
           "weight": 0.7
         }
       ],
-      "time": 1.3333
+      "time": 1.3333,
+      "timecode": "00:01:20"
     },
     {
-      "frame": 111,
+      "frame": 110,
       "near_words": [
         {
           "end": 1.813,
+          "end_timecode": "00:01:49",
           "signal_id": "word_0008",
           "start": 1.673,
+          "start_timecode": "00:01:40",
           "word": "way."
         },
         {
           "end": 1.973,
+          "end_timecode": "00:01:58",
           "signal_id": "word_0009",
           "start": 1.853,
+          "start_timecode": "00:01:51",
           "word": "They"
         },
         {
           "end": 2.213,
+          "end_timecode": "00:02:13",
           "signal_id": "word_0010",
           "start": 2.033,
+          "start_timecode": "00:02:02",
           "word": "open"
         },
         {
           "end": 2.333,
+          "end_timecode": "00:02:20",
           "signal_id": "word_0011",
           "start": 2.253,
+          "start_timecode": "00:02:15",
           "word": "it,"
         },
         {
           "end": 2.574,
+          "end_timecode": "00:02:34",
           "signal_id": "word_0012",
           "start": 2.414,
+          "start_timecode": "00:02:25",
           "word": "type"
         },
         {
           "end": 2.714,
+          "end_timecode": "00:02:43",
           "signal_id": "word_0013",
           "start": 2.594,
+          "start_timecode": "00:02:36",
           "word": "what"
         }
       ],
       "signal_id": "beat_0005",
       "source_signal_ids": [
+        "autoshot_cut_0001",
         "vis_diff_0001",
         "vis_scene_0001",
         "seg_0002",
@@ -305,15 +371,25 @@
         "audio_loudness_peak",
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 110,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0001",
+          "time": 1.8333,
+          "timecode": "00:01:50",
+          "weight": 1.4
+        },
+        {
           "frame": 111,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0001",
           "time": 1.85,
+          "timecode": "00:01:51",
           "weight": 1.0
         },
         {
@@ -321,6 +397,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0001",
           "time": 1.85,
+          "timecode": "00:01:51",
           "weight": 1.4
         },
         {
@@ -328,6 +405,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0002",
           "time": 1.853,
+          "timecode": "00:01:51",
           "weight": 1.1
         },
         {
@@ -335,6 +413,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0014",
           "time": 1.8833,
+          "timecode": "00:01:53",
           "weight": 0.8
         },
         {
@@ -342,59 +421,75 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0005",
           "time": 1.9333,
+          "timecode": "00:01:56",
           "weight": 0.7
         }
       ],
-      "time": 1.85
+      "time": 1.8333,
+      "timecode": "00:01:50"
     },
     {
       "frame": 134,
       "near_words": [
         {
           "end": 2.213,
+          "end_timecode": "00:02:13",
           "signal_id": "word_0010",
           "start": 2.033,
+          "start_timecode": "00:02:02",
           "word": "open"
         },
         {
           "end": 2.333,
+          "end_timecode": "00:02:20",
           "signal_id": "word_0011",
           "start": 2.253,
+          "start_timecode": "00:02:15",
           "word": "it,"
         },
         {
           "end": 2.574,
+          "end_timecode": "00:02:34",
           "signal_id": "word_0012",
           "start": 2.414,
+          "start_timecode": "00:02:25",
           "word": "type"
         },
         {
           "end": 2.714,
+          "end_timecode": "00:02:43",
           "signal_id": "word_0013",
           "start": 2.594,
+          "start_timecode": "00:02:36",
           "word": "what"
         },
         {
           "end": 2.854,
+          "end_timecode": "00:02:51",
           "signal_id": "word_0014",
           "start": 2.734,
+          "start_timecode": "00:02:44",
           "word": "they"
         },
         {
           "end": 3.134,
+          "end_timecode": "00:03:08",
           "signal_id": "word_0015",
           "start": 2.914,
+          "start_timecode": "00:02:55",
           "word": "want,"
         }
       ],
       "signal_id": "beat_0006",
       "source_signal_ids": [
         "aud_peak_0006",
+        "autoshot_candidate_0001",
         "aud_onset_0019"
       ],
       "source_types": [
         "audio_loudness_peak",
-        "audio_onset"
+        "audio_onset",
+        "visual_autoshot_candidate"
       ],
       "sources": [
         {
@@ -402,61 +497,86 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0006",
           "time": 2.2333,
+          "timecode": "00:02:14",
           "weight": 0.7
+        },
+        {
+          "frame": 141,
+          "kind": "visual_autoshot_candidate",
+          "signal_id": "autoshot_candidate_0001",
+          "time": 2.35,
+          "timecode": "00:02:21",
+          "weight": 0.9
         },
         {
           "frame": 144,
           "kind": "audio_onset",
           "signal_id": "aud_onset_0019",
           "time": 2.4,
+          "timecode": "00:02:24",
           "weight": 0.8
         }
       ],
-      "time": 2.2333
+      "time": 2.2333,
+      "timecode": "00:02:14"
     },
     {
       "frame": 150,
       "near_words": [
         {
           "end": 2.333,
+          "end_timecode": "00:02:20",
           "signal_id": "word_0011",
           "start": 2.253,
+          "start_timecode": "00:02:15",
           "word": "it,"
         },
         {
           "end": 2.574,
+          "end_timecode": "00:02:34",
           "signal_id": "word_0012",
           "start": 2.414,
+          "start_timecode": "00:02:25",
           "word": "type"
         },
         {
           "end": 2.714,
+          "end_timecode": "00:02:43",
           "signal_id": "word_0013",
           "start": 2.594,
+          "start_timecode": "00:02:36",
           "word": "what"
         },
         {
           "end": 2.854,
+          "end_timecode": "00:02:51",
           "signal_id": "word_0014",
           "start": 2.734,
+          "start_timecode": "00:02:44",
           "word": "they"
         },
         {
           "end": 3.134,
+          "end_timecode": "00:03:08",
           "signal_id": "word_0015",
           "start": 2.914,
+          "start_timecode": "00:02:55",
           "word": "want,"
         },
         {
           "end": 3.275,
+          "end_timecode": "00:03:16",
           "signal_id": "word_0016",
           "start": 3.194,
+          "start_timecode": "00:03:12",
           "word": "and"
         },
         {
           "end": 3.415,
+          "end_timecode": "00:03:25",
           "signal_id": "word_0017",
           "start": 3.295,
+          "start_timecode": "00:03:18",
           "word": "hope"
         }
       ],
@@ -473,54 +593,70 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0007",
           "time": 2.5,
+          "timecode": "00:02:30",
           "weight": 0.7
         }
       ],
-      "time": 2.5
+      "time": 2.5,
+      "timecode": "00:02:30"
     },
     {
       "frame": 164,
       "near_words": [
         {
           "end": 2.574,
+          "end_timecode": "00:02:34",
           "signal_id": "word_0012",
           "start": 2.414,
+          "start_timecode": "00:02:25",
           "word": "type"
         },
         {
           "end": 2.714,
+          "end_timecode": "00:02:43",
           "signal_id": "word_0013",
           "start": 2.594,
+          "start_timecode": "00:02:36",
           "word": "what"
         },
         {
           "end": 2.854,
+          "end_timecode": "00:02:51",
           "signal_id": "word_0014",
           "start": 2.734,
+          "start_timecode": "00:02:44",
           "word": "they"
         },
         {
           "end": 3.134,
+          "end_timecode": "00:03:08",
           "signal_id": "word_0015",
           "start": 2.914,
+          "start_timecode": "00:02:55",
           "word": "want,"
         },
         {
           "end": 3.275,
+          "end_timecode": "00:03:16",
           "signal_id": "word_0016",
           "start": 3.194,
+          "start_timecode": "00:03:12",
           "word": "and"
         },
         {
           "end": 3.415,
+          "end_timecode": "00:03:25",
           "signal_id": "word_0017",
           "start": 3.295,
+          "start_timecode": "00:03:18",
           "word": "hope"
         },
         {
           "end": 3.535,
+          "end_timecode": "00:03:32",
           "signal_id": "word_0018",
           "start": 3.435,
+          "start_timecode": "00:03:26",
           "word": "for"
         }
       ],
@@ -539,6 +675,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0023",
           "time": 2.7333,
+          "timecode": "00:02:44",
           "weight": 0.8
         },
         {
@@ -546,66 +683,91 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0008",
           "time": 2.7667,
+          "timecode": "00:02:46",
           "weight": 0.7
         }
       ],
-      "time": 2.7333
+      "time": 2.7333,
+      "timecode": "00:02:44"
     },
     {
-      "frame": 189,
+      "frame": 188,
       "near_words": [
         {
           "end": 3.134,
+          "end_timecode": "00:03:08",
           "signal_id": "word_0015",
           "start": 2.914,
+          "start_timecode": "00:02:55",
           "word": "want,"
         },
         {
           "end": 3.275,
+          "end_timecode": "00:03:16",
           "signal_id": "word_0016",
           "start": 3.194,
+          "start_timecode": "00:03:12",
           "word": "and"
         },
         {
           "end": 3.415,
+          "end_timecode": "00:03:25",
           "signal_id": "word_0017",
           "start": 3.295,
+          "start_timecode": "00:03:18",
           "word": "hope"
         },
         {
           "end": 3.535,
+          "end_timecode": "00:03:32",
           "signal_id": "word_0018",
           "start": 3.435,
+          "start_timecode": "00:03:26",
           "word": "for"
         },
         {
           "end": 3.615,
+          "end_timecode": "00:03:37",
           "signal_id": "word_0019",
           "start": 3.555,
+          "start_timecode": "00:03:33",
           "word": "the"
         },
         {
           "end": 3.895,
+          "end_timecode": "00:03:54",
           "signal_id": "word_0020",
           "start": 3.655,
+          "start_timecode": "00:03:39",
           "word": "best."
         }
       ],
       "signal_id": "beat_0009",
       "source_signal_ids": [
+        "autoshot_cut_0002",
         "vis_diff_0002",
         "vis_scene_0002"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 188,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0002",
+          "time": 3.1333,
+          "timecode": "00:03:08",
+          "weight": 1.4
+        },
+        {
           "frame": 189,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0002",
           "time": 3.15,
+          "timecode": "00:03:09",
           "weight": 1.0
         },
         {
@@ -613,53 +775,68 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0002",
           "time": 3.15,
+          "timecode": "00:03:09",
           "weight": 1.4
         }
       ],
-      "time": 3.15
+      "time": 3.1333,
+      "timecode": "00:03:08"
     },
     {
-      "frame": 238,
+      "frame": 237,
       "near_words": [
         {
           "end": 3.895,
+          "end_timecode": "00:03:54",
           "signal_id": "word_0020",
           "start": 3.655,
+          "start_timecode": "00:03:39",
           "word": "best."
         },
         {
           "end": 4.095,
+          "end_timecode": "00:04:06",
           "signal_id": "word_0021",
           "start": 3.995,
+          "start_timecode": "00:04:00",
           "word": "But"
         },
         {
           "end": 4.216,
+          "end_timecode": "00:04:13",
           "signal_id": "word_0022",
           "start": 4.115,
+          "start_timecode": "00:04:07",
           "word": "the"
         },
         {
           "end": 4.456,
+          "end_timecode": "00:04:27",
           "signal_id": "word_0023",
           "start": 4.256,
+          "start_timecode": "00:04:15",
           "word": "guy"
         },
         {
           "end": 4.596,
+          "end_timecode": "00:04:36",
           "signal_id": "word_0024",
           "start": 4.496,
+          "start_timecode": "00:04:30",
           "word": "who"
         },
         {
           "end": 4.916,
+          "end_timecode": "00:04:55",
           "signal_id": "word_0025",
           "start": 4.636,
+          "start_timecode": "00:04:38",
           "word": "created"
         }
       ],
       "signal_id": "beat_0010",
       "source_signal_ids": [
+        "autoshot_cut_0003",
         "vis_diff_0003",
         "vis_scene_0003",
         "seg_0003",
@@ -669,15 +846,25 @@
       "source_types": [
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 237,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0003",
+          "time": 3.95,
+          "timecode": "00:03:57",
+          "weight": 1.4
+        },
+        {
           "frame": 238,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0003",
           "time": 3.9667,
+          "timecode": "00:03:58",
           "weight": 1.0
         },
         {
@@ -685,6 +872,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0003",
           "time": 3.9667,
+          "timecode": "00:03:58",
           "weight": 1.4
         },
         {
@@ -692,6 +880,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0003",
           "time": 3.995,
+          "timecode": "00:04:00",
           "weight": 1.1
         },
         {
@@ -699,6 +888,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0034",
           "time": 4.0,
+          "timecode": "00:04:00",
           "weight": 0.8
         },
         {
@@ -706,48 +896,62 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0035",
           "time": 4.1167,
+          "timecode": "00:04:07",
           "weight": 0.8
         }
       ],
-      "time": 3.9667
+      "time": 3.95,
+      "timecode": "00:03:57"
     },
     {
       "frame": 256,
       "near_words": [
         {
           "end": 4.095,
+          "end_timecode": "00:04:06",
           "signal_id": "word_0021",
           "start": 3.995,
+          "start_timecode": "00:04:00",
           "word": "But"
         },
         {
           "end": 4.216,
+          "end_timecode": "00:04:13",
           "signal_id": "word_0022",
           "start": 4.115,
+          "start_timecode": "00:04:07",
           "word": "the"
         },
         {
           "end": 4.456,
+          "end_timecode": "00:04:27",
           "signal_id": "word_0023",
           "start": 4.256,
+          "start_timecode": "00:04:15",
           "word": "guy"
         },
         {
           "end": 4.596,
+          "end_timecode": "00:04:36",
           "signal_id": "word_0024",
           "start": 4.496,
+          "start_timecode": "00:04:30",
           "word": "who"
         },
         {
           "end": 4.916,
+          "end_timecode": "00:04:55",
           "signal_id": "word_0025",
           "start": 4.636,
+          "start_timecode": "00:04:38",
           "word": "created"
         },
         {
           "end": 5.177,
+          "end_timecode": "00:05:11",
           "signal_id": "word_0026",
           "start": 4.956,
+          "start_timecode": "00:04:57",
           "word": "Claude"
         }
       ],
@@ -766,6 +970,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0036",
           "time": 4.2667,
+          "timecode": "00:04:16",
           "weight": 0.8
         },
         {
@@ -773,37 +978,47 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0009",
           "time": 4.3833,
+          "timecode": "00:04:23",
           "weight": 0.7
         }
       ],
-      "time": 4.2667
+      "time": 4.2667,
+      "timecode": "00:04:16"
     },
     {
       "frame": 277,
       "near_words": [
         {
           "end": 4.596,
+          "end_timecode": "00:04:36",
           "signal_id": "word_0024",
           "start": 4.496,
+          "start_timecode": "00:04:30",
           "word": "who"
         },
         {
           "end": 4.916,
+          "end_timecode": "00:04:55",
           "signal_id": "word_0025",
           "start": 4.636,
+          "start_timecode": "00:04:38",
           "word": "created"
         },
         {
           "end": 5.177,
+          "end_timecode": "00:05:11",
           "signal_id": "word_0026",
           "start": 4.956,
+          "start_timecode": "00:04:57",
           "word": "Claude"
         },
         {
           "end": 5.517,
+          "end_timecode": "00:05:31",
           "signal_id": "word_0027",
           "start": 5.217,
-          "word": "Code"
+          "start_timecode": "00:05:13",
+          "word": "code"
         }
       ],
       "signal_id": "beat_0012",
@@ -819,42 +1034,54 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0038",
           "time": 4.6167,
+          "timecode": "00:04:37",
           "weight": 0.8
         }
       ],
-      "time": 4.6167
+      "time": 4.6167,
+      "timecode": "00:04:37"
     },
     {
       "frame": 313,
       "near_words": [
         {
           "end": 5.177,
+          "end_timecode": "00:05:11",
           "signal_id": "word_0026",
           "start": 4.956,
+          "start_timecode": "00:04:57",
           "word": "Claude"
         },
         {
           "end": 5.517,
+          "end_timecode": "00:05:31",
           "signal_id": "word_0027",
           "start": 5.217,
-          "word": "Code"
+          "start_timecode": "00:05:13",
+          "word": "code"
         },
         {
           "end": 5.737,
+          "end_timecode": "00:05:44",
           "signal_id": "word_0028",
           "start": 5.577,
+          "start_timecode": "00:05:35",
           "word": "does"
         },
         {
           "end": 5.837,
+          "end_timecode": "00:05:50",
           "signal_id": "word_0029",
           "start": 5.757,
+          "start_timecode": "00:05:45",
           "word": "the"
         },
         {
           "end": 6.218,
+          "end_timecode": "00:06:13",
           "signal_id": "word_0030",
           "start": 5.897,
+          "start_timecode": "00:05:54",
           "word": "opposite."
         }
       ],
@@ -873,6 +1100,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0043",
           "time": 5.2167,
+          "timecode": "00:05:13",
           "weight": 0.8
         },
         {
@@ -880,60 +1108,83 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0010",
           "time": 5.3333,
+          "timecode": "00:05:20",
           "weight": 0.7
         }
       ],
-      "time": 5.2167
+      "time": 5.2167,
+      "timecode": "00:05:13"
     },
     {
-      "frame": 333,
+      "frame": 332,
       "near_words": [
         {
           "end": 5.517,
+          "end_timecode": "00:05:31",
           "signal_id": "word_0027",
           "start": 5.217,
-          "word": "Code"
+          "start_timecode": "00:05:13",
+          "word": "code"
         },
         {
           "end": 5.737,
+          "end_timecode": "00:05:44",
           "signal_id": "word_0028",
           "start": 5.577,
+          "start_timecode": "00:05:35",
           "word": "does"
         },
         {
           "end": 5.837,
+          "end_timecode": "00:05:50",
           "signal_id": "word_0029",
           "start": 5.757,
+          "start_timecode": "00:05:45",
           "word": "the"
         },
         {
           "end": 6.218,
+          "end_timecode": "00:06:13",
           "signal_id": "word_0030",
           "start": 5.897,
+          "start_timecode": "00:05:54",
           "word": "opposite."
         },
         {
           "end": 6.378,
+          "end_timecode": "00:06:23",
           "signal_id": "word_0031",
           "start": 6.298,
+          "start_timecode": "00:06:18",
           "word": "He"
         }
       ],
       "signal_id": "beat_0014",
       "source_signal_ids": [
+        "autoshot_cut_0004",
         "vis_diff_0004",
         "vis_scene_0004"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 332,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0004",
+          "time": 5.5333,
+          "timecode": "00:05:32",
+          "weight": 1.4
+        },
+        {
           "frame": 333,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0004",
           "time": 5.55,
+          "timecode": "00:05:33",
           "weight": 1.0
         },
         {
@@ -941,42 +1192,54 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0004",
           "time": 5.55,
+          "timecode": "00:05:33",
           "weight": 1.4
         }
       ],
-      "time": 5.55
+      "time": 5.5333,
+      "timecode": "00:05:32"
     },
     {
       "frame": 360,
       "near_words": [
         {
           "end": 5.837,
+          "end_timecode": "00:05:50",
           "signal_id": "word_0029",
           "start": 5.757,
+          "start_timecode": "00:05:45",
           "word": "the"
         },
         {
           "end": 6.218,
+          "end_timecode": "00:06:13",
           "signal_id": "word_0030",
           "start": 5.897,
+          "start_timecode": "00:05:54",
           "word": "opposite."
         },
         {
           "end": 6.378,
+          "end_timecode": "00:06:23",
           "signal_id": "word_0031",
           "start": 6.298,
+          "start_timecode": "00:06:18",
           "word": "He"
         },
         {
           "end": 6.598,
+          "end_timecode": "00:06:36",
           "signal_id": "word_0032",
           "start": 6.418,
+          "start_timecode": "00:06:25",
           "word": "says"
         },
         {
           "end": 6.838,
+          "end_timecode": "00:06:50",
           "signal_id": "word_0033",
           "start": 6.658,
+          "start_timecode": "00:06:39",
           "word": "most"
         }
       ],
@@ -993,54 +1256,69 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0051",
           "time": 6.0,
+          "timecode": "00:06:00",
           "weight": 0.8
         }
       ],
-      "time": 6.0
+      "time": 6.0,
+      "timecode": "00:06:00"
     },
     {
       "frame": 374,
       "near_words": [
         {
           "end": 6.218,
+          "end_timecode": "00:06:13",
           "signal_id": "word_0030",
           "start": 5.897,
+          "start_timecode": "00:05:54",
           "word": "opposite."
         },
         {
           "end": 6.378,
+          "end_timecode": "00:06:23",
           "signal_id": "word_0031",
           "start": 6.298,
+          "start_timecode": "00:06:18",
           "word": "He"
         },
         {
           "end": 6.598,
+          "end_timecode": "00:06:36",
           "signal_id": "word_0032",
           "start": 6.418,
+          "start_timecode": "00:06:25",
           "word": "says"
         },
         {
           "end": 6.838,
+          "end_timecode": "00:06:50",
           "signal_id": "word_0033",
           "start": 6.658,
+          "start_timecode": "00:06:39",
           "word": "most"
         },
         {
           "end": 6.918,
+          "end_timecode": "00:06:55",
           "signal_id": "word_0034",
           "start": 6.858,
+          "start_timecode": "00:06:51",
           "word": "of"
         },
         {
           "end": 7.039,
+          "end_timecode": "00:07:02",
           "signal_id": "word_0035",
           "start": 6.959,
+          "start_timecode": "00:06:58",
           "word": "his"
         }
       ],
       "signal_id": "beat_0016",
       "source_signal_ids": [
         "aud_onset_0054",
+        "autoshot_cut_0005",
         "vis_diff_0005",
         "vis_scene_0005",
         "seg_0004",
@@ -1049,6 +1327,7 @@
       "source_types": [
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
@@ -1058,13 +1337,23 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0054",
           "time": 6.2333,
+          "timecode": "00:06:14",
           "weight": 0.8
+        },
+        {
+          "frame": 375,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0005",
+          "time": 6.25,
+          "timecode": "00:06:15",
+          "weight": 1.4
         },
         {
           "frame": 376,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0005",
           "time": 6.2667,
+          "timecode": "00:06:16",
           "weight": 1.0
         },
         {
@@ -1072,6 +1361,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0005",
           "time": 6.2667,
+          "timecode": "00:06:16",
           "weight": 1.4
         },
         {
@@ -1079,6 +1369,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0004",
           "time": 6.298,
+          "timecode": "00:06:18",
           "weight": 1.1
         },
         {
@@ -1086,48 +1377,62 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0055",
           "time": 6.3,
+          "timecode": "00:06:18",
           "weight": 0.8
         }
       ],
-      "time": 6.2333
+      "time": 6.2333,
+      "timecode": "00:06:14"
     },
     {
       "frame": 390,
       "near_words": [
         {
           "end": 6.378,
+          "end_timecode": "00:06:23",
           "signal_id": "word_0031",
           "start": 6.298,
+          "start_timecode": "00:06:18",
           "word": "He"
         },
         {
           "end": 6.598,
+          "end_timecode": "00:06:36",
           "signal_id": "word_0032",
           "start": 6.418,
+          "start_timecode": "00:06:25",
           "word": "says"
         },
         {
           "end": 6.838,
+          "end_timecode": "00:06:50",
           "signal_id": "word_0033",
           "start": 6.658,
+          "start_timecode": "00:06:39",
           "word": "most"
         },
         {
           "end": 6.918,
+          "end_timecode": "00:06:55",
           "signal_id": "word_0034",
           "start": 6.858,
+          "start_timecode": "00:06:51",
           "word": "of"
         },
         {
           "end": 7.039,
+          "end_timecode": "00:07:02",
           "signal_id": "word_0035",
           "start": 6.959,
+          "start_timecode": "00:06:58",
           "word": "his"
         },
         {
           "end": 7.439,
+          "end_timecode": "00:07:26",
           "signal_id": "word_0036",
           "start": 7.059,
+          "start_timecode": "00:07:04",
           "word": "sessions"
         }
       ],
@@ -1144,42 +1449,54 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0011",
           "time": 6.5,
+          "timecode": "00:06:30",
           "weight": 0.7
         }
       ],
-      "time": 6.5
+      "time": 6.5,
+      "timecode": "00:06:30"
     },
     {
       "frame": 402,
       "near_words": [
         {
           "end": 6.598,
+          "end_timecode": "00:06:36",
           "signal_id": "word_0032",
           "start": 6.418,
+          "start_timecode": "00:06:25",
           "word": "says"
         },
         {
           "end": 6.838,
+          "end_timecode": "00:06:50",
           "signal_id": "word_0033",
           "start": 6.658,
+          "start_timecode": "00:06:39",
           "word": "most"
         },
         {
           "end": 6.918,
+          "end_timecode": "00:06:55",
           "signal_id": "word_0034",
           "start": 6.858,
+          "start_timecode": "00:06:51",
           "word": "of"
         },
         {
           "end": 7.039,
+          "end_timecode": "00:07:02",
           "signal_id": "word_0035",
           "start": 6.959,
+          "start_timecode": "00:06:58",
           "word": "his"
         },
         {
           "end": 7.439,
+          "end_timecode": "00:07:26",
           "signal_id": "word_0036",
           "start": 7.059,
+          "start_timecode": "00:07:04",
           "word": "sessions"
         }
       ],
@@ -1196,82 +1513,120 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0012",
           "time": 6.7,
+          "timecode": "00:06:42",
           "weight": 0.7
         }
       ],
-      "time": 6.7
+      "time": 6.7,
+      "timecode": "00:06:42"
     },
     {
-      "frame": 445,
+      "frame": 444,
       "near_words": [
         {
+          "end": 7.439,
+          "end_timecode": "00:07:26",
+          "signal_id": "word_0036",
+          "start": 7.059,
+          "start_timecode": "00:07:04",
+          "word": "sessions"
+        },
+        {
           "end": 7.759,
+          "end_timecode": "00:07:46",
           "signal_id": "word_0037",
           "start": 7.519,
+          "start_timecode": "00:07:31",
           "word": "start"
         },
         {
           "end": 7.88,
+          "end_timecode": "00:07:53",
           "signal_id": "word_0038",
           "start": 7.799,
+          "start_timecode": "00:07:48",
           "word": "in"
         },
         {
           "end": 8.18,
+          "end_timecode": "00:08:11",
           "signal_id": "word_0039",
           "start": 7.92,
+          "start_timecode": "00:07:55",
           "word": "plan"
         },
         {
           "end": 8.42,
+          "end_timecode": "00:08:25",
           "signal_id": "word_0040",
           "start": 8.2,
+          "start_timecode": "00:08:12",
           "word": "mode,"
         }
       ],
       "signal_id": "beat_0019",
       "source_signal_ids": [
+        "autoshot_cut_0006",
         "vis_scene_0006"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_scene_cut"
       ],
       "sources": [
+        {
+          "frame": 444,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0006",
+          "time": 7.4,
+          "timecode": "00:07:24",
+          "weight": 1.4
+        },
         {
           "frame": 445,
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0006",
           "time": 7.4167,
+          "timecode": "00:07:25",
           "weight": 1.4
         }
       ],
-      "time": 7.4167
+      "time": 7.4,
+      "timecode": "00:07:24"
     },
     {
       "frame": 459,
       "near_words": [
         {
           "end": 7.759,
+          "end_timecode": "00:07:46",
           "signal_id": "word_0037",
           "start": 7.519,
+          "start_timecode": "00:07:31",
           "word": "start"
         },
         {
           "end": 7.88,
+          "end_timecode": "00:07:53",
           "signal_id": "word_0038",
           "start": 7.799,
+          "start_timecode": "00:07:48",
           "word": "in"
         },
         {
           "end": 8.18,
+          "end_timecode": "00:08:11",
           "signal_id": "word_0039",
           "start": 7.92,
+          "start_timecode": "00:07:55",
           "word": "plan"
         },
         {
           "end": 8.42,
+          "end_timecode": "00:08:25",
           "signal_id": "word_0040",
           "start": 8.2,
+          "start_timecode": "00:08:12",
           "word": "mode,"
         }
       ],
@@ -1288,42 +1643,54 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0013",
           "time": 7.65,
+          "timecode": "00:07:39",
           "weight": 0.7
         }
       ],
-      "time": 7.65
+      "time": 7.65,
+      "timecode": "00:07:39"
     },
     {
       "frame": 476,
       "near_words": [
         {
           "end": 7.88,
+          "end_timecode": "00:07:53",
           "signal_id": "word_0038",
           "start": 7.799,
+          "start_timecode": "00:07:48",
           "word": "in"
         },
         {
           "end": 8.18,
+          "end_timecode": "00:08:11",
           "signal_id": "word_0039",
           "start": 7.92,
+          "start_timecode": "00:07:55",
           "word": "plan"
         },
         {
           "end": 8.42,
+          "end_timecode": "00:08:25",
           "signal_id": "word_0040",
           "start": 8.2,
+          "start_timecode": "00:08:12",
           "word": "mode,"
         },
         {
           "end": 8.62,
+          "end_timecode": "00:08:37",
           "signal_id": "word_0041",
           "start": 8.48,
+          "start_timecode": "00:08:29",
           "word": "not"
         },
         {
           "end": 8.961,
+          "end_timecode": "00:08:58",
           "signal_id": "word_0042",
           "start": 8.72,
+          "start_timecode": "00:08:43",
           "word": "build"
         }
       ],
@@ -1340,56 +1707,77 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0068",
           "time": 7.9333,
+          "timecode": "00:07:56",
           "weight": 0.8
         }
       ],
-      "time": 7.9333
+      "time": 7.9333,
+      "timecode": "00:07:56"
     },
     {
-      "frame": 505,
+      "frame": 504,
       "near_words": [
         {
           "end": 8.42,
+          "end_timecode": "00:08:25",
           "signal_id": "word_0040",
           "start": 8.2,
+          "start_timecode": "00:08:12",
           "word": "mode,"
         },
         {
           "end": 8.62,
+          "end_timecode": "00:08:37",
           "signal_id": "word_0041",
           "start": 8.48,
+          "start_timecode": "00:08:29",
           "word": "not"
         },
         {
           "end": 8.961,
+          "end_timecode": "00:08:58",
           "signal_id": "word_0042",
           "start": 8.72,
+          "start_timecode": "00:08:43",
           "word": "build"
         },
         {
           "end": 9.241,
+          "end_timecode": "00:09:14",
           "signal_id": "word_0043",
           "start": 9.001,
+          "start_timecode": "00:09:00",
           "word": "mode."
         }
       ],
       "signal_id": "beat_0022",
       "source_signal_ids": [
+        "autoshot_cut_0007",
         "vis_diff_0006",
         "vis_scene_0007",
         "aud_onset_0072"
       ],
       "source_types": [
         "audio_onset",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 504,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0007",
+          "time": 8.4,
+          "timecode": "00:08:24",
+          "weight": 1.4
+        },
+        {
           "frame": 505,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0006",
           "time": 8.4167,
+          "timecode": "00:08:25",
           "weight": 1.0
         },
         {
@@ -1397,6 +1785,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0007",
           "time": 8.4167,
+          "timecode": "00:08:25",
           "weight": 1.4
         },
         {
@@ -1404,42 +1793,54 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0072",
           "time": 8.4667,
+          "timecode": "00:08:28",
           "weight": 0.8
         }
       ],
-      "time": 8.4167
+      "time": 8.4,
+      "timecode": "00:08:24"
     },
     {
       "frame": 527,
       "near_words": [
         {
           "end": 8.62,
+          "end_timecode": "00:08:37",
           "signal_id": "word_0041",
           "start": 8.48,
+          "start_timecode": "00:08:29",
           "word": "not"
         },
         {
           "end": 8.961,
+          "end_timecode": "00:08:58",
           "signal_id": "word_0042",
           "start": 8.72,
+          "start_timecode": "00:08:43",
           "word": "build"
         },
         {
           "end": 9.241,
+          "end_timecode": "00:09:14",
           "signal_id": "word_0043",
           "start": 9.001,
+          "start_timecode": "00:09:00",
           "word": "mode."
         },
         {
           "end": 9.481,
+          "end_timecode": "00:09:29",
           "signal_id": "word_0044",
           "start": 9.261,
+          "start_timecode": "00:09:16",
           "word": "Slows"
         },
         {
           "end": 9.681,
+          "end_timecode": "00:09:41",
           "signal_id": "word_0045",
           "start": 9.521,
+          "start_timecode": "00:09:31",
           "word": "down"
         }
       ],
@@ -1456,60 +1857,79 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0014",
           "time": 8.7833,
+          "timecode": "00:08:47",
           "weight": 0.7
         }
       ],
-      "time": 8.7833
+      "time": 8.7833,
+      "timecode": "00:08:47"
     },
     {
-      "frame": 552,
+      "frame": 551,
       "near_words": [
         {
           "end": 9.241,
+          "end_timecode": "00:09:14",
           "signal_id": "word_0043",
           "start": 9.001,
+          "start_timecode": "00:09:00",
           "word": "mode."
         },
         {
           "end": 9.481,
+          "end_timecode": "00:09:29",
           "signal_id": "word_0044",
           "start": 9.261,
+          "start_timecode": "00:09:16",
           "word": "Slows"
         },
         {
           "end": 9.681,
+          "end_timecode": "00:09:41",
           "signal_id": "word_0045",
           "start": 9.521,
+          "start_timecode": "00:09:31",
           "word": "down"
         },
         {
           "end": 10.002,
+          "end_timecode": "00:10:00",
           "signal_id": "word_0046",
           "start": 9.722,
+          "start_timecode": "00:09:43",
           "word": "first,"
         }
       ],
       "signal_id": "beat_0024",
       "source_signal_ids": [
+        "autoshot_cut_0008",
         "vis_diff_0007",
         "vis_scene_0008",
         "aud_onset_0076",
-        "seg_0005",
-        "aud_peak_0015"
+        "seg_0005"
       ],
       "source_types": [
-        "audio_loudness_peak",
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 551,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0008",
+          "time": 9.1833,
+          "timecode": "00:09:11",
+          "weight": 1.4
+        },
+        {
           "frame": 552,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0007",
           "time": 9.2,
+          "timecode": "00:09:12",
           "weight": 1.0
         },
         {
@@ -1517,6 +1937,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0008",
           "time": 9.2,
+          "timecode": "00:09:12",
           "weight": 1.4
         },
         {
@@ -1524,6 +1945,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0076",
           "time": 9.2167,
+          "timecode": "00:09:13",
           "weight": 0.8
         },
         {
@@ -1531,53 +1953,114 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0005",
           "time": 9.261,
+          "timecode": "00:09:16",
           "weight": 1.1
+        }
+      ],
+      "time": 9.1833,
+      "timecode": "00:09:11"
+    },
+    {
+      "frame": 562,
+      "near_words": [
+        {
+          "end": 9.481,
+          "end_timecode": "00:09:29",
+          "signal_id": "word_0044",
+          "start": 9.261,
+          "start_timecode": "00:09:16",
+          "word": "Slows"
         },
+        {
+          "end": 9.681,
+          "end_timecode": "00:09:41",
+          "signal_id": "word_0045",
+          "start": 9.521,
+          "start_timecode": "00:09:31",
+          "word": "down"
+        },
+        {
+          "end": 10.002,
+          "end_timecode": "00:10:00",
+          "signal_id": "word_0046",
+          "start": 9.722,
+          "start_timecode": "00:09:43",
+          "word": "first,"
+        },
+        {
+          "end": 10.262,
+          "end_timecode": "00:10:16",
+          "signal_id": "word_0047",
+          "start": 10.122,
+          "start_timecode": "00:10:07",
+          "word": "gets"
+        }
+      ],
+      "signal_id": "beat_0025",
+      "source_signal_ids": [
+        "aud_peak_0015"
+      ],
+      "source_types": [
+        "audio_loudness_peak"
+      ],
+      "sources": [
         {
           "frame": 562,
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0015",
           "time": 9.3667,
+          "timecode": "00:09:22",
           "weight": 0.7
         }
       ],
-      "time": 9.2
+      "time": 9.3667,
+      "timecode": "00:09:22"
     },
     {
       "frame": 573,
       "near_words": [
         {
           "end": 9.481,
+          "end_timecode": "00:09:29",
           "signal_id": "word_0044",
           "start": 9.261,
+          "start_timecode": "00:09:16",
           "word": "Slows"
         },
         {
           "end": 9.681,
+          "end_timecode": "00:09:41",
           "signal_id": "word_0045",
           "start": 9.521,
+          "start_timecode": "00:09:31",
           "word": "down"
         },
         {
           "end": 10.002,
+          "end_timecode": "00:10:00",
           "signal_id": "word_0046",
           "start": 9.722,
+          "start_timecode": "00:09:43",
           "word": "first,"
         },
         {
           "end": 10.262,
+          "end_timecode": "00:10:16",
           "signal_id": "word_0047",
           "start": 10.122,
+          "start_timecode": "00:10:07",
           "word": "gets"
         },
         {
           "end": 10.382,
+          "end_timecode": "00:10:23",
           "signal_id": "word_0048",
           "start": 10.302,
+          "start_timecode": "00:10:18",
           "word": "the"
         }
       ],
-      "signal_id": "beat_0025",
+      "signal_id": "beat_0026",
       "source_signal_ids": [
         "aud_peak_0016"
       ],
@@ -1590,52 +2073,66 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0016",
           "time": 9.55,
+          "timecode": "00:09:33",
           "weight": 0.7
         }
       ],
-      "time": 9.55
+      "time": 9.55,
+      "timecode": "00:09:33"
     },
     {
       "frame": 624,
       "near_words": [
         {
           "end": 10.262,
+          "end_timecode": "00:10:16",
           "signal_id": "word_0047",
           "start": 10.122,
+          "start_timecode": "00:10:07",
           "word": "gets"
         },
         {
           "end": 10.382,
+          "end_timecode": "00:10:23",
           "signal_id": "word_0048",
           "start": 10.302,
+          "start_timecode": "00:10:18",
           "word": "the"
         },
         {
           "end": 10.622,
+          "end_timecode": "00:10:37",
           "signal_id": "word_0049",
           "start": 10.402,
+          "start_timecode": "00:10:24",
           "word": "plan"
         },
         {
           "end": 10.903,
+          "end_timecode": "00:10:54",
           "signal_id": "word_0050",
           "start": 10.683,
+          "start_timecode": "00:10:41",
           "word": "right,"
         },
         {
           "end": 11.063,
+          "end_timecode": "00:11:04",
           "signal_id": "word_0051",
           "start": 10.943,
+          "start_timecode": "00:10:57",
           "word": "then"
         },
         {
           "end": 11.263,
+          "end_timecode": "00:11:16",
           "signal_id": "word_0052",
           "start": 11.083,
+          "start_timecode": "00:11:05",
           "word": "lets"
         }
       ],
-      "signal_id": "beat_0026",
+      "signal_id": "beat_0027",
       "source_signal_ids": [
         "aud_onset_0087"
       ],
@@ -1648,62 +2145,85 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0087",
           "time": 10.4,
+          "timecode": "00:10:24",
           "weight": 0.8
         }
       ],
-      "time": 10.4
+      "time": 10.4,
+      "timecode": "00:10:24"
     },
     {
-      "frame": 655,
+      "frame": 654,
       "near_words": [
         {
           "end": 10.903,
+          "end_timecode": "00:10:54",
           "signal_id": "word_0050",
           "start": 10.683,
+          "start_timecode": "00:10:41",
           "word": "right,"
         },
         {
           "end": 11.063,
+          "end_timecode": "00:11:04",
           "signal_id": "word_0051",
           "start": 10.943,
+          "start_timecode": "00:10:57",
           "word": "then"
         },
         {
           "end": 11.263,
+          "end_timecode": "00:11:16",
           "signal_id": "word_0052",
           "start": 11.083,
+          "start_timecode": "00:11:05",
           "word": "lets"
         },
         {
           "end": 11.523,
+          "end_timecode": "00:11:31",
           "signal_id": "word_0053",
           "start": 11.303,
+          "start_timecode": "00:11:18",
           "word": "Claude"
         },
         {
           "end": 11.964,
+          "end_timecode": "00:11:58",
           "signal_id": "word_0054",
           "start": 11.564,
+          "start_timecode": "00:11:34",
           "word": "execute."
         }
       ],
-      "signal_id": "beat_0027",
+      "signal_id": "beat_0028",
       "source_signal_ids": [
+        "autoshot_cut_0009",
         "vis_diff_0008",
         "vis_scene_0009",
         "aud_onset_0090"
       ],
       "source_types": [
         "audio_onset",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 654,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0009",
+          "time": 10.9,
+          "timecode": "00:10:54",
+          "weight": 1.4
+        },
+        {
           "frame": 655,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0008",
           "time": 10.9167,
+          "timecode": "00:10:55",
           "weight": 1.0
         },
         {
@@ -1711,6 +2231,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0009",
           "time": 10.9167,
+          "timecode": "00:10:55",
           "weight": 1.4
         },
         {
@@ -1718,40 +2239,50 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0090",
           "time": 10.95,
+          "timecode": "00:10:57",
           "weight": 0.8
         }
       ],
-      "time": 10.9167
+      "time": 10.9,
+      "timecode": "00:10:54"
     },
     {
       "frame": 682,
       "near_words": [
         {
           "end": 11.263,
+          "end_timecode": "00:11:16",
           "signal_id": "word_0052",
           "start": 11.083,
+          "start_timecode": "00:11:05",
           "word": "lets"
         },
         {
           "end": 11.523,
+          "end_timecode": "00:11:31",
           "signal_id": "word_0053",
           "start": 11.303,
+          "start_timecode": "00:11:18",
           "word": "Claude"
         },
         {
           "end": 11.964,
+          "end_timecode": "00:11:58",
           "signal_id": "word_0054",
           "start": 11.564,
+          "start_timecode": "00:11:34",
           "word": "execute."
         },
         {
           "end": 12.164,
+          "end_timecode": "00:12:10",
           "signal_id": "word_0055",
           "start": 12.024,
+          "start_timecode": "00:12:01",
           "word": "That"
         }
       ],
-      "signal_id": "beat_0028",
+      "signal_id": "beat_0029",
       "source_signal_ids": [
         "aud_onset_0094"
       ],
@@ -1764,46 +2295,58 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0094",
           "time": 11.3667,
+          "timecode": "00:11:22",
           "weight": 0.8
         }
       ],
-      "time": 11.3667
+      "time": 11.3667,
+      "timecode": "00:11:22"
     },
     {
       "frame": 697,
       "near_words": [
         {
           "end": 11.523,
+          "end_timecode": "00:11:31",
           "signal_id": "word_0053",
           "start": 11.303,
+          "start_timecode": "00:11:18",
           "word": "Claude"
         },
         {
           "end": 11.964,
+          "end_timecode": "00:11:58",
           "signal_id": "word_0054",
           "start": 11.564,
+          "start_timecode": "00:11:34",
           "word": "execute."
         },
         {
           "end": 12.164,
+          "end_timecode": "00:12:10",
           "signal_id": "word_0055",
           "start": 12.024,
+          "start_timecode": "00:12:01",
           "word": "That"
         },
         {
           "end": 12.344,
+          "end_timecode": "00:12:21",
           "signal_id": "word_0056",
           "start": 12.244,
+          "start_timecode": "00:12:15",
           "word": "one"
         },
         {
           "end": 12.585,
+          "end_timecode": "00:12:35",
           "signal_id": "word_0057",
           "start": 12.364,
+          "start_timecode": "00:12:22",
           "word": "shift"
         }
       ],
-      "signal_id": "beat_0029",
+      "signal_id": "beat_0030",
       "source_signal_ids": [
         "aud_onset_0096",
         "aud_onset_0097"
@@ -1817,6 +2360,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0096",
           "time": 11.6167,
+          "timecode": "00:11:37",
           "weight": 0.8
         },
         {
@@ -1824,42 +2368,53 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0097",
           "time": 11.7667,
+          "timecode": "00:11:46",
           "weight": 0.8
         }
       ],
-      "time": 11.6167
+      "time": 11.6167,
+      "timecode": "00:11:37"
     },
     {
       "frame": 718,
       "near_words": [
         {
           "end": 12.164,
+          "end_timecode": "00:12:10",
           "signal_id": "word_0055",
           "start": 12.024,
+          "start_timecode": "00:12:01",
           "word": "That"
         },
         {
           "end": 12.344,
+          "end_timecode": "00:12:21",
           "signal_id": "word_0056",
           "start": 12.244,
+          "start_timecode": "00:12:15",
           "word": "one"
         },
         {
           "end": 12.585,
+          "end_timecode": "00:12:35",
           "signal_id": "word_0057",
           "start": 12.364,
+          "start_timecode": "00:12:22",
           "word": "shift"
         },
         {
           "end": 12.905,
+          "end_timecode": "00:12:54",
           "signal_id": "word_0058",
           "start": 12.625,
+          "start_timecode": "00:12:38",
           "word": "alone"
         }
       ],
-      "signal_id": "beat_0030",
+      "signal_id": "beat_0031",
       "source_signal_ids": [
         "aud_onset_0098",
+        "autoshot_cut_0010",
         "vis_diff_0009",
         "vis_scene_0010",
         "seg_0006",
@@ -1870,6 +2425,7 @@
         "audio_loudness_peak",
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
@@ -1879,13 +2435,23 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0098",
           "time": 11.9667,
+          "timecode": "00:11:58",
           "weight": 0.8
+        },
+        {
+          "frame": 719,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0010",
+          "time": 11.9833,
+          "timecode": "00:11:59",
+          "weight": 1.4
         },
         {
           "frame": 720,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0009",
           "time": 12.0,
+          "timecode": "00:12:00",
           "weight": 1.0
         },
         {
@@ -1893,6 +2459,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0010",
           "time": 12.0,
+          "timecode": "00:12:00",
           "weight": 1.4
         },
         {
@@ -1900,6 +2467,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0006",
           "time": 12.024,
+          "timecode": "00:12:01",
           "weight": 1.1
         },
         {
@@ -1907,6 +2475,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0099",
           "time": 12.0333,
+          "timecode": "00:12:02",
           "weight": 0.8
         },
         {
@@ -1914,46 +2483,58 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0017",
           "time": 12.0667,
+          "timecode": "00:12:04",
           "weight": 0.7
         }
       ],
-      "time": 11.9667
+      "time": 11.9667,
+      "timecode": "00:11:58"
     },
     {
       "frame": 735,
       "near_words": [
         {
           "end": 12.164,
+          "end_timecode": "00:12:10",
           "signal_id": "word_0055",
           "start": 12.024,
+          "start_timecode": "00:12:01",
           "word": "That"
         },
         {
           "end": 12.344,
+          "end_timecode": "00:12:21",
           "signal_id": "word_0056",
           "start": 12.244,
+          "start_timecode": "00:12:15",
           "word": "one"
         },
         {
           "end": 12.585,
+          "end_timecode": "00:12:35",
           "signal_id": "word_0057",
           "start": 12.364,
+          "start_timecode": "00:12:22",
           "word": "shift"
         },
         {
           "end": 12.905,
+          "end_timecode": "00:12:54",
           "signal_id": "word_0058",
           "start": 12.625,
+          "start_timecode": "00:12:38",
           "word": "alone"
         },
         {
           "end": 13.245,
+          "end_timecode": "00:13:15",
           "signal_id": "word_0059",
           "start": 12.945,
+          "start_timecode": "00:12:57",
           "word": "explains"
         }
       ],
-      "signal_id": "beat_0031",
+      "signal_id": "beat_0032",
       "source_signal_ids": [
         "aud_peak_0018"
       ],
@@ -1966,46 +2547,58 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0018",
           "time": 12.25,
+          "timecode": "00:12:15",
           "weight": 0.7
         }
       ],
-      "time": 12.25
+      "time": 12.25,
+      "timecode": "00:12:15"
     },
     {
       "frame": 762,
       "near_words": [
         {
           "end": 12.585,
+          "end_timecode": "00:12:35",
           "signal_id": "word_0057",
           "start": 12.364,
+          "start_timecode": "00:12:22",
           "word": "shift"
         },
         {
           "end": 12.905,
+          "end_timecode": "00:12:54",
           "signal_id": "word_0058",
           "start": 12.625,
+          "start_timecode": "00:12:38",
           "word": "alone"
         },
         {
           "end": 13.245,
+          "end_timecode": "00:13:15",
           "signal_id": "word_0059",
           "start": 12.945,
+          "start_timecode": "00:12:57",
           "word": "explains"
         },
         {
           "end": 13.385,
+          "end_timecode": "00:13:23",
           "signal_id": "word_0060",
           "start": 13.285,
+          "start_timecode": "00:13:17",
           "word": "why"
         },
         {
           "end": 13.586,
+          "end_timecode": "00:13:35",
           "signal_id": "word_0061",
           "start": 13.446,
+          "start_timecode": "00:13:27",
           "word": "most"
         }
       ],
-      "signal_id": "beat_0032",
+      "signal_id": "beat_0033",
       "source_signal_ids": [
         "aud_onset_0104",
         "aud_peak_0019"
@@ -2020,6 +2613,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0104",
           "time": 12.7,
+          "timecode": "00:12:42",
           "weight": 0.8
         },
         {
@@ -2027,40 +2621,50 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0019",
           "time": 12.7333,
+          "timecode": "00:12:44",
           "weight": 0.7
         }
       ],
-      "time": 12.7
+      "time": 12.7,
+      "timecode": "00:12:42"
     },
     {
       "frame": 779,
       "near_words": [
         {
           "end": 13.245,
+          "end_timecode": "00:13:15",
           "signal_id": "word_0059",
           "start": 12.945,
+          "start_timecode": "00:12:57",
           "word": "explains"
         },
         {
           "end": 13.385,
+          "end_timecode": "00:13:23",
           "signal_id": "word_0060",
           "start": 13.285,
+          "start_timecode": "00:13:17",
           "word": "why"
         },
         {
           "end": 13.586,
+          "end_timecode": "00:13:35",
           "signal_id": "word_0061",
           "start": 13.446,
+          "start_timecode": "00:13:27",
           "word": "most"
         },
         {
           "end": 13.806,
+          "end_timecode": "00:13:48",
           "signal_id": "word_0062",
           "start": 13.606,
+          "start_timecode": "00:13:36",
           "word": "people"
         }
       ],
-      "signal_id": "beat_0033",
+      "signal_id": "beat_0034",
       "source_signal_ids": [
         "aud_onset_0106",
         "aud_onset_0107"
@@ -2074,6 +2678,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0106",
           "time": 12.9833,
+          "timecode": "00:12:59",
           "weight": 0.8
         },
         {
@@ -2081,66 +2686,91 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0107",
           "time": 13.1,
+          "timecode": "00:13:06",
           "weight": 0.8
         }
       ],
-      "time": 12.9833
+      "time": 12.9833,
+      "timecode": "00:12:59"
     },
     {
-      "frame": 795,
+      "frame": 794,
       "near_words": [
         {
           "end": 13.245,
+          "end_timecode": "00:13:15",
           "signal_id": "word_0059",
           "start": 12.945,
+          "start_timecode": "00:12:57",
           "word": "explains"
         },
         {
           "end": 13.385,
+          "end_timecode": "00:13:23",
           "signal_id": "word_0060",
           "start": 13.285,
+          "start_timecode": "00:13:17",
           "word": "why"
         },
         {
           "end": 13.586,
+          "end_timecode": "00:13:35",
           "signal_id": "word_0061",
           "start": 13.446,
+          "start_timecode": "00:13:27",
           "word": "most"
         },
         {
           "end": 13.806,
+          "end_timecode": "00:13:48",
           "signal_id": "word_0062",
           "start": 13.606,
+          "start_timecode": "00:13:36",
           "word": "people"
         },
         {
           "end": 13.926,
+          "end_timecode": "00:13:56",
           "signal_id": "word_0063",
           "start": 13.826,
+          "start_timecode": "00:13:50",
           "word": "get"
         },
         {
           "end": 14.186,
+          "end_timecode": "00:14:11",
           "signal_id": "word_0064",
           "start": 13.966,
+          "start_timecode": "00:13:58",
           "word": "messy"
         }
       ],
-      "signal_id": "beat_0034",
+      "signal_id": "beat_0035",
       "source_signal_ids": [
+        "autoshot_cut_0011",
         "vis_diff_0010",
         "vis_scene_0011"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 794,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0011",
+          "time": 13.2333,
+          "timecode": "00:13:14",
+          "weight": 1.4
+        },
+        {
           "frame": 795,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0010",
           "time": 13.25,
+          "timecode": "00:13:15",
           "weight": 1.0
         },
         {
@@ -2148,59 +2778,75 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0011",
           "time": 13.25,
+          "timecode": "00:13:15",
           "weight": 1.4
         }
       ],
-      "time": 13.25
+      "time": 13.2333,
+      "timecode": "00:13:14"
     },
     {
       "frame": 870,
       "near_words": [
         {
           "end": 14.547,
+          "end_timecode": "00:14:33",
           "signal_id": "word_0065",
           "start": 14.206,
+          "start_timecode": "00:14:12",
           "word": "results."
         },
         {
           "end": 14.747,
+          "end_timecode": "00:14:45",
           "signal_id": "word_0066",
           "start": 14.687,
+          "start_timecode": "00:14:41",
           "word": "And"
         },
         {
           "end": 14.927,
+          "end_timecode": "00:14:56",
           "signal_id": "word_0067",
           "start": 14.787,
+          "start_timecode": "00:14:47",
           "word": "that's"
         },
         {
           "end": 15.047,
+          "end_timecode": "00:15:03",
           "signal_id": "word_0068",
           "start": 14.947,
+          "start_timecode": "00:14:57",
           "word": "not"
         },
         {
           "end": 15.207,
+          "end_timecode": "00:15:12",
           "signal_id": "word_0069",
           "start": 15.087,
+          "start_timecode": "00:15:05",
           "word": "all."
         },
         {
           "end": 15.368,
+          "end_timecode": "00:15:22",
           "signal_id": "word_0070",
           "start": 15.288,
+          "start_timecode": "00:15:17",
           "word": "He"
         }
       ],
-      "signal_id": "beat_0035",
+      "signal_id": "beat_0036",
       "source_signal_ids": [
         "aud_onset_0120",
+        "autoshot_cut_0012",
         "vis_diff_0011",
         "vis_scene_0012"
       ],
       "source_types": [
         "audio_onset",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
@@ -2210,13 +2856,23 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0120",
           "time": 14.5,
+          "timecode": "00:14:30",
           "weight": 0.8
+        },
+        {
+          "frame": 878,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0012",
+          "time": 14.6333,
+          "timecode": "00:14:38",
+          "weight": 1.4
         },
         {
           "frame": 879,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0011",
           "time": 14.65,
+          "timecode": "00:14:39",
           "weight": 1.0
         },
         {
@@ -2224,52 +2880,66 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0012",
           "time": 14.65,
+          "timecode": "00:14:39",
           "weight": 1.4
         }
       ],
-      "time": 14.5
+      "time": 14.5,
+      "timecode": "00:14:30"
     },
     {
       "frame": 881,
       "near_words": [
         {
           "end": 14.747,
+          "end_timecode": "00:14:45",
           "signal_id": "word_0066",
           "start": 14.687,
+          "start_timecode": "00:14:41",
           "word": "And"
         },
         {
           "end": 14.927,
+          "end_timecode": "00:14:56",
           "signal_id": "word_0067",
           "start": 14.787,
+          "start_timecode": "00:14:47",
           "word": "that's"
         },
         {
           "end": 15.047,
+          "end_timecode": "00:15:03",
           "signal_id": "word_0068",
           "start": 14.947,
+          "start_timecode": "00:14:57",
           "word": "not"
         },
         {
           "end": 15.207,
+          "end_timecode": "00:15:12",
           "signal_id": "word_0069",
           "start": 15.087,
+          "start_timecode": "00:15:05",
           "word": "all."
         },
         {
           "end": 15.368,
+          "end_timecode": "00:15:22",
           "signal_id": "word_0070",
           "start": 15.288,
+          "start_timecode": "00:15:17",
           "word": "He"
         },
         {
           "end": 15.548,
+          "end_timecode": "00:15:33",
           "signal_id": "word_0071",
           "start": 15.388,
+          "start_timecode": "00:15:23",
           "word": "keeps"
         }
       ],
-      "signal_id": "beat_0036",
+      "signal_id": "beat_0037",
       "source_signal_ids": [
         "seg_0007"
       ],
@@ -2282,59 +2952,76 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0007",
           "time": 14.687,
+          "timecode": "00:14:41",
           "weight": 1.1
         }
       ],
-      "time": 14.687
+      "time": 14.687,
+      "timecode": "00:14:41"
     },
     {
-      "frame": 915,
+      "frame": 914,
       "near_words": [
         {
           "end": 15.047,
+          "end_timecode": "00:15:03",
           "signal_id": "word_0068",
           "start": 14.947,
+          "start_timecode": "00:14:57",
           "word": "not"
         },
         {
           "end": 15.207,
+          "end_timecode": "00:15:12",
           "signal_id": "word_0069",
           "start": 15.087,
+          "start_timecode": "00:15:05",
           "word": "all."
         },
         {
           "end": 15.368,
+          "end_timecode": "00:15:22",
           "signal_id": "word_0070",
           "start": 15.288,
+          "start_timecode": "00:15:17",
           "word": "He"
         },
         {
           "end": 15.548,
+          "end_timecode": "00:15:33",
           "signal_id": "word_0071",
           "start": 15.388,
+          "start_timecode": "00:15:23",
           "word": "keeps"
         },
         {
           "end": 15.668,
+          "end_timecode": "00:15:40",
           "signal_id": "word_0072",
           "start": 15.588,
+          "start_timecode": "00:15:35",
           "word": "his"
         },
         {
           "end": 15.928,
+          "end_timecode": "00:15:56",
           "signal_id": "word_0073",
           "start": 15.708,
+          "start_timecode": "00:15:42",
           "word": "Claude"
         },
         {
           "end": 16.168,
+          "end_timecode": "00:16:10",
           "signal_id": "word_0074",
           "start": 15.948,
+          "start_timecode": "00:15:57",
           "word": "file"
         }
       ],
-      "signal_id": "beat_0037",
+      "signal_id": "beat_0038",
       "source_signal_ids": [
+        "autoshot_cut_0013",
         "vis_diff_0012",
         "vis_scene_0013",
         "aud_onset_0126",
@@ -2344,15 +3031,25 @@
       "source_types": [
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 914,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0013",
+          "time": 15.2333,
+          "timecode": "00:15:14",
+          "weight": 1.4
+        },
+        {
           "frame": 915,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0012",
           "time": 15.25,
+          "timecode": "00:15:15",
           "weight": 1.0
         },
         {
@@ -2360,6 +3057,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0013",
           "time": 15.25,
+          "timecode": "00:15:15",
           "weight": 1.4
         },
         {
@@ -2367,6 +3065,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0126",
           "time": 15.2833,
+          "timecode": "00:15:17",
           "weight": 0.8
         },
         {
@@ -2374,6 +3073,7 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0008",
           "time": 15.288,
+          "timecode": "00:15:17",
           "weight": 1.1
         },
         {
@@ -2381,58 +3081,74 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0127",
           "time": 15.3667,
+          "timecode": "00:15:22",
           "weight": 0.8
         }
       ],
-      "time": 15.25
+      "time": 15.2333,
+      "timecode": "00:15:14"
     },
     {
       "frame": 926,
       "near_words": [
         {
           "end": 15.207,
+          "end_timecode": "00:15:12",
           "signal_id": "word_0069",
           "start": 15.087,
+          "start_timecode": "00:15:05",
           "word": "all."
         },
         {
           "end": 15.368,
+          "end_timecode": "00:15:22",
           "signal_id": "word_0070",
           "start": 15.288,
+          "start_timecode": "00:15:17",
           "word": "He"
         },
         {
           "end": 15.548,
+          "end_timecode": "00:15:33",
           "signal_id": "word_0071",
           "start": 15.388,
+          "start_timecode": "00:15:23",
           "word": "keeps"
         },
         {
           "end": 15.668,
+          "end_timecode": "00:15:40",
           "signal_id": "word_0072",
           "start": 15.588,
+          "start_timecode": "00:15:35",
           "word": "his"
         },
         {
           "end": 15.928,
+          "end_timecode": "00:15:56",
           "signal_id": "word_0073",
           "start": 15.708,
+          "start_timecode": "00:15:42",
           "word": "Claude"
         },
         {
           "end": 16.168,
+          "end_timecode": "00:16:10",
           "signal_id": "word_0074",
           "start": 15.948,
+          "start_timecode": "00:15:57",
           "word": "file"
         },
         {
           "end": 16.489,
+          "end_timecode": "00:16:29",
           "signal_id": "word_0075",
           "start": 16.189,
+          "start_timecode": "00:16:11",
           "word": "simple,"
         }
       ],
-      "signal_id": "beat_0038",
+      "signal_id": "beat_0039",
       "source_signal_ids": [
         "aud_peak_0020"
       ],
@@ -2445,46 +3161,58 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0020",
           "time": 15.4333,
+          "timecode": "00:15:26",
           "weight": 0.7
         }
       ],
-      "time": 15.4333
+      "time": 15.4333,
+      "timecode": "00:15:26"
     },
     {
       "frame": 942,
       "near_words": [
         {
           "end": 15.548,
+          "end_timecode": "00:15:33",
           "signal_id": "word_0071",
           "start": 15.388,
+          "start_timecode": "00:15:23",
           "word": "keeps"
         },
         {
           "end": 15.668,
+          "end_timecode": "00:15:40",
           "signal_id": "word_0072",
           "start": 15.588,
+          "start_timecode": "00:15:35",
           "word": "his"
         },
         {
           "end": 15.928,
+          "end_timecode": "00:15:56",
           "signal_id": "word_0073",
           "start": 15.708,
+          "start_timecode": "00:15:42",
           "word": "Claude"
         },
         {
           "end": 16.168,
+          "end_timecode": "00:16:10",
           "signal_id": "word_0074",
           "start": 15.948,
+          "start_timecode": "00:15:57",
           "word": "file"
         },
         {
           "end": 16.489,
+          "end_timecode": "00:16:29",
           "signal_id": "word_0075",
           "start": 16.189,
+          "start_timecode": "00:16:11",
           "word": "simple,"
         }
       ],
-      "signal_id": "beat_0039",
+      "signal_id": "beat_0040",
       "source_signal_ids": [
         "aud_onset_0129",
         "aud_onset_0130",
@@ -2500,6 +3228,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0129",
           "time": 15.7,
+          "timecode": "00:15:42",
           "weight": 0.8
         },
         {
@@ -2507,6 +3236,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0130",
           "time": 15.7667,
+          "timecode": "00:15:46",
           "weight": 0.8
         },
         {
@@ -2514,46 +3244,58 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0021",
           "time": 15.7833,
+          "timecode": "00:15:47",
           "weight": 0.7
         }
       ],
-      "time": 15.7
+      "time": 15.7,
+      "timecode": "00:15:42"
     },
     {
       "frame": 961,
       "near_words": [
         {
           "end": 15.928,
+          "end_timecode": "00:15:56",
           "signal_id": "word_0073",
           "start": 15.708,
+          "start_timecode": "00:15:42",
           "word": "Claude"
         },
         {
           "end": 16.168,
+          "end_timecode": "00:16:10",
           "signal_id": "word_0074",
           "start": 15.948,
+          "start_timecode": "00:15:57",
           "word": "file"
         },
         {
           "end": 16.489,
+          "end_timecode": "00:16:29",
           "signal_id": "word_0075",
           "start": 16.189,
+          "start_timecode": "00:16:11",
           "word": "simple,"
         },
         {
           "end": 16.729,
+          "end_timecode": "00:16:44",
           "signal_id": "word_0076",
           "start": 16.569,
+          "start_timecode": "00:16:34",
           "word": "makes"
         },
         {
           "end": 17.009,
+          "end_timecode": "00:17:01",
           "signal_id": "word_0077",
           "start": 16.769,
+          "start_timecode": "00:16:46",
           "word": "Claude"
         }
       ],
-      "signal_id": "beat_0040",
+      "signal_id": "beat_0041",
       "source_signal_ids": [
         "aud_peak_0022"
       ],
@@ -2566,40 +3308,50 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0022",
           "time": 16.0167,
+          "timecode": "00:16:01",
           "weight": 0.7
         }
       ],
-      "time": 16.0167
+      "time": 16.0167,
+      "timecode": "00:16:01"
     },
     {
       "frame": 974,
       "near_words": [
         {
           "end": 16.168,
+          "end_timecode": "00:16:10",
           "signal_id": "word_0074",
           "start": 15.948,
+          "start_timecode": "00:15:57",
           "word": "file"
         },
         {
           "end": 16.489,
+          "end_timecode": "00:16:29",
           "signal_id": "word_0075",
           "start": 16.189,
+          "start_timecode": "00:16:11",
           "word": "simple,"
         },
         {
           "end": 16.729,
+          "end_timecode": "00:16:44",
           "signal_id": "word_0076",
           "start": 16.569,
+          "start_timecode": "00:16:34",
           "word": "makes"
         },
         {
           "end": 17.009,
+          "end_timecode": "00:17:01",
           "signal_id": "word_0077",
           "start": 16.769,
+          "start_timecode": "00:16:46",
           "word": "Claude"
         }
       ],
-      "signal_id": "beat_0041",
+      "signal_id": "beat_0042",
       "source_signal_ids": [
         "aud_onset_0134"
       ],
@@ -2612,62 +3364,85 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0134",
           "time": 16.2333,
+          "timecode": "00:16:14",
           "weight": 0.8
         }
       ],
-      "time": 16.2333
+      "time": 16.2333,
+      "timecode": "00:16:14"
     },
     {
-      "frame": 991,
+      "frame": 990,
       "near_words": [
         {
           "end": 16.489,
+          "end_timecode": "00:16:29",
           "signal_id": "word_0075",
           "start": 16.189,
+          "start_timecode": "00:16:11",
           "word": "simple,"
         },
         {
           "end": 16.729,
+          "end_timecode": "00:16:44",
           "signal_id": "word_0076",
           "start": 16.569,
+          "start_timecode": "00:16:34",
           "word": "makes"
         },
         {
           "end": 17.009,
+          "end_timecode": "00:17:01",
           "signal_id": "word_0077",
           "start": 16.769,
+          "start_timecode": "00:16:46",
           "word": "Claude"
         },
         {
           "end": 17.25,
+          "end_timecode": "00:17:15",
           "signal_id": "word_0078",
           "start": 17.049,
+          "start_timecode": "00:17:03",
           "word": "check"
         },
         {
           "end": 17.37,
+          "end_timecode": "00:17:22",
           "signal_id": "word_0079",
           "start": 17.29,
+          "start_timecode": "00:17:17",
           "word": "its"
         }
       ],
-      "signal_id": "beat_0042",
+      "signal_id": "beat_0043",
       "source_signal_ids": [
+        "autoshot_cut_0014",
         "vis_diff_0013",
         "vis_scene_0014",
         "aud_onset_0136"
       ],
       "source_types": [
         "audio_onset",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 990,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0014",
+          "time": 16.5,
+          "timecode": "00:16:30",
+          "weight": 1.4
+        },
+        {
           "frame": 991,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0013",
           "time": 16.5167,
+          "timecode": "00:16:31",
           "weight": 1.0
         },
         {
@@ -2675,6 +3450,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0014",
           "time": 16.5167,
+          "timecode": "00:16:31",
           "weight": 1.4
         },
         {
@@ -2682,52 +3458,66 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0136",
           "time": 16.55,
+          "timecode": "00:16:33",
           "weight": 0.8
         }
       ],
-      "time": 16.5167
+      "time": 16.5,
+      "timecode": "00:16:30"
     },
     {
       "frame": 1010,
       "near_words": [
         {
           "end": 16.729,
+          "end_timecode": "00:16:44",
           "signal_id": "word_0076",
           "start": 16.569,
+          "start_timecode": "00:16:34",
           "word": "makes"
         },
         {
           "end": 17.009,
+          "end_timecode": "00:17:01",
           "signal_id": "word_0077",
           "start": 16.769,
+          "start_timecode": "00:16:46",
           "word": "Claude"
         },
         {
           "end": 17.25,
+          "end_timecode": "00:17:15",
           "signal_id": "word_0078",
           "start": 17.049,
+          "start_timecode": "00:17:03",
           "word": "check"
         },
         {
           "end": 17.37,
+          "end_timecode": "00:17:22",
           "signal_id": "word_0079",
           "start": 17.29,
+          "start_timecode": "00:17:17",
           "word": "its"
         },
         {
           "end": 17.53,
+          "end_timecode": "00:17:32",
           "signal_id": "word_0080",
           "start": 17.41,
+          "start_timecode": "00:17:25",
           "word": "own"
         },
         {
           "end": 17.75,
+          "end_timecode": "00:17:45",
           "signal_id": "word_0081",
           "start": 17.57,
+          "start_timecode": "00:17:34",
           "word": "work,"
         }
       ],
-      "signal_id": "beat_0043",
+      "signal_id": "beat_0044",
       "source_signal_ids": [
         "aud_onset_0139",
         "aud_peak_0023"
@@ -2742,6 +3532,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0139",
           "time": 16.8333,
+          "timecode": "00:16:50",
           "weight": 0.8
         },
         {
@@ -2749,58 +3540,74 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0023",
           "time": 16.8833,
+          "timecode": "00:16:53",
           "weight": 0.7
         }
       ],
-      "time": 16.8333
+      "time": 16.8333,
+      "timecode": "00:16:50"
     },
     {
       "frame": 1027,
       "near_words": [
         {
           "end": 17.009,
+          "end_timecode": "00:17:01",
           "signal_id": "word_0077",
           "start": 16.769,
+          "start_timecode": "00:16:46",
           "word": "Claude"
         },
         {
           "end": 17.25,
+          "end_timecode": "00:17:15",
           "signal_id": "word_0078",
           "start": 17.049,
+          "start_timecode": "00:17:03",
           "word": "check"
         },
         {
           "end": 17.37,
+          "end_timecode": "00:17:22",
           "signal_id": "word_0079",
           "start": 17.29,
+          "start_timecode": "00:17:17",
           "word": "its"
         },
         {
           "end": 17.53,
+          "end_timecode": "00:17:32",
           "signal_id": "word_0080",
           "start": 17.41,
+          "start_timecode": "00:17:25",
           "word": "own"
         },
         {
           "end": 17.75,
+          "end_timecode": "00:17:45",
           "signal_id": "word_0081",
           "start": 17.57,
+          "start_timecode": "00:17:34",
           "word": "work,"
         },
         {
           "end": 17.87,
+          "end_timecode": "00:17:52",
           "signal_id": "word_0082",
           "start": 17.77,
+          "start_timecode": "00:17:46",
           "word": "and"
         },
         {
           "end": 18.091,
+          "end_timecode": "00:18:05",
           "signal_id": "word_0083",
           "start": 17.91,
+          "start_timecode": "00:17:55",
           "word": "runs"
         }
       ],
-      "signal_id": "beat_0044",
+      "signal_id": "beat_0045",
       "source_signal_ids": [
         "aud_onset_0141",
         "aud_peak_0024",
@@ -2816,6 +3623,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0141",
           "time": 17.1167,
+          "timecode": "00:17:07",
           "weight": 0.8
         },
         {
@@ -2823,6 +3631,7 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0024",
           "time": 17.1333,
+          "timecode": "00:17:08",
           "weight": 0.7
         },
         {
@@ -2830,66 +3639,91 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0142",
           "time": 17.2333,
+          "timecode": "00:17:14",
           "weight": 0.8
         }
       ],
-      "time": 17.1167
+      "time": 17.1167,
+      "timecode": "00:17:07"
     },
     {
-      "frame": 1063,
+      "frame": 1062,
       "near_words": [
         {
           "end": 17.53,
+          "end_timecode": "00:17:32",
           "signal_id": "word_0080",
           "start": 17.41,
+          "start_timecode": "00:17:25",
           "word": "own"
         },
         {
           "end": 17.75,
+          "end_timecode": "00:17:45",
           "signal_id": "word_0081",
           "start": 17.57,
+          "start_timecode": "00:17:34",
           "word": "work,"
         },
         {
           "end": 17.87,
+          "end_timecode": "00:17:52",
           "signal_id": "word_0082",
           "start": 17.77,
+          "start_timecode": "00:17:46",
           "word": "and"
         },
         {
           "end": 18.091,
+          "end_timecode": "00:18:05",
           "signal_id": "word_0083",
           "start": 17.91,
+          "start_timecode": "00:17:55",
           "word": "runs"
         },
         {
           "end": 18.411,
+          "end_timecode": "00:18:25",
           "signal_id": "word_0084",
           "start": 18.151,
+          "start_timecode": "00:18:09",
           "word": "separate"
         },
         {
           "end": 18.791,
+          "end_timecode": "00:18:47",
           "signal_id": "word_0085",
           "start": 18.451,
+          "start_timecode": "00:18:27",
           "word": "sessions"
         }
       ],
-      "signal_id": "beat_0045",
+      "signal_id": "beat_0046",
       "source_signal_ids": [
+        "autoshot_cut_0015",
         "vis_diff_0014",
         "vis_scene_0015"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 1062,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0015",
+          "time": 17.7,
+          "timecode": "00:17:42",
+          "weight": 1.4
+        },
+        {
           "frame": 1063,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0014",
           "time": 17.7167,
+          "timecode": "00:17:43",
           "weight": 1.0
         },
         {
@@ -2897,40 +3731,50 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0015",
           "time": 17.7167,
+          "timecode": "00:17:43",
           "weight": 1.4
         }
       ],
-      "time": 17.7167
+      "time": 17.7,
+      "timecode": "00:17:42"
     },
     {
       "frame": 1076,
       "near_words": [
         {
           "end": 17.87,
+          "end_timecode": "00:17:52",
           "signal_id": "word_0082",
           "start": 17.77,
+          "start_timecode": "00:17:46",
           "word": "and"
         },
         {
           "end": 18.091,
+          "end_timecode": "00:18:05",
           "signal_id": "word_0083",
           "start": 17.91,
+          "start_timecode": "00:17:55",
           "word": "runs"
         },
         {
           "end": 18.411,
+          "end_timecode": "00:18:25",
           "signal_id": "word_0084",
           "start": 18.151,
+          "start_timecode": "00:18:09",
           "word": "separate"
         },
         {
           "end": 18.791,
+          "end_timecode": "00:18:47",
           "signal_id": "word_0085",
           "start": 18.451,
+          "start_timecode": "00:18:27",
           "word": "sessions"
         }
       ],
-      "signal_id": "beat_0046",
+      "signal_id": "beat_0047",
       "source_signal_ids": [
         "aud_peak_0025",
         "aud_onset_0149"
@@ -2945,6 +3789,7 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0025",
           "time": 17.9333,
+          "timecode": "00:17:56",
           "weight": 0.7
         },
         {
@@ -2952,40 +3797,50 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0149",
           "time": 18.05,
+          "timecode": "00:18:03",
           "weight": 0.8
         }
       ],
-      "time": 17.9333
+      "time": 17.9333,
+      "timecode": "00:17:56"
     },
     {
       "frame": 1091,
       "near_words": [
         {
           "end": 18.091,
+          "end_timecode": "00:18:05",
           "signal_id": "word_0083",
           "start": 17.91,
+          "start_timecode": "00:17:55",
           "word": "runs"
         },
         {
           "end": 18.411,
+          "end_timecode": "00:18:25",
           "signal_id": "word_0084",
           "start": 18.151,
+          "start_timecode": "00:18:09",
           "word": "separate"
         },
         {
           "end": 18.791,
+          "end_timecode": "00:18:47",
           "signal_id": "word_0085",
           "start": 18.451,
+          "start_timecode": "00:18:27",
           "word": "sessions"
         },
         {
           "end": 18.972,
+          "end_timecode": "00:18:58",
           "signal_id": "word_0086",
           "start": 18.851,
+          "start_timecode": "00:18:51",
           "word": "for"
         }
       ],
-      "signal_id": "beat_0047",
+      "signal_id": "beat_0048",
       "source_signal_ids": [
         "aud_onset_0150",
         "aud_peak_0026"
@@ -3000,6 +3855,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0150",
           "time": 18.1833,
+          "timecode": "00:18:11",
           "weight": 0.8
         },
         {
@@ -3007,40 +3863,50 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0026",
           "time": 18.2,
+          "timecode": "00:18:12",
           "weight": 0.7
         }
       ],
-      "time": 18.1833
+      "time": 18.1833,
+      "timecode": "00:18:11"
     },
     {
       "frame": 1110,
       "near_words": [
         {
           "end": 18.411,
+          "end_timecode": "00:18:25",
           "signal_id": "word_0084",
           "start": 18.151,
+          "start_timecode": "00:18:09",
           "word": "separate"
         },
         {
           "end": 18.791,
+          "end_timecode": "00:18:47",
           "signal_id": "word_0085",
           "start": 18.451,
+          "start_timecode": "00:18:27",
           "word": "sessions"
         },
         {
           "end": 18.972,
+          "end_timecode": "00:18:58",
           "signal_id": "word_0086",
           "start": 18.851,
+          "start_timecode": "00:18:51",
           "word": "for"
         },
         {
           "end": 19.292,
+          "end_timecode": "00:19:18",
           "signal_id": "word_0087",
           "start": 19.012,
+          "start_timecode": "00:19:01",
           "word": "separate"
         }
       ],
-      "signal_id": "beat_0048",
+      "signal_id": "beat_0049",
       "source_signal_ids": [
         "aud_peak_0027"
       ],
@@ -3053,48 +3919,61 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0027",
           "time": 18.5,
+          "timecode": "00:18:30",
           "weight": 0.7
         }
       ],
-      "time": 18.5
+      "time": 18.5,
+      "timecode": "00:18:30"
     },
     {
       "frame": 1180,
       "near_words": [
         {
           "end": 19.893,
+          "end_timecode": "00:19:54",
           "signal_id": "word_0089",
           "start": 19.792,
+          "start_timecode": "00:19:48",
           "word": "So"
         },
         {
           "end": 20.053,
+          "end_timecode": "00:20:03",
           "signal_id": "word_0090",
           "start": 19.913,
+          "start_timecode": "00:19:55",
           "word": "he's"
         },
         {
           "end": 20.213,
+          "end_timecode": "00:20:13",
           "signal_id": "word_0091",
           "start": 20.093,
+          "start_timecode": "00:20:06",
           "word": "not"
         },
         {
           "end": 20.353,
+          "end_timecode": "00:20:21",
           "signal_id": "word_0092",
           "start": 20.233,
+          "start_timecode": "00:20:14",
           "word": "just"
         },
         {
           "end": 20.713,
+          "end_timecode": "00:20:43",
           "signal_id": "word_0093",
           "start": 20.393,
+          "start_timecode": "00:20:24",
           "word": "prompting"
         }
       ],
-      "signal_id": "beat_0049",
+      "signal_id": "beat_0050",
       "source_signal_ids": [
         "aud_onset_0164",
+        "autoshot_cut_0016",
         "vis_diff_0015",
         "vis_scene_0016",
         "seg_0009"
@@ -3102,6 +3981,7 @@
       "source_types": [
         "audio_onset",
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
@@ -3111,13 +3991,23 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0164",
           "time": 19.6667,
+          "timecode": "00:19:40",
           "weight": 0.8
+        },
+        {
+          "frame": 1183,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0016",
+          "time": 19.7167,
+          "timecode": "00:19:43",
+          "weight": 1.4
         },
         {
           "frame": 1184,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0015",
           "time": 19.7333,
+          "timecode": "00:19:44",
           "weight": 1.0
         },
         {
@@ -3125,6 +4015,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0016",
           "time": 19.7333,
+          "timecode": "00:19:44",
           "weight": 1.4
         },
         {
@@ -3132,52 +4023,66 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0009",
           "time": 19.792,
+          "timecode": "00:19:48",
           "weight": 1.1
         }
       ],
-      "time": 19.6667
+      "time": 19.6667,
+      "timecode": "00:19:40"
     },
     {
       "frame": 1204,
       "near_words": [
         {
           "end": 19.893,
+          "end_timecode": "00:19:54",
           "signal_id": "word_0089",
           "start": 19.792,
+          "start_timecode": "00:19:48",
           "word": "So"
         },
         {
           "end": 20.053,
+          "end_timecode": "00:20:03",
           "signal_id": "word_0090",
           "start": 19.913,
+          "start_timecode": "00:19:55",
           "word": "he's"
         },
         {
           "end": 20.213,
+          "end_timecode": "00:20:13",
           "signal_id": "word_0091",
           "start": 20.093,
+          "start_timecode": "00:20:06",
           "word": "not"
         },
         {
           "end": 20.353,
+          "end_timecode": "00:20:21",
           "signal_id": "word_0092",
           "start": 20.233,
+          "start_timecode": "00:20:14",
           "word": "just"
         },
         {
           "end": 20.713,
+          "end_timecode": "00:20:43",
           "signal_id": "word_0093",
           "start": 20.393,
+          "start_timecode": "00:20:24",
           "word": "prompting"
         },
         {
           "end": 20.994,
+          "end_timecode": "00:21:00",
           "signal_id": "word_0094",
           "start": 20.753,
+          "start_timecode": "00:20:45",
           "word": "better,"
         }
       ],
-      "signal_id": "beat_0050",
+      "signal_id": "beat_0051",
       "source_signal_ids": [
         "aud_onset_0168",
         "aud_peak_0028"
@@ -3192,6 +4097,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0168",
           "time": 20.0667,
+          "timecode": "00:20:04",
           "weight": 0.8
         },
         {
@@ -3199,46 +4105,58 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0028",
           "time": 20.1,
+          "timecode": "00:20:06",
           "weight": 0.7
         }
       ],
-      "time": 20.0667
+      "time": 20.0667,
+      "timecode": "00:20:04"
     },
     {
       "frame": 1226,
       "near_words": [
         {
           "end": 20.213,
+          "end_timecode": "00:20:13",
           "signal_id": "word_0091",
           "start": 20.093,
+          "start_timecode": "00:20:06",
           "word": "not"
         },
         {
           "end": 20.353,
+          "end_timecode": "00:20:21",
           "signal_id": "word_0092",
           "start": 20.233,
+          "start_timecode": "00:20:14",
           "word": "just"
         },
         {
           "end": 20.713,
+          "end_timecode": "00:20:43",
           "signal_id": "word_0093",
           "start": 20.393,
+          "start_timecode": "00:20:24",
           "word": "prompting"
         },
         {
           "end": 20.994,
+          "end_timecode": "00:21:00",
           "signal_id": "word_0094",
           "start": 20.753,
+          "start_timecode": "00:20:45",
           "word": "better,"
         },
         {
           "end": 21.214,
+          "end_timecode": "00:21:13",
           "signal_id": "word_0095",
           "start": 21.094,
+          "start_timecode": "00:21:06",
           "word": "he's"
         }
       ],
-      "signal_id": "beat_0051",
+      "signal_id": "beat_0052",
       "source_signal_ids": [
         "aud_onset_0171",
         "aud_peak_0029"
@@ -3253,6 +4171,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0171",
           "time": 20.4333,
+          "timecode": "00:20:26",
           "weight": 0.8
         },
         {
@@ -3260,40 +4179,50 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0029",
           "time": 20.4667,
+          "timecode": "00:20:28",
           "weight": 0.7
         }
       ],
-      "time": 20.4333
+      "time": 20.4333,
+      "timecode": "00:20:26"
     },
     {
       "frame": 1245,
       "near_words": [
         {
           "end": 20.994,
+          "end_timecode": "00:21:00",
           "signal_id": "word_0094",
           "start": 20.753,
+          "start_timecode": "00:20:45",
           "word": "better,"
         },
         {
           "end": 21.214,
+          "end_timecode": "00:21:13",
           "signal_id": "word_0095",
           "start": 21.094,
+          "start_timecode": "00:21:06",
           "word": "he's"
         },
         {
           "end": 21.454,
+          "end_timecode": "00:21:27",
           "signal_id": "word_0096",
           "start": 21.274,
+          "start_timecode": "00:21:16",
           "word": "using"
         },
         {
           "end": 21.715,
+          "end_timecode": "00:21:43",
           "signal_id": "word_0097",
           "start": 21.474,
+          "start_timecode": "00:21:28",
           "word": "Claude"
         }
       ],
-      "signal_id": "beat_0052",
+      "signal_id": "beat_0053",
       "source_signal_ids": [
         "aud_onset_0173"
       ],
@@ -3306,60 +4235,83 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0173",
           "time": 20.75,
+          "timecode": "00:20:45",
           "weight": 0.8
         }
       ],
-      "time": 20.75
+      "time": 20.75,
+      "timecode": "00:20:45"
     },
     {
-      "frame": 1264,
+      "frame": 1263,
       "near_words": [
         {
           "end": 20.994,
+          "end_timecode": "00:21:00",
           "signal_id": "word_0094",
           "start": 20.753,
+          "start_timecode": "00:20:45",
           "word": "better,"
         },
         {
           "end": 21.214,
+          "end_timecode": "00:21:13",
           "signal_id": "word_0095",
           "start": 21.094,
+          "start_timecode": "00:21:06",
           "word": "he's"
         },
         {
           "end": 21.454,
+          "end_timecode": "00:21:27",
           "signal_id": "word_0096",
           "start": 21.274,
+          "start_timecode": "00:21:16",
           "word": "using"
         },
         {
           "end": 21.715,
+          "end_timecode": "00:21:43",
           "signal_id": "word_0097",
           "start": 21.474,
+          "start_timecode": "00:21:28",
           "word": "Claude"
         },
         {
           "end": 21.995,
+          "end_timecode": "00:22:00",
           "signal_id": "word_0098",
           "start": 21.755,
-          "word": "Code"
+          "start_timecode": "00:21:45",
+          "word": "code"
         }
       ],
-      "signal_id": "beat_0053",
+      "signal_id": "beat_0054",
       "source_signal_ids": [
+        "autoshot_cut_0017",
         "vis_diff_0016",
         "vis_scene_0017"
       ],
       "source_types": [
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 1263,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0017",
+          "time": 21.05,
+          "timecode": "00:21:03",
+          "weight": 1.4
+        },
+        {
           "frame": 1264,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0016",
           "time": 21.0667,
+          "timecode": "00:21:04",
           "weight": 1.0
         },
         {
@@ -3367,52 +4319,66 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0017",
           "time": 21.0667,
+          "timecode": "00:21:04",
           "weight": 1.4
         }
       ],
-      "time": 21.0667
+      "time": 21.05,
+      "timecode": "00:21:03"
     },
     {
       "frame": 1294,
       "near_words": [
         {
           "end": 21.454,
+          "end_timecode": "00:21:27",
           "signal_id": "word_0096",
           "start": 21.274,
+          "start_timecode": "00:21:16",
           "word": "using"
         },
         {
           "end": 21.715,
+          "end_timecode": "00:21:43",
           "signal_id": "word_0097",
           "start": 21.474,
+          "start_timecode": "00:21:28",
           "word": "Claude"
         },
         {
           "end": 21.995,
+          "end_timecode": "00:22:00",
           "signal_id": "word_0098",
           "start": 21.755,
-          "word": "Code"
+          "start_timecode": "00:21:45",
+          "word": "code"
         },
         {
           "end": 22.155,
+          "end_timecode": "00:22:09",
           "signal_id": "word_0099",
           "start": 22.035,
+          "start_timecode": "00:22:02",
           "word": "like"
         },
         {
           "end": 22.235,
+          "end_timecode": "00:22:14",
           "signal_id": "word_0100",
           "start": 22.195,
+          "start_timecode": "00:22:12",
           "word": "a"
         },
         {
           "end": 22.636,
+          "end_timecode": "00:22:38",
           "signal_id": "word_0101",
           "start": 22.295,
+          "start_timecode": "00:22:18",
           "word": "system."
         }
       ],
-      "signal_id": "beat_0054",
+      "signal_id": "beat_0055",
       "source_signal_ids": [
         "aud_peak_0030",
         "aud_onset_0181"
@@ -3427,6 +4393,7 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0030",
           "time": 21.5667,
+          "timecode": "00:21:34",
           "weight": 0.7
         },
         {
@@ -3434,46 +4401,58 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0181",
           "time": 21.7333,
+          "timecode": "00:21:44",
           "weight": 0.8
         }
       ],
-      "time": 21.5667
+      "time": 21.5667,
+      "timecode": "00:21:34"
     },
     {
       "frame": 1324,
       "near_words": [
         {
           "end": 21.995,
+          "end_timecode": "00:22:00",
           "signal_id": "word_0098",
           "start": 21.755,
-          "word": "Code"
+          "start_timecode": "00:21:45",
+          "word": "code"
         },
         {
           "end": 22.155,
+          "end_timecode": "00:22:09",
           "signal_id": "word_0099",
           "start": 22.035,
+          "start_timecode": "00:22:02",
           "word": "like"
         },
         {
           "end": 22.235,
+          "end_timecode": "00:22:14",
           "signal_id": "word_0100",
           "start": 22.195,
+          "start_timecode": "00:22:12",
           "word": "a"
         },
         {
           "end": 22.636,
+          "end_timecode": "00:22:38",
           "signal_id": "word_0101",
           "start": 22.295,
+          "start_timecode": "00:22:18",
           "word": "system."
         },
         {
           "end": 22.936,
+          "end_timecode": "00:22:56",
           "signal_id": "word_0102",
           "start": 22.676,
+          "start_timecode": "00:22:41",
           "word": "Comment"
         }
       ],
-      "signal_id": "beat_0055",
+      "signal_id": "beat_0056",
       "source_signal_ids": [
         "vis_diff_0017"
       ],
@@ -3486,40 +4465,50 @@
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0017",
           "time": 22.0667,
+          "timecode": "00:22:04",
           "weight": 1.0
         }
       ],
-      "time": 22.0667
+      "time": 22.0667,
+      "timecode": "00:22:04"
     },
     {
       "frame": 1345,
       "near_words": [
         {
           "end": 22.235,
+          "end_timecode": "00:22:14",
           "signal_id": "word_0100",
           "start": 22.195,
+          "start_timecode": "00:22:12",
           "word": "a"
         },
         {
           "end": 22.636,
+          "end_timecode": "00:22:38",
           "signal_id": "word_0101",
           "start": 22.295,
+          "start_timecode": "00:22:18",
           "word": "system."
         },
         {
           "end": 22.936,
+          "end_timecode": "00:22:56",
           "signal_id": "word_0102",
           "start": 22.676,
+          "start_timecode": "00:22:41",
           "word": "Comment"
         },
         {
           "end": 23.476,
+          "end_timecode": "00:23:29",
           "signal_id": "word_0103",
           "start": 23.056,
+          "start_timecode": "00:23:03",
           "word": "creator,"
         }
       ],
-      "signal_id": "beat_0056",
+      "signal_id": "beat_0057",
       "source_signal_ids": [
         "vis_diff_0018"
       ],
@@ -3532,50 +4521,69 @@
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0018",
           "time": 22.4167,
+          "timecode": "00:22:25",
           "weight": 1.0
         }
       ],
-      "time": 22.4167
+      "time": 22.4167,
+      "timecode": "00:22:25"
     },
     {
-      "frame": 1357,
+      "frame": 1356,
       "near_words": [
         {
           "end": 22.636,
+          "end_timecode": "00:22:38",
           "signal_id": "word_0101",
           "start": 22.295,
+          "start_timecode": "00:22:18",
           "word": "system."
         },
         {
           "end": 22.936,
+          "end_timecode": "00:22:56",
           "signal_id": "word_0102",
           "start": 22.676,
+          "start_timecode": "00:22:41",
           "word": "Comment"
         },
         {
           "end": 23.476,
+          "end_timecode": "00:23:29",
           "signal_id": "word_0103",
           "start": 23.056,
+          "start_timecode": "00:23:03",
           "word": "creator,"
         }
       ],
-      "signal_id": "beat_0057",
+      "signal_id": "beat_0058",
       "source_signal_ids": [
+        "autoshot_cut_0018",
         "vis_diff_0019",
         "vis_scene_0018",
         "seg_0010"
       ],
       "source_types": [
         "transcript_segment_start",
+        "visual_autoshot_cut",
         "visual_frame_diff",
         "visual_scene_cut"
       ],
       "sources": [
         {
+          "frame": 1356,
+          "kind": "visual_autoshot_cut",
+          "signal_id": "autoshot_cut_0018",
+          "time": 22.6,
+          "timecode": "00:22:36",
+          "weight": 1.4
+        },
+        {
           "frame": 1357,
           "kind": "visual_frame_diff",
           "signal_id": "vis_diff_0019",
           "time": 22.6167,
+          "timecode": "00:22:37",
           "weight": 1.0
         },
         {
@@ -3583,6 +4591,7 @@
           "kind": "visual_scene_cut",
           "signal_id": "vis_scene_0018",
           "time": 22.6167,
+          "timecode": "00:22:37",
           "weight": 1.4
         },
         {
@@ -3590,40 +4599,50 @@
           "kind": "transcript_segment_start",
           "signal_id": "seg_0010",
           "time": 22.676,
+          "timecode": "00:22:41",
           "weight": 1.1
         }
       ],
-      "time": 22.6167
+      "time": 22.6,
+      "timecode": "00:22:36"
     },
     {
       "frame": 1379,
       "near_words": [
         {
           "end": 22.936,
+          "end_timecode": "00:22:56",
           "signal_id": "word_0102",
           "start": 22.676,
+          "start_timecode": "00:22:41",
           "word": "Comment"
         },
         {
           "end": 23.476,
+          "end_timecode": "00:23:29",
           "signal_id": "word_0103",
           "start": 23.056,
+          "start_timecode": "00:23:03",
           "word": "creator,"
         },
         {
           "end": 23.677,
+          "end_timecode": "00:23:41",
           "signal_id": "word_0104",
           "start": 23.597,
+          "start_timecode": "00:23:36",
           "word": "and"
         },
         {
           "end": 23.857,
+          "end_timecode": "00:23:51",
           "signal_id": "word_0105",
           "start": 23.717,
+          "start_timecode": "00:23:43",
           "word": "I'll"
         }
       ],
-      "signal_id": "beat_0058",
+      "signal_id": "beat_0059",
       "source_signal_ids": [
         "aud_onset_0193"
       ],
@@ -3636,40 +4655,50 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0193",
           "time": 22.9833,
+          "timecode": "00:22:59",
           "weight": 0.8
         }
       ],
-      "time": 22.9833
+      "time": 22.9833,
+      "timecode": "00:22:59"
     },
     {
       "frame": 1393,
       "near_words": [
         {
           "end": 23.476,
+          "end_timecode": "00:23:29",
           "signal_id": "word_0103",
           "start": 23.056,
+          "start_timecode": "00:23:03",
           "word": "creator,"
         },
         {
           "end": 23.677,
+          "end_timecode": "00:23:41",
           "signal_id": "word_0104",
           "start": 23.597,
+          "start_timecode": "00:23:36",
           "word": "and"
         },
         {
           "end": 23.857,
+          "end_timecode": "00:23:51",
           "signal_id": "word_0105",
           "start": 23.717,
+          "start_timecode": "00:23:43",
           "word": "I'll"
         },
         {
           "end": 24.077,
+          "end_timecode": "00:24:05",
           "signal_id": "word_0106",
           "start": 23.877,
+          "start_timecode": "00:23:53",
           "word": "send"
         }
       ],
-      "signal_id": "beat_0059",
+      "signal_id": "beat_0060",
       "source_signal_ids": [
         "aud_peak_0031"
       ],
@@ -3682,52 +4711,66 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0031",
           "time": 23.2167,
+          "timecode": "00:23:13",
           "weight": 0.7
         }
       ],
-      "time": 23.2167
+      "time": 23.2167,
+      "timecode": "00:23:13"
     },
     {
       "frame": 1444,
       "near_words": [
         {
           "end": 23.857,
+          "end_timecode": "00:23:51",
           "signal_id": "word_0105",
           "start": 23.717,
+          "start_timecode": "00:23:43",
           "word": "I'll"
         },
         {
           "end": 24.077,
+          "end_timecode": "00:24:05",
           "signal_id": "word_0106",
           "start": 23.877,
+          "start_timecode": "00:23:53",
           "word": "send"
         },
         {
           "end": 24.297,
+          "end_timecode": "00:24:18",
           "signal_id": "word_0107",
           "start": 24.137,
+          "start_timecode": "00:24:08",
           "word": "over"
         },
         {
           "end": 24.397,
+          "end_timecode": "00:24:24",
           "signal_id": "word_0108",
           "start": 24.337,
+          "start_timecode": "00:24:20",
           "word": "the"
         },
         {
           "end": 24.658,
+          "end_timecode": "00:24:39",
           "signal_id": "word_0109",
           "start": 24.457,
+          "start_timecode": "00:24:27",
           "word": "free"
         },
         {
           "end": 24.898,
+          "end_timecode": "00:24:54",
           "signal_id": "word_0110",
           "start": 24.678,
+          "start_timecode": "00:24:41",
           "word": "guide."
         }
       ],
-      "signal_id": "beat_0060",
+      "signal_id": "beat_0061",
       "source_signal_ids": [
         "aud_onset_0200",
         "aud_peak_0032"
@@ -3742,6 +4785,7 @@
           "kind": "audio_onset",
           "signal_id": "aud_onset_0200",
           "time": 24.0667,
+          "timecode": "00:24:04",
           "weight": 0.8
         },
         {
@@ -3749,10 +4793,12 @@
           "kind": "audio_loudness_peak",
           "signal_id": "aud_peak_0032",
           "time": 24.1,
+          "timecode": "00:24:06",
           "weight": 0.7
         }
       ],
-      "time": 24.0667
+      "time": 24.0667,
+      "timecode": "00:24:04"
     }
   ],
   "merge_window_seconds": 0.18,
@@ -3762,6 +4808,8 @@
     "boundary": 1,
     "first_word": 1,
     "transcript_segment_start": 10,
+    "visual_autoshot_candidate": 1,
+    "visual_autoshot_cut": 18,
     "visual_frame_diff": 19,
     "visual_scene_cut": 18
   }

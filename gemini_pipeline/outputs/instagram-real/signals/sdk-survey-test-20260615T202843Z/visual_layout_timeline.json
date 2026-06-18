@@ -1,0 +1,343 @@
+{
+  "fps": 5.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260615T202939Z",
+  "layout_timeline": [
+    {
+      "anchor_signal_ids": [
+        "edit_span_0001"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing Claude Code terminal on top and talking head on bottom.",
+      "end_seconds": 1.843,
+      "evidence_id": "layout_0001",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 0.0,
+      "time_range": "00:00:00-00:01:51",
+      "visible_layers": [
+        "Screen recording of VS Code terminal (top)",
+        "Talking head of Asian man (bottom)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0002"
+      ],
+      "confidence": 0.9,
+      "description": "Full-screen browser view searching for Claude Code.",
+      "end_seconds": 2.21,
+      "evidence_id": "layout_0002",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "start_seconds": 1.843,
+      "time_range": "00:01:51-00:02:21",
+      "visible_layers": [
+        "Web browser showing Claude.com search results",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0003"
+      ],
+      "confidence": 0.9,
+      "description": "Full-screen view of Claude Code interface typing a scraping prompt.",
+      "end_seconds": 3.09,
+      "evidence_id": "layout_0003",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "start_seconds": 2.21,
+      "time_range": "00:02:21-00:03:09",
+      "visible_layers": [
+        "Claude Code UI typing prompt",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0004"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing terminal execution on top and talking head on bottom.",
+      "end_seconds": 3.58,
+      "evidence_id": "layout_0004",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 3.09,
+      "time_range": "00:03:09-00:03:58",
+      "visible_layers": [
+        "Claude Code terminal executing bash (top)",
+        "Talking head of Asian man (bottom)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0005"
+      ],
+      "confidence": 0.95,
+      "description": "Talking head of a bald man speaking into a podcast microphone.",
+      "end_seconds": 5.33,
+      "evidence_id": "layout_0005",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 3.58,
+      "time_range": "00:03:58-00:05:33",
+      "visible_layers": [
+        "Bald man talking with microphone",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0006"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen talking head of the Asian man.",
+      "end_seconds": 6.16,
+      "evidence_id": "layout_0006",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 5.33,
+      "time_range": "00:05:33-00:06:16",
+      "visible_layers": [
+        "Asian man talking head",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0007"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing package.json code on top and talking head on bottom.",
+      "end_seconds": 7.25,
+      "evidence_id": "layout_0007",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 6.16,
+      "time_range": "00:06:16-00:07:25",
+      "visible_layers": [
+        "VS Code package.json (top)",
+        "Asian man talking head (bottom)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0008"
+      ],
+      "confidence": 0.95,
+      "description": "Talking head with a large title card overlay reading 'Section 1 Plan Mode'.",
+      "end_seconds": 8.25,
+      "evidence_id": "layout_0008",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 7.25,
+      "time_range": "00:07:25-00:08:25",
+      "visible_layers": [
+        "Asian man talking head",
+        "Section 1 Plan Mode title card overlay",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0009"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen talking head of the Asian man.",
+      "end_seconds": 9.12,
+      "evidence_id": "layout_0009",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 8.25,
+      "time_range": "00:08:25-00:09:12",
+      "visible_layers": [
+        "Asian man talking head",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0010"
+      ],
+      "confidence": 0.95,
+      "description": "Medium shot of the Asian man sitting at a desk, looking thoughtful.",
+      "end_seconds": 10.91,
+      "evidence_id": "layout_0010",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 9.12,
+      "time_range": "00:09:12-00:10:55",
+      "visible_layers": [
+        "Asian man sitting at desk thinking",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0011"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen view of Claude terminal showing task execution with green checkmarks.",
+      "end_seconds": 12.0,
+      "evidence_id": "layout_0011",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "start_seconds": 10.91,
+      "time_range": "00:10:55-00:12:00",
+      "visible_layers": [
+        "Claude terminal executing tasks",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0012"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen talking head of the Asian man.",
+      "end_seconds": 13.25,
+      "evidence_id": "layout_0012",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 12.0,
+      "time_range": "00:12:00-00:13:15",
+      "visible_layers": [
+        "Asian man talking head",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0013",
+        "edit_span_0014"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing Claude Code terminal on top and talking head on bottom.",
+      "end_seconds": 15.25,
+      "evidence_id": "layout_0013",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 13.25,
+      "time_range": "00:13:15-00:15:15",
+      "visible_layers": [
+        "Claude Code terminal (top)",
+        "Asian man talking head (bottom)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0015"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen view of Claude terminal executing tasks.",
+      "end_seconds": 16.51,
+      "evidence_id": "layout_0014",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "start_seconds": 15.25,
+      "time_range": "00:15:15-00:16:31",
+      "visible_layers": [
+        "Claude terminal executing tasks",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0016"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen view of code diffs in VS Code.",
+      "end_seconds": 17.71,
+      "evidence_id": "layout_0015",
+      "layout_type": "screen_recording",
+      "needs_review": false,
+      "start_seconds": 16.51,
+      "time_range": "00:16:31-00:17:43",
+      "visible_layers": [
+        "VS Code code diffs",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0017"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing talking head on the left and Claude chat interface on the right.",
+      "end_seconds": 19.73,
+      "evidence_id": "layout_0016",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 17.71,
+      "time_range": "00:17:43-00:19:44",
+      "visible_layers": [
+        "Asian man talking head (left)",
+        "Claude chat interface (right)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0018"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen talking head of the Asian man.",
+      "end_seconds": 21.06,
+      "evidence_id": "layout_0017",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 19.73,
+      "time_range": "00:19:44-00:21:04",
+      "visible_layers": [
+        "Asian man talking head",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0019"
+      ],
+      "confidence": 0.95,
+      "description": "Split screen showing Claude terminal output on top and talking head on bottom.",
+      "end_seconds": 22.61,
+      "evidence_id": "layout_0018",
+      "layout_type": "split_screen",
+      "needs_review": false,
+      "start_seconds": 21.06,
+      "time_range": "00:21:04-00:22:37",
+      "visible_layers": [
+        "Claude terminal output (top)",
+        "Asian man talking head (bottom)",
+        "Captions"
+      ]
+    },
+    {
+      "anchor_signal_ids": [
+        "edit_span_0020"
+      ],
+      "confidence": 0.95,
+      "description": "Full-screen talking head of the Asian man.",
+      "end_seconds": 24.89,
+      "evidence_id": "layout_0019",
+      "layout_type": "talking_head",
+      "needs_review": false,
+      "start_seconds": 22.61,
+      "time_range": "00:22:37-00:24:54",
+      "visible_layers": [
+        "Asian man talking head",
+        "Captions"
+      ]
+    }
+  ],
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_survey",
+  "video": "instagram-real.MP4"
+}

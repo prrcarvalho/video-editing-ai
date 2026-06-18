@@ -1,0 +1,1194 @@
+{
+  "boundary_mechanisms": [
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 111,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0001",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0001",
+        "vis_diff_0001",
+        "vis_scene_0001"
+      ],
+      "sync_signal_ids": [
+        "sync_0001"
+      ],
+      "time": 1.8438,
+      "timecode": "00:01:51"
+    },
+    {
+      "confidence": 0.45,
+      "event_kind": "candidate_cut_review",
+      "frame": 141,
+      "needs_review": true,
+      "signal_id": "edit_boundary_0002",
+      "source_kinds": [
+        "autoshot_candidate_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_candidate_0001"
+      ],
+      "sync_signal_ids": [
+        "sync_0002"
+      ],
+      "time": 2.35,
+      "timecode": "00:02:21"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 189,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0003",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0002",
+        "vis_diff_0002",
+        "vis_scene_0002"
+      ],
+      "sync_signal_ids": [
+        "sync_0003"
+      ],
+      "time": 3.1438,
+      "timecode": "00:03:09"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 238,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0004",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0003",
+        "vis_diff_0003",
+        "vis_scene_0003"
+      ],
+      "sync_signal_ids": [
+        "sync_0004"
+      ],
+      "time": 3.9605,
+      "timecode": "00:03:58"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 333,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0005",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0004",
+        "vis_diff_0004",
+        "vis_scene_0004"
+      ],
+      "sync_signal_ids": [
+        "sync_0005"
+      ],
+      "time": 5.5438,
+      "timecode": "00:05:33"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 376,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0006",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0005",
+        "vis_diff_0005",
+        "vis_scene_0005"
+      ],
+      "sync_signal_ids": [
+        "sync_0006"
+      ],
+      "time": 6.2605,
+      "timecode": "00:06:16"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 445,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0007",
+      "source_kinds": [
+        "autoshot_cut",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0006",
+        "vis_scene_0006"
+      ],
+      "sync_signal_ids": [
+        "sync_0007"
+      ],
+      "time": 7.4084,
+      "timecode": "00:07:25"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 505,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0008",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0007",
+        "vis_diff_0006",
+        "vis_scene_0007"
+      ],
+      "sync_signal_ids": [
+        "sync_0008"
+      ],
+      "time": 8.4105,
+      "timecode": "00:08:25"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 552,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0009",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0008",
+        "vis_diff_0007",
+        "vis_scene_0008"
+      ],
+      "sync_signal_ids": [
+        "sync_0009"
+      ],
+      "time": 9.1938,
+      "timecode": "00:09:12"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 655,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0010",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0009",
+        "vis_diff_0008",
+        "vis_scene_0009"
+      ],
+      "sync_signal_ids": [
+        "sync_0010"
+      ],
+      "time": 10.9105,
+      "timecode": "00:10:55"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 720,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0011",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0010",
+        "vis_diff_0009",
+        "vis_scene_0010"
+      ],
+      "sync_signal_ids": [
+        "sync_0011"
+      ],
+      "time": 11.9938,
+      "timecode": "00:12:00"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 795,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0012",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0011",
+        "vis_diff_0010",
+        "vis_scene_0011"
+      ],
+      "sync_signal_ids": [
+        "sync_0012"
+      ],
+      "time": 13.2438,
+      "timecode": "00:13:15"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 879,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0013",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0012",
+        "vis_diff_0011",
+        "vis_scene_0012"
+      ],
+      "sync_signal_ids": [
+        "sync_0013"
+      ],
+      "time": 14.6438,
+      "timecode": "00:14:39"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 915,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0014",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0013",
+        "vis_diff_0012",
+        "vis_scene_0013"
+      ],
+      "sync_signal_ids": [
+        "sync_0014"
+      ],
+      "time": 15.2438,
+      "timecode": "00:15:15"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 991,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0015",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0014",
+        "vis_diff_0013",
+        "vis_scene_0014"
+      ],
+      "sync_signal_ids": [
+        "sync_0015"
+      ],
+      "time": 16.5105,
+      "timecode": "00:16:31"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 1063,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0016",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0015",
+        "vis_diff_0014",
+        "vis_scene_0015"
+      ],
+      "sync_signal_ids": [
+        "sync_0016"
+      ],
+      "time": 17.7105,
+      "timecode": "00:17:43"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 1184,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0017",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0016",
+        "vis_diff_0015",
+        "vis_scene_0016"
+      ],
+      "sync_signal_ids": [
+        "sync_0017"
+      ],
+      "time": 19.7272,
+      "timecode": "00:19:44"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 1264,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0018",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0017",
+        "vis_diff_0016",
+        "vis_scene_0017"
+      ],
+      "sync_signal_ids": [
+        "sync_0018"
+      ],
+      "time": 21.0605,
+      "timecode": "00:21:04"
+    },
+    {
+      "confidence": 0.95,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "frame": 1357,
+      "needs_review": false,
+      "signal_id": "edit_boundary_0021",
+      "source_kinds": [
+        "autoshot_cut",
+        "opencv_frame_diff_spike",
+        "pyscenedetect_scene_cut"
+      ],
+      "source_signal_ids": [
+        "autoshot_cut_0018",
+        "vis_diff_0019",
+        "vis_scene_0018"
+      ],
+      "sync_signal_ids": [
+        "sync_0019"
+      ],
+      "time": 22.6105,
+      "timecode": "00:22:37"
+    }
+  ],
+  "definitions": {
+    "boundary_mechanisms": "merged cut/diff events that explain shot boundaries or review candidates",
+    "shot_spans": "shot ranges derived from the merged boundary timeline",
+    "sync_windows": "shot-boundary events close to transcript words or audio accents inside the configured binding window"
+  },
+  "shot_spans": [
+    {
+      "duration": 1.8438,
+      "end": 1.8438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0001",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 111,
+      "end_timecode": "00:01:51",
+      "signal_id": "edit_span_0001",
+      "start": 0.0,
+      "start_boundary_id": null,
+      "start_frame": 0,
+      "start_timecode": "00:00:00"
+    },
+    {
+      "duration": 0.5062,
+      "end": 2.35,
+      "end_boundary_confidence": 0.45,
+      "end_boundary_id": "edit_boundary_0002",
+      "end_boundary_kind": "candidate_cut_review",
+      "end_frame": 141,
+      "end_timecode": "00:02:21",
+      "signal_id": "edit_span_0002",
+      "start": 1.8438,
+      "start_boundary_id": "edit_boundary_0001",
+      "start_frame": 111,
+      "start_timecode": "00:01:51"
+    },
+    {
+      "duration": 0.7938,
+      "end": 3.1438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0003",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 189,
+      "end_timecode": "00:03:09",
+      "signal_id": "edit_span_0003",
+      "start": 2.35,
+      "start_boundary_id": "edit_boundary_0002",
+      "start_frame": 141,
+      "start_timecode": "00:02:21"
+    },
+    {
+      "duration": 0.8167,
+      "end": 3.9605,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0004",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 238,
+      "end_timecode": "00:03:58",
+      "signal_id": "edit_span_0004",
+      "start": 3.1438,
+      "start_boundary_id": "edit_boundary_0003",
+      "start_frame": 189,
+      "start_timecode": "00:03:09"
+    },
+    {
+      "duration": 1.5833,
+      "end": 5.5438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0005",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 333,
+      "end_timecode": "00:05:33",
+      "signal_id": "edit_span_0005",
+      "start": 3.9605,
+      "start_boundary_id": "edit_boundary_0004",
+      "start_frame": 238,
+      "start_timecode": "00:03:58"
+    },
+    {
+      "duration": 0.7167,
+      "end": 6.2605,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0006",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 376,
+      "end_timecode": "00:06:16",
+      "signal_id": "edit_span_0006",
+      "start": 5.5438,
+      "start_boundary_id": "edit_boundary_0005",
+      "start_frame": 333,
+      "start_timecode": "00:05:33"
+    },
+    {
+      "duration": 1.1479,
+      "end": 7.4084,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0007",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 445,
+      "end_timecode": "00:07:25",
+      "signal_id": "edit_span_0007",
+      "start": 6.2605,
+      "start_boundary_id": "edit_boundary_0006",
+      "start_frame": 376,
+      "start_timecode": "00:06:16"
+    },
+    {
+      "duration": 1.0021,
+      "end": 8.4105,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0008",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 505,
+      "end_timecode": "00:08:25",
+      "signal_id": "edit_span_0008",
+      "start": 7.4084,
+      "start_boundary_id": "edit_boundary_0007",
+      "start_frame": 445,
+      "start_timecode": "00:07:25"
+    },
+    {
+      "duration": 0.7833,
+      "end": 9.1938,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0009",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 552,
+      "end_timecode": "00:09:12",
+      "signal_id": "edit_span_0009",
+      "start": 8.4105,
+      "start_boundary_id": "edit_boundary_0008",
+      "start_frame": 505,
+      "start_timecode": "00:08:25"
+    },
+    {
+      "duration": 1.7167,
+      "end": 10.9105,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0010",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 655,
+      "end_timecode": "00:10:55",
+      "signal_id": "edit_span_0010",
+      "start": 9.1938,
+      "start_boundary_id": "edit_boundary_0009",
+      "start_frame": 552,
+      "start_timecode": "00:09:12"
+    },
+    {
+      "duration": 1.0833,
+      "end": 11.9938,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0011",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 720,
+      "end_timecode": "00:12:00",
+      "signal_id": "edit_span_0011",
+      "start": 10.9105,
+      "start_boundary_id": "edit_boundary_0010",
+      "start_frame": 655,
+      "start_timecode": "00:10:55"
+    },
+    {
+      "duration": 1.25,
+      "end": 13.2438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0012",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 795,
+      "end_timecode": "00:13:15",
+      "signal_id": "edit_span_0012",
+      "start": 11.9938,
+      "start_boundary_id": "edit_boundary_0011",
+      "start_frame": 720,
+      "start_timecode": "00:12:00"
+    },
+    {
+      "duration": 1.4,
+      "end": 14.6438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0013",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 879,
+      "end_timecode": "00:14:39",
+      "signal_id": "edit_span_0013",
+      "start": 13.2438,
+      "start_boundary_id": "edit_boundary_0012",
+      "start_frame": 795,
+      "start_timecode": "00:13:15"
+    },
+    {
+      "duration": 0.6,
+      "end": 15.2438,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0014",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 915,
+      "end_timecode": "00:15:15",
+      "signal_id": "edit_span_0014",
+      "start": 14.6438,
+      "start_boundary_id": "edit_boundary_0013",
+      "start_frame": 879,
+      "start_timecode": "00:14:39"
+    },
+    {
+      "duration": 1.2667,
+      "end": 16.5105,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0015",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 991,
+      "end_timecode": "00:16:31",
+      "signal_id": "edit_span_0015",
+      "start": 15.2438,
+      "start_boundary_id": "edit_boundary_0014",
+      "start_frame": 915,
+      "start_timecode": "00:15:15"
+    },
+    {
+      "duration": 1.2,
+      "end": 17.7105,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0016",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 1063,
+      "end_timecode": "00:17:43",
+      "signal_id": "edit_span_0016",
+      "start": 16.5105,
+      "start_boundary_id": "edit_boundary_0015",
+      "start_frame": 991,
+      "start_timecode": "00:16:31"
+    },
+    {
+      "duration": 2.0167,
+      "end": 19.7272,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0017",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 1184,
+      "end_timecode": "00:19:44",
+      "signal_id": "edit_span_0017",
+      "start": 17.7105,
+      "start_boundary_id": "edit_boundary_0016",
+      "start_frame": 1063,
+      "start_timecode": "00:17:43"
+    },
+    {
+      "duration": 1.3333,
+      "end": 21.0605,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0018",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 1264,
+      "end_timecode": "00:21:04",
+      "signal_id": "edit_span_0018",
+      "start": 19.7272,
+      "start_boundary_id": "edit_boundary_0017",
+      "start_frame": 1184,
+      "start_timecode": "00:19:44"
+    },
+    {
+      "duration": 1.55,
+      "end": 22.6105,
+      "end_boundary_confidence": 0.95,
+      "end_boundary_id": "edit_boundary_0021",
+      "end_boundary_kind": "hard_cut_with_detector_agreement",
+      "end_frame": 1357,
+      "end_timecode": "00:22:37",
+      "signal_id": "edit_span_0019",
+      "start": 21.0605,
+      "start_boundary_id": "edit_boundary_0018",
+      "start_frame": 1264,
+      "start_timecode": "00:21:04"
+    },
+    {
+      "duration": 2.2865,
+      "end": 24.897,
+      "end_boundary_confidence": 1.0,
+      "end_boundary_id": "media_end",
+      "end_boundary_kind": "media_end",
+      "end_frame": 1494,
+      "end_timecode": "00:24:54",
+      "signal_id": "edit_span_0020",
+      "start": 22.6105,
+      "start_boundary_id": "edit_boundary_0021",
+      "start_frame": 1357,
+      "start_timecode": "00:22:37"
+    }
+  ],
+  "sync_windows": [
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0001",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0014",
+        "strength": 13.815112,
+        "time": 1.8833,
+        "timecode": "00:01:53"
+      },
+      "nearest_word": {
+        "end": 1.973,
+        "end_timecode": "00:01:58",
+        "offset_ms": 69.2,
+        "signal_id": "word_0009",
+        "start": 1.853,
+        "start_timecode": "00:01:51",
+        "word": "They"
+      },
+      "signal_id": "sync_0001",
+      "time": 1.8438,
+      "timecode": "00:01:51"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "candidate_cut_review",
+      "event_signal_id": "edit_boundary_0002",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 50.0,
+        "signal_id": "aud_onset_0019",
+        "strength": 8.587917,
+        "time": 2.4,
+        "timecode": "00:02:24"
+      },
+      "nearest_word": {
+        "end": 2.333,
+        "end_timecode": "00:02:20",
+        "offset_ms": -57.0,
+        "signal_id": "word_0011",
+        "start": 2.253,
+        "start_timecode": "00:02:15",
+        "word": "it,"
+      },
+      "signal_id": "sync_0002",
+      "time": 2.35,
+      "timecode": "00:02:21"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0003",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 56.2,
+        "signal_id": "aud_onset_0025",
+        "strength": 5.708483,
+        "time": 3.2,
+        "timecode": "00:03:12"
+      },
+      "nearest_word": {
+        "end": 3.275,
+        "end_timecode": "00:03:16",
+        "offset_ms": 90.7,
+        "signal_id": "word_0016",
+        "start": 3.194,
+        "start_timecode": "00:03:12",
+        "word": "and"
+      },
+      "signal_id": "sync_0003",
+      "time": 3.1438,
+      "timecode": "00:03:09"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0004",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": -27.2,
+        "signal_id": "aud_onset_0033",
+        "strength": 6.237297,
+        "time": 3.9333,
+        "timecode": "00:03:56"
+      },
+      "nearest_word": {
+        "end": 4.095,
+        "end_timecode": "00:04:06",
+        "offset_ms": 84.5,
+        "signal_id": "word_0021",
+        "start": 3.995,
+        "start_timecode": "00:04:00",
+        "word": "But"
+      },
+      "signal_id": "sync_0004",
+      "time": 3.9605,
+      "timecode": "00:03:58"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0005",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": -27.1,
+        "signal_id": "aud_onset_0045",
+        "strength": 6.425011,
+        "time": 5.5167,
+        "timecode": "00:05:31"
+      },
+      "nearest_word": {
+        "end": 5.737,
+        "end_timecode": "00:05:44",
+        "offset_ms": 113.2,
+        "signal_id": "word_0028",
+        "start": 5.577,
+        "start_timecode": "00:05:35",
+        "word": "does"
+      },
+      "signal_id": "sync_0005",
+      "time": 5.5438,
+      "timecode": "00:05:33"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0006",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": -27.2,
+        "signal_id": "aud_onset_0054",
+        "strength": 11.713759,
+        "time": 6.2333,
+        "timecode": "00:06:14"
+      },
+      "nearest_word": {
+        "end": 6.378,
+        "end_timecode": "00:06:23",
+        "offset_ms": 77.5,
+        "signal_id": "word_0031",
+        "start": 6.298,
+        "start_timecode": "00:06:18",
+        "word": "He"
+      },
+      "signal_id": "sync_0006",
+      "time": 6.2605,
+      "timecode": "00:06:16"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0007",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 8.3,
+        "signal_id": "aud_onset_0065",
+        "strength": 4.402331,
+        "time": 7.4167,
+        "timecode": "00:07:25"
+      },
+      "nearest_word": {
+        "end": 7.439,
+        "end_timecode": "00:07:26",
+        "offset_ms": -159.4,
+        "signal_id": "word_0036",
+        "start": 7.059,
+        "start_timecode": "00:07:04",
+        "word": "sessions"
+      },
+      "signal_id": "sync_0007",
+      "time": 7.4084,
+      "timecode": "00:07:25"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0008",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 6.2,
+        "signal_id": "aud_onset_0071",
+        "strength": 3.418034,
+        "time": 8.4167,
+        "timecode": "00:08:25"
+      },
+      "nearest_word": {
+        "end": 8.42,
+        "end_timecode": "00:08:25",
+        "offset_ms": -100.5,
+        "signal_id": "word_0040",
+        "start": 8.2,
+        "start_timecode": "00:08:12",
+        "word": "mode,"
+      },
+      "signal_id": "sync_0008",
+      "time": 8.4105,
+      "timecode": "00:08:25"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0009",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 22.9,
+        "signal_id": "aud_onset_0076",
+        "strength": 8.779286,
+        "time": 9.2167,
+        "timecode": "00:09:13"
+      },
+      "nearest_word": {
+        "end": 9.241,
+        "end_timecode": "00:09:14",
+        "offset_ms": -72.8,
+        "signal_id": "word_0043",
+        "start": 9.001,
+        "start_timecode": "00:09:00",
+        "word": "mode."
+      },
+      "signal_id": "sync_0009",
+      "time": 9.1938,
+      "timecode": "00:09:12"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0010",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0090",
+        "strength": 12.885571,
+        "time": 10.95,
+        "timecode": "00:10:57"
+      },
+      "nearest_word": {
+        "end": 11.063,
+        "end_timecode": "00:11:04",
+        "offset_ms": 92.5,
+        "signal_id": "word_0051",
+        "start": 10.943,
+        "start_timecode": "00:10:57",
+        "word": "then"
+      },
+      "signal_id": "sync_0010",
+      "time": 10.9105,
+      "timecode": "00:10:55"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0011",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": -27.1,
+        "signal_id": "aud_onset_0098",
+        "strength": 14.926402,
+        "time": 11.9667,
+        "timecode": "00:11:58"
+      },
+      "nearest_word": {
+        "end": 12.164,
+        "end_timecode": "00:12:10",
+        "offset_ms": 100.2,
+        "signal_id": "word_0055",
+        "start": 12.024,
+        "start_timecode": "00:12:01",
+        "word": "That"
+      },
+      "signal_id": "sync_0011",
+      "time": 11.9938,
+      "timecode": "00:12:00"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0012",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": -10.5,
+        "signal_id": "aud_onset_0108",
+        "strength": 4.448921,
+        "time": 13.2333,
+        "timecode": "00:13:14"
+      },
+      "nearest_word": {
+        "end": 13.385,
+        "end_timecode": "00:13:23",
+        "offset_ms": 91.2,
+        "signal_id": "word_0060",
+        "start": 13.285,
+        "start_timecode": "00:13:17",
+        "word": "why"
+      },
+      "signal_id": "sync_0012",
+      "time": 13.2438,
+      "timecode": "00:13:15"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0013",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0121",
+        "strength": 4.457271,
+        "time": 14.6833,
+        "timecode": "00:14:41"
+      },
+      "nearest_word": {
+        "end": 14.747,
+        "end_timecode": "00:14:45",
+        "offset_ms": 73.2,
+        "signal_id": "word_0066",
+        "start": 14.687,
+        "start_timecode": "00:14:41",
+        "word": "And"
+      },
+      "signal_id": "sync_0013",
+      "time": 14.6438,
+      "timecode": "00:14:39"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0014",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0126",
+        "strength": 14.915315,
+        "time": 15.2833,
+        "timecode": "00:15:17"
+      },
+      "nearest_word": {
+        "end": 15.368,
+        "end_timecode": "00:15:22",
+        "offset_ms": 84.2,
+        "signal_id": "word_0070",
+        "start": 15.288,
+        "start_timecode": "00:15:17",
+        "word": "He"
+      },
+      "signal_id": "sync_0014",
+      "time": 15.2438,
+      "timecode": "00:15:15"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0015",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0136",
+        "strength": 13.990117,
+        "time": 16.55,
+        "timecode": "00:16:33"
+      },
+      "nearest_word": {
+        "end": 16.729,
+        "end_timecode": "00:16:44",
+        "offset_ms": 138.5,
+        "signal_id": "word_0076",
+        "start": 16.569,
+        "start_timecode": "00:16:34",
+        "word": "makes"
+      },
+      "signal_id": "sync_0015",
+      "time": 16.5105,
+      "timecode": "00:16:31"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0016",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 22.8,
+        "signal_id": "aud_onset_0146",
+        "strength": 5.058566,
+        "time": 17.7333,
+        "timecode": "00:17:44"
+      },
+      "nearest_word": {
+        "end": 17.75,
+        "end_timecode": "00:17:45",
+        "offset_ms": -50.5,
+        "signal_id": "word_0081",
+        "start": 17.57,
+        "start_timecode": "00:17:34",
+        "word": "work,"
+      },
+      "signal_id": "sync_0016",
+      "time": 17.7105,
+      "timecode": "00:17:43"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0017",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0165",
+        "strength": 4.444627,
+        "time": 19.7667,
+        "timecode": "00:19:46"
+      },
+      "nearest_word": {
+        "end": 19.893,
+        "end_timecode": "00:19:54",
+        "offset_ms": 115.3,
+        "signal_id": "word_0089",
+        "start": 19.792,
+        "start_timecode": "00:19:48",
+        "word": "So"
+      },
+      "signal_id": "sync_0017",
+      "time": 19.7272,
+      "timecode": "00:19:44"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0018",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0175",
+        "strength": 6.056048,
+        "time": 21.1,
+        "timecode": "00:21:06"
+      },
+      "nearest_word": {
+        "end": 21.214,
+        "end_timecode": "00:21:13",
+        "offset_ms": 93.5,
+        "signal_id": "word_0095",
+        "start": 21.094,
+        "start_timecode": "00:21:06",
+        "word": "he's"
+      },
+      "signal_id": "sync_0018",
+      "time": 21.0605,
+      "timecode": "00:21:04"
+    },
+    {
+      "binding_window_ms": 250,
+      "event_kind": "hard_cut_with_detector_agreement",
+      "event_signal_id": "edit_boundary_0021",
+      "nearest_audio": {
+        "kind": "audio_onset",
+        "offset_ms": 39.5,
+        "signal_id": "aud_onset_0190",
+        "strength": 4.617343,
+        "time": 22.65,
+        "timecode": "00:22:39"
+      },
+      "nearest_word": {
+        "end": 22.636,
+        "end_timecode": "00:22:38",
+        "offset_ms": -145.0,
+        "signal_id": "word_0101",
+        "start": 22.295,
+        "start_timecode": "00:22:18",
+        "word": "system."
+      },
+      "signal_id": "sync_0019",
+      "time": 22.6105,
+      "timecode": "00:22:37"
+    }
+  ],
+  "thresholds": {
+    "boundary_merge_window_seconds": 0.12,
+    "sync_window_seconds": 0.25
+  },
+  "tooling": {
+    "boundary_detectors": [
+      "pyscenedetect.ContentDetector",
+      "AutoShot.TransNetV2Supernet when enabled",
+      "opencv mean grayscale absdiff"
+    ],
+    "no_ocr": true,
+    "scope": "shot-boundary and shot-span evidence only; within-shot visual effects are not inferred here",
+    "status": "ok"
+  }
+}
