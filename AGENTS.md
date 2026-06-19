@@ -31,13 +31,103 @@ Do not reframe the Exemplar as default footage to cut down. Reusing Exemplar foo
 - `docs/hermes_orchestration_handoff.md` — earlier Hermes-oriented pipeline notes.
 - `docs/adr/` — durable architecture decisions.
 - `docs/mcp/freesound.md` — Freesound Stock Connector setup and workflow.
-- `gemini_pipeline/` — Gemini analysis scripts, prompts, and outputs.
-- `assets/` — repo-local media assets.
+- `gemini_pipeline/` — Gemini analysis scripts and prompts. Keep new analysis outputs under the relevant Exemplar or Recreation folder unless a legacy script still requires this path.
+- `assets/` — shared Asset Knowledge Base material only: SFX, stock, owned Asset Segments, and generated reusable assets. Do not place Exemplar source videos or final polished Recreation exports here.
+- `exemplars/` — target home for Exemplar intake, deterministic signal packs, Gemini runs, Markdown comparisons, and human synthesis.
+- `patterns/` — target home for promoted reusable Viral Patterns.
+- `recreations/` — target home for concrete Recreation projects from brief through final export.
 - `scripts/` — utility scripts.
 - `tools/` — local connector/tooling code.
-- `hyperframes-reels/` — concrete reel projects; each may have its own instructions.
+- `hyperframes-reels/` — existing HyperFrames reel projects; each may have its own instructions. Prefer `recreations/<recreation_slug>/build/hyperframes/` for new projects or when migrating.
 
 Do not reintroduce a `main/` subfolder. The project root is `/Users/pedrocarvalho/projects/video_editing_ai`.
+
+## Artifact Governance
+
+Use this lifecycle for new work and for gradual cleanup of legacy outputs:
+
+```text
+Exemplar source
+-> deterministic signal pack
+-> Gemini web-app and SDK runs
+-> Markdown comparison
+-> human synthesis
+-> promoted Viral Pattern, when reusable
+-> Recreation project
+-> acceptance review
+-> final polished export
+```
+
+### Target Folder Shape
+
+```text
+exemplars/<exemplar_slug>/
+  source/
+  signals/
+  gemini_runs/
+    web_app/<run_id>/
+    sdk/<run_id>/
+  comparisons/
+    markdown/
+  synthesis/
+
+patterns/<pattern_slug>/
+  pattern.md
+  evidence_index.md
+  source_exemplars.md
+
+recreations/<recreation_slug>/
+  brief/
+  beat_sheet/
+  assets/
+  build/
+  renders/
+  acceptance/
+  exports/
+    final/
+  archive/
+```
+
+### Naming Rules
+
+- Use stable lowercase slugs: `instagram-real`, `reel-1-pedro`, `claude-code-system-shortform`.
+- Use UTC-like run IDs: `YYYYMMDDTHHMMSSZ`.
+- Use explicit versions for deliverables: `v001`, `v002`, `v003`.
+- Prefer role names over ad hoc names: `analysis.md`, `prompt.md`, `run_manifest.json`, `comparison_notes.md`, `beat_sheet.md`.
+- Name final exports as `<recreation_slug>_final_<version>_<run_id>.mp4`.
+
+### Exemplar Rules
+
+- Put incoming Exemplar media in `exemplars/<exemplar_slug>/source/`.
+- Do not put Exemplar source videos in `assets/`; the Exemplar teaches a Viral Pattern and is not automatically reusable media.
+- Store deterministic ingest output in `exemplars/<exemplar_slug>/signals/`.
+- Treat `signals_for_gemini.md` as a generated Gemini input bundle only. Do not hand-edit it, and do not treat it as the source of truth.
+- Keep canonical timing and evidence in JSON artifacts such as `media.json`, `transcript.words.json`, `audio_features.json`, `visual_events.json`, `speech_metrics.json`, `edit_mechanisms.json`, and `candidate_beats.json`.
+- Treat `signals/_work/` as disposable cache unless exact reproduction requires preserving it.
+
+### Gemini Run Rules
+
+- Store Gemini web-app outputs under `exemplars/<exemplar_slug>/gemini_runs/web_app/<run_id>/`.
+- Store Gemini SDK outputs under `exemplars/<exemplar_slug>/gemini_runs/sdk/<run_id>/`.
+- Keep SDK outputs out of `signals/`; `signals/` is for deterministic inputs and evidence, not model outputs.
+- For both web-app and SDK runs, use `analysis.md` as the main human-readable output.
+- Preserve `prompt.md`, `input_signals_for_gemini.md`, and `run_manifest.json` with every run when practical.
+- When comparing human-readable outputs, copy the exact pair into `exemplars/<exemplar_slug>/comparisons/markdown/<comparison_id>/` as `web_app.analysis.md` and `sdk.analysis.md`.
+
+### Recreation Rules
+
+- Start concrete Recreation work under `recreations/<recreation_slug>/`.
+- Put renderer/framework-specific project files under `recreations/<recreation_slug>/build/<renderer>/`, for example `build/hyperframes/`.
+- Put draft renders in `recreations/<recreation_slug>/renders/`.
+- Put acceptance artifacts, Gemini re-analysis, and gap analysis in `recreations/<recreation_slug>/acceptance/`.
+- Put polished deliverables only in `recreations/<recreation_slug>/exports/final/`.
+- Do not put final polished videos in root `assets/`.
+
+### Promotion Rules
+
+- Promote only reusable, reviewed Viral Patterns into `patterns/<pattern_slug>/`.
+- Keep Exemplar-specific observations in `exemplars/<exemplar_slug>/synthesis/` unless they have been abstracted into a reusable Viral Pattern.
+- Keep stock, SFX, owned Asset Segments, and generated reusable assets in `assets/` with manifests when licensing or provenance matters.
 
 ## Documentation Rules
 
@@ -65,4 +155,3 @@ Freesound setup:
 ./scripts/freesound_download.py login
 ```
 
-For `hyperframes-reels/reel-1-pedro`, follow that folder's `AGENTS.md` and run checks from inside the reel folder.

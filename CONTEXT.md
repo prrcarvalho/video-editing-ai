@@ -28,6 +28,10 @@ A reusable sub-clip carved out of an owned long-form piece by Gemini analysis (a
 **Stock Connector**:
 An MCP-mediated bridge to a third-party stock library (e.g. Pexels, Coverr, Freesound) that lets an agent search and pull licensed media to fill a beat the owned channel can't. The stock channel of the Asset Knowledge Base.
 
+**Generation Connector**:
+An agent-callable bridge to a generative media service that creates or transforms assets for Beat Sheet requirements. FlowKit/Omni is a Generation Connector: it produces generated material for a Recreation, but it is not the renderer, final editing pipeline, Asset Knowledge Base, or a Stock Connector.
+_Avoid_: renderer, editor, asset library
+
 **Freesound Connector**:
 The first concrete Stock Connector for SFX/audio accents. Agents search Freesound through the shared MCP server documented in [docs/mcp/freesound.md](./docs/mcp/freesound.md), then download selected original assets through `scripts/freesound_download.py` so OAuth tokens stay outside the repo and attribution/license metadata is recorded in `assets/sfx/freesound/manifest.json`.
 
