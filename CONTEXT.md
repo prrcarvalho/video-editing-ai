@@ -25,6 +25,12 @@ _Avoid_: media library, asset store (too generic; this one is *documented for ag
 **Asset Segment**:
 A reusable sub-clip carved out of an owned long-form piece by Gemini analysis (a demo step, a b-roll-able moment, an SFX/sound), indexed in the Asset Knowledge Base for reuse in later Recreations. The mechanism by which long-form production feeds short-form supply.
 
+**Screencast Asset Segment**:
+A reusable Asset Segment that shows a real browser, app, terminal, or software workflow. It may be captured manually or produced by an automated browser-demo replay, but the reusable artifact is the approved visible demonstration plus its provenance, not the private browser session that created it.
+
+**Demo Run Spec**:
+A machine-readable instruction bundle for producing an automated Screencast Asset Segment from a Beat Sheet row: target URL, viewport, timing, workflow steps, profile/privacy policy, cursor/zoom treatment, and acceptance notes. It is the source of truth for scripted browser B-roll replay.
+
 **Stock Connector**:
 An MCP-mediated bridge to a third-party stock library (e.g. Pexels, Coverr, Freesound) that lets an agent search and pull licensed media to fill a beat the owned channel can't. The stock channel of the Asset Knowledge Base.
 

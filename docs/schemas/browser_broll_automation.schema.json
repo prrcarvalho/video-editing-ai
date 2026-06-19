@@ -1,0 +1,314 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://video-editing-ai.local/schemas/browser_broll_automation.schema.json",
+  "title": "Browser B-roll Automation",
+  "description": "Artifact contract for deterministic browser-demo Screencast Asset Segments.",
+  "$ref": "#/$defs/DemoRunSpec",
+  "$defs": {
+    "Bounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y", "width", "height"],
+      "properties": {
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "width": { "type": "number", "exclusiveMinimum": 0 },
+        "height": { "type": "number", "exclusiveMinimum": 0 }
+      }
+    },
+    "Viewport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height"],
+      "properties": {
+        "width": { "type": "integer", "minimum": 320 },
+        "height": { "type": "integer", "minimum": 320 },
+        "device_scale_factor": { "type": "number", "minimum": 1, "default": 1 }
+      }
+    },
+    "WaitCondition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": ["load_state", "selector", "url_contains", "timeout", "network_quiet"]
+        },
+        "value": { "type": "string" },
+        "timeout_ms": { "type": "integer", "minimum": 0, "default": 5000 }
+      }
+    },
+    "ZoomBehavior": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["enabled"],
+      "properties": {
+        "enabled": { "type": "boolean" },
+        "scale": { "type": "number", "minimum": 1, "maximum": 3, "default": 1.18 },
+        "padding": { "type": "integer", "minimum": 0, "default": 96 },
+        "duration_ms": { "type": "integer", "minimum": 0, "default": 450 },
+        "hold_ms": { "type": "integer", "minimum": 0, "default": 350 }
+      }
+    },
+    "BrowserDemoStep": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["step_id", "action"],
+      "properties": {
+        "step_id": { "type": "string", "minLength": 1 },
+        "action": {
+          "type": "string",
+          "enum": [
+            "goto",
+            "click",
+            "fill",
+            "type",
+            "press",
+            "hover",
+            "drag",
+            "scroll",
+            "wait",
+            "snapshot",
+            "assert_visible"
+          ]
+        },
+        "url": { "type": "string" },
+        "locator": { "type": "string" },
+        "to_locator": { "type": "string" },
+        "text": { "type": "string" },
+        "key": { "type": "string" },
+        "scroll_x": { "type": "integer", "default": 0 },
+        "scroll_y": { "type": "integer", "default": 0 },
+        "pause_after_ms": { "type": "integer", "minimum": 0, "default": 250 },
+        "expected_url_contains": { "type": "string" },
+        "expected_text": { "type": "string" },
+        "target_bounds": { "$ref": "#/$defs/Bounds" },
+        "cursor_behavior": {
+          "type": "string",
+          "enum": ["none", "move", "hover", "click", "drag", "type", "hidden"],
+          "default": "none"
+        },
+        "zoom_behavior": { "$ref": "#/$defs/ZoomBehavior" },
+        "caption_cue": { "type": "string" },
+        "sfx_cue": { "type": "string" },
+        "notes": { "type": "string" }
+      }
+    },
+    "CursorKeyframe": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["time_ms", "x", "y"],
+      "properties": {
+        "time_ms": { "type": "integer", "minimum": 0 },
+        "x": { "type": "number" },
+        "y": { "type": "number" },
+        "state": {
+          "type": "string",
+          "enum": ["idle", "hover", "down", "drag", "up", "hidden"],
+          "default": "idle"
+        },
+        "easing": {
+          "type": "string",
+          "enum": ["linear", "ease_in", "ease_out", "ease_in_out", "minimum_jerk"],
+          "default": "ease_out"
+        },
+        "icon": {
+          "type": "string",
+          "enum": ["arrow", "pointer", "text", "grab", "grabbing"],
+          "default": "arrow"
+        }
+      }
+    },
+    "ZoomBox": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["time_ms", "duration_ms", "bounds", "scale"],
+      "properties": {
+        "time_ms": { "type": "integer", "minimum": 0 },
+        "duration_ms": { "type": "integer", "minimum": 0 },
+        "bounds": { "$ref": "#/$defs/Bounds" },
+        "scale": { "type": "number", "minimum": 1, "maximum": 3 },
+        "easing": {
+          "type": "string",
+          "enum": ["linear", "ease_in", "ease_out", "ease_in_out"],
+          "default": "ease_in_out"
+        }
+      }
+    },
+    "CursorMotionTimeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["keyframes"],
+      "properties": {
+        "keyframes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/CursorKeyframe" },
+          "default": []
+        },
+        "click_ripples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["time_ms", "x", "y"],
+            "properties": {
+              "time_ms": { "type": "integer", "minimum": 0 },
+              "x": { "type": "number" },
+              "y": { "type": "number" },
+              "duration_ms": { "type": "integer", "minimum": 0, "default": 280 }
+            }
+          },
+          "default": []
+        },
+        "zoom_boxes": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/ZoomBox" },
+          "default": []
+        }
+      }
+    },
+    "VisualTreatment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "cursor": { "$ref": "#/$defs/CursorMotionTimeline" },
+        "caption_style": { "type": "string", "default": "mute-first keyword captions" },
+        "output_aspect_ratio": { "type": "string", "default": "9:16" },
+        "output_resolution": { "$ref": "#/$defs/Viewport" },
+        "sfx_policy": { "type": "string", "default": "click cues within 100ms of visible action" },
+        "notes": { "type": "string" }
+      }
+    },
+    "PrivacyMode": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["profile_policy", "store_private_evidence"],
+      "properties": {
+        "profile_policy": {
+          "type": "string",
+          "enum": ["demo_profile", "saved_storage_state", "real_chrome", "no_login"]
+        },
+        "store_private_evidence": { "type": "boolean", "default": false },
+        "requires_action_approval": { "type": "boolean", "default": true },
+        "redaction_notes": { "type": "array", "items": { "type": "string" }, "default": [] }
+      }
+    },
+    "DemoRunSpec": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_type",
+        "version",
+        "recreation_slug",
+        "shot_id",
+        "target_url",
+        "viewport",
+        "duration_seconds",
+        "beat_sheet_row_ids",
+        "privacy_mode",
+        "steps"
+      ],
+      "properties": {
+        "artifact_type": { "const": "DemoRunSpec" },
+        "version": { "type": "string", "default": "v001" },
+        "recreation_slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "shot_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9_-]*$" },
+        "target_url": { "type": "string", "minLength": 1 },
+        "viewport": { "$ref": "#/$defs/Viewport" },
+        "duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+        "beat_sheet_row_ids": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        },
+        "automation_tool": { "type": "string", "default": "playwright-cli-patched" },
+        "renderer": { "type": "string", "default": "hyperframes" },
+        "privacy_mode": { "$ref": "#/$defs/PrivacyMode" },
+        "wait_conditions": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/WaitCondition" },
+          "default": []
+        },
+        "steps": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/BrowserDemoStep" },
+          "minItems": 1
+        },
+        "visual_treatment": { "$ref": "#/$defs/VisualTreatment" },
+        "acceptance_notes": {
+          "type": "array",
+          "items": { "type": "string" },
+          "default": []
+        }
+      }
+    },
+    "AutomationRunManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_type",
+        "version",
+        "recreation_slug",
+        "shot_id",
+        "demo_run_spec_path",
+        "profile_policy",
+        "approval_status"
+      ],
+      "properties": {
+        "artifact_type": { "const": "AutomationRunManifest" },
+        "version": { "type": "string", "default": "v001" },
+        "recreation_slug": { "type": "string" },
+        "shot_id": { "type": "string" },
+        "created_at": { "type": "string" },
+        "tool_versions": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "default": {}
+        },
+        "demo_run_spec_path": { "type": "string" },
+        "replay_script_path": { "type": "string" },
+        "raw_recording_path": { "type": "string" },
+        "styled_render_path": { "type": "string" },
+        "trace_paths": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "snapshot_paths": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "network_evidence_paths": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "profile_policy": {
+          "type": "string",
+          "enum": ["demo_profile", "saved_storage_state", "real_chrome", "no_login"]
+        },
+        "redaction_notes": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "approval_status": {
+          "type": "string",
+          "enum": ["draft", "needs_review", "approved", "rejected"],
+          "default": "draft"
+        }
+      }
+    },
+    "ScreencastAssetSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "artifact_type",
+        "version",
+        "asset_segment_id",
+        "recreation_slug",
+        "shot_id",
+        "source_manifest_path",
+        "media_path"
+      ],
+      "properties": {
+        "artifact_type": { "const": "ScreencastAssetSegment" },
+        "version": { "type": "string", "default": "v001" },
+        "asset_segment_id": { "type": "string" },
+        "recreation_slug": { "type": "string" },
+        "shot_id": { "type": "string" },
+        "source_manifest_path": { "type": "string" },
+        "media_path": { "type": "string" },
+        "duration_seconds": { "type": "number", "exclusiveMinimum": 0 },
+        "reuse_notes": { "type": "array", "items": { "type": "string" }, "default": [] },
+        "license_or_rights": { "type": "string", "default": "owned/generated demo capture" }
+      }
+    }
+  }
+}

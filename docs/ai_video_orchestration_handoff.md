@@ -132,6 +132,26 @@ Output:
 
 - `PromptPack`
 
+### Browser Demo Agent
+
+Produces real browser or software B-roll as Screencast Asset Segments.
+
+Responsibilities:
+
+- Convert screencast Beat Sheet rows into a `DemoRunSpec`.
+- Normalize captured or inferred browser actions into a deterministic replay.
+- Run or hand off `playwright-cli-patched` replay with video, trace, snapshot,
+  and network evidence.
+- Preserve privacy boundaries: demo profiles or saved storage state by default,
+  explicit approval for real Chrome sessions or side-effectful actions.
+- Return raw capture, styled-render instructions, and provenance for assembly.
+
+Output:
+
+- `DemoRunSpec`
+- `AutomationRunManifest`
+- `ScreencastAssetSegment`
+
 ### Video Generation Agent
 
 Generates or requests generated video clips.
@@ -347,7 +367,7 @@ Each task card must include:
 
 ### 9. Parallel Asset Production
 
-Prompt, video, image, audio, caption, and graphic agents work in parallel where dependencies allow.
+Prompt, browser demo, video, image, audio, caption, and graphic agents work in parallel where dependencies allow.
 
 Exit criteria:
 
@@ -430,12 +450,13 @@ The workflow should produce these artifacts in order:
 4. `CreativePlan`
 5. `EditPlan`
 6. `PromptPack`
-7. `GeneratedAssets`
-8. `AssetReviews`
-9. `AssemblyManifest`
-10. `PreviewExport`
-11. `FinalExport`
-12. `ProjectArchive`
+7. `DemoRunSpecs`, `AutomationRunManifests`, and `ScreencastAssetSegments` when screencast Beat Sheet rows require automated browser demos
+8. `GeneratedAssets`
+9. `AssetReviews`
+10. `AssemblyManifest`
+11. `PreviewExport`
+12. `FinalExport`
+13. `ProjectArchive`
 
 ## Coordination Rules
 
