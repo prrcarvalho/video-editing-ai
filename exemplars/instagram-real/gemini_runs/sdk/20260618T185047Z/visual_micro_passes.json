@@ -1,0 +1,174 @@
+{
+  "adaptive_fps": false,
+  "base_fps": 24.0,
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T185133Z",
+  "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+  "model": "gemini-3.5-flash",
+  "passes": [
+    {
+      "base_fps": 24.0,
+      "boundary_id": "edit_boundary_0001",
+      "boundary_kind": "hard_cut_with_detector_agreement",
+      "context_chars": 6213,
+      "end": 2.7438000000000002,
+      "end_timecode": "00:02:45",
+      "evidence": {
+        "layout_snapshot": {
+          "anchor_signal_ids": [
+            "edit_boundary_0001",
+            "edit_span_0002"
+          ],
+          "composition_notes": "Clean vertical mobile layout prioritizing search engine UI readability.",
+          "confidence": 0.95,
+          "dominant_focus": "Google Search results showing Claude by Anthropic links.",
+          "evidence_id": "layout_snapshot_0001",
+          "grounding_constraints": {
+            "audio_signal_ids": [],
+            "candidate_beat_ids": [],
+            "cut_boundary_ids": [
+              "edit_boundary_0001"
+            ],
+            "prosody_segment_ids": [],
+            "shot_span_ids": [
+              "edit_span_0002"
+            ],
+            "word_ids": []
+          },
+          "layer_stack_description": "Chrome browser displaying Google Search results for Claude Code, overlayed with centered high-contrast subtitle captions.",
+          "layout_type": "screen_recording",
+          "needs_review": false,
+          "surface_roles": [
+            "caption_layer",
+            "browser_ui",
+            "screen_recording"
+          ],
+          "time_range": "00:01:51-00:02:21",
+          "visible_layers": [
+            "caption_layer",
+            "browser_ui"
+          ]
+        },
+        "negative_observations": [
+          "No post-cut digital zoom or camera motion was applied to the screen recording immediately after the cut."
+        ],
+        "review_notes": "Hard cut matches voice delivery rate, transitioning from talking head mode to a visual screen recording cleanly.",
+        "span_id": "edit_span_0002",
+        "time_range": "00:01:51-00:02:21",
+        "visual_craft_events": [
+          {
+            "affected_layer": "background_plate",
+            "anchor_signal_ids": [
+              "edit_boundary_0001",
+              "sync_0001"
+            ],
+            "confidence": 0.95,
+            "craft_function_hypothesis": "pattern_interrupt",
+            "duration_class": "flash_1_4_frames",
+            "event_type": "hard_cut",
+            "evidence_id": "craft_event_0001",
+            "grounding_constraints": {
+              "audio_signal_ids": [
+                "aud_onset_0014"
+              ],
+              "candidate_beat_ids": [
+                "beat_0005"
+              ],
+              "cut_boundary_ids": [
+                "edit_boundary_0001"
+              ],
+              "prosody_segment_ids": [
+                "prosody_seg_0001",
+                "prosody_seg_0002"
+              ],
+              "shot_span_ids": [
+                "edit_span_0001",
+                "edit_span_0002"
+              ],
+              "word_ids": [
+                "word_0008",
+                "word_0009"
+              ]
+            },
+            "hypothesis_basis": "visible_plus_audio_signal",
+            "intensity": "strong",
+            "mechanic_family": "cut_boundary",
+            "motion_direction": "none",
+            "motion_profile": "none",
+            "needs_review": false,
+            "recreation_relevance": "Essential transition to change visual context in sync with the audio topic change.",
+            "review_reason": "",
+            "sync_kind": "word_sync",
+            "sync_observation": "Cut is frame-accurate to word_0009 ('They') and aud_onset_0014.",
+            "time_range": "00:01:51-00:01:51",
+            "visible_evidence": "Hard cut from talking head footage to web browser screen recording."
+          },
+          {
+            "affected_layer": "caption_layer",
+            "anchor_signal_ids": [
+              "edit_boundary_0001",
+              "word_0009"
+            ],
+            "confidence": 0.95,
+            "craft_function_hypothesis": "caption_emphasis",
+            "duration_class": "sustained_over_1500ms",
+            "event_type": "caption_pop",
+            "evidence_id": "craft_event_0002",
+            "grounding_constraints": {
+              "audio_signal_ids": [],
+              "candidate_beat_ids": [
+                "beat_0005"
+              ],
+              "cut_boundary_ids": [
+                "edit_boundary_0001"
+              ],
+              "prosody_segment_ids": [
+                "prosody_seg_0002"
+              ],
+              "shot_span_ids": [
+                "edit_span_0002"
+              ],
+              "word_ids": [
+                "word_0009",
+                "word_0010",
+                "word_0011"
+              ]
+            },
+            "hypothesis_basis": "visible_plus_audio_signal",
+            "intensity": "medium",
+            "mechanic_family": "caption_text",
+            "motion_direction": "none",
+            "motion_profile": "none",
+            "needs_review": false,
+            "recreation_relevance": "Critical for viewer retention and comprehension during fast pacing.",
+            "review_reason": "",
+            "sync_kind": "caption_sync",
+            "sync_observation": "Subtitle appearance is perfectly synced to the spoken words 'They open it'.",
+            "time_range": "00:01:51-00:02:21",
+            "visible_evidence": "Subtitles update instantly to 'They open it' with red and white styling matching voice onset."
+          }
+        ]
+      },
+      "fps": 24.0,
+      "fps_reasons": [
+        "post_cut_boundary_window",
+        "hard_cut_with_detector_agreement"
+      ],
+      "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+      "model": "gemini-3.5-flash",
+      "prompt": "prompts/post_cut_edit_boundary_0001.md",
+      "prompt_chars": 9234,
+      "raw_text": null,
+      "review_fps": 24.0,
+      "span_id": "post_cut_edit_boundary_0001",
+      "start": 1.7438,
+      "start_timecode": "00:01:45",
+      "thinking_level": "medium"
+    }
+  ],
+  "review_fps": 24.0,
+  "schema_version": 1,
+  "source": "gemini_sdk_post_cut_motion_passes",
+  "thinking_level": "medium",
+  "video": "instagram-real.MP4"
+}

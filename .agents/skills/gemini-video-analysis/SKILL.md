@@ -129,6 +129,25 @@ uv run gemini_sdk_video.py extract ../assets/instagram-real.MP4 \
     --count-tokens
 ```
 
+For targeted checks such as "did the editor punch in / zoom / reframe right
+after the cut?", use the rate-limit-friendly post-cut motion test instead of
+re-running broad micro spans:
+
+```bash
+uv run gemini_sdk_video.py post-cut-motion ../assets/instagram-real.MP4 \
+    --signals-dir outputs/instagram-real/signals \
+    --dry-run
+```
+
+Then remove `--dry-run` to call the API. This command sends one compact
+boundary-local context per `edit_boundary_*` plus a short video offset window,
+instead of the full signal bundle. It defaults to 24 FPS, medium media
+resolution, `thinking_level: medium`, sequential requests with a 12s sleep for
+free-tier RPM pacing, and retry handling for retryable 429 /
+RESOURCE_EXHAUSTED errors. Use `--boundary-ids edit_boundary_0002,...` for a
+small manual test, `--hard-cuts-only` to skip candidate cuts, and
+`--request-sleep-seconds` / `--max-retries` when tuning rate-limit behavior.
+
 Outputs are evidence artifacts under the Exemplar SDK run folder, not inside
 `signals/`:
 

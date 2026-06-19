@@ -31,6 +31,7 @@
   viral because..." reasoning.
 - SDK prompt context may include compact global prosody plus `prosody_seg_*` rows. Treat those as voice-delivery sync anchors only; Gemini SDK should not explain why the delivery worked or turn prosody into strategy.
 - Treat signal-pack timecodes as Resolve-style `MM:SS:FF` frame timecode, not decimal seconds. At 60 FPS, `00:02:21` means 2 seconds + 21 frames, not 2.21 seconds. If Gemini emits decimal seconds, normalize or ignore them in favor of cited `edit_span_*`/`beat_*` IDs, frames, and media FPS.
+- For targeted punch-in/zoom/reframe checks after cuts, use `gemini_sdk_video.py post-cut-motion <video> --signals-dir <signals>`. This sends one compact boundary-local context per `edit_boundary_*` instead of the full signal bundle, defaults to 24 FPS + medium media resolution, sleeps between requests for free-tier RPM pacing, and retries retryable 429/RESOURCE_EXHAUSTED API errors.
 - When testing prompt readiness, render/inspect the prompt locally first and confirm `{{analysis_context}}` and `{{video_filename}}` are gone before any Gemini upload.
 - `gemini_video.py analyze --temporary` keeps the Gemini web-app run out of visible Gemini chat history.
 - Keep `signals_for_gemini.md` compact. Very large signal contexts can fail or time out in the Gemini web-app path before model reasoning begins.

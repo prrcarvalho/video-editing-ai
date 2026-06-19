@@ -1,0 +1,99 @@
+{
+  "events": [
+    {
+      "affected_layer": "background_plate",
+      "anchor_signal_ids": [
+        "edit_boundary_0001",
+        "sync_0001"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "pattern_interrupt",
+      "duration_class": "flash_1_4_frames",
+      "event_type": "hard_cut",
+      "evidence_id": "craft_event_0001",
+      "grounding_constraints": {
+        "audio_signal_ids": [
+          "aud_onset_0014"
+        ],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0001",
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0001",
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0008",
+          "word_0009"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "strong",
+      "mechanic_family": "cut_boundary",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Essential transition to change visual context in sync with the audio topic change.",
+      "review_reason": "",
+      "sync_kind": "word_sync",
+      "sync_observation": "Cut is frame-accurate to word_0009 ('They') and aud_onset_0014.",
+      "time_range": "00:01:51-00:01:51",
+      "visible_evidence": "Hard cut from talking head footage to web browser screen recording."
+    },
+    {
+      "affected_layer": "caption_layer",
+      "anchor_signal_ids": [
+        "edit_boundary_0001",
+        "word_0009"
+      ],
+      "confidence": 0.95,
+      "craft_function_hypothesis": "caption_emphasis",
+      "duration_class": "sustained_over_1500ms",
+      "event_type": "caption_pop",
+      "evidence_id": "craft_event_0002",
+      "grounding_constraints": {
+        "audio_signal_ids": [],
+        "candidate_beat_ids": [
+          "beat_0005"
+        ],
+        "cut_boundary_ids": [
+          "edit_boundary_0001"
+        ],
+        "prosody_segment_ids": [
+          "prosody_seg_0002"
+        ],
+        "shot_span_ids": [
+          "edit_span_0002"
+        ],
+        "word_ids": [
+          "word_0009",
+          "word_0010",
+          "word_0011"
+        ]
+      },
+      "hypothesis_basis": "visible_plus_audio_signal",
+      "intensity": "medium",
+      "mechanic_family": "caption_text",
+      "motion_direction": "none",
+      "motion_profile": "none",
+      "needs_review": false,
+      "recreation_relevance": "Critical for viewer retention and comprehension during fast pacing.",
+      "review_reason": "",
+      "sync_kind": "caption_sync",
+      "sync_observation": "Subtitle appearance is perfectly synced to the spoken words 'They open it'.",
+      "time_range": "00:01:51-00:02:21",
+      "visible_evidence": "Subtitles update instantly to 'They open it' with red and white styling matching voice onset."
+    }
+  ],
+  "gemini_role": "visual_evidence_extractor_only",
+  "generated_at": "20260618T185133Z",
+  "schema_version": 1,
+  "source": "gemini_sdk_visual_evidence_merged"
+}

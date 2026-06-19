@@ -1,0 +1,27 @@
+{
+  "mode": "post_cut_motion",
+  "model": "gemini-3.5-flash",
+  "out_dir": "/Users/pedrocarvalho/projects/video_editing_ai/exemplars/instagram-real/gemini_runs/sdk/20260618T185047Z",
+  "post_cut_motion": {
+    "fps": 24.0,
+    "hard_cuts_only": false,
+    "max_boundaries": 24,
+    "media_resolution": "MEDIA_RESOLUTION_MEDIUM",
+    "prompt_dir": "prompts/",
+    "request_sleep_seconds": 12.0,
+    "response_schema": "response_schema_post_cut_motion.json",
+    "thinking_level": "medium",
+    "window_after": 0.9,
+    "window_before": 0.1
+  },
+  "rate_limit_posture": {
+    "max_retries": 4,
+    "note": "Post-cut motion uses compact boundary-local prompts and sequential requests.",
+    "retry_base_delay_seconds": 30.0,
+    "retry_max_delay_seconds": 180.0
+  },
+  "schema_version": 1,
+  "signals_dir": "/Users/pedrocarvalho/projects/video_editing_ai/gemini_pipeline/outputs/instagram-real/signals",
+  "updated_at": "20260618T185047Z",
+  "video": "/Users/pedrocarvalho/projects/video_editing_ai/assets/instagram-real.MP4"
+}

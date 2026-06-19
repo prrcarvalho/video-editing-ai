@@ -1,0 +1,41 @@
+{
+  "post_cut_motion": {
+    "post_cut_edit_boundary_0001": {
+      "count_tokens": {
+        "sdk_http_response": {
+          "headers": {
+            "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+            "content-encoding": "gzip",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Thu, 18 Jun 2026 18:50:55 GMT",
+            "server": "scaffolding on HTTPServer2",
+            "server-timing": "gfet4t7; dur=188",
+            "transfer-encoding": "chunked",
+            "vary": "Origin, X-Origin, Referer",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "SAMEORIGIN",
+            "x-xss-protection": "0"
+          }
+        },
+        "total_tokens": 3525
+      },
+      "retry_attempts": 0,
+      "usage_metadata": {
+        "candidates_token_count": 1442,
+        "prompt_token_count": 5102,
+        "prompt_tokens_details": [
+          {
+            "modality": "VIDEO",
+            "token_count": 1609
+          },
+          {
+            "modality": "TEXT",
+            "token_count": 3493
+          }
+        ],
+        "thoughts_token_count": 1634,
+        "total_token_count": 8178
+      }
+    }
+  }
+}

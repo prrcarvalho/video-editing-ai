@@ -41,6 +41,7 @@ REPO_ROOT = HERE.parent
 DEFAULT_MODEL = "gemini-3.5-flash"
 DEFAULT_SURVEY_PROMPT = HERE / "prompts" / "PROMPT-GEMINI-SDK-VISUAL-SURVEY.md"
 DEFAULT_MICRO_PROMPT = HERE / "prompts" / "PROMPT-GEMINI-SDK-MICRO-EFFECTS.md"
+DEFAULT_POST_CUT_PROMPT = HERE / "prompts" / "PROMPT-GEMINI-SDK-POST-CUT-MOTION.md"
 DEFAULT_CODEX_PROMPT = HERE / "prompts" / "PROMPT-CODEX-VIRAL-REASONING.md"
 DEFAULT_API_KEY_ENV_FILES = [
     Path.home() / "gemini_api_key.env",
@@ -1150,6 +1151,176 @@ def load_boundary_map(signals_dir: Path) -> dict[str, dict[str, Any]]:
     }
 
 
+def load_boundaries(signals_dir: Path) -> list[dict[str, Any]]:
+    edits = read_json(signals_dir / "edit_mechanisms.json", {})
+    return list(edits.get("boundary_mechanisms") or [])
+
+
+def load_sync_windows(signals_dir: Path) -> dict[str, dict[str, Any]]:
+    edits = read_json(signals_dir / "edit_mechanisms.json", {})
+    return {
+        str(item.get("event_signal_id")): item
+        for item in edits.get("sync_windows", [])
+        if item.get("event_signal_id")
+    }
+
+
+def select_boundaries(
+    boundaries: list[dict[str, Any]],
+    requested_ids: str | None,
+    max_boundaries: int | None,
+    *,
+    hard_cuts_only: bool,
+) -> list[dict[str, Any]]:
+    if requested_ids:
+        wanted = {item.strip() for item in requested_ids.split(",") if item.strip()}
+        boundaries = [item for item in boundaries if item.get("signal_id") in wanted]
+    if hard_cuts_only:
+        boundaries = [
+            item
+            for item in boundaries
+            if "hard_cut" in str(item.get("event_kind") or "")
+        ]
+    if max_boundaries is not None:
+        boundaries = boundaries[:max_boundaries]
+    if not boundaries:
+        sys.exit("error: no edit boundaries selected for post-cut motion analysis")
+    return boundaries
+
+
+def adjacent_spans_for_boundary(
+    spans: list[dict[str, Any]],
+    boundary_id: str,
+) -> dict[str, dict[str, Any] | None]:
+    previous = next(
+        (span for span in spans if span.get("end_boundary_id") == boundary_id),
+        None,
+    )
+    next_span = next(
+        (span for span in spans if span.get("start_boundary_id") == boundary_id),
+        None,
+    )
+    return {"previous_span": previous, "next_span": next_span}
+
+
+def compact_span_anchor(span: dict[str, Any] | None) -> dict[str, Any] | None:
+    if not span:
+        return None
+    return {
+        "signal_id": span.get("signal_id"),
+        "start_timecode": span.get("start_timecode"),
+        "end_timecode": span.get("end_timecode"),
+        "start_frame": span.get("start_frame"),
+        "end_frame": span.get("end_frame"),
+        "duration": span.get("duration"),
+        "start_boundary_id": span.get("start_boundary_id") or "media_start",
+        "end_boundary_id": span.get("end_boundary_id") or "media_end",
+    }
+
+
+def compact_sync_window(item: dict[str, Any]) -> dict[str, Any]:
+    if not item:
+        return {}
+
+    def compact_sync_peer(peer: Any) -> Any:
+        if not isinstance(peer, dict):
+            return peer
+        return {
+            key: peer.get(key)
+            for key in [
+                "signal_id",
+                "kind",
+                "word",
+                "timecode",
+                "offset_ms",
+                "strength",
+            ]
+            if peer.get(key) is not None
+        }
+
+    return {
+        "signal_id": item.get("signal_id"),
+        "event_signal_id": item.get("event_signal_id"),
+        "timecode": item.get("timecode"),
+        "binding_window_ms": item.get("binding_window_ms"),
+        "nearest_audio": compact_sync_peer(item.get("nearest_audio")),
+        "nearest_word": compact_sync_peer(item.get("nearest_word")),
+    }
+
+
+def compact_window_anchor(window: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "boundary_id": window.get("boundary_id"),
+        "boundary_timecode": window.get("boundary_timecode"),
+        "boundary_frame": window.get("boundary_frame"),
+        "start_timecode": window.get("start_timecode"),
+        "end_timecode": window.get("end_timecode"),
+        "start_frame": window.get("start_frame"),
+        "end_frame": window.get("end_frame"),
+    }
+
+
+def compact_post_cut_word(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "signal_id": item.get("signal_id"),
+        "word": item.get("word"),
+        "start_timecode": item.get("start_timecode"),
+        "end_timecode": item.get("end_timecode"),
+        "start_frame": item.get("start_frame"),
+        "end_frame": item.get("end_frame"),
+    }
+
+
+def compact_post_cut_beat(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "signal_id": item.get("signal_id"),
+        "timecode": item.get("timecode"),
+        "frame": item.get("frame"),
+        "source_types": item.get("source_types", []),
+        "source_signal_ids": item.get("source_signal_ids", []),
+    }
+
+
+def compact_post_cut_prosody(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "signal_id": item.get("signal_id"),
+        "segment_id": item.get("segment_id"),
+        "start_timecode": item.get("start_timecode"),
+        "end_timecode": item.get("end_timecode"),
+        "start_frame": item.get("start_frame"),
+        "end_frame": item.get("end_frame"),
+        "wpm": item.get("wpm"),
+        "delivery_tags": item.get("delivery_tags", []),
+        "text": item.get("text", ""),
+    }
+
+
+def boundary_window(
+    boundary: dict[str, Any],
+    media: dict[str, Any],
+    *,
+    window_before: float,
+    window_after: float,
+) -> dict[str, Any]:
+    fps = media_fps(media)
+    boundary_time = float(boundary.get("time") or 0.0)
+    duration = media_duration(media)
+    start = max(0.0, boundary_time - window_before)
+    end = min(duration, boundary_time + window_after) if duration else boundary_time + window_after
+    return {
+        "boundary_id": boundary.get("signal_id"),
+        "boundary_timecode": boundary.get("timecode") or seconds_to_timecode(boundary_time, fps),
+        "boundary_frame": boundary.get("frame") or frame_at(boundary_time, fps),
+        "start": start,
+        "end": end,
+        "duration": max(0.0, end - start),
+        "start_timecode": seconds_to_timecode(start, fps),
+        "end_timecode": seconds_to_timecode(end, fps),
+        "start_frame": frame_at(start, fps),
+        "end_frame": frame_at(end, fps),
+    }
+
+
 def span_review_reasons(
     span: dict[str, Any],
     boundary_map: dict[str, dict[str, Any]],
@@ -1317,6 +1488,72 @@ def span_context(signals_dir: Path, span: dict[str, Any], media: dict[str, Any])
     return json.dumps(context, indent=2, sort_keys=True)
 
 
+def post_cut_motion_context(
+    signals_dir: Path,
+    boundary: dict[str, Any],
+    media: dict[str, Any],
+    *,
+    window_before: float,
+    window_after: float,
+) -> tuple[dict[str, Any], str]:
+    spans = load_spans(signals_dir, media)
+    sync_windows = load_sync_windows(signals_dir)
+    boundary_id = str(boundary.get("signal_id") or "")
+    window = boundary_window(
+        boundary,
+        media,
+        window_before=window_before,
+        window_after=window_after,
+    )
+    adjacent = adjacent_spans_for_boundary(spans, boundary_id)
+    start = float(window["start"])
+    end = float(window["end"])
+    context = {
+        "purpose": "post_cut_motion_inspection",
+        "contract": [
+            "Use only this compact deterministic context as timing truth.",
+            "Inspect the post-cut window for visible motion/edit mechanics.",
+            "Do not infer transcript words, cut boundaries, shot spans, or decimal seconds.",
+            "If no post-cut punch/zoom/reframe/crop/resize/shake is visible, say that in negative_observations.",
+        ],
+        "media": {
+            "filename": media.get("filename"),
+            "duration_timecode": media.get("duration_timecode"),
+            "fps": media.get("fps"),
+            "resolution": media.get("resolution"),
+        },
+        "inspection_window": compact_window_anchor(window),
+        "boundary": {
+            "signal_id": boundary.get("signal_id"),
+            "event_kind": boundary.get("event_kind"),
+            "timecode": boundary.get("timecode"),
+            "frame": boundary.get("frame"),
+            "confidence": boundary.get("confidence"),
+            "needs_review": boundary.get("needs_review"),
+            "source_signal_ids": boundary.get("source_signal_ids", []),
+            "sync_signal_ids": boundary.get("sync_signal_ids", []),
+        },
+        "sync_window": compact_sync_window(sync_windows.get(boundary_id, {})),
+        "adjacent_spans": {
+            name: compact_span_anchor(span)
+            for name, span in adjacent.items()
+        },
+        "nearby_words": [
+            compact_post_cut_word(item)
+            for item in words_for_span(signals_dir, start, end)
+        ],
+        "nearby_candidate_beats": [
+            compact_post_cut_beat(item)
+            for item in beats_for_span(signals_dir, start, end)
+        ],
+        "nearby_prosody_segments": [
+            compact_post_cut_prosody(item)
+            for item in prosody_for_span(signals_dir, start, end)
+        ],
+    }
+    return window, json.dumps(context, indent=2, sort_keys=True)
+
+
 def import_sdk():
     try:
         from google import genai
@@ -1400,6 +1637,68 @@ def upload_video(client: Any, types: Any, video: Path, timeout: float) -> Any:
     return uploaded
 
 
+def is_retryable_gemini_error(exc: Exception) -> bool:
+    status = getattr(exc, "status_code", None) or getattr(exc, "code", None)
+    try:
+        if int(status) in {429, 500, 502, 503, 504}:
+            return True
+    except (TypeError, ValueError):
+        pass
+    text = str(exc).lower()
+    return any(
+        term in text
+        for term in [
+            "429",
+            "resource_exhausted",
+            "rate limit",
+            "quota",
+            "too many requests",
+            "temporarily unavailable",
+            "unavailable",
+            "deadline exceeded",
+            "internal error",
+        ]
+    )
+
+
+def retry_delay_from_error(
+    exc: Exception,
+    *,
+    fallback: float,
+    max_delay: float,
+) -> float:
+    text = str(exc)
+    patterns = [
+        r"retry[_ ]?delay[^0-9]*(\d+(?:\.\d+)?)s",
+        r"retryDelay['\"]?\s*[:=]\s*['\"]?(\d+(?:\.\d+)?)s",
+        r"RetryInfo.*?(\d+(?:\.\d+)?)s",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE | re.DOTALL)
+        if match:
+            return min(float(match.group(1)), max_delay)
+    return min(fallback, max_delay)
+
+
+def sleep_between_requests(seconds: float, *, reason: str) -> None:
+    if seconds <= 0:
+        return
+    print(f"[gemini_sdk_video] sleeping {seconds:g}s before next request ({reason})")
+    time.sleep(seconds)
+
+
+def compact_error(exc: Exception, *, max_chars: int = 1200) -> dict[str, Any]:
+    message = str(exc)
+    if len(message) > max_chars:
+        message = f"{message[:max_chars]}..."
+    return {
+        "type": type(exc).__name__,
+        "status_code": getattr(exc, "status_code", None),
+        "retryable": is_retryable_gemini_error(exc),
+        "message": message,
+    }
+
+
 def build_video_part(
     types: Any,
     uploaded: Any,
@@ -1440,6 +1739,9 @@ def generate_json_evidence(
     max_output_tokens: int,
     count_tokens: bool,
     response_json_schema: dict[str, Any] | None,
+    max_retries: int = 0,
+    retry_base_delay: float = 30.0,
+    retry_max_delay: float = 180.0,
 ) -> tuple[dict[str, Any] | list[Any] | None, str, dict[str, Any]]:
     video_part = build_video_part(
         types,
@@ -1469,15 +1771,37 @@ def generate_json_evidence(
             thinking_level=thinking_level
         )
     config = types.GenerateContentConfig(**config_kwargs)
-    usage: dict[str, Any] = {}
-    if count_tokens:
-        token_response = client.models.count_tokens(model=model, contents=contents)
-        usage["count_tokens"] = jsonable(token_response)
-    response = client.models.generate_content(
-        model=model,
-        contents=contents,
-        config=config,
-    )
+    usage: dict[str, Any] = {"retry_attempts": 0}
+    response = None
+    for attempt in range(max_retries + 1):
+        try:
+            if count_tokens and "count_tokens" not in usage:
+                token_response = client.models.count_tokens(model=model, contents=contents)
+                usage["count_tokens"] = jsonable(token_response)
+            response = client.models.generate_content(
+                model=model,
+                contents=contents,
+                config=config,
+            )
+            break
+        except Exception as exc:
+            if attempt >= max_retries or not is_retryable_gemini_error(exc):
+                raise
+            fallback = retry_base_delay * (2**attempt)
+            delay = retry_delay_from_error(
+                exc,
+                fallback=fallback,
+                max_delay=retry_max_delay,
+            )
+            usage["retry_attempts"] = attempt + 1
+            usage["last_retry_error"] = str(exc)
+            print(
+                "[gemini_sdk_video] retryable Gemini API error; "
+                f"attempt {attempt + 1}/{max_retries}, sleeping {delay:g}s"
+            )
+            time.sleep(delay)
+    if response is None:
+        sys.exit("error: Gemini API did not return a response")
     raw_text = response.text or ""
     parsed, parse_error = parse_json_response(raw_text)
     if parsed is None and getattr(response, "parsed", None) is not None:
@@ -1590,6 +1914,9 @@ def run_survey(args: argparse.Namespace, uploaded: Any | None = None) -> dict[st
             max_output_tokens=args.max_output_tokens,
             count_tokens=args.count_tokens,
             response_json_schema=schema,
+            max_retries=args.max_retries,
+            retry_base_delay=args.retry_base_delay_seconds,
+            retry_max_delay=args.retry_max_delay_seconds,
         )
     finally:
         client.close()
@@ -1742,6 +2069,9 @@ def run_micro(args: argparse.Namespace, uploaded: Any | None = None) -> dict[str
                 max_output_tokens=args.max_output_tokens,
                 count_tokens=args.count_tokens,
                 response_json_schema=schema,
+                max_retries=args.max_retries,
+                retry_base_delay=args.retry_base_delay_seconds,
+                retry_max_delay=args.retry_max_delay_seconds,
             )
             span_id = str(span.get("signal_id"))
             retry_payload = None
@@ -1769,6 +2099,9 @@ def run_micro(args: argparse.Namespace, uploaded: Any | None = None) -> dict[str
                     max_output_tokens=args.max_output_tokens,
                     count_tokens=args.count_tokens,
                     response_json_schema=schema,
+                    max_retries=args.max_retries,
+                    retry_base_delay=args.retry_base_delay_seconds,
+                    retry_max_delay=args.retry_max_delay_seconds,
                 )
                 retry_payload = {
                     "fps": review_fps,
@@ -1830,6 +2163,317 @@ def run_micro(args: argparse.Namespace, uploaded: Any | None = None) -> dict[str
     return payload
 
 
+def run_post_cut_motion(args: argparse.Namespace, uploaded: Any | None = None) -> dict[str, Any]:
+    video = Path(args.video).expanduser().resolve()
+    if not video.is_file():
+        sys.exit(f"error: video not found: {video}")
+    signals_dir = resolve_signals_dir(video, args.signals_dir)
+    out_dir = resolve_out_dir(video, args.out_dir)
+    media = load_media(signals_dir, video)
+    boundaries = select_boundaries(
+        load_boundaries(signals_dir),
+        args.boundary_ids,
+        args.max_boundaries,
+        hard_cuts_only=args.hard_cuts_only,
+    )
+    config, body = load_template(Path(args.prompt).expanduser().resolve())
+    model = args.model or config.get("model", DEFAULT_MODEL)
+    fps = float(args.fps or config.get("fps", 24))
+    media_resolution = normalize_media_resolution(
+        args.media_resolution or config.get("media_resolution") or "MEDIUM"
+    )
+    thinking_level = args.thinking_level or config.get("thinking_level")
+    schema = visual_micro_schema()
+    write_json(out_dir / "response_schema_post_cut_motion.json", schema)
+    update_run_manifest(
+        out_dir,
+        {
+            "video": str(video),
+            "signals_dir": str(signals_dir),
+            "out_dir": str(out_dir),
+            "mode": "post_cut_motion",
+            "model": model,
+            "post_cut_motion": {
+                "fps": fps,
+                "media_resolution": media_resolution,
+                "thinking_level": thinking_level,
+                "window_before": args.window_before,
+                "window_after": args.window_after,
+                "max_boundaries": args.max_boundaries,
+                "hard_cuts_only": args.hard_cuts_only,
+                "request_sleep_seconds": args.request_sleep_seconds,
+                "prompt_dir": "prompts/",
+                "response_schema": "response_schema_post_cut_motion.json",
+            },
+            "rate_limit_posture": {
+                "max_retries": args.max_retries,
+                "retry_base_delay_seconds": args.retry_base_delay_seconds,
+                "retry_max_delay_seconds": args.retry_max_delay_seconds,
+                "note": "Post-cut motion uses compact boundary-local prompts and sequential requests.",
+            },
+        },
+    )
+
+    planned = []
+    context_sections = [
+        "# Compact Post-Cut Motion Signal Contexts",
+        "",
+        "These are the exact compact deterministic contexts sent to Gemini for the post-cut motion test.",
+        "Each request receives only one boundary-local context plus the short video offset window.",
+        "",
+    ]
+    for boundary in boundaries:
+        window, context = post_cut_motion_context(
+            signals_dir,
+            boundary,
+            media,
+            window_before=args.window_before,
+            window_after=args.window_after,
+        )
+        prompt = render_prompt(
+            body,
+            {
+                VIDEO_FILENAME_PLACEHOLDER: video.name,
+                SPAN_CONTEXT_PLACEHOLDER: context,
+            },
+        )
+        boundary_id = str(boundary.get("signal_id"))
+        context_sections += [
+            f"## {boundary_id}",
+            "",
+            "```json",
+            context,
+            "```",
+            "",
+        ]
+        planned.append(
+            {
+                "boundary": boundary,
+                "window": window,
+                "context": context,
+                "prompt": prompt,
+                "prompt_chars": len(prompt),
+                "context_chars": len(context),
+            }
+        )
+    write_input_signal_artifact(out_dir, "\n".join(context_sections))
+
+    if args.dry_run:
+        previews = []
+        planned_windows = []
+        for item in planned:
+            boundary_id = str(item["boundary"].get("signal_id"))
+            prompt_path = write_prompt_artifact(
+                out_dir,
+                f"post_cut_{boundary_id}",
+                item["prompt"],
+            )
+            preview = out_dir / f"sdk_post_cut_motion_prompt_preview_{boundary_id}.md"
+            write_text(preview, item["prompt"])
+            previews.append(str(preview))
+            planned_windows.append(
+                {
+                    "boundary_id": boundary_id,
+                    "event_kind": item["boundary"].get("event_kind"),
+                    "window": item["window"],
+                    "prompt": str(prompt_path.relative_to(out_dir)),
+                    "prompt_chars": item["prompt_chars"],
+                    "context_chars": item["context_chars"],
+                }
+            )
+        payload = build_micro_payload(
+            video=video,
+            model=model,
+            base_fps=fps,
+            review_fps=fps,
+            adaptive_fps=False,
+            media_resolution=media_resolution,
+            thinking_level=thinking_level,
+            passes=[],
+        )
+        payload.update(
+            {
+                "source": "gemini_sdk_post_cut_motion_passes",
+                "dry_run": True,
+                "selected_boundaries": planned_windows,
+                "prompt_previews": previews,
+            }
+        )
+        write_json(out_dir / "visual_micro_passes.json", payload)
+        write_analysis_markdown(out_dir, video)
+        return {"dry_run": True, "prompt_previews": previews}
+
+    client = make_client(args.api_key)
+    _genai, types = import_sdk()
+    passes = []
+    usage_by_span: dict[str, Any] = {}
+    api_error: dict[str, Any] | None = None
+    try:
+        uploaded = uploaded or upload_video(client, types, video, args.upload_timeout)
+        for index, item in enumerate(planned):
+            boundary = item["boundary"]
+            window = item["window"]
+            boundary_id = str(boundary.get("signal_id"))
+            pass_id = f"post_cut_{boundary_id}"
+            prompt_path = write_prompt_artifact(out_dir, pass_id, item["prompt"])
+            try:
+                parsed, raw_text, usage = generate_json_evidence(
+                    client,
+                    types,
+                    model=model,
+                    uploaded=uploaded,
+                    prompt=item["prompt"],
+                    fps=fps,
+                    media_resolution=media_resolution,
+                    thinking_level=thinking_level,
+                    start=float(window["start"]),
+                    end=float(window["end"]),
+                    max_output_tokens=args.max_output_tokens,
+                    count_tokens=args.count_tokens,
+                    response_json_schema=schema,
+                    max_retries=args.max_retries,
+                    retry_base_delay=args.retry_base_delay_seconds,
+                    retry_max_delay=args.retry_max_delay_seconds,
+                )
+            except Exception as exc:
+                api_error = {
+                    "span_id": pass_id,
+                    "boundary_id": boundary_id,
+                    "boundary_kind": boundary.get("event_kind"),
+                    "error": compact_error(exc),
+                    "partial_outputs_preserved": str(out_dir),
+                }
+                usage_by_span[pass_id] = {"error": api_error}
+                passes.append(
+                    {
+                        "span_id": pass_id,
+                        "boundary_id": boundary_id,
+                        "boundary_kind": boundary.get("event_kind"),
+                        "start": window["start"],
+                        "end": window["end"],
+                        "start_timecode": window["start_timecode"],
+                        "end_timecode": window["end_timecode"],
+                        "model": model,
+                        "fps": fps,
+                        "base_fps": fps,
+                        "review_fps": fps,
+                        "fps_reasons": [
+                            "post_cut_boundary_window",
+                            str(boundary.get("event_kind") or ""),
+                        ],
+                        "media_resolution": media_resolution,
+                        "thinking_level": thinking_level,
+                        "prompt": str(prompt_path.relative_to(out_dir)),
+                        "prompt_chars": item["prompt_chars"],
+                        "context_chars": item["context_chars"],
+                        "raw_text": None,
+                        "evidence": None,
+                        "error": api_error,
+                    }
+                )
+                payload = build_micro_payload(
+                    video=video,
+                    model=model,
+                    base_fps=fps,
+                    review_fps=fps,
+                    adaptive_fps=False,
+                    media_resolution=media_resolution,
+                    thinking_level=thinking_level,
+                    passes=passes,
+                )
+                payload["source"] = "gemini_sdk_post_cut_motion_passes"
+                payload["stopped_due_to_error"] = api_error
+                write_micro_outputs(
+                    out_dir,
+                    video,
+                    payload,
+                    usage_by_span,
+                    usage_key="post_cut_motion",
+                )
+                break
+            usage_by_span[pass_id] = usage
+            passes.append(
+                {
+                    "span_id": pass_id,
+                    "boundary_id": boundary_id,
+                    "boundary_kind": boundary.get("event_kind"),
+                    "start": window["start"],
+                    "end": window["end"],
+                    "start_timecode": window["start_timecode"],
+                    "end_timecode": window["end_timecode"],
+                    "model": model,
+                    "fps": fps,
+                    "base_fps": fps,
+                    "review_fps": fps,
+                    "fps_reasons": [
+                        "post_cut_boundary_window",
+                        str(boundary.get("event_kind") or ""),
+                    ],
+                    "media_resolution": media_resolution,
+                    "thinking_level": thinking_level,
+                    "prompt": str(prompt_path.relative_to(out_dir)),
+                    "prompt_chars": item["prompt_chars"],
+                    "context_chars": item["context_chars"],
+                    "raw_text": raw_text if parsed is None else None,
+                    "evidence": parsed,
+                }
+            )
+            payload = build_micro_payload(
+                video=video,
+                model=model,
+                base_fps=fps,
+                review_fps=fps,
+                adaptive_fps=False,
+                media_resolution=media_resolution,
+                thinking_level=thinking_level,
+                passes=passes,
+            )
+            payload["source"] = "gemini_sdk_post_cut_motion_passes"
+            write_micro_outputs(
+                out_dir,
+                video,
+                payload,
+                usage_by_span,
+                usage_key="post_cut_motion",
+            )
+            if index < len(planned) - 1:
+                sleep_between_requests(
+                    args.request_sleep_seconds,
+                    reason="post-cut motion free-tier pacing",
+                )
+    finally:
+        client.close()
+
+    payload = build_micro_payload(
+        video=video,
+        model=model,
+        base_fps=fps,
+        review_fps=fps,
+        adaptive_fps=False,
+        media_resolution=media_resolution,
+        thinking_level=thinking_level,
+        passes=passes,
+    )
+    payload["source"] = "gemini_sdk_post_cut_motion_passes"
+    if api_error:
+        payload["stopped_due_to_error"] = api_error
+    write_micro_outputs(
+        out_dir,
+        video,
+        payload,
+        usage_by_span,
+        usage_key="post_cut_motion",
+    )
+    if api_error:
+        message = api_error["error"]["message"]
+        sys.exit(
+            "error: Gemini API failed for "
+            f"{api_error['span_id']}; partial outputs preserved in {out_dir}. "
+            f"{message}"
+        )
+    return payload
+
+
 def build_micro_payload(
     *,
     video: Path,
@@ -1862,10 +2506,12 @@ def write_micro_outputs(
     video: Path,
     payload: dict[str, Any],
     usage_by_span: dict[str, Any],
+    *,
+    usage_key: str = "micro",
 ) -> None:
     write_json(out_dir / "visual_micro_passes.json", payload)
     merge_visual_craft_events(out_dir, payload)
-    merge_sdk_usage(out_dir, {"micro": usage_by_span})
+    merge_sdk_usage(out_dir, {usage_key: usage_by_span})
     write_analysis_markdown(out_dir, video)
 
 
@@ -2039,6 +2685,30 @@ def add_generation_arguments(parser: argparse.ArgumentParser) -> None:
     )
     parser.add_argument("--max-output-tokens", type=int, default=8192)
     parser.add_argument("--count-tokens", action="store_true", help="call count_tokens before generation")
+    parser.add_argument(
+        "--request-sleep-seconds",
+        type=float,
+        default=0.0,
+        help="sleep between sequential Gemini generate requests; useful for free-tier RPM pacing",
+    )
+    parser.add_argument(
+        "--max-retries",
+        type=int,
+        default=0,
+        help="retry retryable Gemini API errors such as 429/RESOURCE_EXHAUSTED",
+    )
+    parser.add_argument(
+        "--retry-base-delay-seconds",
+        type=float,
+        default=30.0,
+        help="initial retry delay for retryable Gemini API errors",
+    )
+    parser.add_argument(
+        "--retry-max-delay-seconds",
+        type=float,
+        default=180.0,
+        help="maximum retry delay for retryable Gemini API errors",
+    )
 
 
 def main() -> None:
@@ -2075,6 +2745,38 @@ def main() -> None:
         help="also run the optional whole-video 5 FPS survey before micro passes",
     )
     extract.set_defaults(func=run_extract)
+
+    post_cut = sub.add_parser(
+        "post-cut-motion",
+        help="rate-limit-friendly post-cut motion inspection around edit_boundary IDs",
+    )
+    add_common_arguments(post_cut)
+    add_generation_arguments(post_cut)
+    post_cut.add_argument("--prompt", default=str(DEFAULT_POST_CUT_PROMPT))
+    post_cut.add_argument("--boundary-ids", help="comma-separated edit_boundary IDs to inspect")
+    post_cut.add_argument("--max-boundaries", type=int, default=24)
+    post_cut.add_argument(
+        "--window-before",
+        type=float,
+        default=0.1,
+        help="seconds before each boundary to include in the video offset window",
+    )
+    post_cut.add_argument(
+        "--window-after",
+        type=float,
+        default=0.9,
+        help="seconds after each boundary to include in the video offset window",
+    )
+    post_cut.add_argument(
+        "--hard-cuts-only",
+        action="store_true",
+        help="skip candidate/review boundaries and inspect only deterministic hard cuts",
+    )
+    post_cut.set_defaults(
+        func=run_post_cut_motion,
+        request_sleep_seconds=12.0,
+        max_retries=4,
+    )
 
     codex = sub.add_parser("build-codex-context", help="write a Codex reasoning handoff context")
     add_common_arguments(codex)

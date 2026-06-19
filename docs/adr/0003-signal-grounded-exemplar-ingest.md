@@ -55,6 +55,13 @@ and how the Recreation should be planned.
 - SDK micro passes use 12 FPS by default, with adaptive 24 FPS for short spans,
   candidate/review boundaries, low-confidence boundaries, or low-confidence
   model results that need a retry.
+- For narrowly checking punch-ins, zooms, reframes, crop shifts, resize, shake,
+  and similar immediate post-cut mechanics, use a boundary-local post-cut motion
+  pass instead of broad shot-span prompts. This pass should send only the
+  relevant `edit_boundary_*`, adjacent `edit_span_*` rows, nearby `word_*`,
+  `beat_*`, `sync_*`, and `prosody_seg_*` anchors plus a short video offset
+  window. It is intentionally sequential and rate-limit friendly for free-tier
+  Gemini API testing.
 - Gemini SDK prompts must not explain virality, create a Viral Pattern, write a
   Beat Sheet, or produce a Recreation spec. They only describe visible layout,
   motion, effects, interaction indicators, overlays, transitions, and
