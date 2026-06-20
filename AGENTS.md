@@ -146,6 +146,19 @@ When using `grill-with-docs`, follow `/Users/pedrocarvalho/.agents/skills/grill-
 - Verify with the narrowest relevant check available.
 - There is no single root test command yet; use the touched subproject's commands.
 
+## Opensrc Cache Rule
+
+- When using `opensrc` for this project, cache fetched source in the project-local cache at `/Users/pedrocarvalho/projects/video_editing_ai/.opensrc`, not the default global `~/.opensrc`.
+- Use `OPENSRC_HOME=/Users/pedrocarvalho/projects/video_editing_ai/.opensrc` on every `opensrc` command for this workspace.
+- `OPENSRC_HOME` controls the cache location; `--cwd` only helps `opensrc path` or `opensrc fetch` resolve package versions from project lockfiles.
+- Use `opensrc list` for inspection. Use `opensrc path` only when fetch-on-miss is intended.
+- Example:
+
+```sh
+env OPENSRC_HOME=/Users/pedrocarvalho/projects/video_editing_ai/.opensrc \
+  opensrc path pypi:scenedetect --cwd /Users/pedrocarvalho/projects/video_editing_ai
+```
+
 ## Useful Commands
 
 Freesound setup:
@@ -154,4 +167,3 @@ Freesound setup:
 ./tools/freesound/setup_mcp.sh
 ./scripts/freesound_download.py login
 ```
-
