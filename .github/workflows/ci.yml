@@ -1,0 +1,29 @@
+name: repo-health
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  sanity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic repository checks
+        run: |
+          set -euo pipefail
+          echo "Running README and license presence checks"
+          test -f README.md
+          test -f LICENSE
+          if [ -f pyproject.toml ] || [ -f requirements.txt ] || find . -path "./.git" -prune -o -name "*.py" -print | grep -q .; then
+            echo "Running Python bytecode check"
+            python3 -m compileall -q .
+          fi
+
+          if [ -f package.json ] && [ -f package-lock.json ]; then
+            echo "Checking npm scripts (if defined)"
+            npm ci
+            npm run -s --if-present lint
+            npm run -s --if-present test
+          fi
