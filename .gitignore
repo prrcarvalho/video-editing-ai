@@ -75,3 +75,21 @@ hyperframes-reels/**/renders/
 tmp/
 temp/
 *.tmp
+
+
+# Video/media outputs
+outputs/
+renders/
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# ML/model artifacts
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.h5
